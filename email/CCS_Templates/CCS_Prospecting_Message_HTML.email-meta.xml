@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CCS Prospecting Letter for initial contact</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Logo_Ltr</letterhead>
+    <name>CCS Prospecting Message - HTML</name>
+    <style>formalLetter</style>
+    <subject>Introduction to Tricentis Software</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+I am contacting you to introduce you to Tricentis Software and determine who would be the most appropriate person to speak with regarding {!Account.Name}&apos;s objectives for 2014.
+
+
+Tricentis provides the leading enterprise software testing solutions for Global 2000 companies to accelerate business innovation. The unique Tricentis approach of business optimized software testing enables enterprises to achieve unprecedented automation rates while minimizing business-related risks. Tricentis solutions empower organizations to systematically align software testing with business needs, so they can harness technology change while optimizing cost and efficiency.
+
+
+Some of the issues we’re hearing lately include:
+
+
+“We can’t effectively test our applications because we have a variety of software components, from vendors, developed in-house, provided by an outsourcing partner, as well as cloud-based.”
+
+
+“We want to extend our applications to a mobile platform, but it’s difficult to properly test these applications.”
+
+
+“Our user community works with a variety of browsers and mobile devices which they expect to work regardless of which platform they are on – how do we ensure our applications will support them?”
+
+
+Tricentis has been able to address these and other business challenges for more than 400 customers, including Allianz, BMW, Deutsche Bank, HBO, Orange, Siemens, Southwest, Standard &amp; Poor&apos;s, and UBS. We believe we can help {!Account.Name} once we gain a better understanding of your current goals and needs.  A 30-minute meeting to learn more is a good start, and I will follow up with you to schedule it. Alternatively, if this responsibility falls elsewhere in the organization, I would appreciate your directing me to the appropriate person.
+
+
+Regards,
+Michael Eckhoff
+Senior Vice President
+Tricentis
+o: 407.566.8531
+m: 407.973.7270
+m.eckhoff@tricentis.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Third Party - Agile 2015.Email - Follow up - Booth Attendees</name>
+    <style>none</style>
+    <subject>Great to meet you at AGILE 2015!</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for dropping by our Tricentis booth at the Agile 2015 in Washington D.C.. It was a pleasure to meet you!
+
+I wanted to personally offer my assistance if you would like to learn more about Tricentis and our testing solutions. We are currently offering a free trial of Tosca Testsuite and full training and support for all of our customers. 
+
+Click here to request a trial.
+
+Click here to learn more about Tricentis’ solutions to common Agile testing challenges: 
+
+Thanks for coming out! I look forward to meeting you again soon.
+
+With kind regards,
+
+Mike Eckhoff
+Senior Vice President of Worldwide Sales
+
+Tricentis &lt;http://www.tricentis.com/&gt;
+ m - +1 (407) 973 7270
+ e - m.eckhoff@tricentis.com &lt;mailto:m.eckhoff@tricentis.com&gt;
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=footer&gt;
+
+Tricentis GmbH
+eingetragener Firmensitz: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Wien
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

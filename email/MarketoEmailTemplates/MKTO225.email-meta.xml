@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2014 - 2014.09.18.Invite 1</name>
+    <style>none</style>
+    <subject>Tricentis Accelerate 2014 - Off to Vienna!</subject>
+    <textOnly>&lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+Tricentis Accelerate 2014
+September 18, 2014
+Hotel Intercontinental Vienna
+Full-day Event
+
+ &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Tricentis Accelerate 2014 – Off to Vienna!
+
+Dear Tricentis Customers and Partners,
+
+It’s that time of year again! On September 18, 2014, Tricentis Accelerate 2014 will get underway. We’d like to invite you to join us for what promises to be a rich opportunity to discuss the challenges confronting Global 5000 businesses, software testing for the next generation of apps, and other topics surrounding business innovation.
+
+Sandeep Johri, CEO at Tricentis, will open Tricentis Accelerate 2014 by outlining Tricentis’ strategy and plans. Wolfgang Platz, Founder &amp; Chief Product Officer, will share how Tricentis’ signature focus on Extreme Testing can enable your business to accelerate innovation, reduce risk, and improve your testing efficiency and effectiveness.
+
+We are pleased to announce that Caroline Carder, Head of Solution Testing, Bankwest Australia, will present a keynote entitled “Breaking the Chains – Driving Innovation through Organisational Transformation.” In addition, you can expect many more presentations from our customers, partners and testing experts. This year’s hot topics include Test Automation for Next Gen Apps, Agile, Mobile Testing, Enterprise E2E Testing and Service Virtualization.
+
+We hope you’ll stay for our evening event, including an informal dinner and social hour.
+
+Register today, and stay tuned for the agenda. Register now &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;.
+
+To learn more about the event, visit: accelerate.tricentis.com &lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+We look forward to meeting you in person.
+
+Best Regards,
+
+Wolfgang Platz
+ Founder &amp; Chief Product Officer
+ Tricentis
+
+Franz Fuchsberger
+ Co-Founder &amp; Chief Sales Officer
+ Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

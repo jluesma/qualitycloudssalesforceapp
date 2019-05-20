@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - What’s New in Tosca Testsuite 9.0 - DACH - 2015.10.20.Email - Invite</name>
+    <style>none</style>
+    <subject>Webinar: What’s New in Tosca Testsuite 9.0</subject>
+    <textOnly>What’s New in Tosca Testsuite 9.0
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Die langerwartete Tosca Testsuite 9.0 erscheint zeitgleich zur Tricentis Accelerate 2015 im Oktober! Noch vor dem offiziellen Release bieten wir Ihnen in unserem „What‘s New“ Webinar einen ersten exklusiven Ausblick auf die neuen Features.
+
+Seinen Sie dabei, wenn Gerd Weishaar, VP of Product Management und Roman Zednik, Worldwide Director for Pre-Sales Consulting, einige der neuen Features vorstellen und demonstrieren, wie zum Beispiel:
+
+ - Der Tosca Recorder – Testfälle im Nu aufzeichnen, erstellen und ausführen
+ - Orchestrierte Service Virtualisierung: Proxy – Nur ein Klick zwischen Virtualisierung und Realität
+ - Explorativer Test Assistent – Aufzeichnen von Highlights während des explorativen Tests
+ - Und vieles mehr!
+
+Melden Sie sich jetzt an für das Webinar am 20. Oktober 2015 um 10 Uhr.
+
+Wir freuen uns Sie bei unserem deutschsprachigen Webinar: What‘s New in Tosca Testsuite 9.0 begrüßen zu dürfen.
+Mit besten Grüßen
+Ihr Tricentis Webinar Team
+ 
+ &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-9-0-dach?utm_medium=email&amp;utm_source=db&gt;
+
+&lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-9-0-dach?utm_medium=email&amp;utm_source=db&gt;
+20. Oktober 2015
+ 10:00 – 11:00 Uhr CEST
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+
+
+Roman Zednik 
+Worldwide Director for Pre-Sales Consulting
+ Tricentis
+
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

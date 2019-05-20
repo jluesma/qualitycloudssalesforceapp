@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Update Special Invite - Netherlands.Email - Invite 1 - Marketo Format</name>
+    <style>none</style>
+    <subject>Tosca Update Special 2015 – Utrecht, Netherlands</subject>
+    <textOnly>Utrecht, Netherlands – June 25th, 2015
+
+Dear {{lead.First Name:default=edit me}},
+
+Sign up today for the Tosca Update Special in Utrecht on June 25th, 2015 and find out all about the latest Tosca Testsuite product features and integrations.
+
+Join us to learn more about the new Image-based Test Automation, Test Case Design Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, and many more topics. Everything will be shown during live demos in Tosca Testsuite’s latest version 8.4. The Tricentis Management Team will also be available to answer all of your questions personally.
+
+We look forward to introducing you to all of our new features!
+
+Agenda:
+ 13:00 – 13:30 Registration &amp; Welcome
+ 13:30 – 15:00 New Features &amp; Demo – Part 1
+ 15:00 – 15:30 Coffee Break
+ 15:30 – 16:45 New Features &amp; Demo – Part 2
+ 16:45 – 17:00 Summary and Q&amp;A
+ After: Join us after the presentations for a time to discuss and network!
+
+ &lt;http://www.tricentis.com/events-webinars/update-special-2015-2015-06-25?utm_medium=email&amp;utm_source=db&gt;
+
+Update Special – Utrecht
+June 25th, 2015, 1:00 – 5:00 p.m.
+Jaarbeurs Supernova – Room Expedition
+Jaarbeursplein
+3521 AL Utrecht
+
+We look forward to seeing you there!
+
+Best Regards,
+ The Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

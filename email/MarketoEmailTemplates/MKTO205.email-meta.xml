@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize Agile Testing - April 16 - EMEA.Email - Thank You - EMEA</name>
+    <style>none</style>
+    <subject>Thank you for attending our webinar, Optimize Agile Testing with Tricentis</subject>
+    <textOnly>Webinar: Optimize Agile Testing with Tricentis
+
+Dear {{lead.First Name}},
+
+Thanks for taking the time to attend our webinar, “Optimize Agile Testing with Tricentis.” We hope you enjoyed it as much as we did. Your participation and engaging questions made all the difference.
+
+If you’re interested in seeing this and other webinars, visit www.tricentis.com/resources/webcasts &lt;http://www.tricentis.com/resources/webcasts?utm_medium=email&amp;utm_source=internal&gt;.
+Best Wishes,
+ 
+The Tricentis Team
+
+Michael Niessl
+Sales Support at Tricentis
+
+Joshua Davis
+Tricentis Marketing
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+&lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

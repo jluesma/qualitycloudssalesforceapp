@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Opportunity.Annual_contract_value__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>ACV</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>Opportunity.Weigthed_Annual_contract_value__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>ACV weighted</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_27533296</developerName>
+        <masterLabel>Partner grouped</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>PARTNER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Wipro (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro (India) (IN)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Technologies (IN)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro UK (UK)</sourceValue>
+            </sourceValues>
+            <value>Wipro</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Infosys (Australia) (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Corp (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Limited (AE)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys UK (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys USA (US)</sourceValue>
+            </sourceValues>
+            <value>Infosys</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Accenture (FR)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture GmbH (Austria) (AT)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Inc. (corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <value>Accenture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Capgemini (FR)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Capgemini Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Capgemini Corp (FR) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Capgemini Nederland B.V. (NL)</sourceValue>
+            </sourceValues>
+            <value>Capgemini</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Cognizant (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions (NL)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions (UK) Ltd (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions Benelux B.V. (NL)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions GmbH (DE)</sourceValue>
+            </sourceValues>
+            <value>Cognizant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services (TCS) (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services UK (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (NZ) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (SG)</sourceValue>
+            </sourceValues>
+            <value>The Testing Consultancy</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>FORMULA1</column>
+        </chartSummaries>
+        <chartType>Funnel</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>STAGE_NAME</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <colorRanges>
+        <columnName>FORMULA1</columnName>
+        <highBreakpoint>1.0</highBreakpoint>
+        <highColor>#54C254</highColor>
+        <lowBreakpoint>0.0</lowBreakpoint>
+        <lowColor>#FFFFFF</lowColor>
+        <midColor>#FFFFFF</midColor>
+    </colorRanges>
+    <colorRanges>
+        <columnName>FORMULA2</columnName>
+        <highBreakpoint>1.0</highBreakpoint>
+        <highColor>#C2C254</highColor>
+        <lowBreakpoint>0.0</lowBreakpoint>
+        <lowColor>#FFFFFF</lowColor>
+        <midColor>#FFFFFF</midColor>
+    </colorRanges>
+    <columns>
+        <field>PARTNER_NAME</field>
+    </columns>
+    <columns>
+        <field>NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.PSO_Amount__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>PARTNER_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 Closed/Lost</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_27533296</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ROLE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Partner influenced Opps rolling Pipeline</name>
+    <params>
+        <name>include</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityPartner</reportType>
+    <scope>all</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

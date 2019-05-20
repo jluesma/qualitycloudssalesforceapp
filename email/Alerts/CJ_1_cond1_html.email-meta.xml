@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder Notification for Sales about stalled Opps</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Tricentis_Letterhead</letterhead>
+    <name>CJ-1_cond1_html</name>
+    <style>freeForm</style>
+    <subject>Cleanup needed on Opportunities in Stage 0</subject>
+    <textOnly>Dear Sales Rep,
+
+this is a kind reminder, that you have the following opportunities in Stage 0 for more than 3 days now. Please switch them to Stage 1 (Discovering/Identifying) immediately to indicate you accept the opportunity. After you have done an initial qualification either propagate it to Stage 2 (Qualification) or Close it out as appropriate. If the opportunity is wrongly assigned to you, please contact SalesOps@tricentis.com.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

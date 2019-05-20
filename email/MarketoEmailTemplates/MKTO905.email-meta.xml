@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Invite 2 (adding Munich) - with sal</name>
+    <style>none</style>
+    <subject>EINLADUNG: Tosca Update Special 2015 – Zusatztermin in München!</subject>
+    <textOnly>Deutschland - Österreich - Schweiz
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Wir freuen uns, Sie auch dieses Jahr wieder zu unserem Tosca Update Special einladen zu dürfen.
+
+Auf Grund der großen Nachfrage gibt es einen Zusatztermin in München am: 7. Juli 2015.
+
+Im Rahmen unseres Update Specials möchten wir Sie über neue Produktfunktionalitäten in Tosca wie zum Beispiel: Image-based Test Automation, Test Case Design: Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, etc. informieren und Ihnen diese auch in einer Live-Demo zeigen.
+
+Unser Management Team steht Ihnen im Anschluss für Fragen und Gespräche gerne zur Verfügung.
+
+Agenda:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+ 
+&lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt;
+
+Wir freuen uns sehr darauf, Sie bei einer unserer 5 deutschsprachigen Update Special Veranstaltungen begrüßen zu dürfen. Die Teilnahme ist für Sie natürlich kostenfrei!
+
+Update Special – Frankfurt
+10. Juni 2015, 13:00 – 17:00 Uhr
+InterCityHotel Frankfurt
+Poststraße 8
+60329 Frankfurt/Main 
+
+Update Special – Zürich
+16. Juni 2015, 13:00 – 17:00 Uhr
+EDEN AU LAC
+Utoquai 45
+8008 Zürich
+
+Update Special – Hamburg
+11. Juni 2015, 13:00 – 17:00 Uhr
+Privathotel Baseler Hof
+Esplanade 11
+20354 Hamburg 
+
+Update Special – Wien
+23. Juni 2015, 13:00 -17:00 Uhr
+Tech Gate Vienna – Ring Stage
+ Donau-City-Straße 1
+ 1220 Wien
+
+Update Special – München
+7. Juli 2015, 13:00 - 17:00 Uhr
+Mercure Hotel Orbis München Süd
+Karl-Marx-Ring 87
+81735 München 
+
+&lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt;
+
+Mit besten Grüßen
+ Ihr Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

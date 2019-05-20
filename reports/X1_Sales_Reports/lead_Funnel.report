@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_63468682</developerName>
+        <masterLabel>Funnel</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STATUS</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Open</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <value>Pursuing</value>
+        </values>
+        <values>
+            <value>Contacted</value>
+        </values>
+        <values>
+            <value>Not Now</value>
+        </values>
+        <values>
+            <value>SQL</value>
+        </values>
+    </buckets>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>BucketField_63468682</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Open,Pursuing,Contacted,3,Not Now,7,SQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CONVERTED</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_63468682</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LEAD_SOURCE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>lead Funnel</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>user</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

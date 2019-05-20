@@ -1,0 +1,41 @@
+<div style="font-family: Calibri, Verdana, Arial; font-size: 11pt;">
+
+	<p>Hello {!NullValue(Contact.FirstName, "Sir or Madam")},</p>
+	<p>
+		<p>Thank you for your interest in Tricentis Tosca.</p>
+		I received notification that you recently registered for Tricentis Tosca Load Testing webinar. As you may be aware that Tricentis has acquired Flood IO, industry's most flexible and scalable on-demand load testing solution. Flood IO helps teams &#34shift left&#34 performance testing, enabling them to test how their applications scale with massive load generated from around the world.
+	</p>
+	<p>
+		As you probably know, Tricentis focuses on transforming traditional testing to meet the needs of Agile and DevOps processes. This acquisition broadens that mission to embrace load and performance testing. &#34Continuous Load Testing&#34 exposes performance-related risks within the delivery pipeline - ensuring that rapid software releases don't compromise the end user experience. 
+	</p>
+	<p>
+		Lastly, here are a couple links to more information about Flood IO -
+	</p>
+	<ol>
+		<li>Start a <a href="http://go.tricentis.com/f00H30L0RH00jC2dXXLIK06">Flood free trial</a> now (JMeter, Gatling, Selenium & HTTP endpoints)</li>
+		<li>Schedule a <a href="http://go.tricentis.com/gJ0R6XL0d20jCL03X000KHK">load testing discussion</a></li>
+		<li>Read our <a href="http://go.tricentis.com/Bj00SX2LX00060HC0RRLKd3">blog</a> about the acquisition</li>
+	</ol>
+	<p>
+		For any further information that you require or for any queries you have in mind, please feel free to get in touch.
+	</p>
+	
+	<p>Best regards,<br>{!User.Name} {!User.Title}</p>
+	
+	<p>
+		<a href="http://www.tricentis.com/" style="font-size: 12pt;">Tricentis</a><br>
+		<span style="color: rgb(79, 129, 189);"><b>m</b></span> - <span style="font-color:black;">+91-7387579240</span><br>
+		<span style="color: rgb(79, 129, 189);"><b>e</b></span> - <span style="font-color:black;">r.mehrotra@tricentis.com</span>
+	</p>
+	
+
+	<a href="https://www.tricentis.com/resource-assets/tricentis-a-leader-in-gartner-magic-quadrant-2016/">
+	<img src="https://tricentis--c.na15.content.force.com/servlet/servlet.ImageServer?id=015i0000008kGId&oid=00Di0000000eCqx&lastMod=1473941125000" width="529" height="65"></a>
+
+	<div style="color: rgb(190, 190, 190); font-size: 7pt;">
+		<p>
+			<p>Tricentis GmbH<br>Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna<br>FN 213896d Handelsgericht Wien</p>
+			<p>Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</p>
+		</p>
+	</div>
+</div>

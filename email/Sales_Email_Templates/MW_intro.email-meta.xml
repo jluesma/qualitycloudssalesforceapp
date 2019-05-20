@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>base intro</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MW intro</name>
+    <style>none</style>
+    <subject>Automation Testing</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+I am the Regional Manager for Tricentis.  We provide a functional test management and test automation software solution.  Our software, Tosca Testsuite, helps customers achieve 80-90% automation by eliminating the need for scripting.  The solution we have is application agnostic, absolutely zero scripting and provides a model based approach in line with the Agile and DevOps methodology.  Some of our customer are; BMW, Standard &amp; Poors, AMEX, Bank of America, Deutsche Bank, Siemens…etc.  
+
+We will enhance QA by doing the following:  
+1. Optimizing and building the right test cases 
+2. Running tests early and often  
+3. Integrating into any tool (open API) and making it repeatable  
+4. Enabling non technical testers to build and maintain interchangeable manual and automated test cases  
+
+Testing is time consuming and expensive, we have a better way.  Our subscription based licensing option makes the value proposition very compelling.  Do you have time in the next 2 weeks to discuss the Tosca Testsuite and how we are disrupting the testing market?  
+
+Thank you for the consideration.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

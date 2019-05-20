@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Angebot</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Angebote</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Angebot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Angebote --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Angebot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Angebote --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Angebot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Angebote --></value>
+    </caseValues>
+    <fields>
+        <label><!-- AMS --></label>
+        <name>AMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- APAC --></label>
+        <name>APAC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Discount Amount --></label>
+        <name>Additional_Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional discount --></label>
+        <name>Additional_discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advanced Service --></label>
+        <name>Advanced_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Affiliate based Template Top Content --></label>
+        <name>Affiliate_based_Template_Top_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate License Discount --></label>
+        <name>Aggregate_License_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual Contract value of the subscription products in the quote --></help>
+        <label><!-- Annual Contract Value (Subscription) --></label>
+        <name>Annual_Contract_Value_Subscription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual contract value of the quote which includes the perpetual and subscription products value --></help>
+        <label><!-- Annual Contract Value --></label>
+        <name>Annual_Contract_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Basic Service --></label>
+        <name>Basic_service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connect Products Count --></label>
+        <name>Connect_Products_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- goes true if the quote line items contain Tosca connect products. --></help>
+        <label><!-- Contains Connect Product? --></label>
+        <name>Contains_Connect_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains Legal Notes? --></label>
+        <name>Contains_Legal_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains Mixed Product --></label>
+        <name>Contains_Mixed_Product__c</name>
+    </fields>
+    <fields>
+        <help><!-- goes true if the quote line items contain perpetual products. --></help>
+        <label><!-- Contains Perpetual Product? --></label>
+        <name>Contains_Perpetual_Product__c</name>
+    </fields>
+    <fields>
+        <help><!-- goes true if the quote line items contain subscription products. --></help>
+        <label><!-- Contains Subscription Product? --></label>
+        <name>Contains_Subscription_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains only Perpetual Product --></label>
+        <name>Contains_only_Perpetual_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains only Subscription Product --></label>
+        <name>Contains_only_Subscription_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains only service products? --></label>
+        <name>Contains_only_service_products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Court --></label>
+        <name>Court__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Address --></label>
+        <name>Customer_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Value on Document --></label>
+        <name>Discount_Value_on_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMEA --></label>
+        <name>EMEA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Customer TCONN Product? --></label>
+        <name>Existing_Customer_TCONN_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Customer --></label>
+        <name>Existing_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Year Maintenance Package --></label>
+        <name>First_Year_Maintenance_Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- Affiliate --></label>
+        <name>Geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Governing Notes for AMS --></label>
+        <name>Governing_Notes_for_AMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Governing notes for APAC --></label>
+        <name>Governing_notes_for_APAC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Governing notes for EMEA --></label>
+        <name>Governing_notes_for_EMEA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intermediate Service --></label>
+        <name>Intermediate_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoicing --></label>
+        <name>Invoicing__c</name>
+        <picklistValues>
+            <masterLabel>As per below</masterLabel>
+            <translation><!-- As per below --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First upon License Delivery, thereafter annually</masterLabel>
+            <translation><!-- First upon License Delivery, thereafter annually --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legal Notes --></label>
+        <name>Legal_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value gives the maximum of the license discount of all the quote line items --></help>
+        <label><!-- Max License Discount --></label>
+        <name>License_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lists the available license model based on the chosen affiliate --></help>
+        <label><!-- License Model --></label>
+        <name>License_Model__c</name>
+        <picklistValues>
+            <masterLabel>Global License</masterLabel>
+            <translation><!-- Global License --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- License Term --></label>
+        <name>License_Term__c</name>
+        <picklistValues>
+            <masterLabel>Perpetual</masterLabel>
+            <translation><!-- Perpetual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>Concurrent use</masterLabel>
+            <translation><!-- Concurrent use --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Shows the minimum license value given to the perpetual products --></help>
+        <label><!-- Min License Discount --></label>
+        <name>Min_License_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Customer TCONN product --></label>
+        <name>New_Customer_TCONN_product__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Customer --></label>
+        <name>New_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>Order_Number_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number (Auto) --></label>
+        <name>Order_Number_Auto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number1 --></label>
+        <name>Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual Discount Subtotal --></label>
+        <name>Perpetual_Discount_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual Discount Subtotal on Document --></label>
+        <name>Perpetual_Discount_Subtotal_on_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual License Subtotal --></label>
+        <name>Perpetual_License_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual and Service Package Product? --></label>
+        <name>Perpetual_and_Service_Package_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual and Support Discount on Doc --></label>
+        <name>Perpetual_and_Support_Discount_on_Doc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perpetual totals wo discount --></label>
+        <name>Perpetual_totals_wo_discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Quote_Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter Mater License Agreement Number for Existing Customer in the format 201YMMDD/PPP. --></help>
+        <label><!-- Reference Agreement Number --></label>
+        <name>Reference_Agreement_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Discount Subtotal --></label>
+        <name>Service_Discount_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Subtotal_Less_Discount --></label>
+        <name>Service_Subtotal_Less_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service total with discount --></label>
+        <name>Service_total_with_discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service total with out discount --></label>
+        <name>Service_total_with_out_discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Subtotal --></label>
+        <name>Services_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Discount Subtotal --></label>
+        <name>Subscription_Discount_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Subtotal --></label>
+        <name>Subscription_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription totals with Discount --></label>
+        <name>Subscription_totals_with_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription totals with out Discount --></label>
+        <name>Subscription_totals_with_out_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the sum of license prices of perpetual products --></help>
+        <label><!-- Sum value of perpetual products --></label>
+        <name>Sum_value_of_perpetual_products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Discount Subtotal --></label>
+        <name>Support_Discount_Subtotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value gives the maximum of the support discount of all the quote line items --></help>
+        <label><!-- Support Discount --></label>
+        <name>Support_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Plan FYM --></label>
+        <name>Support_Plan_FYM__c</name>
+    </fields>
+    <fields>
+        <help><!-- lists the support package available to choose --></help>
+        <label><!-- Support Plan --></label>
+        <name>Support_Plan__c</name>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support Subtotal --></label>
+        <name>Support_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support total --></label>
+        <name>Support_total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total_Price_Lic_Support_Less_Discount --></label>
+        <name>Total_Price_Lic_Support_Less_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total price license and support --></label>
+        <name>Total_price_license_and_support__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lists the various term to be chosen for the subscription product --></help>
+        <label><!-- Subscription Term --></label>
+        <name>Year__c</name>
+        <picklistValues>
+            <masterLabel>12 months</masterLabel>
+            <translation><!-- 12 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 months</masterLabel>
+            <translation><!-- 24 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 months</masterLabel>
+            <translation><!-- 36 months --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Edit Page Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Details --></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- License Details --></label>
+            <section>License Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prevent generate document</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Read-Only layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Angebotsnummer</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prevent Generate Document --></label>
+        <name>Prevent_Generate_Document</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Read only --></label>
+        <name>Read_only</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter a value for Country and Quick Save --></errorMessage>
+        <name>Country_cant_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a value for License Model --></errorMessage>
+        <name>License_Model_cant_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please align an Opportunity to the Quote --></errorMessage>
+        <name>Opportunity_cant_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please pick a value for payment term --></errorMessage>
+        <name>Payment_Term_cant_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Reference Agreement Number for Existing Customers --></errorMessage>
+        <name>Ref_agreement_number_for_existing_Cust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For AMS, only Global License is applicable. --></errorMessage>
+        <name>Restrict_licenses_for_AMS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Support discount can&apos;t be greater than License discount --></errorMessage>
+        <name>Restrict_support_discount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose a valid country for the affiliate --></errorMessage>
+        <name>Restrict_the_countries</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a value for Support Plan --></errorMessage>
+        <name>Support_plan_cant_be_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a value for Term --></errorMessage>
+        <name>Term_cant_be_null</name>
+    </validationRules>
+</CustomObjectTranslation>

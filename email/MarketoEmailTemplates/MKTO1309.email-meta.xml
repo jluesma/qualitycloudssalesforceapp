@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Update for all Registrants - EN - (webinar forma</name>
+    <style>none</style>
+    <subject>Tricentis Accelerate 2015 - Program Online Now!</subject>
+    <textOnly>Accelerate - October 22nd, 2015
+Novomatic Forum, Vienna
+9:00 a.m. – 5:00 p.m.
+Followed by buffet &amp; networking
+Hi {{lead.First Name}},
+We are delighted that you have registered for Tricentis Accelerate &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; on October 22nd, 2015. 
+
+The topic of this year&apos;s conference is “Testing in the Digital Enterprise Age&quot;.
+
+We look forward to your joining us for an inspiring day full of seminars, workshops, and networking. You can find all of the details online in our program &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/#program&gt;. 
+
+Workshop registration will start soon. Keep an eye out for further information!
+
+Don&apos;t forget to book your hotel room as soon as possible. We have a block reservation with the following hotels for our participants.
+
+Motel One Wien-Staatsoper
+Elisabethstraße 5
+1010 Wien
+www.motel-one.com
+
+Hotel Beethoven
+
+Papagenogasse 6
+1060 Wien
+
+www.hotel-beethoven.at
+
+Hotel Mercure Secession
+Getreidemarkt 5
+1060 Wien
+www.accorhotels.com &lt;http://www.accorhotels.com/gb/hotel-3532-hotel-mercure-secession-wien/index.shtml&gt;
+
+See you in Vienna!
+
+Best regards,
+
+The Tricentis Events Team
+
+
+
+
+Platinum Sponsor:
+ 
+
+
+
+
+Gold Sponsors:</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

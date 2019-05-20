@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Join us for Tricentis Partner Day 2015</subject>
+    <textOnly>&lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Partner Day 2015
+October 21st, 2015
+2:00 pm - 8:00 pm CET
+Vienna, Austria
+Register now, free of charge!
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/partner-day-reg?utm_medium=email&amp;utm_source=db&gt;
+
+Hi {{lead.First Name:default=edit me}},
+
+We would like to invite you to Partner Day 2015, an exciting part of Tricentis Accelerate designed exclusively for you – our partners! The event will feature technical updates and news regarding the Partner Program, as well as an open platform for discussion, networking, food and drinks, and more! We hope you will join us for Partner Day 2015 in beautiful Vienna, Austria, October 21st, 2015 from 2:00 PM to 8:00 PM.
+
+See you there!
+
+The Tricentis Events Team
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

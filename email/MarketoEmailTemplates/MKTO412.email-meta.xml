@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2014 - 2014.09.18.Follow-up 1 (Attendees)</name>
+    <style>none</style>
+    <subject>Thank you for attending Accelerate 2014</subject>
+    <textOnly>&lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+Tricentis Accelerate 2014
+
+Dear {{lead.First Name:default=edit me}},
+
+Thank you for attending Accelerate 2014. It was our pleasure to have you in beautiful Vienna and we look forward to your continued interest in various testing solutions.
+
+Over 200 attendees, representing 57 companies from 12 countries, came together to participate in Tricentis’ Accelerate 2014. Participants were able to interact and discover new approaches to solving today’s biggest testing challenges that drive their success. The conference was an overwhelming success and we hope that you were able to take this opportunity to learn more and network with all of our expert executive and researchers within the field.
+
+In this year’s event, Agile was a clear focus topic for all our customers. Risk coverage, test virtualization, model based test automation and mobile testing were also key in many of the discussions. All of these topics have one thing in common: increasing customer satisfaction and how Tosca Testsuite answers these new challenges.
+
+If you felt like you missed something at the conference – don’t worry, we have it all recorded and documented here &lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;. Please check regularly, we will periodically add new things about Accelerate.
+
+Thank you for your attention! We hope you all had a safe trip home! We look forward to seeing you next year at Tricentis Accelerate 2015! 
+
+Best Regards,
+
+Wolfgang Platz
+ Founder &amp; Chief Product Officer
+ Tricentis
+
+Franz Fuchsberger
+ Co-Founder &amp; Chief Sales Officer
+ Tricentis
+
+Visit us at http://www.tricentis.com &lt;http://www.tricentis.com/?&gt;, follow us on Twitter @Tricentis &lt;https://twitter.com/tricentis&gt;, like us on Facebook &lt;https://www.facebook.com/TRICENTIS&gt;, Google us on Google+ &lt;https://plus.google.com/108151335013813449490/post&gt;, link to us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

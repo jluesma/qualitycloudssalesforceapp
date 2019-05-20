@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>English Marketing Collaterals Template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Letterhead</letterhead>
+    <name>Marketing Collateral Template</name>
+    <style>freeForm</style>
+    <subject>Need more information on Tosca?</subject>
+    <textOnly>Dear {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+I hope this email finds you well!
+
+My name is Martin Karolyi; a Technical Advisor at Tricentis. I am reaching out because I noticed you were interested in the [COLLATERAL NAME: Factsheet/Casestudy/Whitepaper/Webinar] and thought you may also be interested in our [COLLATERAL NAME: Factsheet/Casestudy/Whitepaper/Webinar] on the same/a related topic.
+
+Please let me know if you have any questions regarding Tricentis or would like to discuss the details of our testing solution, Tosca Testsuite.
+
+I am happy to be your point of contact and make sure all of your questions are answered. Is there a phone number or alternative email address that is best to reach you?
+
+Thanks {!Contact.FirstName}, and I look forward to chatting with you!
+
+
+Best Regards,
+
+{!User.Name}
+{!User.Title}
+
+
+Tricentis
+o - {!User.Phone}, m - {!User.MobilePhone}
+e – {!User.Email}
+
+
+
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015 - Workshops.Email - Invite 1- Workshop</name>
+    <style>none</style>
+    <subject>Register Now for Tricentis Accelerate Workshop</subject>
+    <textOnly>Accelerate - October 22nd, 2015
+Novomatic Forum, Vienna
+9:00 a.m. – 5:00 p.m.
+Followed by buffet &amp; networking
+
+Hi {{lead.First Name}},
+
+We would like to invite you to Tricentis Accelerate 2015 &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;. Join us for an inspiring day full of seminars, workshops, and networking.
+
+ Register now &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt; to secure your free ticket! The topic of this year&apos;s conference is “Testing in the digital enterprise age“.
+
+We hope you will enjoy chatting with our test automation experts about test automation, DevOps, continuous testing, and all of the challenges and opportunities the industry landscape provides.
+
+You can also now find the event program &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/#program&gt; online. We look forward to meeting you in Vienna!
+
+Best regards,
+The Tricentis Events Team
+
+PS: Highlights from Accelerate 2014 can be found here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/accelerate-2014/&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

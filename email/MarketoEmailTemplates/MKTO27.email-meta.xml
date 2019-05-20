@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Accelerator Blast Nov 7th, 2013.inviteblast v2</name>
+    <style>none</style>
+    <subject>Register and WIN: Tricentis Accelerate 2013 – DRIVING BUSINESS INNOVATION</subject>
+    <textOnly>&lt;!--
+--&gt;
+
+
+
+
+
+Dear Tricentis Clients and Partners,
+ 
+
+
+
+
+
+With over 200 attendees, Accelerate 2013 is one of the largest functional testing events in Europe and features keynotes and session tracks from experts across all regions and industries.
+
+Choose your own schedule from more than 20 presentations covering topics such as Mobile, Agile, Test Management, Next Gen -  Test Automation and Risked Based Testing. 
+
+ &lt;http://www.tricentis.com/about/events/tricentis-accelerate/register/&gt;
+
+
+
+
+A full reception will follow the day&apos;s proceedings - networking at its best.
+
+Register and attend the Accelerate 2013 &lt;http://www.tricentis.com/about/events/tricentis-accelerate/register/&gt; and you will be automatically entered in a drawing to win an iPad Mini.
+
+To view the full agenda and learn more about the event, visit: accelerate.tricentis.com &lt;http://www.tricentis.com/en/solutions-day?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+I look forward to meeting you in person.
+
+Best Regards,
+
+
+
+Ajay Murthy
+
+Chief Marketing Officer
+
+Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+
+Tricentis | Leonard Bernstein, Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

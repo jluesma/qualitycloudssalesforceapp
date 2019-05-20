@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - What’s New in 8.3 Service Pack 1 - APAC - 2015.02.19.Email - Follow-up</name>
+    <style>none</style>
+    <subject>Thank You for Attending our Webinar: What&apos;s New in 8.3 Service Pack 1</subject>
+    <textOnly>Webinar: What’s New in 8.3 Service Pack 1
+
+Hi {{lead.First Name}},
+
+Thank you for attending our ‘What’s New’ Webinar, introducing all the new features from the 8.3 Service Pack 1 Release. We hope you enjoyed the webinar and are excited as we are to try out our new features. Thank your for your active participation and engaging questions which helped to make the webinar lively and interesting. If you would like to stay up to date with current Tricentis news, please follow us on Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;.
+
+Click here &lt;http://innovate.tricentis.com/webinar-od-whats-new-in-8-3-service-pack-1-emea-watch.html&gt; for a recording of this webinar​, or learn more about our new features and solutions through our What’s New Videos, available here &lt;http://www.tricentis.com/products/what-is-new/&gt;.
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+Dominik Weissboeck
+Co-Managing Director of Asia-Pacific
+ Tricentis
+
+Thomas Hadorn 
+Co-Managing Director of Asia-Pacific
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

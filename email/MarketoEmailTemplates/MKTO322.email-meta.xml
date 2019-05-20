@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day - Vienna - 2014.09.17.Invite 2 - Partner Dinner - Already re</name>
+    <style>none</style>
+    <subject>Tricentis Partner Day Update</subject>
+    <textOnly>&lt;http://innovate.tricentis.com/rs/tricentis/images/Partner_Dinner_2014.jpg&gt;
+
+Tricentis Partner Day
+
+Let’s do it more informal. Let’s keep the conversation going.
+
+Dear {{lead.First Name:default=edit me}},
+
+Thank you for registering for the planned Tricentis Partner Day on September 17th.
+
+As we want to use this platform as an experience and know-how exchange, we have decided to re-shape the agenda of our Tricentis Partner Day to a “come together” with dinner. Please join us and meet with other partners from our partner ecosystem and the Tricentis Expert Team.
+
+September 17, 2014 at 6 p.m. CET
+Restaurant Palmenhaus
+Palmenhaus, Burggarten
+A-1010 Vienna
+
+We are looking forward to see you in Vienna.
+
+Sincerely,
+
+Michael Eckhoff
+ Senior Vice President Sales
+ Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

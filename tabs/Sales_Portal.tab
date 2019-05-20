@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>Sales Portal</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom13: Box</motif>
+    <url>https://app.box.com/embed_widget/000000000000/s/tx2jh4c8yxs20a6tib1y?view=list&amp;sort=name&amp;direction=ASC&amp;theme=gray&amp;show_parent_path=no&amp;promoted_app_ids=840,1476&amp;show_item_feed_actions=no&amp;view=grid&amp;session_expired=true&quot; width=&quot;500&quot; height=&quot;400&quot; frameborder=&quot;0&quot;</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

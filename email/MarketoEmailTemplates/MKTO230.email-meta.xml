@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2014 - 2014.09.18.Email - Confirmation</name>
+    <style>none</style>
+    <subject>Your registration is confirmed for Accelerate 2014</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+ 
+Thank you for your registration. Here are your confirmation details:
+
+ Tricentis Accelerate 2014
+
+ Thursday, Sept 18, 2014
+
+ Hotel InterContinental Vienna, Johannesgasse 28, 1030 Vienna, Austria
+
+ from 9:15 a.m. till 7:00 p.m.
+
+ To view the full agenda and learn more about the event, visit: accelerate.tricentis.com &lt;http://accelerate.tricentis.com&gt;
+
+ We are looking forward to see you there.
+
+ Best wishes,
+ 
+The Tricentis Team
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved.  Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2013.Email Post Event - Rest of Database</name>
+    <style>none</style>
+    <subject>Watch Tricentis Accelerate 2013 Now</subject>
+    <textOnly>Dear {{Lead.First Name}},
+
+Tricentis Accelerate 2013. Accelerate. Innovate. Automate.
+What a conference! We had a fantastic day, great speakers, and excellent interaction from all participants.
+
+You missed the action? Not to worry – Watch the conference highlights and download the recorded sessions. Including, Theresa Lanowitz, Founder, voke, talking about Future of Driving Business Innovation: An Industry Perspective and many more.
+
+We will also have videos and presentation decks from the conference on hot topics, such as Mobile, Agile, Test Management, Next Gen Test Automation &amp; Risked Based Testing.
+
+Watch Keynotes &amp; Highlights: http://www.tricentis.com/about/events/tricentis-accelerate/presentations-preview/
+
+Thank you for giving us the chance to help you accelerate innovation at your business. We wish you all the best and look forward to seeing you next time.
+
+Best Regards,
+
+
+Wolfgang Platz
+
+Founder &amp; Chief Product Officer, Tricentis
+
+If you have any questions or problems watching the videos, please contact us at events@tricentis.com
+
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

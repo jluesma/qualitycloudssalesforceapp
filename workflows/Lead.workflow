@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_Lead_reached_MQL</fullName>
+        <description>Alert Lead reached MQL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Lead_reached_MQL_timer</fullName>
+        <description>Alert Lead reached MQL_timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Open_Re_open_48_Hours</fullName>
+        <description>Lead Open/Re-open (48 Hours)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Open_Re_open_48_Hours_timer</fullName>
+        <description>Lead Open/Re-open (48 Hours)_timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Open_Re_open_96_Hours</fullName>
+        <description>Lead Open/Re-open (96 Hours)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Open_Re_open_96_Hours_timer</fullName>
+        <description>Lead Open/Re-open (96 Hours)_timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Lead_in_Germany</fullName>
+        <description>New Lead in Germany</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>c.engler@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>m.schlabinger@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Alerts/New_Lead_Germany</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_AMS</fullName>
+        <description>Trigger Notification MQL AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_APAC</fullName>
+        <description>Trigger Notification MQL APAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_EMEA</fullName>
+        <description>Trigger Notification MQL EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_Leads_Admin_Partner_Queue</fullName>
+        <description>Trigger Notification MQL Leads Admin Partner Queue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_hot_LEads</fullName>
+        <description>Trigger Notification MQL hot Leads</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>X48_hrs_open_status_EMEA</fullName>
+        <description>48 hrs open status EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X48hrs_open_status_AMS</fullName>
+        <description>48hrs open status AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.komisarek@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X48hrs_open_status_APAC</fullName>
+        <description>48hrs open status APAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.hulbert@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_Trigger_EMEA</fullName>
+        <description>5 days open status EMEA -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>m.schroeder@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>r.ferrero@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_open_status_AMS_escalation</fullName>
+        <description>5 days open status AMS -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>r.ferrero@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_open_status_APAC_escalation</fullName>
+        <description>5 days open status APAC -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>d.weissboeck@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>r.ferrero@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>t.hadorn@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_open_status_escalation</fullName>
+        <description>5 days open status -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>r.ferrero@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_open_status_AMS</fullName>
+        <description>96hrs open status AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.komisarek@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_open_status_APAC</fullName>
+        <description>96hrs open status APAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.hulbert@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_open_status_EMEA</fullName>
+        <description>96hrs open status EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Lead_in_Open_Re_open_Status</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Change_Que_to_Global_Nurture_Leads</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Global_Nurture_Leads</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Change Que to Global Nurture Leads</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_Email_Opt_Out_for_Lead</fullName>
+        <field>HasOptedOutOfEmail</field>
+        <literalValue>1</literalValue>
+        <name>Check Email Opt Out for Lead</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contacted_Status_End</fullName>
+        <field>Contacted_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Contacted Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contacted_Status_Start</fullName>
+        <field>Contacted_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Contacted Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>First_Campaign_Date_Contact</fullName>
+        <field>dr_first_campaign_date_contact__c</field>
+        <formula>TODAY()</formula>
+        <name>First Campaign Date (Contact)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>First_Campaign_Date_Lead</fullName>
+        <field>dr_first_campaign_date__c</field>
+        <formula>TODAY()</formula>
+        <name>First Campaign Date (Lead)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initiated_Status_End</fullName>
+        <field>Initiated_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Initiated Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initiated_Status_Start</fullName>
+        <field>Initiated_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Initiated Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Last_Campaign_Date_Contact</fullName>
+        <field>dr_last_campaign_date_contact__c</field>
+        <formula>TODAY()</formula>
+        <name>Last Campaign Date (Contact)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Last_Campaign_Date_Lead</fullName>
+        <field>dr_last_campaign_date__c</field>
+        <formula>TODAY()</formula>
+        <name>Last Campaign Date (Lead)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LeadAssignedAMS</fullName>
+        <description>Update the Lead Assigned to True after a Lead has been assigned</description>
+        <field>LeadAssigned__c</field>
+        <literalValue>1</literalValue>
+        <name>LeadAssignedAMS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LeadAssignedAPAC</fullName>
+        <description>Update the Lead Assigned to true after a Lead has been assigned.</description>
+        <field>LeadAssigned__c</field>
+        <literalValue>1</literalValue>
+        <name>LeadAssignedAPAC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LeadAssignedEMEA</fullName>
+        <description>Updates Lead Assigned to true after a Lead has been assigned.</description>
+        <field>LeadAssigned__c</field>
+        <literalValue>1</literalValue>
+        <name>LeadAssignedEMEA</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>LeadAssignedcontainsemails</fullName>
+        <field>LeadAssigned__c</field>
+        <literalValue>1</literalValue>
+        <name>LeadAssignedcontainsemails</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Now_Reason</fullName>
+        <field>dr_not_now_reasons__c</field>
+        <literalValue>Tried to Contact - Not following up, needs nurture</literalValue>
+        <name>Not Now Reason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Now_Status_End</fullName>
+        <field>Not_Now_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Not Now Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Now_Status_Start</fullName>
+        <field>Not_Now_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Not Now Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_End_NULL</fullName>
+        <field>Open_Status_End__c</field>
+        <name>Open End = NULL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_Status_End</fullName>
+        <field>Open_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Open Status End </name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_Status_Start</fullName>
+        <field>Open_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Open Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Qualified_Status_End</fullName>
+        <field>Qualified_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Qualified Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Qualified_Status_Start</fullName>
+        <field>Qualified_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Qualified Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rule_no_1_Talks_to_Sales</fullName>
+        <description>Change Lead Owner to Michael EckHoff</description>
+        <field>OwnerId</field>
+        <lookupValue>leadsadmin@tricentis.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Rule no 1 Talks to Sales</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rule_no_2_Talks_to_Sales</fullName>
+        <description>Assign that lead to Scott Weber</description>
+        <field>OwnerId</field>
+        <lookupValue>s.weber@tricentis.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Rule no 2 Talks to Sales</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Trigger_Lead_Assignment_Rules</fullName>
+        <field>Reassign__c</field>
+        <literalValue>1</literalValue>
+        <name>Trigger Lead Assignment Rules</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead_Status_to_Open</fullName>
+        <description>Update lead status from not now to open as follow date is reached</description>
+        <field>Status</field>
+        <literalValue>Open</literalValue>
+        <name>Update Lead Status to Open</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upldate_Lead_Status_Disqualify</fullName>
+        <description>Update leads having MSCRM create date &gt; 60 days</description>
+        <field>Status</field>
+        <literalValue>Disqualified</literalValue>
+        <name>Upldate Lead Status Disqualify</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>When_Company_Name_is_Incorrect</fullName>
+        <description>When this happens set the Lead Status = Disqualified</description>
+        <field>Status</field>
+        <literalValue>Disqualified</literalValue>
+        <name>When Company Name is Incorrect</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>When_Global_Nurture_Leads</fullName>
+        <description>Assign the lead to the Marketing Queue</description>
+        <field>OwnerId</field>
+        <lookupValue>Global_Nurture_Leads</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>When Global Nurture Leads</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>When_Global_Sales_Leads</fullName>
+        <description>Assign those to the Global Sales Queue</description>
+        <field>OwnerId</field>
+        <lookupValue>Global_Sales_Leads</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>When Global Sales Leads</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>initiated_Not_Now</fullName>
+        <description>changes lead status from initiated to Not Now after a defined time of the lead being initiated status</description>
+        <field>Status</field>
+        <literalValue>Not Now</literalValue>
+        <name>initiated -&gt; Not Now</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>set_open_status_end_to_null</fullName>
+        <description>if Lead gets in re-open state, counter for open duration should start again from zero -&gt; open status end has to be set to null</description>
+        <field>Open_Status_End__c</field>
+        <name>set open status end to null</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Assign Owner once Meet MVL Scores</fullName>
+        <active>false</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Lead.account_demographic_score__c</field>
+            <operation>greaterThan</operation>
+            <value>29</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.person_demographic_score__c</field>
+            <operation>greaterThan</operation>
+            <value>19</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.behavior_score__c</field>
+            <operation>greaterThan</operation>
+            <value>50</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Country</field>
+            <operation>equals</operation>
+            <value>Canada,US,United States,USA,United States of America</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>notEqual</operation>
+            <value>Disqualified,Not a Sales Lead,Duplicate - Notify Marketing to merge,Junk – Notify Marketing to delete</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Lead.LastModifiedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Change Que to Global Nurture Leads</fullName>
+        <actions>
+            <name>Change_Que_to_Global_Nurture_Leads</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.total_score__c</field>
+            <operation>lessThan</operation>
+            <value>250</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.FirstName</field>
+            <operation>equals</operation>
+            <value>Andi</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.LastName</field>
+            <operation>equals</operation>
+            <value>Case</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.RestrictWorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Lead.LastModifiedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contacted Status End</fullName>
+        <actions>
+            <name>Contacted_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(Status), 
+ISBLANK(Contacted_Status_End__c), 
+ISPICKVAL(PRIORVALUE(Status), &quot;Contacted&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contacted Status Start</fullName>
+        <actions>
+            <name>Contacted_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Contacted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Contacted_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Opt out set to true on Lead Creation</fullName>
+        <actions>
+            <name>Check_Email_Opt_Out_for_Lead</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Lead.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>SFDC Admin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Service Now Integration</value>
+        </criteriaItems>
+        <description>&quot;Email Opt out&quot; is set to true whenever a Lead is created by any user other than SFDC admin and Service Now Integration</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>First Campaign Date %28Lead%29</fullName>
+        <actions>
+            <name>First_Campaign_Date_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>First_Campaign_Date_Lead</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(dr_first_campaign_tracking__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Follow up to Open - Status update</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.dr_follow_up_date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Update the lead status from not now  to open as  follow up date is reached</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Lead_Status_to_Open</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Lead.dr_follow_up_date__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Initiated Status End</fullName>
+        <actions>
+            <name>Initiated_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(Status), 
+ISBLANK(Initiated_Status_End__c), 
+ISPICKVAL(PRIORVALUE(Status), &quot;Initiated&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Initiated Status Start</fullName>
+        <actions>
+            <name>Initiated_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Initiated</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Initiated_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>LQ - Reminders - hot %26 open</fullName>
+        <actions>
+            <name>Trigger_Notification_MQL_hot_LEads</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>Partner Queue,Leads Admin,Might Be Junk or Spam Queue,Disqualified Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.RestrictWorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Rating</field>
+            <operation>equals</operation>
+            <value>Hot</value>
+        </criteriaItems>
+        <description>Reminds Lead owners after 60 min open or re-open status to change lead status. Only applicable for hot Leads</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Last Campaign Date %28Lead%29</fullName>
+        <actions>
+            <name>Last_Campaign_Date_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Last_Campaign_Date_Lead</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(dr_last_campaign_tracking__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead Contains Specific Emails</fullName>
+        <actions>
+            <name>LeadAssignedcontainsemails</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(  NOT(   OR(    Owner:User.Id &lt;&gt; &apos;005i00000019qcYAAQ&apos;,    Owner:Queue.Id &lt;&gt; &apos;00Gi0000003qWrMEAU&apos;,    Owner:Queue.Id &lt;&gt; &apos;00Gi0000001WVjN&apos;,    Owner:Queue.Id &lt;&gt; &apos;00Gi0000001WIIo&apos;   )  ),  OR(   ISPICKVAL(Status, &apos;Open&apos;),   ISPICKVAL(Status, &apos;Re-open&apos;)  ),  ISPICKVAL(dr_funnel__c, &apos;MQL&apos;),  OR(   CONTAINS(Email, &apos;@accenture.com&apos;),   CONTAINS(Email, &apos;@adlercon.de&apos;),   CONTAINS(Email, &apos;@agosense.com&apos;),   CONTAINS(Email, &apos;@aim-services.ch&apos;),   CONTAINS(Email, &apos;@akros.ch&apos;),   CONTAINS(Email, &apos;@anecon.com&apos;),   CONTAINS(Email, &apos;@athirat.com&apos;),   CONTAINS(Email, &apos;@atos.net&apos;),   CONTAINS(Email, &apos;@autom8.co.nz&apos;),   CONTAINS(Email, &apos;@bearingpoint.com&apos;),   CONTAINS(Email, &apos;@capgemini.com&apos;),   CONTAINS(Email, &apos;@cast-info.es&apos;),   CONTAINS(Email, &apos;@nttdata.com&apos;),   CONTAINS(Email, &apos;@cognizant.com&apos;),   CONTAINS(Email, &apos;@cognizant.de&apos;),   CONTAINS(Email, &apos;@collis.nl&apos;),   CONTAINS(Email, &apos;@computest.nl&apos;),   CONTAINS(Email, &apos;@compuware.com&apos;),   CONTAINS(Email, &apos;@consenso-consulting.de&apos;),   CONTAINS(Email, &apos;@corporatequality.de&apos;),   CONTAINS(Email, &apos;@csc.com&apos;),   CONTAINS(Email, &apos;@ctco.lv&apos;),   CONTAINS(Email, &apos;@demirtag.de&apos;),   CONTAINS(Email, &apos;@keynotedeviceanywhere.com&apos;),   CONTAINS(Email, &apos;@dx.com.au&apos;),   CONTAINS(Email, &apos;@ekobit.com&apos;),   CONTAINS(Email, &apos;@epam.com&apos;),   CONTAINS(Email, &apos;@eps-ag.ch&apos;),   CONTAINS(Email, &apos;@esgroup.ch&apos;),   CONTAINS(Email, &apos;@exxeta.de&apos;),   CONTAINS(Email, &apos;@kigst.de&apos;),   CONTAINS(Email, &apos;@ferox.de&apos;),   CONTAINS(Email, &apos;@greenlinetech.com&apos;),   CONTAINS(Email, &apos;@hcsolutions.at&apos;),   CONTAINS(Email, &apos;@hcl.com&apos;),   CONTAINS(Email, &apos;@in.ibm.com&apos;),   CONTAINS(Email, &apos;@infosys.com&apos;),   CONTAINS(Email, &apos;@qualysoft.com&apos;),   CONTAINS(Email, &apos;@sogeti.com&apos;),   CONTAINS(Email, &apos;@sogeti.de&apos;),   CONTAINS(Email, &apos;@sogeti.nl&apos;),   CONTAINS(Email, &apos;@sqs.at&apos;),   CONTAINS(Email, &apos;@wipro.com&apos;),   CONTAINS(Email, &apos;@tcs.com&apos;),   CONTAINS(Email, &apos;@mindtree.com&apos;),   CONTAINS(Email, &apos;@techmahindra.com&apos;),   CONTAINS(Email, &apos;@lninfotech.com&apos;)  ),  $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead MQL</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open</fullName>
+        <actions>
+            <name>Alert_Lead_reached_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Lead_Open_Re_open_48_Hours</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Lead_Open_Re_open_96_Hours</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open Escalation AMS</fullName>
+        <actions>
+            <name>Alert_Lead_reached_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>LeadAssignedAMS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR( ISPICKVAL(Status, &apos;Open&apos;), ISPICKVAL(Status, &apos;Re-open&apos;) ), ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), ISPICKVAL(Geo__c, &apos;AMS&apos;), NOT( OR(  Owner:User.Id = &apos;005i00000019qcYAAQ&apos;,  Owner:Queue.Id = &apos;00Gi0000003qWrMEAU&apos;, Owner:Queue.Id = &apos;00Gi0000001WVjN&apos;, Owner:Queue.Id = &apos;00Gi0000001WIIo&apos; ) ),  RestrictWorkFlow__c = false, $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48hrs_open_status_AMS</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_open_status_AMS</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_open_status_AMS_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open Escalation APAC</fullName>
+        <actions>
+            <name>Alert_Lead_reached_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>LeadAssignedAPAC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR( ISPICKVAL(Status, &apos;Open&apos;), ISPICKVAL(Status, &apos;Re-open&apos;) ), ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), ISPICKVAL(Geo__c, &apos;APAC&apos;), NOT( OR(  Owner:User.Id = &apos;005i00000019qcYAAQ&apos;,  Owner:Queue.Id = &apos;00Gi0000003qWrMEAU&apos;, Owner:Queue.Id = &apos;00Gi0000001WVjN&apos;, Owner:Queue.Id = &apos;00Gi0000001WIIo&apos; ) ),  RestrictWorkFlow__c = false, $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48hrs_open_status_APAC</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_open_status_APAC</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_open_status_APAC_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open Escalation EMEA</fullName>
+        <actions>
+            <name>Alert_Lead_reached_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>LeadAssignedEMEA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Geo__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>Leads Admin,Partner Queue,Might Be Junk or Spam Queue,Disqualified Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.RestrictWorkFlow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48_hrs_open_status_EMEA</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_open_status_EMEA</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_Trigger_EMEA</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open Escalation Leads Admin%2C Partner Queue</fullName>
+        <actions>
+            <name>Trigger_Notification_MQL_Leads_Admin_Partner_Queue</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(  OR(   ISPICKVAL(Status, &apos;Open&apos;),   ISPICKVAL(Status, &apos;Re-open&apos;)  ),  ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), OR( OwnerId = &apos;005i00000019qcYAAQ&apos;, OwnerId = &apos;00Gi0000003qWrMEAU&apos;, OwnerId = &apos;00Gi0000001WVjN&apos;, OwnerId = &apos;00Gi0000001WIIo&apos; ),  RestrictWorkFlow__c = false,   ISBLANK(TEXT(Geo__c)),  LeadAssigned__c = true, $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_open_status_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead Open%2FRe-open Timer</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>New Lead - Germany</fullName>
+        <actions>
+            <name>New_Lead_in_Germany</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Country</field>
+            <operation>equals</operation>
+            <value>Germany</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>equals</operation>
+            <value>Lead Admin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MTL,MQL</value>
+        </criteriaItems>
+        <description>Workflow for a newly created lead in Germany</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Not Now Status End</fullName>
+        <actions>
+            <name>Not_Now_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(Status), 
+ISBLANK(Not_Now_Status_End__c), 
+ISPICKVAL(PRIORVALUE(Status), &quot;Not Now&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Not Now Status Start</fullName>
+        <actions>
+            <name>Not_Now_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Not Now</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Not_Now_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open End %3D NULL</fullName>
+        <actions>
+            <name>Open_End_NULL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Open_Status_End__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open Status End%C2%A0</fullName>
+        <actions>
+            <name>Open_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(Status), 
+ISBLANK(Open_Status_End__c), 
+ISPICKVAL(PRIORVALUE(Status), &quot;Open&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open Status Start</fullName>
+        <actions>
+            <name>Open_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>set_open_status_end_to_null</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Qualified Status End</fullName>
+        <actions>
+            <name>Qualified_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.IsConverted</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Qualified Status Start</fullName>
+        <actions>
+            <name>Qualified_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Qualified - (SQL)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Qualified_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Trigger Lead Assignment Rules</fullName>
+        <actions>
+            <name>Trigger_Lead_Assignment_Rules</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>equals</operation>
+            <value>Leads Admin</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>When Company Name Is Incorrect</fullName>
+        <actions>
+            <name>When_Company_Name_is_Incorrect</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 or  2 or 3</booleanFilter>
+        <criteriaItems>
+            <field>Lead.Company</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Company</field>
+            <operation>equals</operation>
+            <value>Default</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Company</field>
+            <operation>equals</operation>
+            <value>[No Company Name]</value>
+        </criteriaItems>
+        <description>Company Names from Web is either blank or Default or No COmpany name</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Lead.CreatedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <offsetFromField>Lead.LastModifiedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>move initated -%3E Not Now AMS</fullName>
+        <active>true</active>
+        <description>changes the status of AMS Leads from Lead status &apos;initiated&apos; to &apos;Not Now&apos; after 2 weeks in initated status</description>
+        <formula>AND(  ISPICKVAL(Status, &apos;Initiated&apos;),  ISPICKVAL(Geo__c, &apos;AMS&apos;),   RestrictWorkFlow__c = false,  $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Not_Now_Reason</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>initiated_Not_Now</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

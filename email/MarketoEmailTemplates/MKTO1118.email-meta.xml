@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 3 - from Sales - EN</name>
+    <style>none</style>
+    <subject>Register Now for Tricentis Accelerate 2015</subject>
+    <textOnly>&lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Accelerate - October 22nd, 2015
+Novomatic Forum, Vienna
+9:00 a.m. – 5:00 p.m.
+Followed by buffet &amp; reception
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt;
+
+Hello {{lead.First Name:default=edit me}},
+
+I would like to personally invite you to Tricentis Accelerate 2015. Join us for an inspiring day full of seminars, workshops, and networking.
+
+Our program &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate&gt; is now online.
+
+Register now &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; to secure your free ticket.
+
+We look forward to meeting you in Vienna.
+
+Best regards,
+
+Sales Name and Signature
+
+PS: Highlights from Accelerate 2014 can be found here.
+
+Platinum Sponsor:
+Gold Sponsors:
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

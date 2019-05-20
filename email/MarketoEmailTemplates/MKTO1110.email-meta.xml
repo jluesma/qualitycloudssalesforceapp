@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Whats New 8.4.1 - APAC - 2015.08.20.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: What’s New in Tosca Testsuite 8.4.1</subject>
+    <textOnly>What’s New in Tosca Testsuite 8.4.1
+
+Hi {{lead.First Name}},
+
+Tricentis is launching a new Service Pack for Tosca Testsuite 8.4! We are offering an exclusive sneak peek of all the cool new features in our upcoming ‘What’s New’ Webinar. Join us as our VP of Project Management, Gerd Weishaar, and Roman Zednik, Worldwide Director for Pre-Sales Consulting, introduce and demonstrate many new features, including the:
+
+ - Re-scan UI Modules: Easy test case maintenance for UI changes
+ - Mobile+: New Scan: Build mobile test cases faster by scanning applications
+ - Orchestrated Service Virtualization Recorder: Locate APIs and record their interactions
+ - And much more!
+
+Our What’s New in Tosca Testsuite 8.4.1 webinar will take place on Aug. 20, 2015 starting at 3:00pm AEST. We look forward to seeing you at our webinar!
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-20150820-webinar?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-20150820-webinar?utm_medium=email&amp;utm_source=db&gt;
+Thu, Aug 20, 2015
+ 3-4 pm Sydney
+1-2 pm Perth
+5-6 pm Auckland
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+
+Roman Zednik 
+Worldwide Director for Pre-Sales Consulting
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

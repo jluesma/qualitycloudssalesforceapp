@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Reminder to Registrans - Sydney</name>
+    <style>none</style>
+    <subject>See you there! - Join Us &amp; Meet the Tricentis VP of Product Management - October 30th, 2015</subject>
+    <textOnly>Utrecht, Netherlands – June 25th, 2015
+
+Dear {{lead.First Name:default=edit me}},
+
+Thanks again for registering for Tosca Update Special in Utrecht on June 25th, 2015. We are looking forward to seeing you there and to introducing you to all of our new features in Tosca!
+
+Agenda:
+ 13:00 – 13:30 Registration &amp; Welcome
+ 13:30 – 15:00 New Features &amp; Demo – Part 1
+ 15:00 – 15:30 Coffee Break
+ 15:30 – 16:45 New Features &amp; Demo – Part 2
+ 16:45 – 17:00 Summary and Q&amp;A
+ After: Join us after the presentations for a time to discuss and network!
+
+Location:
+Jaarbeurs Supernova – Room Expedition
+Jaarbeursplein
+3521 AL Utrecht
+
+See you there!
+
+Best Regards,
+ The Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Nurture - Series 1 - Feb 2015.Email 3 - Hook-Agile</name>
+    <style>none</style>
+    <subject>Email 3 - Hook-Agile - Need Subject Line</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+We all know the tech world is a jungle - time to market is decreasing, continuous cycles are increasing, and agility is the new buzzword. The enterprises that can keep up with consumer demands are the ones who stay on top.
+
+Tricentis’ Tosca Testsuite is designed to equip you with the tools you need to succeed – not just survive – in an agile tech world. Watch our webinar on Tosca Testsuite to learn how you can optimize your risk coverage, manage your test data, and automate your testing efforts to become king of the testing jungle.
+
+Watch the webinar here &lt;http://innovate.tricentis.com/webinar-od-agile-series-3-emea.html?utm_medium=email&amp;utm_source=nur&gt;, and as always, feel free to shoot me an email if you have any questions about Tricentis or Tosca Testsuite!
+
+Vincent
+
+Vincent Ruth
+Western Region Territory Director
+ Tricentis
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+m - +1.408.568.9698
+ e - v.ruth@tricentis.com &lt;mailto:v.ruth@tricentis.com&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis
+ 400 S. El Camino Real
+ Suite 1050
+ San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

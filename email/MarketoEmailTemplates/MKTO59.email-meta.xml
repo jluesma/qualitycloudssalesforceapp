@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>POV: Risk Management Strategies.Email Receipt</name>
+    <style>none</style>
+    <subject>Here&apos;s your copy of Risk Management Strategies</subject>
+    <textOnly>Here’s your copy of
+Risk Management Strategies
+
+http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Point-of-View-Risk-Management-Strategies.pdf
+
+
+You may be interested in these as well.
+
+Accelerating Business Innovation
+Point of View Paper
+http://innovate.tricentis.com/point-of-view-accelerating-business-innovation.html
+
+Driving Superior Operational Efficiency Strategies
+Point of View Paper
+http://innovate.tricentis.com/point-of-view-driving-superior-operational-efficiency.html
+
+Schedule a Live Demonstration of
+Tricentis Tosca Testsuite
+http://innovate.tricentis.com/demo-request.html
+
+
+© 2013 TRICENTIS Technology &amp; Consulting GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

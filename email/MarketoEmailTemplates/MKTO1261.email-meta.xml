@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 3 - from Sales - DE (webinar format) - Al</name>
+    <style>none</style>
+    <subject>Accelerate – 22. Oktober 2015 – Wien</subject>
+    <textOnly>&lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt;
+
+Accelerate – 22. Oktober 2015
+ Novomatic Forum, Wien
+ 9:00 - 17:00 Uhr
+ anschl.: Buffet und Networking
+
+Die Anmeldung ist für Sie kostenlos!
+
+Guten Tag {{lead.First Name}} {{lead.Last Name:default=edit me}},
+
+Ich möchte Sie gerne persönlich zu unserer diesjährigen Tricentis Accelerate 2015 &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; einladen und mich auf diesem Weg als Ihren neuen Ansprechpartner in der Schweiz vorstellen.
+
+Genießen Sie gemeinsam mit uns einen Tag voller interessanter Vorträge, Workshops und Gespräche in Wien. Das Programm &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate&gt; ist bereits online.
+
+Nutzen Sie die Gelegenheit und sprechen Sie mit unseren Test-Automations-Experten über Testautomatisierung, DevOps, Continuous Testing und über die Herausforderungen und Möglichkeiten, die die Industrielandschaft bietet.
+
+Sichern Sie sich Ihren Platz und melden Sie sich gleich hier &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; an.
+
+Ich freue mich schon sehr darauf, Sie bald in Wien begrüßen zu dürfen.
+
+Mit besten Grüßen
+
+Alexander Laubert
+ Regional Sales Manager Schweiz
+ Tricentis
+ m - +41 79 909 8607
+ e - a.laubert@tricentis.com &lt;mailto:a.laubert@tricentis.com&gt;
+
+PS: Die Highlights der Accelerate 2014 finden Sie hier &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/accelerate-2014/&gt;.
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt;
+22. Oktober 2015
+ 9:00  – 17:00 Uhr
+
+Alexander Laubert
+Regional Sales Manager Schweiz
+ Tricentis
+
+Platinum Sponsor:
+ 
+Gold Sponsors:
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

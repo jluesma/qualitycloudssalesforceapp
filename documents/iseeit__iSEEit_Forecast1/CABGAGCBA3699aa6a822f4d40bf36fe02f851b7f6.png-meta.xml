@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <internalUseOnly>false</internalUseOnly>
+    <name>Opportunity:{Id=006i000000fPmRJAA0, Name=Hermes DE-U-S- 20160621-686, StageName=4 Proposal, iseeit__Score__c=0.00, iseeit__Default_Forecast_Image_Url__c=/servlet/servlet.FileDownload?file=015i000000BZdGRAA1}_forecast</name>
+    <public>true</public>
+</Document>

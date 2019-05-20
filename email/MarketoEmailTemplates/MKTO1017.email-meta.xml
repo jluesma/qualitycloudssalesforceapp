@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - STAR CANADA - June 2015.Email - Follow up - Booth Attendees - Canada</name>
+    <style>none</style>
+    <subject>Great to meet you at STARCANADA 2015!</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thanks for stopping by our booth at STARCANADA 2015! We hope you enjoyed John Hensel of Jazz Aviation’s presentation, “Driving Test Innovation through Automation”, on how the company has implemented Tricentis Tosca Testsuite into their testing strategies.
+
+If you are interested in learning more about Tricentis, I am happy to discuss our testing solutions with you, and offer a live, in-house demo of Tosca Testsuite.
+
+Thanks for your time! I look forward to speaking with you soon.
+
+With kind regards,
+
+Mark Beauvais
+Regional Sales Manager
+
+Tricentis &lt;http://www.tricentis.com/&gt;
+ m - +1 (248) 761 1750
+ e - m.beauvais@tricentis.com &lt;mailto:m.beauvais@tricentis.com&gt;
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=footer&gt;
+
+Tricentis GmbH
+eingetragener Firmensitz: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Wien
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

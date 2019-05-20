@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Gartner - Testing the Future of Mobile Applications - May 2015.News</name>
+    <style>none</style>
+    <subject>Newsletter: Testing the Future of Mobile Applications</subject>
+    <textOnly>Newsletter featuring research from Gartner:
+Testing the Future of Mobile Applications
+
+Hi {{lead.First Name}},
+
+With an increasing number of companies embarking on a mobile first strategy, it is obvious that mobile testing has become a dominant topic. Fueled by growth rates of mobile devices and increased customer expectations (&apos;Age of the customer&apos;) for speed &amp; quality, a good strategy is needed, in order to maintain customer satisfaction and increased shorter time-to-market for mobile apps.
+
+Testing complexity and costs can quickly escalate when breaking into the mobile market, a high degree of automation is required for success when developing mobile apps. Tricentis Tosca Testsuite provides cutting edge end-to-end testing solutions for mobile apps, cross-OS and cross-devices. By using our model-based test automation approach, mobile app developers are able to achieve automation and risk coverage rates of up to 90% and up.
+
+If you would like to read the full Gartner research note, please access it by downloading the Tricentis Newsletter.
+
+ &lt;#&gt;
+
+Visit our website &lt;http://www.tricentis.com&gt; to learn more about Tricentis.
+
+Best regards,
+
+Gerd Weishaar
+VP of Product Management, Tricentis
+
+ &lt;#&gt;
+ &lt;#&gt;
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

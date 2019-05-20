@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2014 Tricentis Tosca product survey.Email Thank You</name>
+    <style>none</style>
+    <subject>2014 Tricentis Tosca product survey</subject>
+    <textOnly>2014 Tricentis Tosca product survey
+
+Hi {{lead.First Name}},
+
+A few weeks ago, we sent out the questionnaire for the 2014 Tricentis Tosca product survey to our customers.
+
+Over the following weeks, our team was busy with coordinating and concluding the survey and going through the survey post-processing steps. Now we are ready to present the results.
+
+We also received many written comments on our products and services. Thank you for that!
+
+We at Tricentis listen to the voice of our customers, so we want to give you some sneak peak on the near future of the product components on which we have received the most feedback out of the community.
+
+As I write these lines, the following things are already in the final stages of development:
+
+ - The Tosca Dashboard, an HTML5 reporting interface
+ - Loops and conditions for Tosca
+ - Porting our keywords to TBox, thus speeding up the mixed execution
+ - Technology independent automation with Optical Intelligence
+ - Enhance the usability and speed of Tosca
+
+Wolfgang Platz
+Founder &amp; Chief Product Officer
+Tricentis
+ 
+Michael Hentze
+Vice President Engineering
+Tricentis
+ 
+Finally, we want to thank once more all customers and survey participants for taking the time to fill out the questionnaire and for sharing thoughts and insights related to Tricentis Tosca Testsuite: Thank you.
+
+We hope to see you at the Accelerate 2014 and show you the new best practices and functions. Are you already registered?
+
+ &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Sincerely,
+
+Wolfgang Platz
+ CPO and Founder, w.platz@tricentis.com
+
+Michael Hentze
+ VP Engineering, m.hentze@tricentis.com
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

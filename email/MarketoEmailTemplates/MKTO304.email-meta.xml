@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Agile 2014 - Orlando - 2014.07.28-08.01.Invite 1</name>
+    <style>none</style>
+    <subject>Meet the Agile Testing Experts at Agile2014</subject>
+    <textOnly>&lt;http://www.tricentis.com&gt;
+
+ &lt;http://agile2014.agilealliance.org/&gt;
+ 
+Introducing our Cloud based Agile Testing Solutions “Tosca Testing as a Service”
+Meet the Agile Testing Experts at Agile2014
+
+Are you heading to Orlando for Agile2014? Be sure to stop by our Tricentis booth. Learn about the latest in agile test automation and see a live demo of Tosca.
+
+Why you should come...
+
+Discover our award-winning testing solutions that reduce testing time in each Sprint, reduce the number of test cases required for optimal risk coverage and offer best in class automation rates achieved in the current sprint!
+
+It always pays to stop by – Visit us to be eligible to win an iPad mini with Tosca Testing as a Service (free 6 months account for up to 5 users).
+
+Hope to see you there!
+
+Sincerely,
+Your Tricentis Team
+
+© 2014 Tricentis.  All Rights Reserved.  Tricentis is a registered trademark of Tricentis GmbH.
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

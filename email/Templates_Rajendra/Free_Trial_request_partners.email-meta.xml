@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Free Trial request_partners</name>
+    <style>none</style>
+    <subject>Thank you for your interest in Tricentis Tosca</subject>
+    <textOnly>Dear {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+
+Thank you for your interest in Tricentis Tosca.
+
+I received notification that you recently requested a trial license.  Can I answer any questions for you about Tricentis or Tosca? 		By way of introduction, my name is {!User.Name} and I am the {!User.Title}, exclusively supporting Global Service Integrators. 		In my role, I work with key stakeholders to develop an effective GSI strategy that’s mutually beneficial to both organizations.
+
+In order to help you in your TOSCA journey, 		I’ve added a few items &amp; links that will help you understand some of what we do as well 		as added a new document that discusses TOSCA position within Gartner’s Magic Quadrant.
+
+Download fact sheets, case studies and whitepapers from our webpage at http://www.tricentis.com/resources/
+Take our free online training at https://www.udemy.com/get-in-touch-with-tricentis-tosca-testsuite/
+Submit for and download our 14 day trial license at http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+Gartner&apos;s 2016 Magic Quadrant
+
+Best regards,
+{!User.Name}
+{!User.Title}
+
+Tricentis
+m - {!User.MobilePhone}
+e - {!User.Email}
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

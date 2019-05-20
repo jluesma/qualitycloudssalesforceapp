@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Tosca Mobile+ (DE) - 2015.09.17.Email - Follow up - No Show - No salut</name>
+    <style>none</style>
+    <subject>Wir haben Sie bei unserem Webinar: Testen auf mobilen Geräten mit Tosca Mobile+ vermisst.</subject>
+    <textOnly>Guten Tag {{lead.First Name}} {{lead.Last Name}},
+
+Letzte Woche fand unser Webinar: „Testen auf mobilen Geräten mit Tosca Mobile+“ statt.
+
+Da Sie leider nicht teilnehmen konnten, möchten wir Sie darauf aufmerksam machen, dass wir das Recording &lt;http://www.tricentis.com/thank-you-page-webinar-testen-auf-mobilen-geraten-mit-tosca-mobile-20150917/&gt; auf unserer Webseite für Sie bereitgestellt haben.
+
+Wir freuen uns darauf, Sie bei einem unserer nächsten Webinare begrüßen zu dürfen.
+Mit besten Grüßen,
+Ihr Tricentis Webinar Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

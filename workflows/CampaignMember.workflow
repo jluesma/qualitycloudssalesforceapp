@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Entered</fullName>
+        <field>Date_Entered__c</field>
+        <formula>NOW()</formula>
+        <name>Entered</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Left</fullName>
+        <field>Date_Left__c</field>
+        <formula>NOW()</formula>
+        <name>Left</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Opportunity Flow%3A Entered</fullName>
+        <actions>
+            <name>Entered</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.Status</field>
+            <operation>equals</operation>
+            <value>Entered</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Date_Entered__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Flow%3A Left</fullName>
+        <actions>
+            <name>Left</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.Status</field>
+            <operation>equals</operation>
+            <value>Left</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CampaignMember.Date_Left__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

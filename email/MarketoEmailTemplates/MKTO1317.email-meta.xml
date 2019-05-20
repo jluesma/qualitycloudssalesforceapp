@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NOT ACTIVE - Request a Trial (depricated from Aug 13th).Marketo Follow-up - Emai</name>
+    <style>none</style>
+    <subject>API Test Automation with Tosca Testsuite!</subject>
+    <textOnly>API Test Automation with Tosca Testsuite!
+
+Dear {{lead.First Name}},
+
+We hope you’ve enjoyed this trial. We would like to provide one last tip before your trial ends! API testing can be tedious and stressful for companies that depend on their Service Oriented Architecture. Tosca Testsuite provides excellent test automation for web services. Here are a few videos that may be interesting for you:
+
+- Creating Modules by Scanning a web service &lt; http://www.tricentis.com/thank-you-page-trial-video-01-scan-from-url/?utm_medium=email&amp;utm_source=trial841&gt;
+
+- Creating New Test Cases &lt;http://www.tricentis.com/thank-you-page-trial-video-02-create-api-testcases/?utm_medium=email&amp;utm_source=trial841&gt; with previously scanned modules
+
+ - Creating Modules by Scanning a WSDL file &lt;http://www.tricentis.com/thank-you-page-trial-video-03-scan-from-wsdl/?utm_medium=email&amp;utm_source=trial841&gt;
+
+Hope you’ve found this helpful!
+
+Best wishes,
+
+ The Tricentis Team
+trial@tricentis.com &lt;mailto:trial@tricentis.com&gt;
+ 
+Free Support Available
+Our award winning support team is available anytime between Monday to Friday. You can reach them by
+Website &lt; https://support.tricentis.com/community/&gt; | e-mail &lt;mailto:support@tricentis.com&gt;
+
+Product and Licensing
+For further questions regarding product or licensing, please contact our Tricentis sales team:
+Website &lt;http://www.tricentis.com/talk-with-sales/?utm_medium=email&amp;utm_source=trial841&gt; | e-mail &lt;mailto:sales@tricentis.com&gt;
+
+Events &amp; Webinars
+Stay informed with our regular events and webinars which you can find here &lt;http://www.tricentis.com/events-webinars/?utm_medium=email&amp;utm_source=trial841&gt;!
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

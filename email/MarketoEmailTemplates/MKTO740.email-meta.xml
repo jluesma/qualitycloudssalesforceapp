@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Drip - Series 1 - Feb 2015.Email 4 - Hook-DevOps</name>
+    <style>none</style>
+    <subject>Testing Your Way to a Happy DevOps Marriage</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+The marriage of Development and Operations is not always a happy one. DevOp’s ability to produce perfect cycles of continuous integration is only as strong as its weakest link: Testing. Without the ability to test better - not harder - the DevOps marriage quickly falls apart.
+
+Tricentis’ Tosca Testsuite gives you the tools for a successful DevOps relationship: allowing you to optimize your risk coverage, manage your test data, and automate your software testing efforts so your DevOps can thrive.
+
+Interested in learning more? You can read about maximizing your DevOps experience with Tricentis’ Tosca Testsuite and Gartner’s “Seven Steps to Start Your DevOps Initiative” here &lt;http://innovate.tricentis.com/newsletter-gartner-q4-2014.html?utm_medium=email&amp;utm_source=nur&gt;!
+
+Best regards,
+
+Vincent
+
+Vincent Ruth
+Western Region Territory Director
+ Tricentis
+
+m - +1.408.568.9698
+ e - v.ruth@tricentis.com &lt;mailto:v.ruth@tricentis.com&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis
+ 400 S. El Camino Real
+ Suite 1050
+ San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

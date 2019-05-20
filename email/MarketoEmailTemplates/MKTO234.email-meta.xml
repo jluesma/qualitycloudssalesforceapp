@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Request a Trial.Email Receipt</name>
+    <style>none</style>
+    <subject>Thank You for Your Interest in a Trial of Tricentis Tosca Testsuite</subject>
+    <textOnly>Dear {{lead.First Name:default=Trial Customer}},
+
+Thanks for signing up for a trial version of Tricentis Tosca Testsuite. You can download your trial including documentation here: Start Download &lt;https://support.tricentis.com/trial/Trial.zip&gt;.
+
+The download contains a compressed file, TOSCA_TRIAL.zip. The installation guide &lt;http://innovate.tricentis.com/rs/tricentis/images/TOSCA_Installation_Guide_en.pdf&gt; takes you through the installation process.
+
+The quickest way to get acquainted with Tosca is to take the Online Tutorial &lt;https://www.udemy.com/courses/search/?q=Tosca&gt;.
+
+If you have any questions about Tosca Testsuite, feel free to contact the Tricentis Support Team either by phone or email. We are there for you from Monday to Friday from 8 a.m. to 5 p.m. in your local time zone. For further details, please visit our homepage at https://support.tricentis.com/en/contact &lt;https://support.tricentis.com/en/contact&gt;.
+
+Information on our company and the available products can be found on our homepage at http://www.tricentis.com &lt;http://www.tricentis.com&gt;.
+
+Happy testing!
+
+The Tricentis Team
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved.  Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

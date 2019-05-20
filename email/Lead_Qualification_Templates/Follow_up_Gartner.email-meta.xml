@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>English</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Follow up - Gartner</name>
+    <style>none</style>
+    <subject>Gartner follow up</subject>
+    <textOnly>Hi {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+Thanks for taking the time to read trough the newsletter we put together with Gartner!
+If you have any question or want to learn more about Tricentis Tosca, I would be happy to schedule a call. We could also talk about your challenges and determine whether or not I might be able to offer some help.
+
+Are you available this week for a call?
+
+Thanks and I look forward to hearing from you!
+
+Best regards,
+{!User.Name}
+{!User.Title}
+
+Tricentis
+o - {!User.Phone}, m - {!User.MobilePhone}
+e - {!User.Email}
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Final Confirmation for Registrants</name>
+    <style>none</style>
+    <subject>Registration Confirmation: Tricentis Accelerate 2015</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for registering for Accelerate 2015. We are looking forward to seeing you in Vienna on October 22nd!
+
+Are you a Twitter fan? Be sure to tweet during Accelerate using the hashtag #TriAcc for the chance to win a pair of Marshall premium headphones.
+
+We have limited space left in our Workshops – make sure to sign up for a workshop here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/#workshop&gt; before the seats are gone!
+
+Please note that we have made some updates to our Accelerate agenda, which can be viewed here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/#program&gt;.
+
+Location:
+Novomatic Forum &lt;http://www.novomaticforum.com&gt;
+ Friedrichstraße 7
+ 1010 Wien, Austria
+
+See you soon in Vienna!
+
+Best Regards,
+
+Your Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

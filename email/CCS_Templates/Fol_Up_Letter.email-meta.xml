@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Logo_Ltr</letterhead>
+    <name>CCS Fol Up Letter</name>
+    <style>formalLetter</style>
+    <subject>Following up on our Meeting at {!Account.Name}</subject>
+    <textOnly>{!Contact.FirstName},
+
+Thank you for your interest in Tricentis Software. The purpose of this letter is to summarize my understanding of our discussion and to determine the next steps for moving forward.
+
+Business Goal
+
+You told me that your goal is INPUT GOAL HERE.
+
+Summary of Current Situation
+
+Today nurses develop patient case plans at population or condition level, not on a patient level. Nurses determine risk with a manual process that is inaccurate so patients are not receiving adequate care or receiving too much. Patients readmit more frequently when social services aren&apos;t involved, post-discharge.
+
+Capabilities Required / Potential Benefit
+
+You feel you could reduce re-admissions by 10% if you had the following capabilities:
+
+When planning at shift start, nurses and care managers could vie a risk-stratified list identifying patients at highest re-admissions risk and why, view all options on a monitor so plans can be developed on an individual basis for most effective patient care.
+
+When patients are at risk of re-admission, your nurses/care managers could review suggested care plans on a monitor and select the most appropriate plan based on the patient&apos;s history and specific risk factors.
+When discharging patients, nurses could identify high risk patients with no support network and match the patient to available social services displayed on a monitor, so the patient receives the most appropriate care post-discharge.
+
+Next Steps
+
+You expressed interest in further investigating Tricentis&apos;s products and services. I&apos;d like to propose the following next steps:
+
+Confirm you are in agreement with the summary of our discussions.
+Arrange Interviews with your COO and CIO, both of whom would be involved in the implementation of quality testing.
+
+Summarize findings to the group and gain consensus for further evaluation of Tricentis&apos;s offerings.
+
+I&apos;ll call Tuesday, April 9, at 8:30am to review this letter and discuss our next steps. I look forward to working with you.
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

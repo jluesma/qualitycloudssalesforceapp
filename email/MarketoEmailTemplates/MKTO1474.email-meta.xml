@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - What&apos;s New 9.0 - 2015.11.02.Email - Whats New Newsletter 9.0 - Fina</name>
+    <style>none</style>
+    <subject>What&apos;s New in Tosca Testsuite 9.0</subject>
+    <textOnly>2.11.2015
+What’s New in Tosca Testsuite
+The Tricentis team is excited to launch our new Tosca Testsuite 9.0 Release in parallel with our Accelerate 2015 conference. This release includes some brand new and innovative features which will help to make continuous testing easier for everyone, with or without technical expertise. For more information, check out the ‘What’s New &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/?utm_medium=email&amp;utm_source=news&gt;’ section on our website.
+9.0 Release launch
+
+3 NOV 2015
+
+
+
+
+
+
+
+
+Highlighted features
+
+The Tosca Recorder
+Our new Tosca Recorder records and creates automated test cases in a flash! The best part of Tosca Testsuite is that it automatically recognizes previously-recorded controls and re-uses your test assets, meaning you always have redundancy-free test cases.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#recorder&gt;
+
+Exploratory Testing Assistant
+Tricentis has developed a unique approach to exploratory testing that helps testers to document the entire process using video editing, screenshots and note-taking. The Exploratory Testing Assistant puts the adventure back in exploratory testing.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#eta&gt;
+
+Distributed Execution
+For Tosca Testsuite 9.0, Tricentis has developed a smart approach to distributed test execution, helping to boost the performance of your testing. It distributes your automated test sets across multiple virtual machines, computers in your network, or in the cloud. No need for complex installation or labor intensive configurations: we keep it simple, yet powerful.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#dex&gt;
+
+Tosca Flow
+Testing your project shouldn’t mean having to manually test every variable that may or may not be important to your company. For Tosca Testsuite 9.0 the Tricentis team has come up with an ingenious way of taking one of your test cases and automatically creating prioritized variants that are ready for testing.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#tflow&gt;
+
+OSV: Proxy + Weights
+For the release of Tosca Testsuite 9.0, we’ve upgraded our Orchestrated Service Virtualization product by adding a proxy tool. This allows you to record the simulation and specify how third party services should react to your application.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#osv&gt;
+
+API Automation: Database
+Direct access to the database layer of your system enables you to peek under the hood of your applications and check how your data is stored in the persistency layer. Combine it with reusable test step blocks to enable also business testers to directly check database records.
+ More info &lt; http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#database&gt;
+Tosca solutions for SAP
+
+
+
+
+
+SAP Engine 3.0
+SAP is one of the most widely used ERP systems worldwide. This means that whenever SAP sends out an update, thousands of companies will be testing their system to make sure there are no glitches in daily business. Our new SAP Engine 3.0 provides enterprises with the newest SAP test automation capabilities on the market.
+
+More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#sap-engine-3&gt;
+
+
+
+
+
+
+
+
+
+
+SAP Netweaver
+Our SAP Netweaver solution helps to effortlessly automate the SAP Netweaver client by recognizing and steering controls. It also helps to integrate SAP Netweaver into your E2E test scenarios, making it easy for non-techies to build-up test cases.
+
+More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/#sap-netweaver&gt;
+Tricentis Web Service Test Automation Training
+
+Tricentis is proud to announce the arrival of our new Web Service Test Automation training &lt;http://www.tricentis.com/services/education/tricentis-web-services-test-automation/&gt;.
+
+This new course follows our Tricentis Certified Professional certification and is the first training for our new “Specialist” certification level. The new training course is available as an Instructor-Led (ILT) or Self-Paced (SPT) training course.
+
+Click here &lt;http://www.tricentis.com/services/education/tricentis-web-services-test-automation/&gt; for more information or visit our Webshop &lt;https://support.tricentis.com/community/product.do?number=WIT0001002&gt;. And check out our public training courses &lt;http://www.tricentis.com/services/education/tosca-public-training/&gt;.
+Upcoming Webinars
+
+The Art of Effective Test Data Design
+5. November, 2015
+ 4:00 - 5:00 pm CET (US, EMEA)
+ Register &lt;http://www.tricentis.com/resource-assets/the-art-of-effective-test-data-design-webinar/?utm_medium=email&amp;utm_source=news_w&gt;
+
+How to Solve the Service Virtualization Puzzle
+17. November, 2015
+ 4:00 - 5:00 pm CET (US, EMEA)
+ Register &lt;http://www.tricentis.com/resource-assets/how-to-solve-the-service-virtualization-puzzle-webinar/?utm_medium=email&amp;utm_source=news_w&gt;
+
+Effektives Testdaten-design (DE)
+10. November, 2015
+ 10:00 - 11:00 pm CET (US, EMEA)
+ Register &lt;http://www.tricentis.com/resource-assets/effektives-testdaten-design-webinar/?utm_medium=email&amp;utm_source=news_w&gt;
+
+Waterfall vs. Agile Showdown
+26. January, 2016
+ 4:00 - 5:00 pm CET (US, EMEA)
+ Register &lt;http://www.tricentis.com/resource-assets/waterfall-vs-agile-showdown-webinar/?utm_medium=email&amp;utm_source=news_w&gt;
+Please add Tricentis to your address book: info@tricentis.com &lt;mailto:info@tricentis.com&gt;
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+
+© 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Web Services - English - 2015.04.16.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: Web Services Test Automation 101</subject>
+    <textOnly>Webinar: Web Services Test Automation 101
+
+Hi {{lead.First Name}},
+
+Most modern software systems are built based on a service-oriented architecture. Web services encapsulate business functionality, which is used by lean user interfaces and other software systems.
+
+This separation between representation (UI) and pure functionality fundamentally changes how users approach testing. Instead of concentrating on a user interface which normally stabilizes late in a project, testing can start as soon as the first web service interfaces are defined. Join our webinar as Georg Thurner, Product Manager, shows you how to:
+
+ - Easily create web service tests with Tosca
+ - Enable non-technical testers to test web services
+ - Combine the power of risk based test automation with web service tests
+ - Run true end-2-end tests
+
+We look forward to seeing you at our webinar.
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;http://innovate.tricentis.com/webinar-web-services-english.html?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://innovate.tricentis.com/webinar-web-services-english.html?utm_medium=email&amp;utm_source=db&gt;
+Thu, April 16, 2015
+ 7:00 p.m. – 8:00 p.m. CET
+1:00 p.m. – 2:00 p.m. EST
+
+Gerd Weishaar
+Product Manager
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

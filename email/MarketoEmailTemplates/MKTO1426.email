@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" >
+<table style="margin: 10px auto; background-color: white;" width="600" cellspacing="0" cellpadding="0" align="center">
+<thead>
+<tr>
+<td style="margin: 0px; display: block;" height="50"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo%20Email%20Banner_HEADER%20only.png" alt="Marketo Email Banner_HEADER only.png" width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140">
+<div><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo Email Banner_PARTNER-DAY_Generic.png" alt="Marketo Email Banner_PARTNER-DAY_Generic.png" width="600" height="140" /></div>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="600">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 0px 20px;" colspan="8" rowspan="18" valign="top" width="60%">
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Dear {{lead.First Name}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Don&rsquo;t forget, Partner Day starts tomorrow at 1:30 PM! We are looking forward to welcoming you to an inspiring day discussing the future of Tricentis and software testing, followed by dinner, drinks, and networking.<br 
+/></span></p>
+<table style="height: 78px;" width="537">
+<tbody>
+<tr>
+<td style="text-align: left;">
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Location:<br /></strong></span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><a href="http://www.novomaticforum.com" target="_blank">Novomatic Forum</a><br /></span><span 
+style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Friedrichstra&szlig;e 7<br /></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">1010 Wien<br /></span></div>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="background: yellow none repeat scroll 0% 0%;"><br /></span></span></p>
+</td>
+<td style="padding-left: 30px;"><a href="https://www.google.com/maps/place/Novomatic+Forum/@48.2008655,16.3684699,17z/data=!4m2!3m1!1s0x0:0xd6b5de954061f676" target="_blank"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Novomatic Forum.PNG" alt="Novomatic Forum.PNG" width="170" 
+height="139" /></a><br /><br /></td>
+</tr>
+</tbody>
+</table>
+<div>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>How to get there:<br /></strong>The Novomatic Forum is easily accessible by public transportation.
+ Simply take the U1 (Red), U2 (Purple) or U4 (Green) subway line to <span style="background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0% 0%; background-clip: border-box; background-origin: padding-box; background-size: auto 
+auto;">Karlsplatz</span><span style="background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0% 0%; background-clip: border-box; background-origin: padding-box; background-size: auto auto;">, and exit towards "Secession".
+ It is about a 3 minute walk to the Novomatic Forum.</span><span style="background: yellow none repeat scroll 0% 0%;"><br /><br /></span></span><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><strong><span style="line-height: 107%;">Parking Information:<br 
+/></span></strong><span style="line-height: 107%;">For those arriving by car, there is a public garage a short walk from the Novomatic Forum.
+ A one day parking voucher costs &euro;37, to be paid to the garage.</span></span><span style="font-family: arial,helvetica,sans-serif;"><span style="line-height: 107%;"></span></span></span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-size: 
+14px;"><strong><span style="line-height: 107%;"><br /><br />Parking:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.wipark.at" target="_blank"> 
+<br /></a></span></strong><span style="line-height: 107%;"><a href="http://www.wipark.at/eportal/ep/channelView.do/pageTypeId/24578/channelId/-43373" target="_blank">WIPARK Garage</a></span><strong><span style="line-height: 107%;"><br /></span></strong><span style="line-height: 107%;">Operngasse 
+13<br /></span><span style="line-height: 107%;">1040 Wien</span><span style="line-height: 107%;"></span><span style="font-family: arial,helvetica,sans-serif;"><span style="line-height: 107%;"></span></span><span style="font-family: arial,helvetica,sans-serif;"><span style="line-height: 107%;"><br 
+/></span></span></span><br />See you soon in Vienna!<br /><br /></span></p>
+</div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Best Regards, </span></div>
+<div><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><br />Your Tricentis Events Team</span><br /><br /></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="27" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis.
+ All Rights Reserved.
+ Tricentis is a registered trademark of Tricentis GmbH.
+ Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td align="right" valign="bottom" height="43"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>

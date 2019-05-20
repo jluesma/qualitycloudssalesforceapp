@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" >
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Dear {{lead.First Name:default=Sir/Madam}},<br /><br /></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Thank you for taking time from your busy schedule to read this email.
+ My name is Martin and I work with the Marketing Consulting team at Tricentis (www.tricentis.com), a leading Test Automation provider with operations globally.<br /><br />Regarding the Avaloq system that you are using at Bank CIC (Version 2.7), we wanted to touch-base and provide a walk-through of 
+our product, Tosca Testsuite (http://www.tricentis.com/tricentis-tosca-testsuite/).
+ We have specifically designed an Avaloq extension to address the biggest challenges of testing your Avaloq system: Test data management, Risk coverage, and Test automation.
+ <br /><br />Tosca Testsuite complements your Avaloq migration cycle, ensuring that the end-user testing challenges during extraction, mapping, transformation and data cleansing using Pl/SQL packages and SQL scripts are better managed.<br /><br />I would be happy to connect with you at a time and 
+day of your choosing to explain more.
+ We also can schedule a demo of our product&rsquo;s features and functionalities in context of the Avaloq system which you folks are currently using.
+ Please do let me know.
+ <br /><br />Have a great day and look forward to hearing from you.
+ <br /></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Regards,<br /></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Martin Karolyi<br /></span><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Technical 
+Advisor</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp;</span></p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

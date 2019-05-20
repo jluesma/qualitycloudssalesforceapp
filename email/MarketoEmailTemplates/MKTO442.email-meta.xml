@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case Study - ASB (oct 2014).Email Receipt</name>
+    <style>none</style>
+    <subject>Here&apos;s your copy of the Case Study: ASB accelerates time to value</subject>
+    <textOnly>&lt;http://www.tricentis.com&gt;
+
+
+
+Here’s your copy of the Case Study
+
+ASB accelerates time to value
+
+
+
+
+ &lt;http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Case-Study-ASB.pdf&gt;
+Start the download by clicking the download button. &lt;http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Case-Study-ASB.pdf&gt;
+
+ &lt;http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Case-Study-ASB.pdf&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

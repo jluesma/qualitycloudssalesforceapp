@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,sans-serif; font-size: 12px;">Dear {{lead.First Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">We are delighted that you have signed up for the Tosca Update Special 2015 in Utrecht on June 25th, 2015. Below you will find again the agenda and location.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Please click {{my.ical-netherlands}} to add this event to your Outlook Calendar.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;"><strong>Agenda:</strong><br /> 13:00 &ndash; 13:30 Registration &amp; Welcome<br /> 13:30 &ndash; 15:00 New Features &amp; Demo &ndash; Part 1<br /> 15:00 &ndash; 15:30 Coffee Break<br /> 15:30 &ndash; 16:45 New Features &amp; Demo &ndash; Part 2<br /> 16:45 &ndash; 17:00 Summary and Q&amp;A<br /> After: Join us after the presentations for a time to discuss and network!</span></p>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong><span style="font-family: arial,helvetica,sans-serif;">Location:</span></strong></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong>Update Special &ndash; Utrecht</strong><br /> June 25th, 2015, 1:00 &ndash; 5:00 p.m.<br /> Jaarbeurs Supernova &ndash; Room Expedition<br /> Jaarbeursplein<br /> 3521 AL Utrecht</span></div>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">We look forward to seeing you there!</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Best Regards,<br /> The Tricentis Events Team</span></p></div>
+</div>
+</body>
+</html>

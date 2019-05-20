@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>introductory Offer Webshop 0915.Email - 1</name>
+    <style>none</style>
+    <subject>New: Tricentis Web Shop!</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Tricentis is proud to announce the arrival of the new Tricentis Web Shop &lt;https://support.tricentis.com/community/webshop.do&gt;, making it easier for you to purchase Tosca Testsuite Training courses online.
+
+
+
+SPECIAL INTRODUCTORY OFFER 
+
+Tricentis is offering the full self-paced Tricentis Certified Professional Program at a 75% DISCOUNT to the first 100 users to register for training.
+
+Redeem your discount by: 
+
+
+ - Logging in to the Support Portal
+ - Navigating to the link to the Web Shop on the right-hand side
+ - Adding the Tricentis Certified Professional Program SELF-PACED TRACK STANDARD to your cart
+ - On checkout, enter the coupon code PROFESSIONAL75
+
+
+
+
+Already have a TCUFL certificate? 
+
+No problem! You can gain the additional knowledge required to become a Tricentis Certified Professional by purchasing the SELF-PACED TRACK UPGRADE course in the Web Shop.
+
+Be one of the first 100 users to register and receive a 75% DISCOUNT on the Upgrade package!
+
+
+Simply follow the instructions above, add the Tricentis Certified Professional Program SELF-PACED TRACK UPGRADE to your cart, and enter the coupon code UPGRADE75 to snag this one-time offer. 
+
+So get clicking &lt;https://support.tricentis.com/community/webshop.do&gt;!
+
+Best regards,
+ The Tricentis Training Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

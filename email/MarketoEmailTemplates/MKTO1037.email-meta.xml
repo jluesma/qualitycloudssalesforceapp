@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Cognizant Roadshow.Email - Invite 1 - Marketo Format - single column</name>
+    <style>none</style>
+    <subject>Join us at our Executive Testing Leadership Roadshow</subject>
+    <textOnly>Thursday, Sept. 24th 2015, 09:00 a.m. - 12:15 p.m. CEST 
+ Eden au Lac, Zurich
+
+Dear {{lead.First Name:default=edit me}},
+
+We would like to invite you to an exclusive Cognizant and Tricentis Event. Join us on Thursday, Sept. 24th 2015 for the Executive Testing Leadership Roadshow in Zurich.
+
+Adept experts from Cognizant, UBS, Swiss Re and Tricentis will share their insights, best practices, experience and plans for the future on Test Automation.
+
+Agenda:
+
+Selecting the right tool(s) for test automation
+Robert Bonomo, Swiss Country Head of Quality Engineering &amp; Assurance Practice, Cognizant
+
+Selenium for Webapp testing
+Philipp Scherer, AVP, Senior Test Lead, Swiss Re
+
+Effective Vendor and Customer Collaboration contributing to Testing Initiatives Success
+Anna-Maria Blengino, Director, UBS and Chris Cooper, Senior Manager, Cognizant
+
+How do you achieve the highest sustainable rates of test automation?
+Franz Fuchsberger, Co-founder and CSO, Tricentis
+
+Conclusion and Business Lunch
+
+Date and Location:
+ Thu, Sept. 24th 2015
+ 09:00 a.m. – 12:15 p.m. CEST
+ Hotel Eden au Lac
+ Utoquai 45
+ www.edenaulac.ch
+
+ &lt;http://www.tricentis.com/events-webinars/executive-testing-leadership-roadshow-2015-09-24?utm_medium=email&amp;utm_source=db&gt;
+
+The Executive Testing Leadership Roadshow is an exclusive Cognizant and Tricentis event for executives and senior professionals only. Registration is upon invitation and capacity is limited.
+
+We are looking forward to seeing you soon!
+
+Best Regards,
+Your Tricentis Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,71 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">Dear&nbsp;{!Contact.FirstName},<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">Last week I wrote to
+you, NAME2, and NAME3 to introduce myself and my firm, Tricentis Software, and
+to determine the most appropriate person to speak with regarding your application
+quality goals and objectives for 2014. To date, I have not heard back from you
+directly, so I wanted to drop you another note.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">As I previously
+indicated, Tricentis Software&nbsp;empowers organizations to systematically
+align software testing with business needs, so they can harness technology
+change while optimizing cost and efficiency. For example, to accelerate time to
+value, we empower enterprises to achieve up to 90% test automation, freeing
+teams to focus on business innovation and customer experience.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">As we've worked with client executives, some of
+the common issues we hear include:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-family: Arial, sans-serif;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-family: Arial, sans-serif;">“We can’t effectively
+test our applications because we have a variety of software components, from
+vendors, developed in-house, provided by an outsourcing partner, as well as
+cloud-based.”<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><b><span style="font-family: Arial, sans-serif;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><b><span style="font-family: Arial, sans-serif;">“We want to extend our applications to a mobile platform, but it’s
+difficult to properly test these applications.”<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><b><span style="font-family: Arial, sans-serif;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><b><span style="font-family: Arial, sans-serif;">“Our user community works with a variety of browsers and mobile
+devices which they expect to work regardless of which platform they are on –
+how do we ensure our applications will support them?”<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">Tricentis has been able
+to address these and other business challenges for more than 400 customers,
+including Allianz, BMW, Deutsche Bank, HBO, Orange, Siemens, Southwest, Swiss
+Re, and UBS. I would like to request a 30 minute meeting to introduce you to
+Tricetis and to hear your perspective about how improved software testing could
+empower your firm to meet its business objectives. Alternatively, if this
+responsibility falls elsewhere in the organization, I would appreciate your
+directing me to the appropriate person. Thank you for your response.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">Regards, <o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: Arial, sans-serif;">{!Account.OwnerFullName}<o:p></o:p></span></p>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

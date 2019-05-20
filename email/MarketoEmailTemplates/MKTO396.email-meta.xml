@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2014 - 2014.09.18.Final Confirmation Email for Registrants</name>
+    <style>none</style>
+    <subject>Tricentis Accelerate 2014 - See  you there</subject>
+    <textOnly>&lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+
+
+
+Dear Tricentis Customers and Partners,
+
+Accelerate 2014 is almost here. Take this chance to download the agenda &lt;http://www.tricentis.com/sites/default/files/images/about/events/tricentis_accelerate/accelerate_agenda_2014.pdf&gt; to your preferred device.
+
+Tricentis Accelerate 2014
+Thursday, Sept 18, 2014
+Hotel InterContinental Vienna, Johannesgasse 28, 1030 Vienna, Austria
+from 9:15 a.m. till 7:00 p.m.
+
+To view the updated agenda and learn more about the event, click here: accelerate.tricentis.com &lt;http://accelerate.tricentis.com&gt;
+
+We are looking forward to seeing you there.
+
+Best wishes and a safe travels,
+
+
+
+
+
+
+
+Wolfgang Platz
+ Founder &amp; Chief Product Officer
+ Tricentis
+
+ 
+
+
+
+
+Franz Fuchsberger
+ Co-Founder &amp; Chief Sales Officer
+ Tricentis
+
+
+
+
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

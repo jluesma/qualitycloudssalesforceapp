@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Q1 NewsLetter - Tosca Testsuite 8.1.1.Tosca Testsuite 8.1.1</name>
+    <style>none</style>
+    <subject>Agile Projects with Tosca Testsuite – Tricentis Tosca 8.1.1</subject>
+    <textOnly>Agile Projects with Tosca Testsuite
+
+If there’s one thing that all agile teams have in common, it is to deliver a potentially releasable product with each sprint. The only way to do this in a reasonable amount of time is by guaranteeing a high degree of automation. Tosca is the perfect tool for this as it allows agile team members to share the functional tests with ease.
+
+Read more: http://www.tricentis.com/sites/default/files/newsletter/2014/January/newsletter.html#featured
+
+---------------------------------------
+
+Featured Webinar
+
+Innovate Through Extreme Automation
+
+It’s a new and complex age for enterprises. Software is everywhere and unavoidable. Every company is in some respect a software company, and customers expect software to perform flawlessly. When it doesn&apos;t, the brand suffers.
+Join Wolfgang Platz, Founder and CPO, Tricentis, and Theresa Lanowitz, Founder, voke, inc., as they discuss how Global 2000 companies can protect their brand using extreme automation.
+
+Read more: http://www.tricentis.com/resources/webcasts
+
+---------------------------------------
+
+Accelerate 2013: Driving Business Innovation
+
+Watch keynote and other presentations on-demand: http://www.tricentis.com/about/events/tricentis-accelerate/presentations-preview
+
+---------------------------------------
+
+Latest News
+
+December 17, 2013
+Tricentis and Neotys Technology Partner to Accelerate Enterprise Business Innovation.
+
+Read more: http://www.tricentis.com/about/news/Tricentis-and-Neotys-enter-strategic-Partnership
+
+
+November 4, 2013
+Tricentis Recognized by TSIA and Impact Learning Systems for Achieving Support Staff Excellence Center Certification.
+
+Read more: http://www.tricentis.com/about/news/Tricentis-Recognized-by-TSIA
+
+
+October 28, 2013
+Tricentis Appoints Senior Vice President of Worldwide Sales to Further Capitalize on Rapid Growth.
+
+Read more: http://www.tricentis.com/about/news/senior-vp-worldwide-sales-appointment
+
+
+News Archive: http://www.tricentis.com/about/news
+
+---------------------------------------
+
+Tosca News
+
+Windows: Out with the Old, in with the New
+
+Windows has announced it will stop supporting Windows XP and Office 2003 starting on April 8, 2014.
+For this reason, Tosca will no longer support Windows XP starting with our version 8.2.0 planned for April 2014.
+Feel free to contact the Tricentis Support team in case you have any questions.
+
+Read more: http://www.tricentis.com/sites/default/files/newsletter/2014/January/newsletter.html#windows
+Tricentis Support team: https://support.tricentis.com/en/contact
+
+
+Tosca hints system
+
+Starting now, there is a new hints function available in Tosca that provides you with useful tips on certain functions.
+
+Read more: http://www.tricentis.com/sites/default/files/newsletter/2014/January/newsletter.html#hints
+
+
+TBOX now has wildcards
+
+The TBox platform already has a powerful system for verification and control identification through regular expressions. Use wildcards to carry out a search in any part of a text string.
+
+Read more: http://www.tricentis.com/sites/default/files/newsletter/2014/January/newsletter.html#tbox
+
+---------------------------------------
+
+Let&apos;s talk
+
+Talk with Sales: http://innovate.tricentis.com/talk-with-sales.html
+Request a Demo: http://innovate.tricentis.com/demo-request.html
+
+---------------------------------------
+
+Press: http://www.tricentis.com/about/news
+Imprint: http://www.tricentis.com/imprint
+Terms &amp; Conditions: http://www.tricentis.com/terms-and-conditions
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

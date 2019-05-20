@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table width="600" cellpadding="0" cellspacing="0" align="center" style="margin:10px auto; background-color:white;">
+<tr>
+<td width="600" height="50" style="border:none !important;"><a href="http://www.tricentis.com/resources/webcasts"><img style="border:none !important;display:block;" src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo.png" width="600" height="50" alt="Tricentis - Accelerate. Innovate. Automate."></a></td>
+</tr>
+<tr>
+<td height="140" style="border:none !important;"><a href="http://www.tricentis.com/resources/webcasts"><img style="border:none !important;display:block;" src="http://innovate.tricentis.com/rs/tricentis/images/email_header.jpg" width="600" height="140" alt="Innovate Through Extreme Automation"></a></td>
+</tr>
+<tr>
+<td bgcolor="#2264AE" style="color:#ffffff;font-size:18px;padding:10px 10px 10px 10px;" align="center">Analyst Webinar: Innovate Through Extreme Automation</td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tr>
+<td width="60%" valign="top" style="padding:20px 20px 10px 20px;">
+<p>Hi {{lead.First Name}},</p>
+<p>Thanks for taking the time to attend our webinar, “Innovate through Extreme Automation.” We hope you enjoyed it as much as we did. Your participation and engaging questions made all the difference.</p>
+<p>Check out <a style="color: #1d63af;" href="http://www.tricentis.com/resources/webcasts" target="_blank">www.tricentis.com/resources/webcasts.</a></p>
+<p style="margin:0px;">Thanks,</p>
+<p></p>
+<p style="margin:0px;">The Tricentis Team</p>
+</td>
+<td width="30%" valign="top" style="padding:20px 20px 10px 20px;">
+<p style="text-align:center;"><a href="http://www.tricentis.com/resources/webcasts"><img src="http://innovate.tricentis.com/rs/tricentis/images/theresa-lanowitz.jpg" width="100" height="100" style="border:none !important;"></a></p>
+<p style="text-align:center;"><strong>Theresa Lanowitz</strong><br>
+Founder, voke, inc.</p>
+<p style="text-align:center;"><a href="http://www.tricentis.com/resources/webcasts"><img src="http://innovate.tricentis.com/rs/tricentis/images/wolfgang-platz.jpg" width="100" height="100" style="border:none !important;"></a></p>
+<!--150-->
+<p style="text-align:center;"><strong>Wolfgang Platz</strong><br>
+Founder & Chief Product Officer, Tricentis</p>
+&nbsp;
+<p></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" bgcolor="#868A8F" style="padding:5px 20px 10px 20px;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><a style="text-decoration:none" href="http://www.tricentis.com/about/news"><strong><span style="font-size:12px; color:#DFE0DE;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration:none" href="http://www.tricentis.com/imprint"><strong><span style="font-size:12px; color:#DFE0DE;">Imprint</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration:none" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size:12px; color:#DFE0DE;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</table>
+</td>
+<td>
+<table border="0" align="right" cellpadding="3" cellspacing="0">
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img style="border:none !important;" src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" width="32" height="32" alt=""></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img style="border:none !important;" src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" width="32" height="32" alt=""></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img style="border:none !important;" src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" width="32" height="32" alt=""></a></td>
+</tr>
+<tr>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&-consulting-gmbh"><img style="border:none !important;" src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" width="32" height="32" alt=""></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img style="border:none !important;" src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" width="32" height="32" alt=""></a></td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size:11px; color:#DFE0DE;">&copy; 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</span></td>
+<td height="43" align="right" valign="bottom"><span style="padding:5px 10px;"><img src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" width="95" height="13" style="margin-top:30px;" alt=""></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

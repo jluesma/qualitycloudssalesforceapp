@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo.png" alt="Tricentis - Accelerate. Innovate. Automate." width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/header_email_tricentis.png" alt="Tricentis" width="600" height="140" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">2014 Tricentis Tosca product survey</td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Hi {{lead.First Name}},</p>
+<p>A few weeks ago, we sent out the questionnaire for the 2014 Tricentis Tosca product survey to our customers.</p>
+<p>Over the following weeks, our team was busy with coordinating and concluding the survey and going through the survey post-processing steps. Now we are ready to present the results.</p>
+<p>We also received many written comments on our products and services. Thank you for that!</p>
+<p>We at Tricentis listen to the voice of our customers, so we want to give you some sneak peak on the near future of the product components on which we have received the most feedback out of the community.</p>
+<p>As I write these lines, the following things are already in the final stages of development:</p>
+<ul>
+<li>The Tosca Dashboard, an HTML5 reporting interface</li>
+<li>Loops and conditions for Tosca</li>
+<li>Porting our keywords to TBox, thus speeding up the mixed execution</li>
+<li>Technology independent automation with Optical Intelligence</li>
+<li>Enhance the usability and speed of Tosca</li>
+</ul>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/wolfgang-platz.jpg" alt="Wolfgang Platz" width="100" height="100" /></p>
+<p style="text-align: center;"><strong>Wolfgang Platz</strong><br />Founder &amp; Chief Product Officer<br />Tricentis</p>
+&nbsp;<br />
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/michael-hentz-95x95.jpg" alt="Michael Hentze" width="100" height="100" /></p>
+<p style="text-align: center;"><strong>Michael Hentze</strong><br />Vice President Engineering<br />Tricentis</p>
+&nbsp;<br /></td>
+</tr>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" colspan="2"><img src="http://innovate.tricentis.com/rs/tricentis/images/Tricentis_Product_Survey_Infographic.png" alt="Tricentis Product Survey Infographic" width="550" height="778" />
+<p>Finally, we want to thank once more all customers and survey participants for taking the time to fill out the questionnaire and for sharing thoughts and insights related to Tricentis Tosca Testsuite: Thank you.</p>
+<p>We hope to see you at the Accelerate 2014 and show you the new best practices and functions. Are you already registered?</p>
+<p><a href="http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a></p>
+<p>Sincerely,</p>
+<p><strong>Wolfgang Platz</strong><br /> CPO and Founder, w.platz@tricentis.com</p>
+<p><strong>Michael Hentze</strong><br /> VP Engineering, m.hentze@tricentis.com</p>
+<p style="margin: 0px;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

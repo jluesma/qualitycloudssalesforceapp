@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Q1 Voke.Voke Email</name>
+    <style>none</style>
+    <subject>Report from Software Analyst voke: Tricentis Increases Test Automation and Risk Coverage</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+ &lt;http://innovate.tricentis.com/WhatothersaresayingVoke.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Ours is an age of extreme sensitivity to issues of software quality. Software is everywhere and customers expect it to perform flawlessly. Organizations that suffer software failures can expect more than just a financial hit; their brand suffers and customer confidence is shaken. As a result, they are emphasizing the importance of test coverage and automation to reduce risk throughout the software lifecycle.
+
+Software analyst firm voke has named Tricentis a “Pivotal Vendor” in its Market Mover Array Report™ on Testing Platforms for its response to these challenges. Its comprehensive software testing solution, Tricentis Tosca Testsuite, is leading the way in helping companies accelerate business innovation and meet expectations for quality, cost, and schedule. Other key findings:
+
+
+ - Tricentis optimizes test automation processes by eliminating the need for scripts and related maintenance.
+
+
+
+
+ - Tricentis makes test automation affordable and manageable by measuring the test coverage of every single test case.
+
+
+
+Founded in 2006 by Theresa Lanowitz, voke is a modern analyst firm that focuses on the application lifecycle and related trends. The Market Mover Array Report™, Testing Platforms examines the current state of the software testing market and analyzes the offerings of vendors.
+
+ &lt;http://innovate.tricentis.com/WhatothersaresayingVoke.html?utm_medium=email&amp;utm_source=internal&gt;
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

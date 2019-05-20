@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Nurture - Series 1 - Feb 2015.Email 1 - Intro</name>
+    <style>none</style>
+    <subject>Test Better with Tricentis Tosca Testsuite</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+When it comes to testing your critical applications and newest innovations, being able to optimize your risk coverage, manage your test data, and automate your testing efforts can be the difference between an app’s life and death.
+
+Tricentis’ Tosca Testsuite is a toolkit designed specifically to allow you – testing expert or non-technical business guru – to optimize, manage, and automate your tests. Test better, not harder!
+
+Take a look at our video &lt;http://innovate.tricentis.com/video-the-tosca-effect-watch.html?utm_medium=email&amp;utm_source=nur&gt;, “The Tosca Effect”, on how Tricentis’ Tosca Testsuite can transform your testing. I’d love to hear from you if you have any questions or would like to hear more about Tricentis and the Tosca Testsuite!
+
+Best regards,
+
+Vincent
+
+Vincent Ruth
+Western Region Territory Director
+ Tricentis
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+m - +1.408.568.9698
+ e - v.ruth@tricentis.com &lt;mailto:v.ruth@tricentis.com&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis
+ 400 S. El Camino Real
+ Suite 1050
+ San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

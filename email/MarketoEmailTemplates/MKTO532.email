@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo-newtag.png" alt="Tricentis - Optimize.      Manage.      Automate." width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/New-Professional-Training-Program-header-600x140.jpg" alt="Innovate Through Extreme Automation" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Program Announcement</td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Hi {{lead.First Name}},</p>
+<p>We are pleased to announce the launch of the new Tricentis Certified Professional training program, to be released in January 2015.</p>
+<p>The new training program consists of five separate training modules, which when fully completed, awards a certification as a Tricentis Certified Professional.</p>
+<p>The new program is designed to equip students with the theoretical and practical knowledge necessary to join a team and immediately begin contributing in test projects using Tosca Testsuite.</p>
+<p>As of January 2015, the Tricentis Certified Professional training modules will replace the Tosca Certified User Foundation Level (TCUFL), Tosca Certified Quality Designer (TCQD) and Tosca Certified Administrator (TCA) training courses.</p>
+<p>For a more detailed overview of the new program, please feel free to read the <a href="http://innovate.tricentis.com/rs/tricentis/images/FactSheet_Trcientis_Certified_Professional_CFEDITS.pdf">Tricentis Certified Professional training fact sheet</a>.</p>
+<p>&nbsp;</p>
+<h3><span style="color: #1d63af;">What Can We Look Forward to?</span></h3>
+<p>We&rsquo;ve made some exciting changes to the new program:</p>
+<ul>
+<li>Tricentis Certified Professional is now the definitive initial training program for the Tosca Testsuite.</li>
+<li>The training program consists of five separate training modules that culminates in certification as a Tricentis Certified Professional.</li>
+<li>The training modules are offered as blended learning modules, involving a combination of classroom training (instructor-led), as well as online training (self-paced).</li>
+<li>A new sample web shop application provides the basis for all theoretical and practical training exercises.</li>
+<li>An online exam is administered at the end of each module to advance in the program.</li>
+<li>Successful completion of all the modules qualifies you as a Tricentis Certified Professional.</li>
+<li>All further training builds from the foundation of the Tricentis Certified Professional program, making it a necessary prerequisite for advancement.</li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="color: #1d63af;">How This Affects You</span></h3>
+<p>This change will have little impact on your already completed qualifications:</p>
+<ul>
+<li>Tosca knowledge gained in former trainings is still up-to-date.</li>
+<li>Existing Tricentis certificates will retain their validity.</li>
+<li>If desired, &ldquo;Tosca Certified Quality Designer&rdquo; certificates can be updated to &ldquo;Tricentis Certified Professional", free of charge. </li>
+</ul>
+<p>For existing Tricentis training partners/Tosca instructors:</p>
+<ul>
+<li>Authorized instructors must familiarize themselves with the new Tricentis Certified Professional program.</li>
+<li>Tricentis will provide you, free of charge, with the materials necessary to familiarize yourself with the new program (accessible online as self-paced learning materials).</li>
+<li>Tricentis will also be hosting regular knowledge-transfer web sessions, free of charge. The sessions will be held by Tricentis training experts and instructors to answer any questions that might come up during the self-paced learning.</li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="color: #1d63af;">Want More Information?</span></h3>
+<p>Thank you for your time and attention. We are excited about these new developments and everything that is to come! For further information, please feel free to contact us or check out the Tricentis Certified Professional training presentation <a href="http://innovate.tricentis.com/rs/tricentis/images/20141117_TCP_Webinar.pdf">here</a>.</p>
+<p style="margin: 0px;">Best regards,<br />Your Tricentis Training Team.</p>
+<p style="margin: 0px;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2014 Tricentis.      All Rights Reserved.      Tricentis is a registered trademark of Tricentis GmbH.      Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

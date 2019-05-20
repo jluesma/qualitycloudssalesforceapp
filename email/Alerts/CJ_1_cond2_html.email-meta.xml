@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder Notification for Sales about stalled Opps</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Tricentis_Letterhead</letterhead>
+    <name>CJ-1_cond2_html</name>
+    <style>freeForm</style>
+    <subject>Cleanup needed on Opportunities with Unrealistic Close Dates</subject>
+    <textOnly>Dear Sales Rep,
+
+the following opportunities in your forecast seem to have an unrealistic Closed Date, ie. the Stage is low (1-3), yet the forecasted close date is within the next 30 days. Please update the information on the opportunity accordingly.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

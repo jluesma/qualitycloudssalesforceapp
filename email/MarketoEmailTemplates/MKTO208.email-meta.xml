@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Sales - Talk with Sales Offer.Email - Sales - Talk with Sales</name>
+    <style>none</style>
+    <subject>Frühlingsangebot! Test-Management-Lizenzen</subject>
+    <textOnly>Frühlingsangebot:
+ Test-Management-Lizenzen
+
+Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+„Standardisiertes manuelles testen wird noch einfacher mit Tricentis Tosca Testsuite“, so lautet das Feedback des Softwaretestmarkts.
+
+Warum das so ist, sehen Sie hier:
+
+Dem wollen wir gerecht werden und bieten Ihnen folgendes spezielles Angebot bis Ende Mai:
+
+1 Paket Test Management Lizenzen (5 Lizenzen) zu einem Paket Preis von €3.000,-*
+
+Haben wir Ihr Interesse geweckt? So leicht geht’s:
+
+ - Formular ausfüllen.
+ - Promo-Code TMGMT-1404 ins Freitextfeld eingeben.
+ - „Contact Me“ klicken.
+
+Mit freundlichen Grüßen,
+ Tricentis
+
+*Erste Jahreswartung ist bereits inkludiert, jedes weitere Jahr für dieses Paket kostet €595,-
+
+ &lt;http://innovate.tricentis.com/email-sales-talk-with-sales-offer.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+&lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

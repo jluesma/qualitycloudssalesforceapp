@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Advisor --></label>
+        <name>Advisor__c</name>
+        <picklistValues>
+            <masterLabel>GAB member</masterLabel>
+            <translation><!-- GAB member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignite contact</masterLabel>
+            <translation><!-- Ignite contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandeep&apos;s contact</masterLabel>
+            <translation><!-- Sandeep&apos;s contact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Atlassian Jira User --></label>
+        <name>Atlassian_Jira_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cloud Testing --></label>
+        <name>Cloud_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Age (Hours) --></label>
+        <name>Contact_Age_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Created Date/Time --></label>
+        <name>Contact_Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacted Status Duration (Hours) --></label>
+        <name>Contacted_Status_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacted Status End --></label>
+        <name>Contacted_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacted Status Start --></label>
+        <name>Contacted_Status_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Content &amp; Best Practices --></label>
+        <name>Content_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Converted from Lead --></label>
+        <name>Converted_from_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ Address --></label>
+        <name>DSCORGPKG__Company_HQ_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ City --></label>
+        <name>DSCORGPKG__Company_HQ_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ Country Code --></label>
+        <name>DSCORGPKG__Company_HQ_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ Country (Full Name) --></label>
+        <name>DSCORGPKG__Company_HQ_Country_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ Postal Code --></label>
+        <name>DSCORGPKG__Company_HQ_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ State (Full Name) --></label>
+        <name>DSCORGPKG__Company_HQ_State_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company HQ State --></label>
+        <name>DSCORGPKG__Company_HQ_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conflict --></label>
+        <name>DSCORGPKG__Conflict__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DeletedFromDiscoverOrg --></label>
+        <name>DSCORGPKG__DeletedFromDiscoverOrg__c</name>
+        <picklistValues>
+            <masterLabel>false</masterLabel>
+            <translation><!-- false --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>true</masterLabel>
+            <translation><!-- true --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Company ID --></label>
+        <name>DSCORGPKG__DiscoverOrg_Company_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created by DiscoverOrg --></label>
+        <name>DSCORGPKG__DiscoverOrg_Created_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg First Update --></label>
+        <name>DSCORGPKG__DiscoverOrg_First_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Country Full Name --></label>
+        <name>DSCORGPKG__DiscoverOrg_FullCountryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg ID --></label>
+        <name>DSCORGPKG__DiscoverOrg_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Last Update --></label>
+        <name>DSCORGPKG__DiscoverOrg_LastUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg State Full Name --></label>
+        <name>DSCORGPKG__DiscoverOrg_State_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Technologies --></label>
+        <name>DSCORGPKG__DiscoverOrg_Technologies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invalid --></label>
+        <name>DSCORGPKG__Email_Invalid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lock from DiscoverOrg Updates --></label>
+        <name>DSCORGPKG__Exclude_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Id --></label>
+        <name>DSCORGPKG__External_DiscoverOrg_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Org Chart --></label>
+        <name>DSCORGPKG__ITOrgChart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Function --></label>
+        <name>DSCORGPKG__Job_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn URL --></label>
+        <name>DSCORGPKG__LinkedIn_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked By User --></label>
+        <name>DSCORGPKG__Locked_By_User__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Management Level --></label>
+        <name>DSCORGPKG__Management_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- MiddleName --></label>
+        <name>DSCORGPKG__MiddleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- NickName --></label>
+        <name>DSCORGPKG__NickName__c</name>
+    </fields>
+    <fields>
+        <label><!-- REMOVELinkedinURL --></label>
+        <name>DSCORGPKG__REMOVELinkedinURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg ReportsTo --></label>
+        <name>DSCORGPKG__ReportsTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter URL --></label>
+        <name>DSCORGPKG__Twitter_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Department --></label>
+        <name>DSCORGPKG__department__c</name>
+    </fields>
+    <fields>
+        <label><!-- title_Custom --></label>
+        <name>DSCORGPKG__title_Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engaged Date --></label>
+        <name>Engaged_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Events --></label>
+        <name>Event_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eventbrite Id --></label>
+        <name>EventbriteSync__EventbriteId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eventbrite Type --></label>
+        <name>EventbriteSync__EventbriteType__c</name>
+        <picklistValues>
+            <masterLabel>Attendee Profile</masterLabel>
+            <translation><!-- Attendee Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Person Id --></label>
+        <name>EventbriteSync__UniquePersonId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for grouping in reports. 3 Geos available: EMEA, US, APAC --></help>
+        <label><!-- Geo --></label>
+        <name>Geo__c</name>
+        <picklistValues>
+            <masterLabel>AMS</masterLabel>
+            <translation><!-- AMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initiated Status Duration (Hours) --></label>
+        <name>Initiated_Status_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiated Status End --></label>
+        <name>Initiated_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initiated Status Start --></label>
+        <name>Initiated_Status_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- List source --></label>
+        <name>List_source__c</name>
+        <picklistValues>
+            <masterLabel>Apache JMeter - Brigade</masterLabel>
+            <translation><!-- Apache JMeter - Brigade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlassian</masterLabel>
+            <translation><!-- Atlassian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation><!-- Data.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover.org</masterLabel>
+            <translation><!-- Discover.org --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DiscoverOrg</masterLabel>
+            <translation><!-- DiscoverOrg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E4U</masterLabel>
+            <translation><!-- E4U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Webinar</masterLabel>
+            <translation><!-- External Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InsideView</masterLabel>
+            <translation><!-- InsideView --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JMeter</masterLabel>
+            <translation><!-- JMeter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linkedin</masterLabel>
+            <translation><!-- Linkedin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netprospex</masterLabel>
+            <translation><!-- Netprospex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RainKing</masterLabel>
+            <translation><!-- RainKing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD Times</masterLabel>
+            <translation><!-- SD Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rolodex</masterLabel>
+            <translation><!-- Sales Rolodex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Techwell</masterLabel>
+            <translation><!-- Techwell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow - AttendeeList</masterLabel>
+            <translation><!-- Tradeshow - AttendeeList --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Research</masterLabel>
+            <translation><!-- Web Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZoomInfo</masterLabel>
+            <translation><!-- ZoomInfo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MQL Date --></label>
+        <name>MQL_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Stage --></label>
+        <name>Marketing_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Engaged</masterLabel>
+            <translation><!-- Engaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MQL</masterLabel>
+            <translation><!-- MQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Name</masterLabel>
+            <translation><!-- New Name --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Name Date --></label>
+        <name>New_Name_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Newsletter --></label>
+        <name>Newsletter_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Now Status Duration (Hours) --></label>
+        <name>Not_Now_Status_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Now Status End  --></label>
+        <name>Not_Now_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Now Status Start --></label>
+        <name>Not_Now_Status_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Status Duration (Hours) --></label>
+        <name>Open_Status_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Status End --></label>
+        <name>Open_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Status Start --></label>
+        <name>Open_Status_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- PowerOfOne --></label>
+        <name>PowerOfOne__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualified Status Duration (Hours) --></label>
+        <name>Qualified_Status_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualified Status End --></label>
+        <name>Qualified_Status_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualified Status Start --></label>
+        <name>Qualified_Status_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines whether this person is a reference contact for the account associated. --></help>
+        <label><!-- Reference Contact --></label>
+        <name>Reference_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Now User ID --></label>
+        <name>Service_Now_User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Now User active --></label>
+        <name>Service_Now_User_active__c</name>
+    </fields>
+    <fields>
+        <label><!-- SnowOutboundInSynch --></label>
+        <name>SnowOutboundInSynch__c</name>
+    </fields>
+    <fields>
+        <label><!-- SnowOutboundSynchDone --></label>
+        <name>SnowOutboundSynchDone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Webinars --></label>
+        <name>Webinar_Subscription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shall this contact receive a X-Mas card? If yes check this field. --></help>
+        <label><!-- X-Mas Card --></label>
+        <name>X_Mas_Card__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use this field to enter a Xing URL. Format: e.g.: www.google.com --></help>
+        <label><!-- Xing URL --></label>
+        <name>Xing_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Demographic Score --></label>
+        <name>account_demographic_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavior Score --></label>
+        <name>behavior_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Status --></label>
+        <name>contact_status__c</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiated</masterLabel>
+            <translation><!-- Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Now</masterLabel>
+            <translation><!-- Not Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified - (SQL)</masterLabel>
+            <translation><!-- Qualified - (SQL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-open</masterLabel>
+            <translation><!-- Re-open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected/Disqualified</masterLabel>
+            <translation><!-- Rejected/Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solar flare</masterLabel>
+            <translation><!-- Solar flare --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date - Targeted Company --></label>
+        <name>dr_date_targeted_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Targeted Country --></label>
+        <name>dr_date_targeted_country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Targeted Email --></label>
+        <name>dr_date_targeted_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Targeted Title --></label>
+        <name>dr_date_targeted_title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Valid Company --></label>
+        <name>dr_date_valid_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Valid Country --></label>
+        <name>dr_date_valid_country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Valid Email --></label>
+        <name>dr_date_valid_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Valid First Name --></label>
+        <name>dr_date_valid_first_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date - Valid Last Name --></label>
+        <name>dr_date_valid_last_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Request --></label>
+        <name>dr_demo_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected/Disqualified Reason --></label>
+        <name>dr_disqualified_reason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junk - No email or name or company name or spam</masterLabel>
+            <translation><!-- Junk - No email or name or company name or spam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moved to another company</masterLabel>
+            <translation><!-- Moved to another company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-target – Geo Vertical, or job-level</masterLabel>
+            <translation><!-- Non-target – Geo Vertical, or job-level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a Sales Lead</masterLabel>
+            <translation><!-- Not a Sales Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Record ID --></label>
+        <name>dr_external_record_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Campaign Date --></label>
+        <name>dr_first_campaign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Campaign --></label>
+        <name>dr_first_campaign_tracking__c</name>
+        <relationshipLabel><!-- Contacts (First Campaign) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Date --></label>
+        <name>dr_follow_up_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funnel --></label>
+        <name>dr_funnel__c</name>
+        <picklistValues>
+            <masterLabel>MQL</masterLabel>
+            <translation><!-- MQL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MRL</masterLabel>
+            <translation><!-- MRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTL</masterLabel>
+            <translation><!-- MTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MVL</masterLabel>
+            <translation><!-- MVL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Campaign Date --></label>
+        <name>dr_last_campaign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Campaign --></label>
+        <name>dr_last_campaign_tracking__c</name>
+        <relationshipLabel><!-- Contacts (Last Campaign) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Engagement Date --></label>
+        <name>dr_last_engagement_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linkedin URL --></label>
+        <name>dr_linkedin_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Might Be Junk --></label>
+        <name>dr_might_be_junk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Might Be Spam --></label>
+        <name>dr_might_be_spam__c</name>
+    </fields>
+    <fields>
+        <label><!-- MQL --></label>
+        <name>dr_mql__c</name>
+    </fields>
+    <fields>
+        <label><!-- MQL-UTC --></label>
+        <name>dr_mql_utc__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRL --></label>
+        <name>dr_mrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- MTL --></label>
+        <name>dr_mtl__c</name>
+    </fields>
+    <fields>
+        <label><!-- MVL --></label>
+        <name>dr_mvl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Now Reasons --></label>
+        <name>dr_not_now_reasons__c</name>
+        <picklistValues>
+            <masterLabel>Budget not available now - Will follow up later</masterLabel>
+            <translation><!-- Budget not available now - Will follow up later --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tried to Contact - Not following up, needs nurture</masterLabel>
+            <translation><!-- Tried to Contact - Not following up, needs nurture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tried to Contact - Will follow up later</masterLabel>
+            <translation><!-- Tried to Contact - Will follow up later --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Campaigns --></label>
+        <name>dr_number_of_campaigns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opted-in to Email --></label>
+        <name>dr_opted_in_to_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Request --></label>
+        <name>dr_quote_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support List --></label>
+        <name>dr_support_list__c</name>
+    </fields>
+    <fields>
+        <label><!-- Talk to Sales Now --></label>
+        <name>dr_talk_to_sales_now__c</name>
+    </fields>
+    <fields>
+        <label><!-- Talk to Us Comments --></label>
+        <name>dr_talk_to_us_comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - Content --></label>
+        <name>dr_tracking_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - Inbound URL --></label>
+        <name>dr_tracking_inbound_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - Referring URL --></label>
+        <name>dr_tracking_referring_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Campaign --></label>
+        <name>dr_tracking_utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Content --></label>
+        <name>dr_tracking_utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Medium --></label>
+        <name>dr_tracking_utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Source --></label>
+        <name>dr_tracking_utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Term --></label>
+        <name>dr_tracking_utm_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website Domain --></label>
+        <name>dr_website_domain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>engagio__Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Minutes (3 mo.) --></label>
+        <name>engagio__EngagementMinutesLast3Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Minutes (7 days) --></label>
+        <name>engagio__EngagementMinutesLast7Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Date --></label>
+        <name>engagio__FirstEngagementDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>engagio__Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Contact ID --></label>
+        <name>iSell__Avention_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advancements in Test Automation --></label>
+        <name>int_advancements_in_test_automation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advancements in Test Automation_date --></label>
+        <name>int_advancements_in_test_automation_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- BI/Data Warehouse Testing --></label>
+        <name>int_bi_data_warehouse__c</name>
+    </fields>
+    <fields>
+        <label><!-- BI/Data Warehouse Testing_date --></label>
+        <name>int_bi_data_warehouse_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Continuous Testing for Agile/DevOps_date --></label>
+        <name>int_cont_testing_for_agiledevops_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Continuous Testing for Agile/DevOps --></label>
+        <name>int_continuous_testing_for_agiledevops__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exploratory Testing --></label>
+        <name>int_exploratory_testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exploratory Testing_date --></label>
+        <name>int_exploratory_testing_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load/Performance Testing --></label>
+        <name>int_load_performance_testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load/Performance Testing_date --></label>
+        <name>int_load_performance_testing_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP/Packaged Apps --></label>
+        <name>int_sap_packaged_apps__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP/Packaged Apps_date --></label>
+        <name>int_sap_packaged_apps_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Champion --></label>
+        <name>iseeit__Champion__c</name>
+        <picklistValues>
+            <masterLabel>Champion</masterLabel>
+            <translation><!-- Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enemy</masterLabel>
+            <translation><!-- Enemy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DecisionMaker --></label>
+        <name>iseeit__DecisionMaker__c</name>
+        <picklistValues>
+            <masterLabel>Business User</masterLabel>
+            <translation><!-- Business User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Buyer</masterLabel>
+            <translation><!-- Economic Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Decision Maker</masterLabel>
+            <translation><!-- Economic Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluator</masterLabel>
+            <translation><!-- Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Sponsor</masterLabel>
+            <translation><!-- Executive Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Buyer</masterLabel>
+            <translation><!-- Technical Buyer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A picklist of values for a general categorization of job roles. Used for targeted Marketing campaigns. --></help>
+        <label><!-- Job Role --></label>
+        <name>job_role__c</name>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation><!-- Architect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developer</masterLabel>
+            <translation><!-- Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developer Manager / Team Lead</masterLabel>
+            <translation><!-- Developer Manager / Team Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Director</masterLabel>
+            <translation><!-- Development Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development VP</masterLabel>
+            <translation><!-- Development VP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT / System Administrator</masterLabel>
+            <translation><!-- IT / System Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Director</masterLabel>
+            <translation><!-- QA Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Manager / Team Lead</masterLabel>
+            <translation><!-- QA Manager / Team Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Staff</masterLabel>
+            <translation><!-- QA Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA VP</masterLabel>
+            <translation><!-- QA VP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto2__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto2__Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto2__Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto2__Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto2__Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto2__Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto2__Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto2__Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto2__Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto2__Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto2__Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto2__Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto2__Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto2__Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto2__Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto2__Original_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Date --></label>
+        <name>mkto_si__HideDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Date --></label>
+        <name>mkto_si__Last_Interesting_Moment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Desc --></label>
+        <name>mkto_si__Last_Interesting_Moment_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Source --></label>
+        <name>mkto_si__Last_Interesting_Moment_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment Type --></label>
+        <name>mkto_si__Last_Interesting_Moment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Interesting Moment --></label>
+        <name>mkto_si__Last_Interesting_Moment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>mkto_si__Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score Value --></label>
+        <name>mkto_si__Relative_Score_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relative Score --></label>
+        <name>mkto_si__Relative_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Insight --></label>
+        <name>mkto_si__Sales_Insight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency Value --></label>
+        <name>mkto_si__Urgency_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Urgency --></label>
+        <name>mkto_si__Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- View in Marketo --></label>
+        <name>mkto_si__View_in_Marketo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Demographic Score --></label>
+        <name>person_demographic_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Marekting Material --></label>
+        <name>sc_Allow_Marekting_Material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Policy --></label>
+        <name>sc_Privacy_Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blog --></label>
+        <name>sc_blog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blog_date --></label>
+        <name>sc_blog_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Events --></label>
+        <name>sc_events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Events_date --></label>
+        <name>sc_events_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Research &amp; Webinars --></label>
+        <name>sc_new_research_webinars__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Research &amp; Webinars_date --></label>
+        <name>sc_new_research_webinars_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Announcements --></label>
+        <name>sc_special_announcements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Announcements_date --></label>
+        <name>sc_special_announcements_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support updates --></label>
+        <name>sc_support_updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support updates_date --></label>
+        <name>sc_support_updates_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical product updates --></label>
+        <name>sc_technical_product_updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical product updates_date --></label>
+        <name>sc_technical_product_updates_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training updates --></label>
+        <name>sc_training_updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training updates_date --></label>
+        <name>sc_training_updates_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks the contact as a contact from our support system. These contacts use Tosca actively and this field will be used for send outs targeted for our installed base. --></help>
+        <label><!-- Support User --></label>
+        <name>support_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Demographic Score --></label>
+        <name>total_demographic_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score --></label>
+        <name>total_score__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Campaign Intelligence --></label>
+            <section>Campaign Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- DemandGen Status --></label>
+            <section>DemandGen Status</section>
+        </sections>
+        <sections>
+            <label><!-- Description/Comments --></label>
+            <section>Description/Comments</section>
+        </sections>
+        <sections>
+            <label><!-- DiscoverOrg --></label>
+            <section>DiscoverOrg</section>
+        </sections>
+        <sections>
+            <label><!-- Engagio --></label>
+            <section>Engagio</section>
+        </sections>
+        <sections>
+            <label><!-- General Information: --></label>
+            <section>General Information:</section>
+        </sections>
+        <sections>
+            <label><!-- Interest for nurturing --></label>
+            <section>Interest for nurturing</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing (in progress) --></label>
+            <section>Marketing (in progress)</section>
+        </sections>
+        <sections>
+            <label><!-- Subscription Center --></label>
+            <section>Subscription Center</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Tosca --></label>
+        <name>Tosca</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Billing Country is required. If available, please enter the complete billing address. --></errorMessage>
+        <name>Mailing_Address_Required_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason for Rejected/Disqualified and Not now status is mandatory --></errorMessage>
+        <name>RejectedDisqualified_and_Notnow_Reasons</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Follow Up Date is required --></errorMessage>
+        <name>follow_up_date_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReportWrongInfotoDiscoverOrg --></label>
+        <name>DSCORGPKG__ReportWrongInfotoDiscoverOrg</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Marketo_Campaign --></label>
+        <name>mkto_si__Add_to_Marketo_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketo_Email --></label>
+        <name>mkto_si__Send_Marketo_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

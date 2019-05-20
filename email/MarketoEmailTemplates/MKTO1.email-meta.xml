@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>email blast -Survey on test automation.Survey Invite</name>
+    <style>none</style>
+    <subject>Please complete our survey by Friday, October 18, 2013 for the Tricentis Test Automation</subject>
+    <textOnly>Dear {{lead.First Name:default=Sir or Madam}},
+
+You are one of a small, selected group of customers that we have invited to provide us feedback. We would appreciate it very much if you would take your few minutes to fill out our survey about the test automation. Please take the Survey &lt;http://www.surveygizmo.com/s3/1356563/c0d81bebb5b7&gt;.
+
+Best Regards,
+
+Georg Thurner, Tricentis Product Marketing
+
+
+
+
+
+© 2013 TRICENTIS Technology &amp; Consulting, All rights reserved. Tricentis | Leonard Bernstein Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/en/imprint&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

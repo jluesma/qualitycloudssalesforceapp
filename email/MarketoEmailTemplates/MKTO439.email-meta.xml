@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - What&apos;s New with 8.3.0? - Customers - External(Installed Base) - 2014.1</name>
+    <style>none</style>
+    <subject>What&apos;s New with 8.3.0? Join our Webinar to find out!</subject>
+    <textOnly>Webinar: What’s New with 8.3.0
+
+Hi {{lead.First Name}},
+
+Thanks to the tireless efforts of the Tricentis team, the launch of Release 8.3.0 is expected to have many exciting new features. In order to help facilitate this, Tricentis is presenting an exclusive ‘What’s New’ Webinar which will showcase the following new solutions:
+
+ - Our new cloud-based Test Management Suite: Tosca as a Service (TaaS)
+ - New features that will enhance Model-Based Test Automation and Test Data Management
+ - Additional features for Mobile+
+
+Our ‘What’s New’ Webinar will take place on November 5th, 2014, starting at 4:00 p.m. CET, where our engineers and product managers will guide you through all our new features and everything else that is to be expected from the launch of 8.3.0!
+
+We look forward to seeing you at our webinar!
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;http://innovate.tricentis.com/webinar-whats-new-with-8.3.0-cust-2014.11.05.html?utm_medium=email&amp;utm_source=db&gt;
+
+
+ &lt;http://innovate.tricentis.com/webinar-whats-new-with-8.3.0-cust-2014.11.05.html?utm_medium=email&amp;utm_source=db&gt;
+Wed Nov 5, 2014
+ 4:00 p.m. – 5:00 p.m. CET
+10:00 a.m. – 11:00 a.m. EST
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+
+Roman Zednik 
+Worldwide Director for Pre-Sales Consulting
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:office@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

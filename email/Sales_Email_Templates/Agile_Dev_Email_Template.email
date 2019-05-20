@@ -1,0 +1,7 @@
+Hi {!Lead.FirstName},
+
+I realize its fairly late, but thought I'd reach out regarding Test Automation in an Agile environment. Besides yourself, I've seen a few of your QA/Tester colleagues, from {!Lead.Company}, download and attend a few of our webinars on "Testing in an Agile Environment". 
+
+Was hoping that you may be able fill me in on the state of test automation at {!Lead.Company}. I assume there is a solution in place, but was wondering if there is concern with how your current solution is handling Agile Dev testing. 
+
+Let me know if you'd be interested in learning more about our Model-Based testing approach and how we may be able to benefit {!Lead.Company}. Hope to hear back {!Lead.FirstName}. Thanks!

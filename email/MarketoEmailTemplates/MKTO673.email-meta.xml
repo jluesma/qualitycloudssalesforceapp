@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Nurture - Series 1 - Feb 2015.Email 2 - Logo Message</name>
+    <style>none</style>
+    <subject>Email 2 - Logo Message - Need Subject Line</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+I want to tell you about GBST, a leading provider of securities transactions and fund administration software, who came to Tricentis looking for a solution to a problem. 
+
+The need for a competitive edge kept GBST Shares’ software in a state of constant innovation. These required an overwhelming amount of regression testing, which, done manually, took over 535 hours of work.
+
+Tricentis worked with GBST to leverage the Tosca Testsuite to optimize their risk coverage, manage their data, and automate their testing efforts across the company’s highly complex system environments.
+
+The result?
+
+
+ - Accelerated end-to-end testing time by 80%.
+ - Reduced annual testing cost by 50%.
+ - Reduced business risk by identifying bugs early in development.
+
+
+
+Read more about GBST’s success with Tricentis here &lt;http://www.tricentis.com/resource-assets/gbst-speeds-time-to-value/&gt;!
+
+If you want to hear how Tricentis’ Tosca Testsuite can help your company succeed, I am happy to speak further with you!
+
+Vincent
+
+Vincent Ruth
+Western Region Territory Director
+ Tricentis
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+m - +1.408.568.9698
+ e - v.ruth@tricentis.com &lt;mailto:v.ruth@tricentis.com&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis
+ 400 S. El Camino Real
+ Suite 1050
+ San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

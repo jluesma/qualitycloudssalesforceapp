@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>POV: Regulatory Compliance Leadership.Email Receipt</name>
+    <style>none</style>
+    <subject>Here&apos;s your copy of Regulatory Compliance Leadership</subject>
+    <textOnly>Here’s your copy of
+Regulatory Compliance Leadership
+
+http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Point-of-View-Regulatory-Compliance-Leadership.pdf
+
+
+You may be interested in these as well.
+
+Accelerating Business Innovation
+Point of View Paper
+http://innovate.tricentis.com/point-of-view-accelerating-business-innovation.html
+
+Risk Management Strategies
+Point of View Paper
+http://innovate.tricentis.com/point-of-view-risk-management-strategies.html
+
+Schedule a Live Demonstration of
+Tricentis Tosca Testsuite
+http://innovate.tricentis.com/demo-request.html
+
+
+© 2013 TRICENTIS Technology &amp; Consulting GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

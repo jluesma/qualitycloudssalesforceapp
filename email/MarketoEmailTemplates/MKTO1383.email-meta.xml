@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Confirmation Singapore - time change</name>
+    <style>none</style>
+    <subject>Attention: Event time change!</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Thank you for registering for our event &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot; in Singapore.
+
+Please note that we have changed the time for the workshop.
+
+
+Singapore
+November 5, 2015
+ 6:00 p.m. – 9:00 p.m.
+
+{{my.APAC Roadshow Singapore:default=Mark your calendar for the new timeslot}}
+
+
+Suntec Singapore
+Convention &amp; Exhibition Centre
+1 Raffles Boulevard
+Room 323, Level 3
+Suntec City
+Singapore 039593
+
+
+
+Best Regards,
+
+The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2014 - 2014.09.18.Invite 7</name>
+    <style>none</style>
+    <subject>Tricentis Accelerate 2014 - Are you agile enough to register late?</subject>
+    <textOnly>&lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+Tricentis Accelerate 2014
+September 18, 2014
+Hotel Intercontinental Vienna
+Full-day Event
+
+ &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Tricentis Accelerate 2014 
+
+Dear Tricentis Customers and Partners,
+
+Tricentis Accelerate 2014 is nearly here! Being agile also means to adapt to new requirements. Are you agile enough to register late? The field of software testing is rapidly changing and the Tricentis Accelerate is your ticket to the future: Agile or not - Register now &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;!
+
+We&apos;ll have break-out sessions and exhibition booths featuring testing experts from around the world. Exciting topics from this year&apos;s Accelerate include:
+
+ - Optimize – Risk Coverage
+ - Virtualize – Systems &amp; Services
+ - Automate – Model-Based Test Automation
+ - Agile Testing
+- Mobile Testing
+
+So register and be sure to mark your calendar for September 18th!
+
+Register now &lt;http://innovate.tricentis.com/event-accelerate-2014.html?utm_medium=email&amp;utm_source=internal&gt;.
+
+For the event agenda and more info, visit: accelerate.tricentis.com &lt;http://www.tricentis.com/about/events/tricentis-accelerate&gt;
+
+Best Regards,
+
+Wolfgang Platz
+ Founder &amp; Chief Product Officer
+ Tricentis
+
+Franz Fuchsberger
+ Co-Founder &amp; Chief Sales Officer
+ Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

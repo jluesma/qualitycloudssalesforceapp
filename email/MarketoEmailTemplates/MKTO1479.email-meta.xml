@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20151103 jassa</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Avaloq BLBK (WeeDoo &amp; Infometis) - 2015.11.04.Email - Reminder to Regist</name>
+    <style>none</style>
+    <subject>Effizientes Testen des Avaloq Banking Systems – Ein Erfahrungsbericht der BLKB</subject>
+    <textOnly>Guten Tag {{lead.First Name}} {{lead.Last Name}},
+
+Wir freuen uns Sie am kommenden Mittwoch 4. November im Au Premier persönlich begrüssen zu dürfen. Uns erwartet ein spannender Einblick, wie die Basellandschaftliche Kantonalbank die Herausforderungen eines effizienten Regressionstests im Avaloq Umfeld meistert.
+
+
+Agenda:
+ 11:30  Ankunft und Registrierung 
+ 11:40  Begrüssung
+ 11:45  Präsentation &quot;Erfahrungsbricht der BLKB&quot;
+           durch Alois Fischer, Leiter Change-, 
+           Release- und Testmanagement, 
+           Basellandschaftliche Kantonalbank
+ 12:15  Stehbuffet und Thementisch
+ 14:30  Ende der Veranstaltung
+
+
+Die Veranstaltung findet in den Seminarräumlichkeiten des Restaurants Au Premier im Hauptbahnhof Zürich statt. Eine genau Wegbeschreibung finden Sie hier &lt;http://www.restaurant-aupremier.ch/kontakt/&gt;.
+
+
+
+Die Infometis, Tricentis und WeeDoo freuen sich auf Ihre Teilnahme!
+
+Viele Grüsse 
+Alexander Laubert</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize and Automate your SAP Testing - German - 2014.07.09.Email - M</name>
+    <style>none</style>
+    <subject>Schade, wir haben Sie vermisst! Webinar:  „SAP Test - Optimieren und Automatisieren”</subject>
+    <textOnly>Webinar: SAP Test - Optimieren und Automatisieren
+
+Guten Tag {{lead.First Name}} {{lead.Last Name:default=edit me}},
+
+leider konnten Sie an unserem Webinar: „SAP Test - Optimieren und Automatisieren,” nicht teilnehmen. Sie möchten trotzdem erfahren wie Sie, Ihren Zeit und Budgetvorgaben bei SAP Implementierungen gerecht werden, wie Sie das mit Veränderungen verbundene Risiko identifizieren und kontrollieren und wie Sie die dynamische SAP Testdaten Umgebung steuern?
+
+Sie finden eine Aufzeichnung dieses Webinars und weitere Webinare unter: www.tricentis.com/resources/webcasts &lt;http://www.tricentis.com/resources/webcasts&gt;.
+
+Mit freundlichen Grüßen,
+Ihr Tricentis Team
+
+David Grassmugg
+ Head of Test Automation and Management
+ Vienna Insurance Group
+ 
+Michael Wagner
+ Head of Professional Services
+ Tricentis
+ 
+Presse &lt;http://www.tricentis.com/about/news&gt;
+ 
+Impressum &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Geschäftsbedingungen &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. Alle Rechte vorbehalten. Tricentis ist eine registrierte Handelsmarke von Tricentis GmbH. Kontaktieren Sie uns &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

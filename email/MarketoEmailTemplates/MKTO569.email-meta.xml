@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Training Request.Alert - Training Request</name>
+    <style>none</style>
+    <subject>Customer Alert - Training Request</subject>
+    <textOnly>Customer Alert - Training Request
+
+
+
+{{lead.Full Name:default=edit me}}, {{lead.Job Title:default=edit me}} with {{company.Company Name:default=edit me}} filled out a training request form.
+
+Lead Details:
+
+
+Full Name: {{lead.Full Name}}
+Company Name: {{company.Company Name}}
+Job Title: {{lead.Job Title}}
+Email Address: {{lead.Email Address}}
+Phone: {{lead.Phone Number:default=edit me}}
+Country: {{lead.Country:default=edit me}}
+Comments: {{lead.Talk to Us Comments:default=edit me}}
+Track Requested: {{lead.Training Track:default=edit me}} 
+
+Link to the Record: https://na15.salesforce.com/{{lead.SFDC Id}}
+
+
+Action Needed:
+
+
+Contact this lead about training.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

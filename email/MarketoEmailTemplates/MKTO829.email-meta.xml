@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Whats New - 2015.05.12.Email - Whats New Newsletter - Draft D - sen</name>
+    <style>none</style>
+    <subject>What&apos;s New in Tosca Testsuite 8.4</subject>
+    <textOnly>11.02.2015
+What’s New in 8.4
+The Tricentis team is excited to present our new 8.4 Release. For this release, we’ve brought out many new features to enhance the overall Tosca Testsuite experience. For more information, check out the ‘What’s New’ &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0&gt; section on our Tricentis website.
+8.4 Release launch Date
+
+15 May 2015
+
+
+
+
+
+
+
+
+
+Highlighted features
+
+
+
+
+
+Tosca Commander UX
+Tosca Testsuite has had a makeover for Release 8.4. The new Ribbon Navigation is easy to use and has a similar look and feel to Microsoft Office. Check out our new docking feature for better customization.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#docking&gt;
+
+
+
+
+SAP Impact Analysis
+Avoid the headache of implementing SAP packages. Tosca helps you to identify requirements as well as test cases which may be affected by any SAP support package upgrade, service pack or enhancement.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#sap&gt;
+
+
+
+
+Test Case Design Relations
+We’ve made designing test cases less tedious and stressful – yet again. This novel concept allows you to define distinct types of dependencies expressed as relations between attributes/instances which are then considered in linear expansion. Less maintenance effort and no manual clean-up!
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#relations&gt;
+
+
+
+X-Scan: Select on Screen
+No need to worry about scanning complicated applications, our X-Scan has been enhanced to easily identify controls. The new Select on Screen tools helps you to choose controls directly in your application, making test automation effortless and intuitive.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#xscan&gt;
+
+
+
+Tosca Continuous Integration
+Tosca CI seamlessly integrates your tests into your CI tool chain. Just select which tests to execute and manage everything through your CI environment. Tosca feeds all the results back into the CI tool to enable continuous feedback.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#integrations&gt;
+
+
+
+
+
+
+
+
+
+Control Flow
+This innovative feature allows you to visualize entire test case structures, including conditions and loops, at a glance. Edit, add, and create loops and conditions or delete test steps and folders directly in the diagram.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#control&gt;
+
+
+
+SAP ECC Accelerator Package
+Accelerate the automation of your SAP business processes with our new SAP Accelerator Package. It contains the most frequently used SAP Transaction codes and has more than 650 test cases that are ready to use out of the box.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#sapaccelerator&gt;
+
+
+
+Image-based Test Automation
+Our enhanced Image-based Test Automation feature is able to automate different types of business controls, making sure that there are no surprises when you run your tests.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#imagebased&gt;
+
+
+
+
+
+
+
+AJAX Synchronization
+Testing heavily interactive pages is not an issue anymore with Tosca X-Browser. AJAX Synchronization automatically waits for applications to fully load before continuing with the rest of the test execution.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#xbrowser&gt;
+
+
+
+
+
+Tosca Connect
+ (powered by TasktopTM)
+Using Tosca Connect, you are able to take advantage of the fully automated, enterprise-scale integration capabilities of Tasktop’s comprehensive Sync Framework.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#integrations&gt;
+New Enhancements
+
+
+
+
+
+API Testing: JMS Support
+Effortlessly send and receive messages from enterprise service buses. Tosca 8.4 now handles all types of text messages, including plain text.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#jms&gt;
+
+
+
+Mobile+
+Our Mobile+ product drives agile testing practices by supporting mobile web apps, and extending cross browser to mobile testing. Tosca Mobile+ is up to date with the latest Android and iOS versions.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#mobile&gt;
+
+
+
+
+
+
+
+
+
+Orchestrated Service Virtualization
+Move testing to the beginning of the application cycle by simulating complex business processes even before the completion of your application. Tosca OSV lets you mimic actions of third party services without the need of a test lab.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/#osv&gt;
+Upcoming What’s New Webinars
+
+
+
+
+21. MAY, 2015
+4:00 - 5:00 pm CET
+What’s New in 8.4 (EU, US)
+Register &lt;http://www.tricentis.com/resource-assets/what-is-new-in-tosca-testsuite-8-4-webinar?utm_medium=email&amp;utm_source=news&gt;
+
+
+
+
+
+
+
+
+27. MAY, 2015
+1:00 - 2:00 pm AEST
+What’s New in 8.4 (APAC)
+ Register &lt;http://www.tricentis.com/resource-assets/webinar-whats-new-in-tosca-testsuite-8-4-apac?utm_medium=email&amp;utm_source=news&gt;
+Please add Tricentis to your address book: info@tricentis.com
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+ © 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

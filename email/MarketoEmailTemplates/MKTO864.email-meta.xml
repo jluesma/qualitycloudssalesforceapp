@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Business Breakfast - Austria - TaaS - 2015.06.02.Email - Invite 2 - Blan</name>
+    <style>none</style>
+    <subject>Erinnerung: Tricentis Business Breakfast – Dienstag 2. Juni 2015</subject>
+    <textOnly>Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+ich hoffe sie haben letzte Woche die Einladung zu unserem 2. Tricentis Business Breakfast, am Dienstag, den 2. Juni 2015, zum Thema „Testen in der Cloud“ in Kooperation mit unserem Partner Microsoft erhalten.
+
+Gerne möchte ich Sie nochmals persönlich zu dieser Veranstaltung Einladen und Ihnen mitteilen, dass die Teilnahme für Sie kostenfrei ist. Achtung: Die Teilnehmerzahl ist begrenzt! Nutzen Sie die Chance und registrieren Sie sich jetzt &lt;http://www.tricentis.com/events-webinars/tricentis-business-breakfast-2015-06-02?utm_medium=email&amp;utm_source=db&gt;.
+
+
+Nachfolgend finden Sie auch nochmals die geplante Agenda.
+
+Agenda:
+ 09:00 – 09:30 Registrierung &amp; Begrüßungskaffee
+ 09:30 – 10:15 „So sicher ist die Cloud“ – Harald Leitenmüller – CTO bei Microsoft
+ 10:15 – 10:30 Pause
+ 10:30 – 11:15 „Test Automation aus der Cloud“ – Michael Niessl – TaaS Product Owner bei Tricentis
+ 11:15 – 12:00 Führung durch das Microsoft Büro
+ anschließend: Fingerfood und Zeit für Networking &amp; Erfahrungsaustausch
+
+Veranstaltungsort:
+ Microsoft Österreich GmbH
+ Am Europaplatz 3
+ 1120 Wien
+
+Ich freue mich auf einen interessanten Vormittag mit Ihnen.
+
+Mit besten Grüßen
+
+Peter Szedlacek
+ Sales Manager AT/CZ/H/HR/SK/SLO
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+o - +43 1 263 24 09 - 1411, m - +43 664 88636292
+ e - p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

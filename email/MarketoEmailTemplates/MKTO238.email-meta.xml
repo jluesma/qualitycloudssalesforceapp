@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day - Vienna - 2014.09.17.Invite 1</name>
+    <style>none</style>
+    <subject>You’re invited! Tricentis Partner Day 2014 – Testing for the Future</subject>
+    <textOnly>&lt;http://innovate.tricentis.com/event-partner-day-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+You’re invited! Tricentis Partner Day 2014 –
+Testing for the Future
+
+September 17, 2014, Vienna
+Hotel InterContinental Vienna
+Johannesgasse 28, 1030 Vienna
+
+ &lt;http://innovate.tricentis.com/event-partner-day-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+
+Tricentis Accelerate 2014 – Off to Vienna!
+
+Dear {{lead.First Name:default=edit me}},
+
+It’s that time of year again – time to get ready for Tricentis Accelerate 2014. Before the day’s festivities get underway, we’d like to invite you to Tricentis Partner Day. Tricentis Partner Day takes place on the day before Accelerate and is an exclusive, invitation-only event where you’ll have the opportunity to learn the Tricentis perspective on how to accelerate growth and hear the latest on other key topics, such as Mobile + and Service Virtualization.
+
+You’ll also:
+
+- Get a sneak peek into what’s in store for Tricentis Accelerate 2014
+ - Learn first-hand our company’s strategy and roadmap
+ - Have an opportunity to build relationships and interact with other partners from our partner ecosystem.
+ 
+12:30 - 1:00pm
+Registration
+ 
+1:00 - 1:45pm
+Welcome &amp; Partner Program: Michael Eckhoff, Senior Vice President Sales, Tricentis
+ 
+1:45 - 2:45pm
+Product Roadmap: Wolfgang Platz, Founder &amp; Chief Product Officer, Tricentis
+ 
+2:45 - 3:15pm
+Break
+ 
+3:15 - 4:00pm
+Tosca Testsuite
+ 
+4:00 - 4:45pm
+Tosca Mobile +
+ 
+4:45 - 5:15pm
+Break
+ 
+5:15 - 6:00pm
+Tosca Service Virtualization
+ 
+6:00 - 6:15pm
+Closing
+ 
+7:00pm
+Partner Dinner
+ 
+Register today &lt;http://innovate.tricentis.com/event-partner-day-2014.html?utm_medium=email&amp;utm_source=internal&gt;. We hope to see you there.
+
+Best Regards,
+
+Michael Eckhoff
+ Senior Vice President Sales
+ Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

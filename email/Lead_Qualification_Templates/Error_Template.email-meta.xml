@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>English NON Trial</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Missing Contact Details - TRIAL</name>
+    <style>none</style>
+    <subject>Regarding Tosca Testsuite</subject>
+    <textOnly>Dear {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+I hope this email finds you well! My name is {!User.Name}; a {!User.Title} at Tricentis. 		I am reaching out because I noticed you downloaded our two week free trial of Tricentis Tosca, and would like offer my assistance. 		Please let me know if you have any questions about Tricentis or Tosca. I am happy to be your point of contact and make sure all of your questions are answered. Is there a phone number or alternative email address that is best to reach you?
+
+Thanks and I look forward to chatting with you!
+
+Best regards,
+{!User.Name}
+{!User.Title}
+
+Tricentis
+o - {!User.Phone}, m - {!User.MobilePhone}
+e - {!User.Email}
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

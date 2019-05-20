@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,sans-serif; font-size: 12px;">Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Wir freuen uns sehr, dass Sie sich f&uuml;r das Tosca Update Special 2015 angemeldet haben. Nachfolgend finden Sie nochmals die Agenda und den von Ihnen gew&auml;hlten Termin und Veranstaltungsort.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Klicken Sie {{my.ical-hamburg}} um den Termin in Ihren Outlook Kalender einzutragen.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;"><strong>Agenda:</strong><br /> 13:00 &ndash; 13:30 Registrierung &amp; Begr&uuml;&szlig;ungskaffee<br /> 13:30 &ndash; 15:00 Neue Features &amp; Demo &ndash; Teil 1<br /> 15:00 &ndash; 15:30 Kaffeepause<br /> 15:30 &ndash; 16:45 Neue Features &amp; Demo &ndash; Teil 2<br /> 16:45 &ndash; 17:00 Zusammenfassung und Q&amp;A<br /> anschlie&szlig;end: Gem&uuml;tliches Beisammensein, Networking und Zeit f&uuml;r Gespr&auml;che. F&uuml;r das leibliche Wohl ist gesorgt.</span></p>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong><span style="font-family: arial,helvetica,sans-serif;">Veranstaltungsort:</span></strong></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong>Update Special &ndash; Hamburg</strong><br />11. Juni 2015, 13:00 &ndash; 17:00 Uhr<br /> Privathotel Baseler Hof<br /> Esplanade 11<br /> 20354 Hamburg</span></div>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Wir freuen uns auf Ihr Kommen und einen interessanten Nachmittag mit Ihnen.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Mit besten Gr&uuml;&szlig;en<br /> Ihr Tricentis Events Team</span></p></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2013.Invite 4 - Tamara copy - customer and partners - Last Ch</name>
+    <style>none</style>
+    <subject>Last Chance – register for Accelerate 2013 in Vienna</subject>
+    <textOnly>&lt;http://www.tricentis.com/?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+
+
+ &lt;http://www.tricentis.com/?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+
+
+Dear Tricentis Clients and Partners,
+ 
+
+
+
+
+Tricentis Accelerate 2013, our annual event featuring the latest in automated software testing, is coming soon. Join us on November 7th as we take the opportunity to show you how we can help you accelerate business innovation.
+
+We are pleased to showcase our sponsors joining us for Tricentis Accelerate 2013.
+
+
+	- Accenture
+	- agosense
+	- ANECON
+	- HC SOLUTIONS
+	- Keynote DeviceAnywhere
+	- NEOTYS
+	- QIQ Qcentris
+
+
+
+
+ &lt;http://www.tricentis.com/about/events/tricentis-accelerate/register?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+
+
+
+Don’t miss this chance to join the Tricentis experts and register. &lt;http://www.tricentis.com/about/events/tricentis-accelerate/register?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+All attendees will be automatically entered in a drawing to win an iPad Mini.
+
+To view the full agenda and learn more about the event, visit: accelerate.tricentis.com &lt;http://www.tricentis.com/about/events/tricentis-accelerate?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+I look forward to meeting you in person.
+
+Best Regards,
+
+
+
+Ajay Murthy
+
+Chief Marketing Officer
+
+Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

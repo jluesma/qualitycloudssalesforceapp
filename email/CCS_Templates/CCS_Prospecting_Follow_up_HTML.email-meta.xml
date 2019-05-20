@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This letter is designed as a prospecting follow up letter when the prospect doesn&apos;t respond.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Logo_Ltr</letterhead>
+    <name>CCS Prospecting Follow up - HTML</name>
+    <style>formalLetter</style>
+    <subject>Following Up on Introduction Message - Tricentis Software</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Last week I wrote to you, NAME2, and NAME3 to introduce myself and my firm, Tricentis Software, and to determine the most appropriate person to speak with regarding your application quality goals and objectives for 2014. To date, I have not heard back from you directly, so I wanted to drop you another note.
+
+As I previously indicated, Tricentis Software empowers organizations to systematically align software testing with business needs, so they can harness technology change while optimizing cost and efficiency. For example, to accelerate time to value, we empower enterprises to achieve up to 90% test automation, freeing teams to focus on business innovation and customer experience.
+
+As we&apos;ve worked with client executives, some of the common issues we hear include:
+
+“We can’t effectively test our applications because we have a variety of software components, from vendors, developed in-house, provided by an outsourcing partner, as well as cloud-based.”
+
+“We want to extend our applications to a mobile platform, but it’s difficult to properly test these applications.”
+
+“Our user community works with a variety of browsers and mobile devices which they expect to work regardless of which platform they are on – how do we ensure our applications will support them?”
+
+Tricentis has been able to address these and other business challenges for more than 400 customers, including Allianz, BMW, Deutsche Bank, HBO, Orange, Siemens, Southwest, Swiss Re, and UBS. I would like to request a 30 minute meeting to introduce you to Tricetis and to hear your perspective about how improved software testing could empower your firm to meet its business objectives. Alternatively, if this responsibility falls elsewhere in the organization, I would appreciate your directing me to the appropriate person. Thank you for your response.
+
+Regards,
+{!Account.OwnerFullName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

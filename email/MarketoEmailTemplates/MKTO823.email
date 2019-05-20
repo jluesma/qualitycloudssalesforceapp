@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/Marketo-Email-Banner_Update-Special-2015.png" alt="Tricentis" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Deutschland - &Ouml;sterreich - Schweiz<br /></td>
+</tr>
+<tr>
+<td width="600">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 0px 20px;" colspan="8" width="60%" valign="top">
+<p><span style="font-size: 14px;">Sehr geehrter {{lead.Last Name:default=edit me}},</span></p>
+<p><span style="font-size: 14px;">Wir freuen uns, Sie auch dieses Jahr wieder zu unserem Tricentis Update Special einladen zu d&uuml;rfen. Im Rahmen dieser Veranstaltung m&ouml;chten wir Sie &uuml;ber neue Produktfunktionalit&auml;ten in Tosca wie zum Beispiel: Image-based Test Automation, Test Case Design: Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, etc. informieren und Ihnen diese auch in einer Live-Demo zeigen.</span></p>
+<p><span style="font-size: 14px;">Unser Management Team steht Ihnen im Anschluss f&uuml;r Fragen und Gespr&auml;che gerne zur Verf&uuml;gung.</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 0px 20px 10px; width: 66%;" colspan="5" valign="top"><span style="font-size: 14px;">
+<p><strong>Agenda:</strong><br /> 13:00 &ndash; 13:30 Registrierung &amp; Begr&uuml;&szlig;ungskaffee<br /> 13:30 &ndash; 15:00 Neue Features &amp; Demo &ndash; Teil 1<br /> 15:00 &ndash; 15:30 Kaffeepause<br /> 15:30 &ndash; 16:45 Neue Features &amp; Demo &ndash; Teil 2<br /> 16:45 &ndash; 17:00 Zusammenfassung und Q&amp;A<br /> anschlie&szlig;end: Gem&uuml;tliches Beisammensein, Networking und Zeit f&uuml;r Gespr&auml;che. F&uuml;r das leibliche Wohl ist gesorgt.</p>
+</span><span style="font-size: 14px;">&nbsp;</span></td>
+<td style="padding: 20px 20px 10px 20px;" colspan="3" width="34%" valign="top">
+<p>&nbsp;</p>
+<p><span style="font-size: 14px;"><a href="http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now-german.jpg" alt="Jetzt anmelden" width="149" height="36" /></a></span></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 0px 20px 10px 20px;" colspan="8" width="50%" valign="top"><span style="font-size: 14px;"><span style="font-size: 14px;">Wir freuen uns sehr darauf, Sie bei einer unserer 4 deutschsprachigen Update Special Veranstaltungen begr&uuml;&szlig;en zu d&uuml;rfen.</span></span></td>
+</tr>
+<tr>
+<td style="padding: 20px 20px 10px; width: 50%;" colspan="3" valign="top"><span style="font-size: 14px;"><strong>Update Special &ndash; Frankfurt</strong><br />10. Juni 2015, 13:00 &ndash; 17:00 Uhr<br />InterCityHotel Frankfurt<br />Poststra&szlig;e 8<br />60329 Frankfurt/Main</span><span style="font-size: 14px;"><strong>&nbsp;</strong></span></td>
+<td style="padding: 20px 20px 10px; width: 50%;" colspan="5" valign="top"><span style="font-size: 14px;"><strong>Update Special &ndash; Z&uuml;rich</strong><br />16. Juni 2015, 13:00 &ndash; 17:00 Uhr<br />EDEN AU LAC<br />Utoquai 45<br />8008 Z&uuml;rich</span></td>
+</tr>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" colspan="3" width="50%" valign="top"><span style="font-size: 14px;"><strong>Update Special &ndash; Hamburg</strong><br />11. Juni 2015, 13:00 &ndash; 17:00 Uhr<br />Privathotel Baseler Hof<br />Esplanade 11<br />20354 Hamburg</span><span style="font-size: 14px;"><strong>&nbsp;</strong></span></td>
+<td style="padding: 20px 20px 10px 20px;" colspan="5" width="50%" valign="top"><span style="font-size: 14px;"><strong>Update Special &ndash; Wien</strong><br />23. Juni 2015, 13:00 -17:00 Uhr<br />Tech Gate Vienna &ndash; Ring Stage<br /> Donau-City-Stra&szlig;e 1<br /> 1220 Wien</span></td>
+</tr>
+<tr>
+<td style="padding: 10px 20px 10px 20px;" colspan="8" width="60%" valign="top"><span style="font-size: 14px;">
+<p>Mit besten Gr&uuml;&szlig;en<br /> Ihr Tricentis Events Team</p>
+</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

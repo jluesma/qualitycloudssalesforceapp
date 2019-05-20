@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Error_message_for_stage_gate_contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_message_for_stage_gate_contact</shortDescription>
+        <value>To move the opportunity to &apos;3 Evaluation&apos; or higher,there should be atleast one contact associted with the opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Error_message_for_stage_gate_quote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_message_for_stage_gate_quote</shortDescription>
+        <value>To move the opportunity to &apos;5 Negotiation/Closing&apos; stage,there should be atleast one active quote associated with the opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>Template_for_lead_conversion_mail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template_for_lead_conversion_mail</shortDescription>
+        <value>Notification_regarding_Lead_Conversion</value>
+    </labels>
+    <labels>
+        <fullName>Template_for_lead_conversion_sales_mail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template_for_lead_conversion_sales_mail</shortDescription>
+        <value>Notification_for_sales_to_convert_a_lead</value>
+    </labels>
+    <labels>
+        <fullName>lister_mail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Team</shortDescription>
+        <value>preethi.s@listertechnologies.com</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo-Email-Banner_Tricentis-Events.png" alt="Marketo-Email-Banner_Tricentis-Events.png" width="664" height="210" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Join Us &amp; Meet the Tricentis VP of Product Management<span style="font-size: 11.0pt; font-family: 'Open Sans','sans-serif';"> <span></span></span><br /></td>
+</tr>
+<tr>
+<td width="600">
+<table style="height: 672px;" width="660">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" valign="top" width="60%">
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Hi {{lead.First Name}},<br /></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Are you constantly asked to deliver increasingly more comprehensive test results in ever-decreasing and continuous cycle times? Do you agree that your testing relentlessly faces tight budget, time and resource constraints at the same time? Do you agree that all this just causes frustration for almost everyone involved? If yes, we should talk.<br /><br />Join <strong>Dr. Gerd Weishaar</strong>, <strong>VP of Product Management</strong> at Tricentis, for visionary talk on DevOps.<br /></span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><br />Learn how to:<br /></span></p>
+<ul>
+<li><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">take these pain points and turn them into gains</span></li>
+<li><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">achieve maximum risk coverage with a minimal number of powerful test cases</span></li>
+<li><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">achieve high sustainable automation rates without any programming skills</span></li>
+</ul>
+<span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"></span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Register now for one of our interactive workshops:<br /></span><br />
+<table style="height: 158px;" width="343">
+<tbody>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Au</strong><strong>ckland</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">28<sup>th</sup> October, 2015 </span><br /></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">9 am - 12 pm </span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Wellington</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">29<sup>th</sup> October, 2015</span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">9 am - 12 pm </span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Sydney</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">30<sup>th</sup> October, 2015</span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">9 am - 12 pm </span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Melbourne</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">2<sup>nd</sup> November, 2015</span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">9 am - 12 pm </span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Perth</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">4<sup>th</sup> November, 2015</span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">9 am - 12 pm </span></td>
+</tr>
+<tr>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><strong>Singapore</strong></span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">5<sup>th</sup> November, 2015</span></td>
+<td><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">6 pm - 9 pm</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-size: 12px;">*all workshops incl. a 30 min. break</span><br /><br />Join us and learn how to enable continuous delivery through continuous testing with <strong>Tricentis Tosca Testsuite</strong> to make your daily testing businesses just easier and more productive at the speed of DevOps.<br /><br />Best regards,<br /><br /></span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Thomas Hardorn &amp; </span><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">Dominik Weissboeck</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;">Managing Directors Asia-Pacific</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"></span></p>
+<p style="margin: 0px;">&nbsp;</p>
+<p style="margin: 0px;"><a href="http://www.tricentis.com/events-webinars/meet-the-tricentis-vp-of-product-management-gerd-weishaar-2015?utm_medium=email&amp;utm_source=db" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a></p>
+</td>
+<td style="padding: 20px 20px 10px; text-align: center;" valign="top" width="30%">
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><br /><a href="http://www.tricentis.com/events-webinars/meet-the-tricentis-vp-of-product-management-gerd-weishaar-2015?utm_medium=email&amp;utm_source=db" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a><br /><br /><br /><img src="http://innovate.tricentis.com/rs/tricentis/images/gerd_weishaar_150x150.jpg" alt="Gerd Weishaar" width="100" height="100" /></p>
+<!--150-->
+<p style="text-align: center;"><strong>Gerd Weishaar</strong><br />VP Product Management<br /> Tricentis</p>
+<!--150--> <strong><br /></strong><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td align="right" valign="bottom" height="43"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize TRAX Testing with Tosca - EMEA - 2014.11.11.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: Optimize TRAX Testing with Tosca</subject>
+    <textOnly>Less Cost, Less Effort and Faster Time to Market
+
+Hi {{lead.First Name}},
+
+One of the most important steps in implementing and maintaining your TRAX Maintenance and Engineering ERP solution is ensuring the application does what it was designed to do. This involves testing the application, which can be a long and costly process. TRAX and Tricentis are partnering together to ensure you optimize your QA/Test environment to save money and go into production more quickly.
+
+In this Webinar, TRAX and Tricentis will show you how to harness the power of TRAX. Specifically, we will discuss how you can:
+
+ - Leverage TRAX’s vast library of test cases based on the Tricentis Tosca Testsuite
+ - Identify, manage and optimize the level of quality risk in your TRAX environment
+ - Determine how and why to automate your test cases
+
+Theresa Lanowitz, voke founder and analyst says: &quot;There&apos;s very little tolerance for an application that does not work from a functional perspective as well as from a performance perspective.&quot;
+Best regards,
+ The TRAX and Tricentis Webinar Team
+ 
+ &lt;http://innovate.tricentis.com/webinar-optimize-trax-testing-with-tosca-2014-11-11.html?utm_medium=par&amp;utm_source=trax&gt;
+
+&lt;http://innovate.tricentis.com/webinar-optimize-trax-testing-with-tosca-2014-11-11.html?utm_medium=par&amp;utm_source=trax&gt;
+Tue Nov 11th, 2014
+ 3:00 pm – 4:00 pm CET
+
+OR
+
+Thu Nov 13th, 2014
+ 11:00 am – 12:00 pm PST
+2:00 pm – 3:00 pm EST
+
+
+Anthony Frucci
+Software Quality Assurance Specialist
+TRAX
+ 
+Matthias Rapp
+Director Delivery
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:office@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

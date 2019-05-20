@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+<table align="center" cellpadding="0"  width="600px" border="1">
+<tr><td>
+<p align="center" style="margin:10px 0"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Tricentis Logo NEW 212x32.png"/></p></td></tr>
+<tr><td>
+<p style="margin-bottom:0;color: #1D63AF; text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px">
+<strong>Opportunity  {!Opportunity.Account} ({!Opportunity.Name}) lost ({!Opportunity.Annual_contract_value__c} {!Opportunity.CurrencyIsoCode})</strong></p> 
+</td></tr>
+<tr><td style="color:#868A8F;background-color:#868A8F">
+<p style="margin-bottom:0;color: #FFFFFF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px"><em><strong>Opportunity Information:</strong></em></p></td></tr>
+
+<tr><td>
+
+<p style="margin:10px 0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>Account Name:</strong>{!Opportunity.Account} <br/>
+<strong>Opportunity name:</strong> {!Opportunity.Name}<br/>
+<strong>License Type:</strong> {!Opportunity.License_Type__c}<br/>
+<strong>ACV:</strong>{!Opportunity.Annual_contract_value__c}<br/>
+<strong>Opportunity Owner:</strong> {!Opportunity.OwnerFullName}<br/>
+<strong>close date: </strong> {!Opportunity.CloseDate}</br>
+<strong>close reason: </strong> {!Opportunity.Tri_Close_Reason__c} </br>
+<strong>debrief comments: </strong>  {!Opportunity.Tri_Debrief_Comments__c} </br>
+</td></tr>
+
+<tr><td style="background-color:#868A8F">
+<p style="margin-bottom:0;color: #FFFFFF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px"><em><strong>System Information:</strong></em></p></td></tr>
+
+<tr><td>
+<p style="margin:10px 0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;">
+  </p>
+<p style="margin-bottom:0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>View the record in <a href="{!Opportunity.Link}" style="text-decoration:none;color:#333333">Salesforce</a></strong><br/>
+</p>
+</td></tr></table>
+</body>
+</html>

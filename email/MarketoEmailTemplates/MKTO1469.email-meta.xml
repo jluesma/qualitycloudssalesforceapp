@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - TCS - The Vodafone Story - 2015.11.24.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: Optimization through Automation: The Vodafone Story</subject>
+    <textOnly>Optimization through Automation: The Vodafone Story
+
+Hi {{lead.First Name}},
+
+Vodafone Australia found themselves facing a significant challenge: the upgrade to their business critical Siebel CRM program required comprehensive testing on a tight deadline, and no automation solutions seemed to be working. Sounds familiar? Join our webinar to learn how Vodafone successfully overcame their testing challenges and optimized their automated testing with stunning results. In the webinar you will learn how to:
+
+ - Reduce time to market while maximizing system quality
+ - Increase your test automation to unprecedented rates
+ - Optimize your test cases into a lean and robust portfolio
+
+Register now to attend Tricentis and TCS’ free webinar “Optimization through Automation: The Vodafone Story”, on November 24th, 2015 at 4:00 PM AEDT.
+
+See you there!
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;#?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;#?utm_medium=email&amp;utm_source=db&gt;
+Tue, Nov 24, 2015
+ 4-5 pm Sydney
+ 2-3 pm Perth
+ 6-7 pm Auckland
+
+Dominik Weissboeck
+Managing Director Asia-Pacific
+ Tricentis
+
+N Shriram
+Title
+ TCS
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

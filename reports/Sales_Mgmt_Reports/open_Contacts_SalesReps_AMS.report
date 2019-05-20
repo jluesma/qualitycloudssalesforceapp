@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Id</field>
+    </columns>
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact$Account</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>open &amp; re-open</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact$dr_funnel__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$Geo__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>AMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$contact_status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$Owner</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Leads Admin,Demand Ramp</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Owner</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>open Contacts SalesReps - AMS</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Contact$mkto2__Acquisition_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

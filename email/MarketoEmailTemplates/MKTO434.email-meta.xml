@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survey - IDC DevOps Best Practices Metrics.Survey - IDC&apos;s DevOps Best Practice M</name>
+    <style>none</style>
+    <subject>IDC&apos;s DevOps Best Practice Metrics Survey</subject>
+    <textOnly>IDC&apos;s DevOps Best Practice Metrics Survey
+
+Hi {{lead.First Name}},
+
+Tricentis and IDC are working with DevOps customers on quantifying critical business and technology metrics that you use to get promoted, build business cases, drive executive influence, and measure success. We want to move the industry forward with your help.
+
+The short survey will take between 7-13 minutes, and in return for your time you will get a copy of the results, which you can use to drive business and technology success.
+
+Please go to the link below:
+
+IDC&apos;s DevOps Best Practice Metrics Survey: https://www.surveymonkey.com/r/WDX8B3N &lt;https://www.surveymonkey.com/r/WDX8B3N&gt;
+
+Thank you for taking the time to fill out the survey.
+
+Best regards,
+
+The Tricentis Team
+www.tricentis.com &lt;http://www.tricentis.com&gt;
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:office@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

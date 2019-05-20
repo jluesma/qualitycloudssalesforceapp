@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Innovate Through Extreme Automation - 12.4.2013.Email - Last Chance Bl</name>
+    <style>none</style>
+    <subject>Last Chance - [Analyst Webinar] Innovate Through Extreme Automation with voke, inc.</subject>
+    <textOnly>Analyst Webinar: Innovate Through Extreme Automation
+
+
+
+
+
+
+
+Hi {{lead.First Name}},
+
+It’s a new and complex age for enterprises. Software is everywhere and unavoidable. Every company is in some respect a software company, and customers expect software to perform flawlessly. When it doesn&apos;t, the brand suffers.
+
+Join Wolfgang Platz, Founder and CPO, Tricentis, and Theresa Lanowitz, Founder, voke, inc., as they discuss how Global 2000 companies can:
+
+
+	- Protect their brand using extreme automation
+	- Drive testing innovation with 8 key factors
+	- Deliver on cost, quality, and schedule with the right innovation framework
+	- Follow the best practices of other companies that have delivered using extreme automation
+
+
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-innovate-through-extreme-automation.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+
+
+ &lt;http://innovate.tricentis.com/webinar-innovate-through-extreme-automation.html?utm_medium=email&amp;utm_source=internal&gt;
+Wed. December 4, 2013
+
+1:00pm – 2:00pm EST
+
+Theresa Lanowitz
+
+Founder, voke, inc.
+
+
+Wolfgang Platz
+
+Founder &amp; Chief Product Officer, Tricentis
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - What&apos;s New with 8.3.0? - Partners - 2014.10.29.Email - Sorry We Missed</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our What’s New in 8.3.0 Webinar</subject>
+    <textOnly>Webinar: What’s New with 8.3.0
+
+Hi {{lead.First Name}},
+
+Sorry you couldn’t join our webinar about all the new features and solutions of our 8.3.0 Release. Tricentis’ own VP of Product Management, Gerd Weishaar and our Worldwide Director for Pre-Sales and Consulting, Roman Zednik, gave a walk-through and demo of all the new features and solutions that the 8.3.0 Release has to offer. Questions from the audience helped to keep the webinar lively and informative. If you would like to stay up to date with current Tricentis news, please follow us on Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;. For any additional questions, please feel free to follow and tweet our Support Team @TricentisSpprt &lt;https://twitter.com/TricentisSpprt&gt;.
+
+Learn more about our new features and solutions through our What’s New Videos, available here &lt;http://www.tricentis.com/products/what-is-new&gt;.
+
+Best regards,
+ The Tricentis Webinar Team
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+
+Roman Zednik 
+Worldwide Director for Pre-Sales Consulting
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:office@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

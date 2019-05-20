@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize and Automate your  SAP Testing - EMEA minus DACH - July 2014.</name>
+    <style>none</style>
+    <subject>Webinar Tomorrow: Optimize and Automate Your SAP Testing</subject>
+    <textOnly>Webinar: Optimize and Automate Your SAP Testing
+
+Hi {{lead.First Name}},
+
+Hear how customers such as BMW, Siemens and Vienna Insurance Group leveraged Tricentis Tosca Testsuite for SAP to optimize time-to-market, quality and cost.
+
+In this webinar, you will learn how to:
+
+ - Manage Time and Budget Constraints in SAP Implementations
+ - Identify and Manage Risk Associated with Change
+ - Manage SAP’s Dynamic Test Data Environment
+
+Tosca Testsuite has an SAP-certified integration that systematically imports data and models from SAP Solution Manager. You can convert these models into test cases, automate them with ease, and then use them to optimize your environment by visualizing, managing and mitigating risk.
+
+Best regards,
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-optimize-and-automate-your-sap-testing_emea.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+ &lt;http://innovate.tricentis.com/webinar-optimize-and-automate-your-sap-testing_emea.html?utm_medium=email&amp;utm_source=internal&gt;
+Thurs. July 10, 2014
+10:00 a.m. – 11:00 a.m. CET
+
+Michael Wagner
+ Head of Professional Services
+ Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

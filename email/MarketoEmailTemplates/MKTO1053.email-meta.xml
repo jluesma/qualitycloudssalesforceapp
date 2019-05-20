@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>E4u Avaloq CanaccordUK</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Avaloq - E4U - 07.07.2015.E4u_Avaloq_CanaccordUK_Template</name>
+    <style>none</style>
+    <subject>Test Data Management for Avaloq</subject>
+    <textOnly>Thank you for taking time from your busy schedule to read this email. My name is Martin and I work with the Market Consulting team at Tricentis (www.tricentis.com &lt;http://www.tricentis.com&gt;), a leading Test Automation provider with operations globally.
+In context of the Avaloq system that you are using at Barclays (Version 3.7), we wanted to touch-base and provide a walk-through of our product, Tosca Testsuite (http://www.tricentis.com/tricentis-tosca-testsuite/). Within Tosca, we have specifically designed an Avaloq extension to address the biggest challenges of testing your Avaloq system: Test Data Management, Risk coverage, and Test automation.
+Tosca Testsuite complements your Avaloq migration cycle, by ensuring that the end-user testing challenges during extraction, mapping, transformation and data cleansing using PL/SQL packages and SQL scripts are better managed. It also seamlessly links into reportNG and log4J so that your overall time and effort to manage this process is further reduced with better visibility.
+I would be happy to connect with you at a time and day of your choosing to explain more. We also can schedule a demo of our product’s features and functionalities in context of the Avaloq system which you folks are currently using. Please do let me know.
+ 
+Have a great day and look forward to hearing from you.
+
+ 
+
+Regards,
+
+Martin Karolyi
+
+Technical Advisor
+
+ 
+
+PS: Wanted to reconfirm the current IT landscape for Barclays as we believe our service offering would be of optimum value considering the below IT landscape:
+
+ 
+Barclays:
+
+
+ -       Core Banking Software: Avaloq 3.7.
+ -       Database: Oracle11g, PL/SQL, TOAD 11.0, Sql Developer, Sql Loader, Perforce, Maven, Java and Eclipse.
+ -       Test Automation Softwares: Selenium webdriver and selenium Grid, testNG, dbUnit, Quality Centre, Load Runner, log4j and  reportNG.
+ -       Issue tracking system: JIRA and HPQC.
+ -       Operating system: Linux.
+ -       Server: .NET2 and MS SQL server.
+ -       Softwares used to build Mobile Applications: ASP.NET MVC 3 &amp; 4, ASP.NET Web API, WCF, Entity Framework and SQL Server 2008.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/Marketo-Email-Banner_Webinar-Series.png" alt="Innovate Through Extreme Automation" width="600" height="190" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Webinar: What&rsquo;s New in 8.4<br /></td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Hi {{lead.First Name}},</p>
+<p>Tricentis would like to welcome the spring season by presenting our new 8.4 Release! We are offering an exclusive sneak peek of all the cool new features in our upcoming &lsquo;What&rsquo;s new&rsquo; Webinar.  Join us as our Co-Managing Directors of Asia-Pacific, Dominik Weissboeck and Thomas Hadorn, introduce the new features, including how to:</p>
+<ul>
+<li>Reduce maintenance efforts by establishing <strong>Relations</strong> between attributes in <strong>Test Case Design</strong></li>
+<li>Visualize your test case as a flow diagram by using the new <strong>Control Flow</strong> feature</li>
+<li>Help accelerate the automation of business processes with the<strong> SAP ECC Accelerator Package</strong></li>
+<li>Improve your CI environment by using <strong>Tosca Connect (powered by Tasktop<sup>TM</sup>)</strong></li>
+<li>Test <strong>web apps</strong> with <strong>Mobile+</strong></li>
+</ul>
+<p>Our &lsquo;What&rsquo;s New&rsquo; Webinar will take place on May 21, 2015 starting at 4:00pm CET. Don&rsquo;t miss out!</p>
+<p>We look forward to seeing you at our webinar!</p>
+<p style="margin: 0px;">Best regards,<br /> The Tricentis Webinar Team</p>
+<p style="margin: 0px;">&nbsp;</p>
+<p style="margin: 0px;"><a href="http://www.tricentis.com/resource-assets/webinar-whats-new-in-tosca-testsuite-8-4-apac?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a></p>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: center;"><a href="http://www.tricentis.com/resource-assets/webinar-whats-new-in-tosca-testsuite-8-4-apac?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a></p>
+<p style="text-align: center;">Wed, May 27, 2015<br /> <span style="font-size: 10px;">1:00 p.m.      &ndash; 2:00 p.m.<br /> (Sydney)<br /> <span style="font-size: 10px;">10:00 a.m.      &ndash; 11:00 a.m.<br /> (Perth, Singapore)<br /> <span style="font-size: 10px;">3:00 p.m.      &ndash; 4:00 p.m.<br /> (New Zealand)<br /></span></span></span></p>
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/Dominik-Weissboeck-bw.jpg" alt="Dominik Weissboeck" width="100" height="100" /></p>
+<!--150-->
+<p style="text-align: center;"><strong>Thomas Hadorn</strong><br />Co-Managing Director of Asia-Pacific<br /> Tricentis</p>
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/Thomas-Hadorn-bw.jpg" alt="Thomas Hadorn" width="100" height="100" /></p>
+<!--150-->
+<p style="text-align: center;"><strong>Dominik Weisbock </strong><br />Co-Managing Director of Asia-Pacific<br /> Tricentis</p>
+<!--150-->
+<p style="text-align: center;"><strong>&nbsp;</strong></p>
+&nbsp;<br /> &nbsp;<br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis.      All Rights Reserved.      Tricentis is a registered trademark of Tricentis GmbH.      Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

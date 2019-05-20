@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Whats New 8.4.1 - DACH - 2015.08.18.Email - Invite 2</name>
+    <style>none</style>
+    <subject>Webinar: What’s New in Tosca Testsuite 8.4.1 (German)</subject>
+    <textOnly>What’s New in Tosca Testsuite 8.4.1 (German)
+
+Guten Tag {{lead.First Name}} {{lead.Last Name:default=edit me}},
+
+Sichern Sie sich einen exklusiven Einblick in die neue Version von Tosca Testsuite 8.4, Service Pack 1 von Tricentis und erfahren Sie mehr über folgende Features:
+
+ - Re-scan UI Modules: Fügen Sie neue Controls zu Ihren Modulen mittels Re-scan hinzu.
+ - Mobile+: New Scan: Nutzen Sie den X-Scan um mobile Apps und Geräte innerhalb Ihres Netzwerks zu finden.
+ - Mobile Web Apps: Responsive Design Tests: Vergleich der Darstellungen auf unterschiedlichen Geräten.
+ - Orchestrated Service Virtualization Recorder: Ermöglicht die Kommunikation angebundener Webservices und Schnittstellen.
+ - Und viele mehr!
+
+Versäumen Sie am 18. August 2015 um 13 Uhr nicht, wenn Gerd Weishaar, VP of Product Management und Roman Zednik, Pre-Sales Consultant bei Tricentis Ihnen die neuen Features präsentieren.
+
+Wir freuen uns Sie bei unserem deutschsprachigen Webinar „What‘s New in Tosca Testsuite 8.4.1“ begrüßen zu dürfen.
+Mit besten Grüßen,
+Ihr Tricentis Webinar Team
+ 
+ &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-german-webinar?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-german-webinar?utm_medium=email&amp;utm_source=db&gt;
+18.08.2015
+ 13-14 Uhr CEST
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+
+Roman Zednik 
+Worldwide Director for Pre-Sales Consulting
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - What&apos;s New - 2015.02.11.Email - Whats New - Draft D-2</name>
+    <style>none</style>
+    <subject>What&apos;s New Newsletter - Draft D-2</subject>
+    <textOnly>11.02.2015
+What’s New in 8.3 SP1
+Sicque profecto actum est. Me itaque primogenitum suum quanto cariorem habebat ts anto adob diligentius erudiri curavit. Ego vero quanto amplius et facilius in studio litterarum profeci tanto ardentius eis inhesi, et in tanto earum anto tearu amore.
+
+
+
+
+
+
+
+
+8.3 SP1 Release launch Date
+
+
+
+
+
+
+9 Feb. 2015
+
+
+
+
+
+
+
+
+
+Highlighted features
+
+
+
+
+
+Image Based Test Automation
+Using Image Based Test Automation, Tosca is able to automate all applications without technological expertise. It is able to recognize images in various environments and anchors controls that are prone to change.
+
+More info &lt;http://www.tricentis.com/products/what-is-new/#ImageBasedTestAuto&gt;
+
+
+
+Support for Siebel Open UI
+Tosca is the only testing tool to automate Siebel Open UI and test your migration from classic Siebel to Siebel Open UI. Integrating Siebel Open UI automation into Tosca only requires one simple step during the set-up process.
+
+More info &lt;http://www.tricentis.com/products/what-is-new/#SiebelOpenUI&gt;
+
+
+
+
+
+
+
+
+
+Tosca as a Service (TaaS) Web Testing
+TaaS is the first and only tool to enable Test Automation in the cloud. The improved user experience helps you to use TaaS as if it was a local installation. You can now access your TaaS instances through the Tricentis support portal.
+
+More info &lt;%20http://www.tricentis.com/products/what-is-new/&gt;
+
+
+
+Embrace Selenium
+Tosca helps you reuse both your Selenium 1 and Selenium 2 test assets. It can be combined with other supported out-of-the-box technology. Tosca not only provides an overall summary of your analyzed results, but also a detailed report for users with more of a development expertise.
+
+More info &lt;%20http://www.tricentis.com/products/what-is-new/#EmbraceSelenium&gt;
+New Enhancements
+
+
+
+
+
+Mobile+
+With the new improved user experience, Tosca Mobile+ is able to auto instrument Android apps without the need for development or programming skills.
+
+More info &lt;http://www.tricentis.com/products/what-is-new/#MobilePlus&gt;
+
+
+
+Loops &amp; Conditions
+Tosca allows you to use ‘do’, ‘while’ and ‘if-then-else’ statements to dynamically control the flow within a test case.
+
+More info &lt;http://www.tricentis.com/products/what-is-new/#LoopsConditions&gt;
+
+
+
+
+
+
+
+
+
+X-Scan
+We are excited to show off our brand new X-Scan User Interface, which allows for a more intuitive and streamlined experience. The new X-scan helps non-techies to directly click and choose controls straight from their browser.
+
+More info &lt;http://www.tricentis.com/products/what-is-new/#XScan&gt;
+Upcoming What’s New Webinars
+
+
+
+
+17. FEB., 2015
+4:00 -5:00 pm CET
+What’s New in 8.3 SP1 (EU, US)
+Register &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-emea.html?utm_medium=email&amp;utm_source=db&gt;
+
+
+
+
+
+
+
+
+19. Feb., 2015
+4:00 -5:00 pm AUS
+What’s New in 8.3 SP1 (APAC)
+ Register &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-emea.html?utm_medium=email&amp;utm_source=db&gt;
+Please add Tricentis to your address book: info@tricentis.com
+If you no longer wish to receive news from Tricentis, please unsubscribe here &lt;http://innovate.tricentis.com/UnsubscribePage.html?mkt_unsubscribe=1&amp;mkt_tok=##MKT_TOK##&gt;.
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+ © 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

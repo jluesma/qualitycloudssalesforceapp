@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150825 jassa</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow - Cognizant - 2015.09.24.Email - Confirmation</name>
+    <style>none</style>
+    <subject>Confirmation of registration: Executive Testing Leadership Roadshow with Cognizant and Tricentis</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+We are delighted that you have signed up for the Executive Testing Leadership Roadshow with Cognizant and Tricentis  in Zurich on September 24th, 2015. Below you will find again the agenda and location.
+
+Agenda:
+
+ - Selecting the right tool(s) for test automation (Robert Bonomo, Swiss Country Head of Quality Engineering &amp; Assurance Practice, Cognizant)
+
+ - Selenium for Webapp testing (Philipp Scherer, AVP, Senior Test Lead, Swiss Re)
+
+ - Effective vendor and customer collaboration contributing to testing initiatives success (Anna-Maria Blengino, Director, UBS and Chris Cooper, Senior Manager, Cognizant)
+
+ - How do you achieve the highest sustainable rates of test automation? (Franz Fuchsberger, Co-founder and CSO, Tricentis)
+
+ - Conclusion and Business Lunch
+
+
+
+ 
+Location:
+Thursday, Sept. 24th, 2015
+09:00 a.m. – 12:15 p.m. CEST
+Hotel Eden au Lac
+Utoquai 45
+8008 Zürich
+www.edenaulac.ch
+
+
+We look forward to seeing you there!
+
+Best Regards,
+ The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

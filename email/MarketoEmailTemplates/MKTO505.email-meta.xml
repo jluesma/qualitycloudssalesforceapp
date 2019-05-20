@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - New Tricentis Professional Program - 2014.11.21.Email - Follow Up - No</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our webinar: New Tricentis Professional Training Program</subject>
+    <textOnly>Webinar: New Tricentis Professional Training Program – Available Jan 2015
+
+Hi {{lead.First Name}},
+
+Sorry you missed our webinar where we introduced our new Professional Training Program and a new sample web show application which will also be part of the new Tricentis Professional Training Program. Xaver Benz, head of training, presented the applicable changes and answered any questions concerning the re-certification of current Tricentis certificates. Questions from the audience helped to keep the webinar lively and informative.
+
+If you would like to pre-register for the new Professional Training Program, please contact the training team here &lt;mailto:training@tricentis.com&gt;.
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+Xaver Benz
+Head of Tricentis Training
+Tricentis 
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

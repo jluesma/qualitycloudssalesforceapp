@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Entered --></label>
+        <name>Date_Entered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Left --></label>
+        <name>Date_Left__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eventbrite Id --></label>
+        <name>EventbriteSync__EventbriteId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Full Info --></label>
+        <name>Member_Full_Info__c</name>
+    </fields>
+    <fields>
+        <help><!-- tells if all answers have been answered in a poll --></help>
+        <label><!-- ON24AllPoll --></label>
+        <name>ON24AllPoll__c</name>
+    </fields>
+    <fields>
+        <help><!-- tells if all survey questions have been answered --></help>
+        <label><!-- ON24AllSurvey --></label>
+        <name>ON24AllSurvey__c</name>
+    </fields>
+    <fields>
+        <help><!-- tells if any poll question has been answered --></help>
+        <label><!-- ON24AnyPoll --></label>
+        <name>ON24AnyPoll__c</name>
+    </fields>
+    <fields>
+        <help><!-- tells if any survey question has been answered --></help>
+        <label><!-- ON24AnySurvey --></label>
+        <name>ON24AnySurvey__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24ArchiveMinutes --></label>
+        <name>ON24ArchiveMinutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24AttendedArchive --></label>
+        <name>ON24AttendedArchive__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24AttendedLive --></label>
+        <name>ON24AttendedLive__c</name>
+    </fields>
+    <fields>
+        <help><!-- questions the attendee asked during the webinar --></help>
+        <label><!-- ON24AttendeeQuestions --></label>
+        <name>ON24AttendeeQuestions__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24EMail --></label>
+        <name>ON24EMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24EngagementScore --></label>
+        <name>ON24EngagementScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24EventID --></label>
+        <name>ON24EventID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24EventTime --></label>
+        <name>ON24EventTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24EventTitle --></label>
+        <name>ON24EventTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24LiveMinutes --></label>
+        <name>ON24LiveMinutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24Ressource1Viewed --></label>
+        <name>ON24Ressource1Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24UserID --></label>
+        <name>ON24UserID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24UserQuestionsandAnswers --></label>
+        <name>ON24UserQuestionsandAnswers__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll1answer --></label>
+        <name>ON24poll1answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll1question --></label>
+        <name>ON24poll1question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll2answer --></label>
+        <name>ON24poll2answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll2question --></label>
+        <name>ON24poll2question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll3answer --></label>
+        <name>ON24poll3answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll3question --></label>
+        <name>ON24poll3question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll4answer --></label>
+        <name>ON24poll4answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll4question --></label>
+        <name>ON24poll4question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll5answer --></label>
+        <name>ON24poll5answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24poll5question --></label>
+        <name>ON24poll5question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey1answer --></label>
+        <name>ON24survey1answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey1question --></label>
+        <name>ON24survey1question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey2answer --></label>
+        <name>ON24survey2answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey2question --></label>
+        <name>ON24survey2question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey3answer --></label>
+        <name>ON24survey3answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey3question --></label>
+        <name>ON24survey3question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey4answer --></label>
+        <name>ON24survey4answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey4question --></label>
+        <name>ON24survey4question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24survey5question --></label>
+        <name>ON24survey5question__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON24totalresourcesviewed --></label>
+        <name>ON24totalresourcesviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- On24survey5answer --></label>
+        <name>On24survey5answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time in (Hours) --></label>
+        <name>Time_in_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Demographic Score --></label>
+        <name>dr_account_demographic_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavior Score --></label>
+        <name>dr_behavior_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Status --></label>
+        <name>dr_contact_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Record ID --></label>
+        <name>dr_external_record_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Campaign Date --></label>
+        <name>dr_first_campaign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funnel --></label>
+        <name>dr_funnel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geo --></label>
+        <name>dr_geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry (Lead) --></label>
+        <name>dr_industry_lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Engagement Date --></label>
+        <name>dr_last_engagement_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Source --></label>
+        <name>dr_lead_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Status --></label>
+        <name>dr_lead_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Might Be Junk --></label>
+        <name>dr_might_be_junk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Might Be Spam --></label>
+        <name>dr_might_be_spam__c</name>
+    </fields>
+    <fields>
+        <label><!-- MQL --></label>
+        <name>dr_mql__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRL --></label>
+        <name>dr_mrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- MTL --></label>
+        <name>dr_mtl__c</name>
+    </fields>
+    <fields>
+        <label><!-- MVL --></label>
+        <name>dr_mvl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owned by Me --></label>
+        <name>dr_owned_by_me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Person Demographic Score --></label>
+        <name>dr_person_demographic_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Create Date --></label>
+        <name>dr_sfdc_create_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Created By --></label>
+        <name>dr_sfdc_created_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Score --></label>
+        <name>dr_total_score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Campaign --></label>
+        <name>dr_tracking_utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Content --></label>
+        <name>dr_tracking_utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Medium --></label>
+        <name>dr_tracking_utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking - UTM Source --></label>
+        <name>dr_tracking_utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- monthly Target MQL --></label>
+        <name>js_2016_monthly_Target_MQL__c</name>
+    </fields>
+    <fields>
+        <label><!-- weekly Target MQL --></label>
+        <name>weekly_Target_MQL__c</name>
+    </fields>
+    <layouts>
+        <layout>Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- ON24 Data --></label>
+            <section>ON24 Data</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

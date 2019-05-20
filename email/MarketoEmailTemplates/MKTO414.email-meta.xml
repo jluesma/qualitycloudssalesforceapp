@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Gartner - Q3 2014.Newsletter - Gartner - Q3 2014</name>
+    <style>none</style>
+    <subject>Tricentis is a Visionary in Gartner Magic Quadrant</subject>
+    <textOnly>Tricentis is a Visionary in Gartner Magic Quadrant
+
+Hi {{lead.First Name}},
+
+In today’s fast-paced economy, companies are adopting agile development and continuous delivery to meet their time-to-market needs. Continuous testing is the critical process within the software development lifecycle to deliver software applications to market. Tricentis’ Tosca Testsuite is the most effective suite for continuous automated testing for software applications that span mobile, web and cloud platforms. To date, more than 400 enterprise customers have chosen Tricentis for their testing needs.
+
+We strive to be the most innovative testing solution to address enterprises’ testing needs. We are proud to be recognized by Gartner as a Visionary in their report, ‘Magic Quadrant for Integrated Software Quality Suites 2014’. Access the full report below:
+
+ &lt;http://innovate.tricentis.com/newsletter-gartner-q3-2014.html?utm_medium=email&amp;utm_source=db&gt;
+
+Learn more about Tricentis by checking out our website &lt;http://www.tricentis.com&gt;.
+
+&lt;http://innovate.tricentis.com/newsletter-gartner-q3-2014.html?utm_medium=email&amp;utm_source=db&gt;
+ 
+Best regards,
+
+Sandeep Johri
+CEO, Tricentis
+
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner&apos;s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:support@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

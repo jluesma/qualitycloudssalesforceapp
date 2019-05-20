@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Accelerate Roadshows 2014.Invite.Roadshows2 (Jeff this is the latest)</name>
+    <style>none</style>
+    <subject>Personal Invitation – Tricentis Accelerate Roadshow</subject>
+    <textOnly>&lt;!-- --&gt; 
+
+Hi {{lead.First Name}},
+
+While software-powered business innovation and quality customer experiences have never been more important, the status quo of software testing is still slow, expensive, complex, and full of surprises and disconnected from business needs.  More and more companies are acknowledging that they need to test efficiently, effectively, and appropriately in order to accelerate innovation, and reduce cost and business risk.
+
+Join us on the Tricentis Accelerate Roadshow, where we will focus on how to address these emerging challenges and approaches Global 2000 companies can take to deliver superior business results.
+
+Michael Eckhoff, Senior Vice President of Worldwide Sales, will share our company vision and Wolfgang Platz, Founder &amp; Chief Product Officer will discuss the “Future of Business Innovation – An Industry Perspective” – where he will show the current challenges testing organizations face and how they leverage innovative new products from Tricentis to drive business results.
+
+This will be followed by a roundtable, where you can share your thoughts and ideas and address critical issues in an interactive and informal peer-to-peer dialog 
+
+Agenda
+
+8am: Registration
+
+8:30 – 11am: Welcome and Tricentis Business Update
+
+11 am: Networking Lunch                        
+This invitation-only event is a great opportunity to network with cross-industry CIO’s &amp; IT Heads.
+
+We are looking forward to see you there.
+
+Wolfgang Platz
+Founder &amp; Chief Product Officer
+Tricentis
+
+Michael Eckhoff
+Senior Vice President of Worldwide Sales
+Tricentis
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+&lt;http://innovate.tricentis.com/Accelerate-Roadshow-2014.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Tuesday, May 13, 2104: Frankfurt 
+
+Bristol Hotel, Ludwigstrasse 15, 60327 Frankfurt am Main, Germany
+
+Wednesday, May 14, 2014: Munich 
+
+Mercure Hotel München City Center, Senefelder Strasse 9, 80336 Munich, Germany
+
+Thursday, May 15, 2014: Vienna
+
+NH Hotel, Danube City, Wagramer Strasse 21, 1220 Vienna, Austria
+
+Monday, May 19, 2014: Zurich
+
+B2 Boutique Hotel Hürlimann-Areal Brandschenkestrasse 152, 8002 Zurich, Switzerland
+
+Tuesday, May 20, 2014: Hamburg
+
+Holiday Inn Hamburg, Billwerder Neuer Deich 14, 20539 Hamburg, Germany
+
+Wednesday, May 21, 2014: Amsterdam
+
+Mercure Amsterdam City, Joan Muyskenweg 10, 1096 CJ - Amsterdam, Netherlands
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. 
+Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

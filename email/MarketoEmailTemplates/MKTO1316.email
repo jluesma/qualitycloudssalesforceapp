@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>Tricentis</title>
+
+<style type="text/css">
+    /* Resets: see reset.css for details */
+
+    p {
+      margin-bottom: 1em;
+      /* fix for yahoo*/
+    }
+    /* Constrain email width for small screens */
+
+    @media screen and (max-width: 480px) {
+      body[yahoo] .container {
+        width: 100% !important;
+        border: 0px;
+      }
+      body[yahoo] td.container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+      body[yahoo] .rightTable {
+        float: left !important;
+        margin-top: 10px;
+      }
+      body[yahoo] .aleft {
+        text-align: left !important;
+      }
+      body[yahoo] .noborder {
+        border: 0px !important;
+      }
+    }
+</style>
+</head>
+<body style="background-color:#ffffff; margin:0; padding:0px; " bgcolor="#FFFFFF" yahoo="fix" ><table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" ><tr ><td align="center" valign="top" bgcolor="#FFFFFF" style="background-color:#ffffff; " ><br>
+<table border="0" width="600" cellpadding="0" cellspacing="0" style="width:600px; margin-top:50px; " class="container" bgcolor="#FFFFFF" ><tr ><td bgcolor="#FFFFFF" style="background-color:#ffffff; padding-left:0px; padding-right:0px; font-size:13px; line-height:20px; font-family:Calibri, Candara, Arial, sans-serif; color:#3d3d3d; " align="center" ><div id="headerCopy" class="mktEditable" ><table class="container" style="background-color: #ffffff; margin-bottom: 10px;" border="0" width="250" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td align="left"><img style="margin-left: 25px;" src="http://innovate.tricentis.com/rs/tricentis/images/tricentis_logo_350px_RGB.png" alt="Tricentis" width="162" height="25"></td>
+</tr>
+</tbody>
+</table>
+<table class="container" style="background-color: #ffffff; margin-top: 10px;" border="0" width="320" cellspacing="0" cellpadding="0" align="right" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 22px; font-weight: lighter; color: #001b8a;" align="right">Q3/2015</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table border="0" width="600" cellpadding="0" cellspacing="0" style="width:600px; margin-top:0px; " class="container" bgcolor="#FFFFFF" ><tr ><td bgcolor="#FFFFFF" style="background-color:#ffffff; padding-left:0px; padding-right:0px; font-size:13px; line-height:20px; font-family:Calibri, Candara, Arial, sans-serif; color:#3d3d3d; border-left:1px solid #eaeae6; border-right:1px solid #eaeae6; " align="center" ><div id="mainTitle" class="mktEditable" ><table class="container" style="min-height: 190px;" border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#0E3258">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 23px; font-weight: normal; color: #ffffff; background: #0e3258 url(http://innovate.tricentis.com/rs/tricentis/images/em-back-header.jpg) 0 -10px repeat; padding: 20px;" width="600" align="center" valign="middle">
+<p style="font-weight: lighter; color: #ffffff; font-size: 46px; line-height: 43px; margin: 0px 0px 10px 0;">Tricentis Partner Newsletter</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="openingCopy" class="mktEditable" ><table class="container" style="width: 560px; margin: 0 auto;" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px 0;" align="left" valign="middle" width="560">Warm greetings from Tricentis! We hope you have been enjoying the summer, and we look forward to seeing many of you at our upcoming Partner Day and Accelerate 2015 conference in October. We are pleased to share with you our recent news and innovations, like our cool new <a style="color: #195ead;" href="http://obstaclecourse.tricentis.com/">Test Automation Obstacle Course</a>, a fun way to test your knowledge of automation wizardry. If you want to learn more about what we have been up to, or have ideas about how to better partner with Tricentis, feel free to contact us at <a style="color: #195ead;" href="mailto:info@tricentis.com">info@tricentis.com</a>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="blueCopy" class="mktEditable" ><table class="container" style="width: 600px; margin: 5px auto; background: #e9e9e6;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#E9E9E6">
+<tbody>
+<tr>
+<td align="center">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0; text-align: center;" align="center" valign="middle" width="560">
+<p style="margin: .5em 0;">Join our upcoming webinars!</p>
+<table class="container" border="0" width="260" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="margin: .5em 0 0; text-transform: uppercase; font-size: 20px;">The Art of Effective Test Data Design</p>
+<p style="margin: 0 0 .5em;"><strong>Nov. 6, 2015</strong><br>
+4:00-5:00 PM CET<br>
+<a style="color: #195ead;" href="http://www.tricentis.com/resource-assets/the-art-of-effective-test-data-design-webinar/?utm_medium=email&utm_source=news_p" target="_blank">Register Here</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" width="260" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="margin: .5em 0 0; text-transform: uppercase; font-size: 20px;">How to Solve The Service Virtualization Puzzle</p>
+<p style="margin: 0 0 .5em;"><strong>Nov. 17, 2015</strong><br>
+4:00-5:00 PM CET<br>
+<a style="color: #195ead;" href="http://www.tricentis.com/resource-assets/how-to-solve-the-service-virtualization-puzzle-webinar/?utm_medium=email&amp;utm_source=news_p" target="_blank">Register Here</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpText" class="mktEditable" ><table class="container" style="width: 560px; margin: 0 auto;" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px 0;" align="left" valign="middle" width="560">
+<p><span style="font-weight: bold;">Tosca Testsuite Service Pack 8.4.1</span></p>
+<p>Tosca Testsuite Service Pack 8.4.1 was released in early August, introducing many new features to make test automation even more of a breeze. Some of the notable features include Re-scan UI Modules, an Orchestrated Service Virtualization Recorder, Responsive Design Tests, and much more. Take a look at our What&rsquo;s New in Tosca Testsuite 8.4.1 page <a style="color: #195ead;" href="http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1">here</a> for demos and more information.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpPhoto" class="mktEditable" style="background:#e9e9e6; " ><table class="container" style="width: 560px; margin: 0 auto;" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0; text-align: center;" align="center" valign="middle" width="560">
+<table class="container" border="0" width="260" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p><span style="font-size: 20px;"><strong>Partner Day 2015<br>
+<span style="font-size: 16px;">October 21</span></strong></span></p>
+<p style="margin: .5em 0;">We are gearing up for Partner Day 2015, taking place on October 21st in Vienna, Austria. The event will feature a technical update on Tosca Testsuite, as well as an overview of the Partner Program for 2015/2016. The Partner Day is a perfect venue to learn about changes and new programs important to you, as well as engage in an open platform for discussion about how Tricentis can best support you. Click <a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/tricentis-accelerate/partner-day-reg?utm_medium=email&amp;utm_source=news_p">here</a> to register for the Partner Day.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" width="260" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p><span style="font-size: 20px;"><strong>Accelerate 2015<br>
+<span style="font-size: 16px;">October 22</span></strong></span></p>
+<p style="margin: .5em 0;">Accelerate 2015 is almost here! If you are joining us for Partner Day make sure you stick around for Accelerate 2015, taking place on October 22nd in Vienna, Austria. We are looking forward to a day of networking, presentations, and discussions with influencers and test automation pros from around the world. We are also planning on unveiling some exciting new technologies for Tosca Testsuite, one of which was previewed in the <a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/recorded-webinars/?utm_medium=email&amp;utm_source=news_p">What’s New in Tosca Testsuite 8.4.1 webinar</a>. For more information and to register for Accelerate 2015, click <a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=news_p">here</a>!</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpDate" class="mktEditable" ><table class="container" style="width: 560px; margin: 0 auto;" border="0" width="560" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0; text-align: center;" align="center" valign="middle" width="560">
+<table class="container" border="0" width="260" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p><span style="font-size: 20px;"><strong>Gartner Newsletter</strong></span></p>
+<p style="margin: .5em 0;">Tricentis has recently publishing a newsletter in conjunction with Gartner on the topic of starting testing earlier in the development cycle with API Testing and Service Virtualization. The newsletter, “Better, Faster, Stronger: Adopting API Testing and Service Virtualization from the Start” discusses the importance of shifting left and speeding up the testing process in order to meet time to market demands. The newsletter also includes a Gartner research note, the “Market Guide for API Testing and Service Virtualization”. Download the newsletter <a style="color: #195ead;" href="URL?utm_medium=email&amp;utm_source=news_p">here</a>!</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" width="260" cellspacing="0" cellpadding="0" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p><span style="font-size: 20px;"><strong>Web Shop</strong></span></p>
+<p style="margin: .5em 0;">In an effort to continually be offering new and helpful resources, we have launched the Tricentis Web Shop, a convenient shop for purchasing online self-paced Tricentis Certified Professional courses. The web shop currently offers three courses, each of which come with cloud access to Tosca Testsuite, tutorials, learning material, and online exams. It’s the perfect tool to become a Tricentis Certified Professional at your own speed, in a way that is convenient for you. Click <a style="color: #195ead;" href="https://support.tricentis.com/community/webshop.do">here</a> to check out the web shop.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="threeUpDate" class="mktEditable" ><table class="container" style="width: 600px; margin: 5px auto; background: #e9e9e6;" border="0" cellspacing="0" cellpadding="0" width="600" align="center" bgcolor="#E9E9E6">
+<tbody>
+<tr>
+<td align="center">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0; text-align: center;" width="560" align="center" valign="middle">
+<p style="margin: .5em 0;">Upcoming Conferences</p>
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="margin: .5em 0 0; text-transform: uppercase; font-size: 20px;">STARWEST</p>
+<p style="margin: 0 0 .5em;"><strong>Sept. 27 - October 2, 2015</strong><br>
+California, USA<br>
+<a style="color: #195ead;" href="http://starwest.techwell.com/?utm_medium=email&amp;utm_source=news_p" target="_blank">Register Here</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="margin: .5em 0 0; text-transform: uppercase; font-size: 20px;">Executive Testing Leadership Roadshow</p>
+<p style="margin: 0 0 .5em;"><strong>Sept. 24, 2015</strong><br>
+Zurich, Switzerland<br>
+<a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/executive-testing-leadership-roadshow-2015-09-24/?utm_medium=email&amp;utm_source=news_p" target="_blank">Register Here</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="footBlock" class="mktEditable" ><table class="container" style="min-height: 150px;" border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#0E3258">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 13px; font-weight: normal; color: #7cb0db; background: #0e3258 url(http://innovate.tricentis.com/rs/tricentis/images/em-back-footer.jpg) -50px -10px repeat; padding: 10px 20px;" width="600" align="center" valign="middle">
+<p>Please add Tricentis to your address book: <a style="color: #7cb0db;" href="mailto:info@tricentis.com">info@tricentis.com</a></p>
+<p align="center"><a href="https://plus.google.com/108151335013813449490/posts" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-google.png" alt="Google Plus" width="40" height="39"></a> &nbsp;&nbsp; &nbsp; <a href="https://www.facebook.com/TRICENTIS" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-facebook.png" alt="" width="40" height="39"></a> &nbsp;&nbsp; &nbsp; <a href="https://twitter.com/Tricentis" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-twitter.png" alt="Twitter" width="40" height="39"></a> &nbsp; <a href="https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-linkedin.png" alt="Linked In" width="40" height="39"></a></p>
+<p>Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Stra&szlig;e 10 . 1220 Vienna . Austria<br>
+&copy; 2015 Tricentis GmbH. All rights reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

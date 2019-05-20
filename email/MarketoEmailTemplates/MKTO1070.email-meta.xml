@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Whitepaper - Conquer SAP Testing - June 2015.Invite 1</name>
+    <style>none</style>
+    <subject>Conquer SAP Testing with Tosca Testsuite</subject>
+    <textOnly>Conquer SAP Testing with Tosca Testsuite
+
+Hi {{lead.First Name}},
+
+Let’s be honest. Testing your SAP system is an overwhelming task.
+
+Read our white paper on how to Conquer SAP Testing with Tosca Testsuite &lt;http://www.tricentis.com/resource-assets/slide-conquer-sap-testing?utm_medium=email&amp;utm_source=db&gt;.
+
+As much as SAP Fiori and SAP HANA provide awesome benefits, they also increase the need for testing, creating a manual testing bottleneck that delays deployments and stretches budgets.
+
+The good news is that you aren’t the first to encounter this problem – and Tricentis has already actively developed Tosca Testsuite into a solution for your SAP testing headaches.
+
+Tricentis’ “Conquer SAP Testing with Tosca Testsuite &lt;http://www.tricentis.com/resource-assets/slide-conquer-sap-testing?utm_medium=email&amp;utm_source=db&gt;” white paper takes an in-depth look at how Tosca Testsuite can help you optimize your risk coverage, reduce and manage your test case portfolio, and automate your SAP internal tests.
+
+Click here &lt;http://www.tricentis.com/resource-assets/slide-conquer-sap-testing?utm_medium=email&amp;utm_source=db&gt; to download the free white paper “Conquer SAP Testing with Tosca Testsuite”!
+
+Best regards,
+ The Tricentis Team
+
+&lt;http://www.tricentis.com/resource-assets/slide-conquer-sap-testing?utm_medium=email&amp;utm_source=db&gt;
+ &lt;http://www.tricentis.com/resource-assets/slide-conquer-sap-testing?utm_medium=email&amp;utm_source=db&gt;
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

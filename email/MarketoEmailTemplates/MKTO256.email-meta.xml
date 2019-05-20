@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize and Automate your SAP Testing - German - 2014.07.09.Email - I</name>
+    <style>none</style>
+    <subject>Webinar: Optimize and Automate Your SAP Testing (de)</subject>
+    <textOnly>Webinar: Optimize and Automate Your SAP Testing
+
+Hi {{lead.First Name}} {{lead.Last Name:default=edit me}},
+
+Hear how Vienna Insurance Group, one of the largest insurance companies in Europe, leveraged Tricenits Tosca Testsuite to optimize time-to-market, quality and cost. Their Head of Test Automation and Management, David Grassmugg, will discuss SAP testing and more.
+
+In this webinar, you will learn how to:
+
+ - Manage a growing number of SAP upgrades
+ - Avoid delays and cost overruns when testing SAP changes and upgrades
+ - Identify and mitigate risk inherent in your SAP environment
+
+Tosca Testsuite has an SAP-certified integration that systematically imports data and models from SAP Solution Manager. You can convert these models into test cases, automate them with ease, and then use them to optimize your environment by visualizing, managing and mitigating risk.
+
+Best regards,
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-optrimize-and-automate-your-sap-testing-de.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+ &lt;http://innovate.tricentis.com/webinar-optrimize-and-automate-your-sap-testing-de.html?utm_medium=email&amp;utm_source=internal&gt;
+Wed. July 9, 2014
+ 2:00 p.m. – 3:00 p.m. CET
+ 
+David Grassmugg
+Head of Test Automation and Management
+Vienna Insurance Group
+ 
+Michael Wagner
+Head of Professional Services
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+&lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

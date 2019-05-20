@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Partner - Feb 2015.Email - Responsive Newsletter - [Date]</name>
+    <style>none</style>
+    <subject>Newsletter</subject>
+    <textOnly>29.01.2015
+Welcome to the Inaugural Issue of the Tricentis Partner Newsletter!
+Subhead is here and about this long
+We had an incredibly busy and exciting 2014 as we have continued to grow our business and partner network. We are pleased to share with you our recent news and look forward to continuing to drive increased business with you, our partners. If you want to learn more about what we have been up to, or have ideas about how to better partner with Tricentis, feel free to contact us at xxxxx@tricentis.com.
+
+
+
+
+
+
+
+
+Join our What’s New in
+ Tosca Testsuite Webinar!
+ Tuesday, Feb. 17, 2015, 4:00-5:00 PM CET Register  Here &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-emea.html?utm_medium=email&amp;utm_source=db&gt;.
+Thursday Feb. 19, 2015, 1:00-2:00 PM AEDT Register  Here &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-apac.html?utm_medium=email&amp;utm_source=db&gt;.
+
+
+
+
+
+
+17.02.2015
+19.02.2015
+
+
+
+
+
+
+
+
+The Newest Tosca Testsuite
+
+
+
+
+
+Subhead Title Goes Here
+We are happy to announce that the launch of our newest Tosca Testsuite update, the 8.3 Service Pack 1 Release. The release of this newest update introduces exciting new features such as X-Scan, Optical Intelligence, Taas with Web Automation, and much more. More info link &lt;#&gt;
+
+
+
+
+
+
+
+
+
+Subhead Title Goes Here
+Sicque profec habebat tanto diligentius erudiri curavit. Ego vero quanto amplius et facilto actum est. Me itaque primogenitum suum quanto carioremius in studio litterarum profeci tanto ardentius eis inhesi, amore. More info link &lt;#&gt;
+Section Title - Photo/Icon Layout 1
+
+
+
+
+
+
+Subhead Title Below 123x123 Image
+Sicque profecto actum est. Me itaque pri mogen itum suum quanto cariorem habebat studio litterarum profeci tanto ardentius eis inhesi, amore. More info link &lt;#&gt;
+
+
+
+
+
+
+
+
+
+
+Subhead Title Below 260x123 image
+Sicque us o aprofecto actum est. Me itaque rimogenitum suum quanto cariorem haerudiri curavit. Ego vero quantbebat t profeci tanto ardentius eis inhesi, amore. More info link &lt;#&gt;
+Section Title - Photo/Icon Layout 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subhead Title below 260x123 image
+Sicque us o aprofecto actum est. Me itaque rimogenitum suum quanto cariorem haerudiri curavit. Ego vero quantbebat t profeci tanto ardentius eis inhesi, amore. More info link &lt;#&gt;
+Upcoming Conferences
+
+
+
+
+18. Mar., 2015
+Swiss Testing Day
+ Zurich, Switzerland
+ Register Here &lt;http://swisstestingday.ch&gt;
+
+
+
+
+
+
+
+
+18-30. Apr., 2015
+Iqnite Europe
+Dusseldorf, Germany
+ Register Here &lt;http://www.iqnite-conferences.com/de/index.aspx&gt;
+Upcoming Event Title - September 2015 - Layout 2
+
+
+
+
+Dienstag 7.
+Title of Event Bold
+Sia sdse nhcqua sdse nhesi, amore. Register &lt;#&gt;
+
+
+
+
+
+
+
+
+Mittwoch 8.
+Title of the Event Here
+Sicqua sdse nha sdse nhesi, amore. Register &lt;#&gt;
+Please add Tricentis to your address book blurb xxxxx xxxx xxx xxx xxxx xx xx
+
+If you no longer wish to recieve blurb xxxxx xxxx xxx xxx xxxx xx xx. Unsubscribe Link &lt;#&gt;
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+
+© 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

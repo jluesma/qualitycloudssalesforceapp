@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_35456601</developerName>
+        <masterLabel>Partner (grouped)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>PARTNER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Wipro (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (IN) - HQ</sourceValue>
+            </sourceValues>
+            <value>Wipro</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Infosys Corp (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys (Australia) (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Limited (AE)</sourceValue>
+            </sourceValues>
+            <value>Infosys</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Accenture Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture (HQ)</sourceValue>
+            </sourceValues>
+            <value>Accenture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (NZ) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (SG)</sourceValue>
+            </sourceValues>
+            <value>TTC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions (NL)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cognizant Technology Solutions (UK) Ltd (UK)</sourceValue>
+            </sourceValues>
+            <value>Cognizant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Sogeti France (FR)</sourceValue>
+            </sourceValues>
+            <value>Sogeti</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Opportunity.Annual_contract_value__c</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CLOSE_DATE</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>ACCOUNT_NAME</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <colorRanges>
+        <aggregate>Sum</aggregate>
+        <columnName>Opportunity.Annual_contract_value__c</columnName>
+        <highBreakpoint>0.1</highBreakpoint>
+        <highColor>#54C254</highColor>
+        <lowColor>#FFFFFF</lowColor>
+        <midColor>#FFFFFF</midColor>
+    </colorRanges>
+    <colorRanges>
+        <aggregate>Sum</aggregate>
+        <columnName>Opportunity.Weigthed_Annual_contract_value__c</columnName>
+        <highBreakpoint>0.1</highBreakpoint>
+        <highColor>#54C254</highColor>
+        <lowColor>#FFFFFF</lowColor>
+        <midColor>#FFFFFF</midColor>
+    </colorRanges>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Weigthed_Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <field>PARTNER_NAME</field>
+    </columns>
+    <columns>
+        <field>NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.PSO_Amount__c</field>
+    </columns>
+    <columns>
+        <field>OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>PARTNER_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Now_Available__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>shows all Opps with Partners that have Peter as Partner Owner and Opps LEqd source euqals PQL</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.Geo__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PARTNER_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Peter Szedlacek</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>LEAD_SOURCE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>PQL (Partner sourced)</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Quarter</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Dash Peter S - Opp Tracking</name>
+    <params>
+        <name>include</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityPartner</reportType>
+    <scope>all</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

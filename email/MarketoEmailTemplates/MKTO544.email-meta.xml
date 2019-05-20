@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Third Party - EuroSTAR 2014 - 2014.11.27.Event - EuroSTAR 2014 - Follow</name>
+    <style>none</style>
+    <subject>Thank you for dropping by our Tricentis booth at the EuroSTAR Conference</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for dropping by our Tricentis booth at the EuroSTAR Conference in Dublin this November. 
+
+I would be happy to personally offer my assistance if you would like to learn more about Tricentis and our testing solutions. If you are interested I am also available to further discuss Tosca Testsuite and give you a personalized demo of the product.
+
+Thanks for visiting our booth! I look forward to speaking with you soon.
+
+With kind regards,
+
+{{lead.Lead Owner First Name:default=Tricentis}} {{lead.Lead Owner Last Name:default=Team}}
+{{lead.Lead Owner Email Address:default=info@tricentis.com}}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

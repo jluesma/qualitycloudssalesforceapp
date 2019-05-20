@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" width="600" cellspacing="0" cellpadding="0" align="center">
+<thead>
+<tr>
+<td style="margin: 0px; display: block;" height="50"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo%20Email%20Banner_HEADER%20only.png" alt="Marketo Email Banner_HEADER only.png" width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140">
+<div><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo Email Banner_PARTNER-DAY_Generic.png" alt="Marketo Email Banner_PARTNER-DAY_Generic.png" width="600" height="140" /></div>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="600">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 0px 20px;" colspan="8" rowspan="10" valign="top" width="60%">
+<p><span style="font-size: 14px;">Hello {{lead.First Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;">We are delighted that you have registered for our <a href="http://www.tricentis.com/events-webinars/tricentis-accelerate/partner-day-reg?utm_medium=email&amp;utm_source=db" target="_blank">Partner Day 2015</a> on October 21<sup>st</sup>, 2015 in Vienna. <br /></span></p>
+<p><span style="font-size: 14px;">The event will feature technical updates and news regarding the partner program and offer an open platform for discussion and networking.</span></p>
+<p><strong><span style="font-size: 14px;">Agenda:</span><br /></strong></p>
+<table>
+<tbody>
+<tr>
+<td><span style="font-size: 14px;"><strong>2:00 &ndash; 2:30 pm&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><br /><br /></td>
+<td><span style="font-size: 14px;"><strong>Welcome</strong></span><br /><span style="font-size: 14px;">Franz Fuchsberger, CSO</span><br /><br /></td>
+</tr>
+<tr>
+<td><span style="font-size: 14px;"><strong>2:30 &ndash; 3:15 pm</strong></span><br /><br /><br /></td>
+<td><span style="font-size: 14px;"><strong>Partner Program Update</strong></span><br /><span style="font-size: 14px;">Alan Ota, Strategic Alliances</span><br /><br /></td>
+</tr>
+<tr>
+<td><span style="font-size: 14px;"><strong>3:15 &ndash; 4:15</strong> <strong>pm</strong></span><br /><br /><br /><br /></td>
+<td><span style="font-size: 14px;"><strong>Tosca 9.0 Preview &amp; Demo</strong></span><br /><span style="font-size: 14px;">Gerd Weishaar, VP Product Mgmt&nbsp; </span><br /><span style="font-size: 14px;">Roman Zednik,Director Presales</span><br /><br /></td>
+</tr>
+<tr>
+<td><span style="font-size: 14px;"><strong>4:15 &ndash; 4:45 pm<br /><br /></strong></span></td>
+<td><span style="font-size: 14px;"><strong>Coffee Break<br /><br /></strong></span></td>
+</tr>
+<tr>
+<td><span style="font-size: 14px;"><strong>4:45 &ndash; 5:45 pm<br /><br /></strong></span></td>
+<td><span style="font-size: 14px;"><strong>Product Roadmap</strong></span><br /><span style="font-size: 14px;">Gerd Weishaar, VP Product Mgmt</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14px;">At the end of our Partner Day program you will have the chance to set up your booth for Accelerate 2015. We are also happy to welcome you to our <strong>Partner &amp; Speaker Dinner</strong>, which starts at <strong>6:30 pm</strong>.<br /><br /><strong>Location:</strong><br /><a href="http://www.novomaticforum.com" target="_blank">Novomatic Forum</a><br />Friedrichstra&szlig;e 7<br /> 1010 Wien, Austria<br /></span></p>
+<p><span style="font-size: 14px;">Don't forget to book your hotel room&nbsp;as soon as possible. We have a block reservation with several hotels - <a href="http://www.tricentis.com/events-webinars/tricentis-accelerate/#hotels" target="_blank">hotel</a> details can be found on our website.<br /><br /></span><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">See you in Vienna!</span></p>
+<p><span style="font-size: 14px;">Best Regards,<br /><br />The Tricentis Event Team<br /><br /></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="27" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td align="right" valign="bottom" height="43"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

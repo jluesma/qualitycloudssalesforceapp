@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Opt-in - Canada.Email - Opt-in - Canada</name>
+    <style>none</style>
+    <subject>Consent needed to continue receiving Tricentis emails</subject>
+    <textOnly>&lt;!-- 
+
+
+--&gt; 
+
+ &lt;http://innovate.tricentis.com/opt-in-canada.html?utm_medium=email&amp;utm_source=internal&gt;
+
+
+
+
+Dear {{lead.First Name:default=edit me}},
+
+Canada&apos;s new Anti-Spam legislation goes into effect on July 1, 2014.
+
+We want to make sure you continue to receive valuable resources from Tricentis about functional and automated software testing.
+
+To continue receiving relevant communications including whitepapers, ebooks, events and webinars, we need your consent.
+
+Click on the button below to opt-in to receiving emails from Tricentis.  You may unsubscribe at any time.
+
+ &lt;http://innovate.tricentis.com/opt-in-canada.html?utm_medium=email&amp;utm_source=internal&gt;
+
+We look forward to continuing to provide you with informative resources.
+
+Opt-in now &lt;http://innovate.tricentis.com/opt-in-canada.html?utm_medium=email&amp;utm_source=internal&gt;.
+
+ 
+
+Best Regards,
+
+The Tricentis Team
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/?&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

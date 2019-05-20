@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>notification to Sandeep incl. info about contact roles</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert: Big deal won</name>
+    <style>none</style>
+    <subject>Big deal alert</subject>
+    <textOnly>Opportunity  {!Opportunity.Account} ({!Opportunity.Name})won ({!Opportunity.Annual_contract_value__c} {!Opportunity.CurrencyIsoCode})
+
+Opportunity Information:
+
+Account Name:{!Opportunity.Account}
+Opportunity name: {!Opportunity.Name}
+License Type: {!Opportunity.License_Type__c}
+ACV:{!Opportunity.Annual_contract_value__c}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+close date:  {!Opportunity.CloseDate}
+
+System Information:
+
+
+View the record in Salesforce</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

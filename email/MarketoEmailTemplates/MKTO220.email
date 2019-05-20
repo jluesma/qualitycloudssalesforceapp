@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta charset="UTF-8">
+<title>Solutions Day 2013 is now Tricentis Accelerate</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><!-- body { font-family:Arial, Helvetica, sans-serif;  } table { border-collapse:collapse; } p, li { font-size:14px; line-height:20px; color:#2222222; } h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; } -->
+<div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;">
+<table cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo.png" alt="Tricentis - Accelerate. Innovate. Automate." width="600" height="50" /></td>
+</tr>
+<tr>
+<td height="141"><img src="http://innovate.tricentis.com/rs/tricentis/images/Roadshow_green.jpg" alt="Tricentis Accelerate Roadshow: registration Confirmation" width="600" height="150" /></td>
+</tr>
+<tr>
+<td width="600"></td>
+</tr>
+</tbody>
+</table>
+<p>Dear {{lead.First Name}},</p>
+<p>Thank you for your Roadshow registration. Here are your confirmation details:</p>
+<p>Location:&nbsp;</p>
+<p><strong>{{lead.Roadshow.city:default=edit me}}</strong></p>
+<p>Schedule:</p>
+<p><strong>{{lead.Roadshow.schedule:default=edit me}}</strong></p>
+<p>Address:</p>
+<p><strong><em>{{lead.Roadshow.address:default=edit me}}</em></strong></p>
+<p><span lang="EN-US">This invitation-only event is a great opportunity to network with <span class="past-list-desc1">cross-industry CIO&rsquo;s &amp; IT Heads.&nbsp;</span></span></p>
+<div class="WordSection1">
+<p><span class="past-list-desc1"><span lang="EN-US">We are looking forward to see you there.</span></span><span class="past-list-desc1">&nbsp;</span></p>
+</div>
+<p>Best wishes,</p>
+<p>The Tricentis Team</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/imprint"><strong><span style="font-size: 12px; color: #dfe0de;">Imprint</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+</tr>
+<tr>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2014 Tricentis. All Rights Reserved.<br />Tricentis is a registered trademark of Tricentis GmbH.</span></td>
+<td align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

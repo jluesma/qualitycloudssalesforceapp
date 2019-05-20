@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Migrating from Classic HTML to TBox - German - 2015.10.06.Email - Last</name>
+    <style>none</style>
+    <subject>Nutzen Sie die Chance und melden Sie sich jetzt an! Webinar „Migrating: HTML to X-Browser“ (German)</subject>
+    <textOnly>Webinar &quot;Migrating: HTML to X-Browser (German)
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Mit der ständigen Weiterentwicklung von Webtechnologien und dem rasanten Anstieg von Mobilen Anwendungen ist es absolut notwendig auch unsere Test Automatisierung am letzten Stand der Entwicklungen zu halten. 
+
+Hierzu hat Tricentis die neue X-Browser Technologie (IE, Chrome, Firefox, iOS Browser, Android Browser) entwickelt und damit im Testing Markt einen neuen Standard geschaffen. 
+
+Mike Nemeth, Produkt Manager bei Tricentis, zeigt Ihnen im Webinar „Migration: HTML to X-Browser“:
+
+ - Migration von bestehenden HTML Tests auf die X-Browser Technologie
+ - Ausführung migrierter HTML Tests auf verschiedenen Browsern und Mobilen Endgeräten
+ - Automatisierungsvorteile der X-Browser Technologie.
+
+Nutzen Sie die letzte Gelegenheit und registrieren Sie sich jetzt für das Webinar „Migration: HTML to X-Browser“ am 06. Oktober 2015 um 10 Uhr.
+
+Mit besten Grüßen
+
+Ihr Tricentis Webinar Team
+
+06. Oktober 2015
+10:00 – 11:00 Uhr CEST
+
+Mike Nemeth
+Product Manager
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

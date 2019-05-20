@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Test Automation for Beginners - German - 2015.07.28.Email - Invite 1 -</name>
+    <style>none</style>
+    <subject>Webinar: Das 1 x 1 der Testautomatisierung</subject>
+    <textOnly>Das 1 x 1 der Testautomatisierung
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Softwaretester sind ständig mit den gleichen unbeantworteten Fragen konfrontiert:
+
+ - Woher weiß man welche Testfälle die Richtigen sind?
+ - Decken diese Testfälle mein unternehmerisches Risiko ausreichend ab?
+ - Wie viele Testfälle sind notwendig?
+ - Soll manuell oder automatisiert getestet werden?
+
+Seinen Sie am 28. Juli 2015 um 10 Uhr dabei, wenn Roman Zednik, Pre-Sales Consultant bei Tricentis, die Grundlagen der Testautomatisierung, beginnend mit den aktuellen Markttrends der Software Testautomatisierung bis hin zu unterschiedlichen Technologien für die End-2-End Testautomatisierung, zeigt.
+
+Wir freuen uns Sie beim Webinar: Das 1 x 1 der Testautomatisierung begrüßen zu dürfen.
+
+Mit besten Grüßen
+Ihr Tricentis Webinar Team
+ 
+ &lt;http://www.tricentis.com/resource-assets/webinar-test-automatisierung-fur-anfanger-20150728?utm_medium=email&amp;utm_source=db&gt;
+
+&lt;http://www.tricentis.com/resource-assets/webinar-test-automatisierung-fur-anfanger-20150728?utm_medium=email&amp;utm_source=db&gt;
+Tue, Jul 28, 2015
+ 10:00 a.m. – 11:00 a.m. CEST
+
+Roman Zednik 
+Pre-Sales Consultant
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

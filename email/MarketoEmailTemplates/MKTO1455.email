@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta charset="UTF-8">
+<title>Solutions Day 2013 is now Tricentis Accelerate</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" width="600" cellspacing="0" cellpadding="0" align="center">
+<tbody><!-- start top header =--> <!-- end top header =--> <!--                                                                                                                
+<tr>
+<td style="margin: 0px; display: block;" _mce_style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/head_redone.jpg" _mce_src="http://innovate.tricentis.com/rs/tricentis/images/head_redone.jpg" alt="Tricentis - Acclerate.                       Innovate.                       Automate." width="600" height="50"></td>
+-->
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo-Email-Banner_ACCELERATE_Generic-w-header.png" alt="Accelerate 2015" /></td>
+</tr>
+<tr>
+<td style="padding: 20px 32px 10px 32px;">
+<p>Dear {{lead.First Name:default=edit me}},</p>
+<p>We recently held our 9th annual enterprise software testing conference, Accelerate 2015, in Vienna, Austria. It was a wonderful day packed with attendees from around the world participating in presentations, workshops, networking, exploring the exhibitions, and taking pictures at the photo booth.</p>
+<p>You can catch up on the highlights of Accelerate 2015 by checking out the event photos and videos now up on our <a href="http://www.tricentis.com/events-webinars/tricentis-accelerate/" target="_blank">website</a>.</p>
+<p>One of the most exciting parts of the day was the official release of Tosca Testsuite 9.0. Click <a href=" http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/" target="_blank">here</a> to learn more about the new release of Tosca Testsuite and find demos of all the new features.</p>
+<p>If you would like to stay up to date, please follow us on Twitter <a href="https://twitter.com/Tricentis" target="_blank">@Tricentis</a>. We hope to see you at Accelerate 2016!</p>
+<p>Best Regards,</p>
+<p>The Tricentis Accelerate Team</p>
+<br /></td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td align="right" valign="bottom" height="43"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

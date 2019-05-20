@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <field>Opportunity.iseeit__Qualifiers_Milestones__r$iseeit__Long_Name__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.iseeit__Qualifiers_Milestones__r$iseeit__Qualifier_Status__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Amount</field>
+    </columns>
+    <columns>
+        <field>Opportunity$ForecastCategoryName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$CloseDate</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.iseeit__Qualifiers_Milestones__r$iseeit__Short_Name__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>startsWith</operator>
+            <value>E</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.iseeit__Qualifiers_Milestones__r$iseeit__Qualifier_Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Validation,Incomplete,Unknown</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$ForecastCategoryName</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Commit,Best Case</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>EB not met</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>iseeit__Opportunity_Report__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

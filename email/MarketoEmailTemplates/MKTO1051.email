@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Dear {{lead.First Name:default=Sir/Madam}},<br /><br />Thank you for <span style="color: black;">taking time from your busy schedule to read this email</span>. My name is Martin and I work with the Market Consulting team at Tricentis (<a href="http://www.tricentis.com">www.tricentis.com</a>), a leading Test Automation provider with operations globally.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">In context of the Avaloq system that you are using at Barclays (Version 3.7), we wanted to touch-base and provide a walk-through of our product, Tosca Testsuite (http://www.tricentis.com/tricentis-tosca-testsuite/). Within Tosca, we have specifically designed an Avaloq extension to address the biggest challenges of testing your Avaloq system: Test Data Management, Risk coverage, and Test automation.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Tosca Testsuite complements your Avaloq migration cycle, by ensuring that the end-user testing challenges during extraction, mapping, transformation and data cleansing using PL/SQL packages and SQL scripts are better managed. It also seamlessly links into reportNG and log4J so that your overall time and effort to manage this process is further reduced with better visibility.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">I would be happy to connect with you at a time and day of your choosing to explain more. We also can schedule a demo of our product&rsquo;s features and functionalities in context of the Avaloq&nbsp;system which you folks are currently using. Please do let me know.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp;</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Have a great day and look forward to hearing from you.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Regards,</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Martin Karolyi</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Technical Advisor</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">PS: Wanted to reconfirm the current IT landscape for Barclays as we believe our service offering would be of optimum value considering the below IT landscape:</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp;</span></p>
+<p style="margin: 0in; margin-bottom: .0001pt;"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">Barclays:</span></p>
+<ul>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Core Banking Software: Avaloq 3.7.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Database: Oracle11g, PL/SQL, TOAD 11.0, Sql Developer, Sql Loader, Perforce, Maven, Java and Eclipse.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Test Automation Softwares: Selenium webdriver and selenium Grid, testNG, dbUnit, Quality Centre, Load Runner, log4j and&nbsp; reportNG.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Issue tracking system: JIRA and HPQC.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Operating system: Linux.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Server: .NET2 and MS SQL server.</span></li>
+<li style="text-indent: -.25in; tab-stops: list .5in;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">&nbsp; &nbsp; &nbsp; Softwares used to build Mobile Applications: ASP.NET MVC 3 &amp; 4, ASP.NET Web API, WCF, Entity Framework and SQL Server 2008.</span></li>
+</ul></div>
+</div>
+</body>
+</html>

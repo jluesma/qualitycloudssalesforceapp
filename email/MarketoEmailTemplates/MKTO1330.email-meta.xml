@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Partner Q3 2015.Email - Partner Newsletter - Q3 2015 - In Progress</name>
+    <style>none</style>
+    <subject>Our Tricentis Partner Newsletter Q3, 2015</subject>
+    <textOnly>Q3/2015
+Tricentis Partner Newsletter
+Warm greetings from Tricentis! We hope you have have enjoyed the summer, and we look forward to seeing many of you at our upcoming Partner Day and Accelerate 2015 conference in October. We are pleased to share with you our recent news and innovations, such as our cool new Test Automation Obstacle Course &lt;http://obstaclecourse.tricentis.com/&gt;, a fun way to test your knowledge of automation wizardry. If you want to learn more about what we have been up to, or have ideas about how to better partner with Tricentis, feel free to contact us at info@tricentis.com &lt;mailto:info@tricentis.com&gt;.
+Join our upcoming webinars!
+
+The Art of Effective Test Data Design
+Nov. 5, 2015
+ 4:00-5:00 PM CET
+ Register Here &lt;http://www.tricentis.com/resource-assets/the-art-of-effective-test-data-design-webinar/?utm_medium=email&amp;utm_source=news_p&gt;
+
+How to Solve The Service Virtualization Puzzle
+Nov. 17, 2015
+ 4:00-5:00 PM CET
+ Register Here &lt;http://www.tricentis.com/resource-assets/how-to-solve-the-service-virtualization-puzzle-webinar/?utm_medium=email&amp;utm_source=news_p&gt;
+Tosca Testsuite Service Pack 8.4.1
+
+Tosca Testsuite Service Pack 8.4.1 was released in early August, introducing many new features to make test automation even more of a breeze. Some of the notable features include Re-scan UI Modules, an Orchestrated Service Virtualization Recorder, Responsive Design Tests, and much more. Take a look at our What’s New in Tosca Testsuite 8.4.1 page here &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1&gt; for demos and more information.
+Partner Day 2015
+ October 21
+We are gearing up for Partner Day 2015, taking place on October 21st in Vienna, Austria. The event will feature a technical update on Tosca Testsuite, as well as an overview of the Partner Program for 2015/2016. The Partner Day is a perfect venue to learn about changes and new programs important to you, as well as engage in an open platform for discussion about how Tricentis can best support you. Click here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/partner-day-reg?utm_medium=email&amp;utm_source=news_p&gt; to register for the Partner Day.
+
+
+Accelerate 2015
+ October 22
+Accelerate 2015 is almost here! If you are joining us for Partner Day make sure to stick around for Accelerate 2015, taking place on October 22nd in Vienna, Austria. We are looking forward to a day of networking, presentations, and discussions with influencers and test automation pros from around the world. We are also planning on unveiling some exciting new technologies for Tosca Testsuite, one of which was previewed in the What’s New in Tosca Testsuite 8.4.1 webinar &lt;http://www.tricentis.com/events-webinars/recorded-webinars/?utm_medium=email&amp;utm_source=news_p&gt;. For more information and to register for Accelerate 2015, click here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=news_p&gt;!
+Gartner Newsletter
+Tricentis has recently publishing a newsletter in conjunction with Gartner on the topic of starting testing earlier in the development cycle with API Testing and Service Virtualization. The newsletter, “Better, Faster, Stronger: Adopting API Testing and Service Virtualization from the Start” discusses the importance of shifting left and speeding up the testing process in order to meet time to market demands. The newsletter also includes a complimentary Gartner research note, the “Market Guide for API Testing and Service Virtualization”. Download the newsletter here &lt;http://www.tricentis.com/resource-assets/better-faster-stronger-adopting-api-testing-and-service-virtualization-from-the-start/?utm_medium=email&amp;utm_source=news_p&gt;!
+
+Web Shop
+In an effort to continually offer new and helpful resources, we have launched the Tricentis Web Shop, a convenient shop for purchasing online self-paced Tricentis Certified Professional courses. The web shop currently offers three courses, each of which come with cloud access to Tosca Testsuite, tutorials, learning material, and online exams. It’s the perfect tool to become a Tricentis Certified Professional at your own speed, in a way that is convenient for you. Click here &lt;https://support.tricentis.com/community/webshop.do&gt; to check out the web shop.
+Upcoming Conferences
+
+STARWEST
+Sept. 27 - Oct. 2, 2015
+ California, USA
+ Register Here &lt;http://starwest.techwell.com/?utm_medium=email&amp;utm_source=news_p&gt;
+
+TMAP Dag
+Sept. 29, 2015
+Bussum, Netherlands
+ Register Here &lt;https://www.beleefsogeti.nl/tmapdag/register/?utm_medium=email&amp;utm_source=news_p&gt;
+Please add Tricentis to your address book: info@tricentis.com &lt;mailto:info@tricentis.com&gt;
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+
+© 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

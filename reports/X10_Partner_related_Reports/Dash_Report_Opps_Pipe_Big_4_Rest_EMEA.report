@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_77663219</developerName>
+        <masterLabel>Key GSI + Rest</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>PARTNER_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Wipro (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro UK (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro (India) (IN)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (US)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro UK Limited (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro (US)</sourceValue>
+            </sourceValues>
+            <value>Wipro</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Accenture Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Inc. (corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture GmbH (Austria) (AT)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture (FR)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Inc. (US)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture (HQ)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture AG (CH)</sourceValue>
+            </sourceValues>
+            <value>Accenture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (NZ) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services UK (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services Limited (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services Australia (AU)</sourceValue>
+            </sourceValues>
+            <value>TCS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Infosys (Australia) (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Corp (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Limited (AE)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys USA (US)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys UK</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Limited (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys UK (UK)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>INFOSYS LIMITED (US)</sourceValue>
+            </sourceValues>
+            <value>Infosys</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Opportunity.Annual_contract_value__c</column>
+        </chartSummaries>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Opportunity.Weigthed_Annual_contract_value__c</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CLOSE_DATE</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Tiny</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Weigthed_Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.PSO_Amount__c</field>
+    </columns>
+    <columns>
+        <field>OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>PARTNER_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Now_Available__c</field>
+    </columns>
+    <columns>
+        <field>PARTNER_NAME</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>Not in use</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 Closed/Lost,6 Closed/Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Geo__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EMEA</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Quarter</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PARTNER_TYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Dash Report - Opps Pipe Big 4+Rest EMEA</name>
+    <params>
+        <name>include</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityPartner</reportType>
+    <scope>all</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

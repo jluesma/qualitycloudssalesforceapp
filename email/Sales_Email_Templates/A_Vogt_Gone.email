@@ -1,0 +1,13 @@
+{!Contact.FirstName},
+
+I hope you are well.  
+
+My name is Hank Joyce and I am the Director of Major Accounts for Tricentis.      
+
+I called you today to let you know that your previous representative, Andy Vogt, has recently left our company. 
+
+Our management has asked me to step in and work with {!Account.Name} moving forward.   
+
+Let me know a time when we could have a quick call this week. 
+
+Sincerely,

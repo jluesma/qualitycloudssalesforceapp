@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Customer - Swiss Installed Base.Email - Customer - Swiss Installed Base</name>
+    <style>none</style>
+    <subject>Wohin geht die Schweizer IT-Szene?</subject>
+    <textOnly>Sehr geehrte Damen und Herren,
+
+Wohin geht die Schweizer IT-Szene und wo sind wir heute bereits? Die SwissQ macht Ihre jährliche Umfrage und sie haben die Gelegenheit Ihre Meinung zum Thema Tools, Methoden und Trends zu äußern.
+
+https://de.surveymonkey.com/s/3VNVWC3 &lt;https://de.surveymonkey.com/s/3VNVWC3&gt;
+
+Wir von Tricentis unterstützen diese Umfrage und laden Sie deshalb herzlich zur Teilnahme an dieser Umfrage ein. Anfang 2015 wird die SwissQ die Resultate publizieren. Die Resultate der Umfrage von 2014 finden Sie unter http://report.swissq.it
+
+Mit den besten Grüßen
+
+Hanspeter Moser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

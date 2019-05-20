@@ -1,0 +1,348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><!-- /* Resets: see reset.css for details */  p {  	margin-bottom: 1em; /* fix for yahoo*/  }    /* Constrain email width for small screens */  @media screen and (max-width: 480px) {  body[yahoo] .container {  	width: 100% !important;  	border: 0px;  }  body[yahoo] td.container {  	padding-left:   
+                              10px !important;  	padding-right: 10px !important;  }  body[yahoo] .rightTable {  	float: left !important;  	margin-top: 10px;  }  body[yahoo] .aleft {  	text-align: left !important;  }  body[yahoo] .noborder {  	border: 0px !important;  }  } --> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="background-color: #ffffff;" align="center" valign="top" bgcolor="#FFFFFF"><br /> 
+<table class="container" style="width: 600px; margin-top: 50px;" border="0" cellspacing="0" cellpadding="0" width="600px" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="background-color: #ffffff; padding-left: 0px; padding-right: 0px; font-size: 13px; line-height: 20px; font-family: Calibri, Candara, Arial, sans-serif; color: #3d3d3d;" align="center" bgcolor="#FFFFFF">
+<div id="headerCopy" class="mktEditable">
+<table class="container" style="background-color: #ffffff; margin-bottom: 10px;" border="0" cellspacing="0" cellpadding="0" width="250" align="left" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td align="left"><a href="http://www.tricentis.com" target="_blank"><img style="margin-left: 0px;" src="http://innovate.tricentis.com/rs/tricentis/images/tricentis_logo_350px_RGB.png" alt="Tricentis" width="162" height="25" /></a></td>
+</tr>
+</tbody>
+</table>
+<table class="container" style="background-color: #ffffff; margin-top: 10px;" border="0" cellspacing="0" cellpadding="0" width="320" align="right" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 22px; font-weight: lighter; color: #001b8a;" align="right"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container" style="width: 600px; margin-top: 0px;" border="0" cellspacing="0" cellpadding="0" width="600px" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="background-color: #ffffff; padding-left: 0px; padding-right: 0px; font-size: 13px; line-height: 20px; font-family: Calibri, Candara, Arial, sans-serif; color: #3d3d3d; border-left: 1px solid #eaeae6; border-right: 1px solid #eaeae6;" align="center" bgcolor="#FFFFFF">
+<div id="mainTitle" class="mktEditable">
+<table class="container" style="min-height: 190px;" border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#0E3258">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 23px; font-weight: normal; color: #ffffff; background: #0e3258 url(http://innovate.tricentis.com/rs/tricentis/images/newsletter_header.jpg) -140px -200px repeat; padding: 20px 0px;" width="600" align="center" valign="middle" 
+background="http://innovate.tricentis.com/rs/tricentis/images/newsletter_header.jpg">
+<p style="font-weight: lighter; color: #ffffff; font-size: 46px; line-height: 43px; margin: 0px 0px 10px 0;">Tricentis Support <br />is Raising the Bar</p>
+<p style="font-size: 23px; line-height: 35px; font-weight: lighter; margin: 0px;">Platinum Support</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="openingCopy" class="mktEditable">
+<table class="container" style="width: 600px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px 0 10px 0; text-align: justify!important; padding-left: 20px; padding-right: 20px;" width="600px" align="left" valign="middle">
+<p>Hello {{lead.First Name:default=edit me}},</p>
+<p>We know how important your software testing is.
+                                 We understand the countless hours of planning, training, and maintenance that have gone into building your test environment.
+                                             					It is our goal to help you succeed.</p>
+<p>We are proud to offer our best tool for your success: Tricentis Platinum Support, and ensure that your employees are provided with the best possible support from Tricentis.</p>
+<h3 style="text-align: center; font-weight: bold;">Platinum Support Benefits</h3>
+<p style="text-align: center;">With Platinum Support, you will receive the following benefits:</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container" style="width: 600px; background-image: url(newsletter_header.jpg); background: #e9e9e6;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center" bgcolor="#E9E9E6">
+<tbody style="text-align: center;">
+<tr style="text-align: center;">
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px;" valign="middle">
+<p style="text-align: center !important; font-size: 30px;"><a style="color: #cc1c0d;" href="http://innovate.tricentis.com/talk-with-sales.html?utm_medium=email&amp;utm_source=newsletter_supportq1">Get in Touch</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpText1" class="mktEditable">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 0 0 10px 0; text-align: center;" width="560" align="center" valign="middle">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Tricentis Tosca Testsuite beta program" src="http://innovate.tricentis.com/rs/tricentis/images/beta.png" alt="Tricentis Tosca Testsuite beta program" /></p>
+<p style="text-align: center;"><strong>Participation in the Tricentis Tosca Testsuite beta program.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">You will get a first look at new developments, and the chance to provide feedback and influence implementation before it even hits the market.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Dedicated support contact" src="http://innovate.tricentis.com/rs/tricentis/images/dedicated_support.png" alt="Dedicated support contact" /></p>
+<p style="text-align: center;"><strong>Dedicated support contact.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">You will receive a dedicated support expert who is familiar with you, your goals, and your test environment.
+                                 These experts are your personal lifelines; proactive in supporting the requirements and questions your team faces.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpText2" class="mktEditable">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 10px 0 10px 0; text-align: center;" width="560" align="center" valign="middle">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Customized notifications" src="http://innovate.tricentis.com/rs/tricentis/images/customized_notifications.png" alt="Customized notifications" /></p>
+<p style="text-align: center;"><strong>Customized notifications.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">No need to be bombarded with notifications &ndash; unless you want to be.
+                                 You decide how to configure your notifications to best suit your needs.
+                                 You can define the frequency, nature, and distribution of our support bulletins.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Customized reporting" src="http://innovate.tricentis.com/rs/tricentis/images/customized_reporting.png" alt="Customized reporting" /></p>
+<p style="text-align: center;"><strong>Customized reporting.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">Tricentis Platinum Support will keep you up to date with customized reports tailored to your test environment.
+                                 You decide what your reports should include, who should receive it, and the frequency of the report.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpText3" class="mktEditable">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 10px 0 0 0; text-align: center;" width="560" align="center" valign="middle">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Immediate emergency support" src="http://innovate.tricentis.com/rs/tricentis/images/immediate_emergency_support.png" alt="Immediate emergency support" /></p>
+<p style="text-align: center;"><strong>Immediate emergency support.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">Immediate emergency support.
+                                 In case of an urgent problem, our Platinum Support team is available for emergency remote sessions.
+                                 These sessions allow a support expert to connect to your test environment, come alongside your team, and assist in analyzing the problem with you.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left">
+<p style="text-align: center;"><img title="Customized reporting" src="http://innovate.tricentis.com/rs/tricentis/images/fast_response_time.png" alt="Customized reporting" /></p>
+<p style="text-align: center;"><strong>Fast response times.</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">As if our Gold support response rate wasn&rsquo;t fast enough, now our Platinum Support customers will receive response times twice as quickly.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="threeUpDate8" class="mktEditable" style="width: 600px; background: #e9e9e6; margin-top: 30px;">
+<table class="container" style="width: 600px; background-image: url(newsletter_header.jpg); background: #e9e9e6;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center" bgcolor="#E9E9E6">
+<tbody style="text-align: center;">
+<tr style="text-align: center;">
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px;" valign="middle">
+<p style="text-align: center !important; font-size: 30px;"><a style="color: #cc1c0d;" href="http://innovate.tricentis.com/talk-with-sales.html?utm_medium=email&amp;utm_source=newsletter_supportq1">Get in Touch</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="openingCopy2" class="mktEditable">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560px" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; line-height: 20px; color: #3d3d3d; padding: 20px;" width="560px" align="left" valign="middle">
+<p style="text-align: justify!important;">Start 2015 with the security of knowing that Tricentis Platinum Support is there to make you and your team to success.</p>
+<p style="padding-top: 10px; text-align: center;"><img title="Oliver Allabauer" src="http://innovate.tricentis.com/rs/tricentis/images/oliver.png" alt="Oliver Allabauer" /></p>
+<p style="text-align: center;">Oliver Allabauer<br />Global Director Support Services<br /><a href="mailto:o.allabauer@tricentis.com">o.allabauer@tricentis.com</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpDate" class="mktEditable">
+<table class="container" style="width: 600px; margin: 5px auto; background: #7cb0e9;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center" bgcolor="#E9E9E6">
+<tbody>
+<tr>
+<td align="center">
+<table class="container" style="width: 600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #ffffff; text-transform: uppercase; padding: 20px 0; text-align: center;" width="560" align="center" valign="middle">
+<p style="margin: .5em 0;">Attend our Webinars</p>
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="100%" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #ffffff; text-transform: none;" align="center">
+<p style="margin: .5em 0 0; text-transform: uppercase; font-size: 20px;">12 Mar 2015</p>
+<p style="margin: 0 0.5em;"><strong>Business Assurance for SAP with Wipro and Tricentis</strong></p>
+<p style="margin-left: 20px; margin-right: 20px;">Businesses rely on third party Enterprise Resource Planning software, such as SAP, to fulfill their critical business functions.
+                                 The challenges of introducing this new software into a complex IT landscape, on top of any unforeseen complications, blind spots, and learning curves, can make accurate and efficient testing a huge obstacle.
+                                 <br /><a style="color: #e9e9e6;" href="http://innovate.tricentis.com/webinar-business-assurance-for-sap-emea.html?utm_medium=email&amp;utm_source=newsletter_supportq1" target="_blank">Register</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="twoUpText" class="mktEditable">
+<table class="container" style="width: 560px; margin: 0 auto;" border="0" cellspacing="0" cellpadding="0" width="560" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0px; text-align: center;" width="560" align="center" valign="middle">
+<p style="margin: .5em 0;">Tricentis Blog</p>
+<table class="container" style="padding: 0 2px;" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left"><img title="Lessons Learned" src="http://innovate.tricentis.com/rs/tricentis/images/lessons_learned.png" alt="Lessons Learned" 
+/>
+<p><strong>Lessons Learned from Agile Testing</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">Within the past ten years agile testing methodology has come of age.
+                                 With the advent of mobile and cloud computing, where every consumer has a powerful computer in their back pocket, the demand for new software, updates, and innovations has increased considerably.
+                                 <br /><a style="color: #195ead;" href="http://www.tricentis.com/blog/2015/01/lessons-learned-from-agile-testing/" target="_blank">Continue reading</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" style="padding: 0 2px;" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; line-height: 22px; font-weight: lighter; color: #3d3d3d; text-transform: none;" align="left"><img title="Software Failures" src="http://innovate.tricentis.com/rs/tricentis/images/software_failures.png" alt="Software      
+                          Failures" />
+<p><strong>Software Failures of 2014: Services Edition</strong></p>
+<p style="margin: .5em 0; text-align: justify!important;">It is no surprise that the world once feared the sudden global breakdown of computers at the advent of the millennium; the infamous Y2K.
+                                 Without those computers society would suddenly be thrust into mass chaos akin to a zombie movie &ndash; just without the zombies.
+                                 <br /><a style="color: #195ead;" href="http://www.tricentis.com/blog/2015/01/software-failures-of-2014-services-edition/" target="_blank">Continue reading</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="threeUpDate" class="mktEditable">
+<table class="container" style="width: 600px; margin: 5px auto; background: #e9e9e6;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center" bgcolor="#E9E9E6">
+<tbody>
+<tr>
+<td align="center">
+<table class="container" style="width: 600px; margin: 0 auto; padding-left: 20px; padding-right: 20px;" border="0" cellspacing="0" cellpadding="0" width="600px" align="center">
+<tbody>
+<tr>
+<td class="container" style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 24px; font-weight: lighter; line-height: 27px; color: #000000; text-transform: uppercase; padding: 20px 0; text-align: center padding-left;" width="560" align="center" valign="middle">
+<p style="margin: .5em 0;">Meet Tricentis</p>
+<table class="container" style="float: left;" border="0" cellspacing="0" cellpadding="0" width="260" align="left">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none; text-align: center;" align="left">
+<p style="font-size: 23px; margin: .5em 0 0;">March 18 2015</p>
+<p style="margin: 0 0 .5em;"><strong>Swiss Testing Day</strong></p>
+<p style="margin: .5em 0;"><a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/" target="_blank">More info</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="container fleft" border="0" cellspacing="0" cellpadding="0" width="260" align="right">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 14px; font-weight: lighter; color: #3d3d3d; text-transform: none; text-align: center;" align="left">
+<p style="font-size: 23px; margin: .5em 0 0;">March 23 2015</p>
+<p style="margin: 0 0 .5em;"><strong>The Great SAP Experience</strong></p>
+<p style="margin: .5em 0;"><a style="color: #195ead;" href="http://www.tricentis.com/events-webinars/" target="_blank">More info</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="footBlock" class="mktEditable">
+<table class="container" style="min-height: 150px;" border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#0E3258">
+<tbody>
+<tr>
+<td style="font-family: Calibri, Candara, Arial, sans-serif; font-size: 13px; font-weight: normal; color: #7cb0db; background: #0e3258 url(http://innovate.tricentis.com/rs/tricentis/images/em-back-footer.jpg) -50px -10px repeat; padding: 10px 20px;" width="600" align="center" valign="middle">
+<p>&nbsp;</p>
+<p align="center"><a href="https://plus.google.com/108151335013813449490/posts" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-google.png" alt="Google Plus" width="40" height="39" /></a> <!-- &nbsp;                        <img                                 
+src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-blank.png" _mce_src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-blank.png" alt=""height="39" width="40"> &nbsp; -->                        <a href="https://www.facebook.com/TRICENTIS" target="_blank"><img 
+src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-facebook.png" alt="" width="40" height="39" /></a> <!-- &nbsp;                        <img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-blank.png"                                 
+_mce_src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-blank.png" alt="" height="39" width="40"> &nbsp; -->                        <a href="https://twitter.com/Tricentis" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-twitter.png" alt="Twitter" 
+width="40" height="39" /></a> &nbsp;                        <a href="https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh" target="_blank"><img src="http://innovate.tricentis.com/rs/tricentis/images/em-soc-linkedin.png" alt="Linked In" width="40" height="39" /></a></p>
+<p>Tricentis GmbH .
+                                 Saturn-Tower .
+                                 Leonard-Bernstein-Stra&szlig;e 10 .
+                                 1220 Vienna .
+                                 Austria<br /> &copy; 2015 Tricentis GmbH.
+                                 All rights reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>

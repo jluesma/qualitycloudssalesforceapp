@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>webinar-risk-management-engine-2014-02-26 APAC.APAC Follow Up.Attendees</name>
+    <style>none</style>
+    <subject>Thanks!</subject>
+    <textOnly>Webinar - Tricentis Tosca Testsuite: Innovate Faster with the Risk Management Engine
+
+Wednesday, February 19, 2014 1:00 p.m. - 2:00 p.m CET (Berlin, Paris, Vienna, Rome)
+
+Dear {{lead.First Name}},
+
+Thanks for taking the time to attend our webinar, “Tricentis Tosca Testsuite: Innovate Faster with the Risk Management Engine.” We hope you enjoyed it as much as we did. Your participation and engaging questions made all the difference.
+
+If you’re interested in seeing this and other webinars, visit www.tricentis.com/resources/webcasts &lt;http://www.tricentis.com/resources/webcasts&gt;.
+
+Don’t miss the next webinar – register at http://www.tricentis.com/about/events/tricentis-webinar-series &lt;http://www.tricentis.com/about/events/tricentis-webinar-series&gt;.
+
+Best wishes,
+
+The Tricentis Team
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+
+© 2014 Tricentis. All Rights Reserved.
+Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

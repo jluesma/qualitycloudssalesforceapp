@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Test Automation for Beginners - English - 2015.07.28.Email - Follow Up</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our Test Automation for Beginners webinar!</subject>
+    <textOnly>Test Automation for Beginners
+
+Hi {{lead.First Name}},
+
+Sorry we missed you at our recent webinar, Test Automation for Beginners! Roman Zednik from the Tricentis Pre-Sales Consulting team, shared the basics of test automation, starting with the current market outlook on software test automation and ending with end-to-end test automation over different technologies.
+
+If you would like to see what you missed, a recording of our webinar is available here &lt;http://www.tricentis.com/thank-you-page-test-automation-for-beginners-webinar-20150728-ondemand&gt;.
+
+If you would like to stay up to date, please follow us on Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;. For any additional questions, please feel free to follow and tweet our Support Team @TricentisSpprt &lt;https://twitter.com/TricentisSpprt&gt;.
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+Roman Zednik 
+Pre-Sales Consultant
+Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

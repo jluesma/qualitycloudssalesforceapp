@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Follow Up - Attendees - Frankfurt -</name>
+    <style>none</style>
+    <subject>Danke für Ihre Teilnahme am Tosca Update Special 2015 in Frankfurt</subject>
+    <textOnly>Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+ Wir möchten uns sehr für Ihre Teilnahme am Tosca Update Special in Frankfurt bedanken und hoffen, dass Sei einige interessante Punkte mitnehmen konnten.
+
+Als Nachlese möchten wir Ihnen die Präsentationen sowie einige Fact Sheets zu besprochenen Themen zur Verfügung stellen. Zum Download klicken Sie bitte einfach auf die unten stehenden Links:
+
+ - Tricentis Update Special Präsentation &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/DE_Tricentis-update-special-Part-I-handout.pdf&gt;
+ - Fact Sheet: Tosca Integrations  &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150513-Tosca-Integrations-Factsheet-A4_PRINT.pdf&gt;
+ - Fact Sheet: Mobile + &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150427-Mobile-Plus Fact-Sheet_ A4-PRINT.pdf&gt;
+ - Fact Sheet: Orchestrated Service Virtualization &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150427-Orchestrated-Service-Virtualization-A4_PRINT.pdf&gt;
+ - Fact Sheet: Tosca Impact Analysis for SAP &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150304-Tosca-Impact-Analysis-for-SAP-Fact-Sheet-A4.pdf&gt;
+ - Fact Sheet: Tosca ECC Accelerator &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150421-Tosca-ECC-Accelerator-Factsheet-A4_PRINT.pdf&gt;
+ - Fact Sheet: Risk Coverage Optimization/Test Case Design &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150421-Risk-Coverage-Optimization-Factsheet-A4_PRINT.pdf&gt;
+
+Wir möchten uns auch für die interessanten Diskussionen und das positive Feedback bedanken und würden uns sehr freuen, Sie bei einer unserer nächsten Veranstaltung wieder begrüßen zu dürfen.
+
+Mit besten Grüßen
+
+Mike Schlabinger &amp; Ihr Tricentis Team
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+o - +43 1 263 24 09 - 1266, m - +49 173 215 46 86
+ e - m.schlabinger@tricentis.com &lt;mailto:m.schlabinger@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

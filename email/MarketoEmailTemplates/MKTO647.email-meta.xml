@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Germany - ZIP7000/ZIP8000.Email - Germany ZIP7000/ZIP8000 - No Salutatio</name>
+    <style>none</style>
+    <subject>EINLADUNG: Vortrag Herr Wolfgang Platz &amp; Ingo Philipp / Wie gelingt nachhaltige Steigerung von Test-Automation?</subject>
+    <textOnly>Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}, 
+
+Warum ist es heute leider so, dass noch mehrheitlich manuell getestet wird?
+ Warum waren alle Mühen um höhere Risikoabdeckung durch automatisierte Tests bislang so schwierig?
+ Weil einerseits zu viele Testfälle entstanden und andererseits Skripte nicht regressionsfähig sind.
+
+Wolfgang Platz - Gründer von Tricentis – und Ingo Philipp – Test Experte – haben hierzu gute Antworten. Wir freuen uns, dass es gelungen ist, die beiden Herren für einen qualifizierten Vortrag am 10. März 2015 in München und am 11. März 2015 in Stuttgart zu haben.
+
+Sie sprechen dabei über folgende Themen:
+
+A G E N D A
+
+
+ - Warum 10.000 Testfälle &quot;intuitiv&quot; erstellen, wenn &quot;nur&quot; 2.000 „hoch effektive“ Testfälle mehr qualitative Wirkung haben?
+ - Wie gelingt es ohne Testprogrammierung Prozesse hochproduktiv zu automatisieren?
+ - Wie gelingt dies in Eigenentwicklungen, SAP Anwendungen und mit mobilen Front-Ends?
+ - Wie sieht ein adäquates und anwendbares Testdatenmanagement dafür aus?
+
+
+
+Die Teilnehmeranzahl ist begrenzt.
+
+Veranstaltungsort
+ München: Mercure Hotel ORBIS München Süd, Karl-Marx-Ring 87, 81735 München
+ Stuttgart: Mercure Hotel STUTTGART GERLINGEN, Dieselstraße 2, 70839 Gerlingen
+
+09.30 - 12.00 mit anschließendem Lunch-Buffet auf Einladung von Tricentis.
+
+Anmeldung:
+ Bitte retournieren Sie dieses Mail unter Angabe der gewünschten Platzkarten und des gewünschten Veranstaltungsort an: n.neumayer@tricentis.com &lt;mailto:n.neumayer@tricentis.com&gt;
+
+Mit besten Grüßen
+
+Nicole Neumayer
+ Business Development
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integr
+
+o - +43 1 263 24 09 - 1275, m - +43 664 883 768 94
+ e - n.neumayer@tricentis.com  &lt;mailto:n.neumayer@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

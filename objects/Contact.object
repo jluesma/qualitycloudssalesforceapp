@@ -1,0 +1,3929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>QuickStartLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>QuickStartLayout</fullName>
+        <fields>Name</fields>
+        <fields>Title</fields>
+        <fields>job_role__c</fields>
+        <fields>AccountId</fields>
+        <fields>Phone</fields>
+        <fields>Email</fields>
+        <fields>MobilePhone</fields>
+        <fields>dr_linkedin_url__c</fields>
+        <fields>OwnerId</fields>
+        <fields>support_user__c</fields>
+        <label>Quick Start Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Advisor__c</fullName>
+        <description>Request verba 11.11.2017 - for Insight to capture GAB members</description>
+        <externalId>false</externalId>
+        <label>Advisor</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GAB member</fullName>
+                    <default>false</default>
+                    <label>GAB member</label>
+                </value>
+                <value>
+                    <fullName>Ignite contact</fullName>
+                    <default>false</default>
+                    <label>Ignite contact</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Sandeep&apos;s contact</fullName>
+                    <default>false</default>
+                    <label>Sandeep&apos;s contact</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() - DATEVALUE(CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Atlassian_Jira_User__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shall be used to determine if the user is also an Atlassian Marketplace interest for Exploratory testing.
+Shall be used for Marketing segmentation.
+Request from Wayne 25.07.2017</description>
+        <externalId>false</externalId>
+        <label>Atlassian Jira User</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Cloud_Testing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shall be used to determine if the user is interested in our Cloud Offering/solution.
+Shall be used for Marketing segmentation.
+Request from Wayne 26.09.2017</description>
+        <externalId>false</externalId>
+        <label>Cloud Testing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Age_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>(TODAY()-DATEVALUE(CreatedDate))*24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Age (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Created_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Created Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Contacted_Status_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Contacted_Status_End__c)), (Contacted_Status_End__c-Contacted_Status_Start__c)*24,
+IF(ISNULL(Contacted_Status_End__c), (NOW()-Contacted_Status_Start__c)*24, NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contacted Status Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contacted_Status_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Contacted Status End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Contacted_Status_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Contacted Status Start</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Content_Subscription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Part of Subscription Center; User will receive content-related email send-outs from Marketo</description>
+        <externalId>false</externalId>
+        <label>Subscription Content &amp; Best Practices</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Converted_from_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Converted from Lead</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_Address__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_Country_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ Country Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_Country_Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ Country (Full Name)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_State_Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ State (Full Name)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Company_HQ_State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Company HQ State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Conflict__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conflict</label>
+        <referenceTo>DSCORGPKG__Conflict__c</referenceTo>
+        <relationshipLabel>Contacts</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DeletedFromDiscoverOrg__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DeletedFromDiscoverOrg</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>false</fullName>
+                    <default>true</default>
+                    <label>false</label>
+                </value>
+                <value>
+                    <fullName>true</fullName>
+                    <default>false</default>
+                    <label>true</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_Company_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Company ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_Created_On__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created by DiscoverOrg</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_First_Update__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg First Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_FullCountryName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Country Full Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_LastUpdate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Last Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_State_Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg State Full Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_Technologies__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Technologies</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Email_Invalid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Invalid</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Exclude_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>User can use this checkbox to exclude record from getting updated from DiscoverOrg.</description>
+        <externalId>false</externalId>
+        <label>Lock from DiscoverOrg Updates</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__External_DiscoverOrg_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>DiscoverOrg Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__ITOrgChart__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Account.DSCORGPKG__DiscoverOrg_ID__c) = false, 
+HYPERLINK( 
+&apos;/apex/DSCORGPKG__itorgchart?co_id=&apos; +  Account.DSCORGPKG__DiscoverOrg_ID__c + &apos;&amp;scrollTo=&apos; +  DSCORGPKG__DiscoverOrg_ID__c , 
+&apos;View&apos;, 
+&apos;_blank&apos;) , 
+&apos;N/A&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IT Org Chart</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Job_Function__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Job Function</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__LinkedIn_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>LinkedIn URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Locked_By_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locked By User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Management_Level__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Management Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__MiddleName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MiddleName</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__NickName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>NickName</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__REMOVELinkedinURL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>REMOVELinkedinURL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__ReportsTo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg ReportsTo</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Twitter_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Twitter URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__department__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Department</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__title_Custom__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>title_Custom</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Contact Details Captured&quot;, &quot;Missing: &quot;&amp;IF( LEN( Phone ) = 0, &quot;Phone, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(LEN( Email) = 0, &quot;Email, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN( MailingStreet ) = 0, &quot;Complete Address, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(Title) = 0, &quot;Job Title, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( Salutation,&quot;&quot;), &quot;Salutation&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( LEN( Phone) = 0, 0,20) + IF( LEN( Email) = 0, 0,20) + IF( LEN(MailingStreet) = 0, 0,20) + IF( LEN(Title) = 0, 0,20) + IF( ISPICKVAL(Salutation,&quot;&quot;), 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Engaged_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Engaged Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Event_Subscription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Part of the Subscription Center; User will receive Event related send-outs if checked</description>
+        <externalId>false</externalId>
+        <label>Subscription Events</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EventbriteSync__EventbriteId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Eventbrite Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EventbriteSync__EventbriteType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Eventbrite Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Buyer</fullName>
+                    <default>false</default>
+                    <label>Buyer</label>
+                </value>
+                <value>
+                    <fullName>Attendee Profile</fullName>
+                    <default>false</default>
+                    <label>Attendee Profile</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EventbriteSync__UniquePersonId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Email),&quot;*&quot;,Email) &amp; &quot;%&quot; &amp; 
+IF(ISBLANK(FirstName),&quot;*&quot;,FirstName) &amp; &quot;%&quot; &amp; 
+IF(ISBLANK(LastName),&quot;*&quot;,LastName) &amp; &quot;%&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Unique Person Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Geo__c</fullName>
+        <description>For reporting on location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for grouping in reports. 3 Geos available: EMEA, US, APAC</inlineHelpText>
+        <label>Geo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>APAC</fullName>
+                    <default>false</default>
+                    <label>APAC</label>
+                </value>
+                <value>
+                    <fullName>EMEA</fullName>
+                    <default>false</default>
+                    <label>EMEA</label>
+                </value>
+                <value>
+                    <fullName>AMS</fullName>
+                    <default>false</default>
+                    <label>AMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Initiated_Status_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Initiated_Status_End__c)), (Initiated_Status_End__c-Initiated_Status_Start__c)*24,
+IF(ISNULL(Initiated_Status_End__c), (NOW()-Initiated_Status_Start__c)*24, NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Initiated Status Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initiated_Status_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Initiated Status End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Initiated_Status_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Initiated Status Start</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>List_source__c</fullName>
+        <externalId>false</externalId>
+        <label>List source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>LeadSource</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apache JMeter - Brigade</fullName>
+                    <default>false</default>
+                    <label>Apache JMeter - Brigade</label>
+                </value>
+                <value>
+                    <fullName>Atlassian</fullName>
+                    <default>false</default>
+                    <label>Atlassian</label>
+                </value>
+                <value>
+                    <fullName>Data.com</fullName>
+                    <default>false</default>
+                    <label>Data.com</label>
+                </value>
+                <value>
+                    <fullName>Discover.org</fullName>
+                    <default>false</default>
+                    <label>Discover.org</label>
+                </value>
+                <value>
+                    <fullName>DiscoverOrg</fullName>
+                    <default>false</default>
+                    <label>DiscoverOrg</label>
+                </value>
+                <value>
+                    <fullName>E4U</fullName>
+                    <default>false</default>
+                    <label>E4U</label>
+                </value>
+                <value>
+                    <fullName>Employee</fullName>
+                    <default>false</default>
+                    <label>Employee</label>
+                </value>
+                <value>
+                    <fullName>External Webinar</fullName>
+                    <default>false</default>
+                    <label>External Webinar</label>
+                </value>
+                <value>
+                    <fullName>Infosys</fullName>
+                    <default>false</default>
+                    <label>Infosys</label>
+                </value>
+                <value>
+                    <fullName>InsideView</fullName>
+                    <default>false</default>
+                    <label>InsideView</label>
+                </value>
+                <value>
+                    <fullName>JMeter</fullName>
+                    <default>false</default>
+                    <label>JMeter</label>
+                </value>
+                <value>
+                    <fullName>Linkedin</fullName>
+                    <default>false</default>
+                    <label>Linkedin</label>
+                </value>
+                <value>
+                    <fullName>Netprospex</fullName>
+                    <default>false</default>
+                    <label>Netprospex</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>Partner</label>
+                </value>
+                <value>
+                    <fullName>RainKing</fullName>
+                    <default>false</default>
+                    <label>RainKing</label>
+                </value>
+                <value>
+                    <fullName>Sales Rolodex</fullName>
+                    <default>false</default>
+                    <label>Sales Rolodex</label>
+                </value>
+                <value>
+                    <fullName>SD Times</fullName>
+                    <default>false</default>
+                    <label>SD Times</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>Techwell</fullName>
+                    <default>false</default>
+                    <label>Techwell</label>
+                </value>
+                <value>
+                    <fullName>Tradeshow - AttendeeList</fullName>
+                    <default>false</default>
+                    <label>Tradeshow - AttendeeList</label>
+                </value>
+                <value>
+                    <fullName>Web Research</fullName>
+                    <default>false</default>
+                    <label>Web Research</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+                <value>
+                    <fullName>ZoomInfo</fullName>
+                    <default>false</default>
+                    <label>ZoomInfo</label>
+                </value>
+                <value>
+                    <fullName>Event_Tradeshow</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tradeshow Attendee List</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Atlassian</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Data.com</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Discover.org</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>DiscoverOrg</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>E4U</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Employee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>External Webinar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>InsideView</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>JMeter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Linkedin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Netprospex</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Partner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>RainKing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Sales Rolodex</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>SD Times</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Techwell</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Tradeshow - AttendeeList</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>Web Research</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>List</controllingFieldValue>
+                <valueName>ZoomInfo</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MQL_Date__c</fullName>
+        <description>New Date field for MQL for new scoring logic
+bazwe 23.12.2017 - request by David Sin</description>
+        <externalId>false</externalId>
+        <label>MQL Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Marketing_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Name</fullName>
+                    <default>false</default>
+                    <label>New Name</label>
+                </value>
+                <value>
+                    <fullName>Engaged</fullName>
+                    <default>false</default>
+                    <label>Engaged</label>
+                </value>
+                <value>
+                    <fullName>MQL</fullName>
+                    <default>false</default>
+                    <label>MQL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <inlineHelpText>Please use the following format: e.g: +1 664 12 121 122</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>New_Name_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>New Name Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Newsletter_Subscription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Part of the Subscription Center; User will receive Newsletter related send-outs if checked</description>
+        <externalId>false</externalId>
+        <label>Subscription Newsletter</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Not_Now_Status_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Not_Now_Status_End__c)), (Not_Now_Status_End__c-Not_Now_Status_Start__c), IF(ISNULL(Not_Now_Status_End__c), (NOW()-Not_Now_Status_Start__c), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Not Now Status Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Not_Now_Status_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Not Now Status End </label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Not_Now_Status_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Not Now Status Start</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Open_Status_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Open_Status_End__c)), (Open_Status_End__c-Open_Status_Start__c)*24, 
+IF(ISNULL(Open_Status_End__c), (NOW()-Open_Status_Start__c)*24, NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Open Status Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Status_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Status End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Open_Status_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Open Status Start</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <inlineHelpText>Please use the following format: e.g: +1 664 12 121 122</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PowerOfOne__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>PowerOfOne</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Qualified_Status_Duration_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Qualified_Status_End__c)), (Qualified_Status_End__c-Qualified_Status_Start__c)*24,
+IF(ISNULL(Qualified_Status_End__c), (NOW()-Qualified_Status_Start__c)*24, NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Qualified Status Duration (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Qualified_Status_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Qualified Status End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Qualified_Status_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Qualified Status Start</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Reference_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Defines whether this person is a reference contact for the account associated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines whether this person is a reference contact for the account associated.</inlineHelpText>
+        <label>Reference Contact</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Service_Now_User_ID__c</fullName>
+        <description>Captures the ID of the Service Now User object</description>
+        <externalId>false</externalId>
+        <label>Service Now User ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Now_User_active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Captures the Service Now data about the status of the user - active or inactive</description>
+        <externalId>false</externalId>
+        <label>Service Now User active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SnowOutboundInSynch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Reflects, that a record is currently in synchronization</description>
+        <externalId>false</externalId>
+        <label>SnowOutboundInSynch</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SnowOutboundSynchDone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Reflects, that a record is synchronized</description>
+        <externalId>false</externalId>
+        <label>SnowOutboundSynchDone</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tier__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Account.Tier__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <inlineHelpText>The business card title - might not be a generic title.</inlineHelpText>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Webinar_Subscription__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Part of the Subscription Center; User will receive Webinar related send-outs if checked</description>
+        <externalId>false</externalId>
+        <label>Subscription Webinars</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X_Mas_Card__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Shall this contact receive a X-Mas card? If yes check this field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Shall this contact receive a X-Mas card? If yes check this field.</inlineHelpText>
+        <label>X-Mas Card</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Xing_URL__c</fullName>
+        <description>Xing URL field - used for mostly DACH region.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use this field to enter a Xing URL. Format: e.g.: www.google.com</inlineHelpText>
+        <label>Xing URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>account_demographic_score__c</fullName>
+        <description>For Lead Scoring</description>
+        <externalId>false</externalId>
+        <label>Account Demographic Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>behavior_score__c</fullName>
+        <description>For Lead Scoring</description>
+        <externalId>false</externalId>
+        <label>Behavior Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>contact_status__c</fullName>
+        <description>For Lead/Contact Status</description>
+        <externalId>false</externalId>
+        <label>Contact Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Solar flare</fullName>
+                    <default>false</default>
+                    <label>Solar flare</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Re-open</fullName>
+                    <default>false</default>
+                    <label>Re-open</label>
+                </value>
+                <value>
+                    <fullName>Rejected/Disqualified</fullName>
+                    <default>false</default>
+                    <label>Rejected/Disqualified</label>
+                </value>
+                <value>
+                    <fullName>Initiated</fullName>
+                    <default>false</default>
+                    <label>Initiated</label>
+                </value>
+                <value>
+                    <fullName>Contacted</fullName>
+                    <default>false</default>
+                    <label>Contacted</label>
+                </value>
+                <value>
+                    <fullName>Not Now</fullName>
+                    <default>false</default>
+                    <label>Not Now</label>
+                </value>
+                <value>
+                    <fullName>Qualified - (SQL)</fullName>
+                    <default>false</default>
+                    <label>Qualified - (SQL)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_date_targeted_company__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Targeted Company</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_targeted_country__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Targeted Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_targeted_email__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Targeted Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_targeted_title__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Targeted Title</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_valid_company__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Valid Company</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_valid_country__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Valid Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_valid_email__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Valid Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_valid_first_name__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Valid First Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_date_valid_last_name__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>Date - Valid Last Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_demo_request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For flagging Demo Request</description>
+        <externalId>false</externalId>
+        <label>Demo Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_disqualified_reason__c</fullName>
+        <description>For Lead/Contact Status</description>
+        <externalId>false</externalId>
+        <label>Rejected/Disqualified Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>contact_status__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Junk - No email or name or company name or spam</fullName>
+                    <default>false</default>
+                    <label>Junk - No email or name or company name or spam</label>
+                </value>
+                <value>
+                    <fullName>Not a Sales Lead</fullName>
+                    <default>false</default>
+                    <label>Not a Sales Lead</label>
+                </value>
+                <value>
+                    <fullName>Non-target – Geo Vertical, or job-level</fullName>
+                    <default>false</default>
+                    <label>Non-target – Geo Vertical, or job-level</label>
+                </value>
+                <value>
+                    <fullName>Moved to another company</fullName>
+                    <default>false</default>
+                    <label>Moved to another company</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Junk - No email or name or company name or spam</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Not a Sales Lead</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Non-target – Geo Vertical, or job-level</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Moved to another company</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Duplicate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected/Disqualified</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_external_record_id__c</fullName>
+        <displayFormat>{0}</displayFormat>
+        <externalId>false</externalId>
+        <label>External Record ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>dr_first_campaign_date__c</fullName>
+        <externalId>false</externalId>
+        <label>First Campaign Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>dr_first_campaign_tracking__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>First Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Contacts (First Campaign)</relationshipLabel>
+        <relationshipName>first_campaign_contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>dr_follow_up_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow Up Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>dr_funnel__c</fullName>
+        <description>For funnel grid</description>
+        <externalId>false</externalId>
+        <label>Funnel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MRL</fullName>
+                    <default>false</default>
+                    <label>MRL</label>
+                </value>
+                <value>
+                    <fullName>MVL</fullName>
+                    <default>false</default>
+                    <label>MVL</label>
+                </value>
+                <value>
+                    <fullName>MTL</fullName>
+                    <default>false</default>
+                    <label>MTL</label>
+                </value>
+                <value>
+                    <fullName>MQL</fullName>
+                    <default>false</default>
+                    <label>MQL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_last_campaign_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Campaign Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>dr_last_campaign_tracking__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Last Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Contacts (Last Campaign)</relationshipLabel>
+        <relationshipName>last_campaign_contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>dr_last_engagement_date__c</fullName>
+        <description>For showing last engagement date</description>
+        <externalId>false</externalId>
+        <label>Last Engagement Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_linkedin_url__c</fullName>
+        <description>For displaying Linkedin URL for a person</description>
+        <externalId>false</externalId>
+        <label>Linkedin URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>dr_might_be_junk__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For flagging Junk</description>
+        <externalId>false</externalId>
+        <label>Might Be Junk</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_might_be_spam__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For flagging Spam</description>
+        <externalId>false</externalId>
+        <label>Might Be Spam</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_mql__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>MQL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mql_utc__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(dr_mql__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MQL-UTC</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_mrl__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>MRL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mtl__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>MTL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mvl__c</fullName>
+        <description>For funnel grid reporting</description>
+        <externalId>false</externalId>
+        <label>MVL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_not_now_reasons__c</fullName>
+        <externalId>false</externalId>
+        <label>Not Now Reasons</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>contact_status__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tried to Contact - Will follow up later</fullName>
+                    <default>false</default>
+                    <label>Tried to Contact - Will follow up later</label>
+                </value>
+                <value>
+                    <fullName>Budget not available now - Will follow up later</fullName>
+                    <default>false</default>
+                    <label>Budget not available now - Will follow up later</label>
+                </value>
+                <value>
+                    <fullName>Tried to Contact - Not following up, needs nurture</fullName>
+                    <default>false</default>
+                    <label>Tried to Contact - Not following up, needs nurture</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Not Now</controllingFieldValue>
+                <valueName>Tried to Contact - Will follow up later</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Now</controllingFieldValue>
+                <valueName>Budget not available now - Will follow up later</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Now</controllingFieldValue>
+                <valueName>Tried to Contact - Not following up, needs nurture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Not Now</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_number_of_campaigns__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Campaigns</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_opted_in_to_email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opted-in to Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_quote_request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For flagging Quote Request</description>
+        <externalId>false</externalId>
+        <label>Quote Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_support_list__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Support List</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_talk_to_sales_now__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For Talk to Sales check box</description>
+        <externalId>false</externalId>
+        <label>Talk to Sales Now</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_talk_to_us_comments__c</fullName>
+        <description>For comments entered on Talk to Sales form</description>
+        <externalId>false</externalId>
+        <label>Talk to Us Comments</label>
+        <length>1100</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_content__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - Content</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_inbound_url__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - Inbound URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_referring_url__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - Referring URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_campaign__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - UTM Campaign</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_content__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - UTM Content</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_medium__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - UTM Medium</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_source__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - UTM Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_term__c</fullName>
+        <description>For Marketing ROI Tracking</description>
+        <externalId>false</externalId>
+        <label>Tracking - UTM Term</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_website_domain__c</fullName>
+        <description>For data management</description>
+        <externalId>false</externalId>
+        <label>Website Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__Department__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Department</description>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__EngagementMinutesLast3Months__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Engagement minutes in the last 3 months</description>
+        <externalId>false</externalId>
+        <label>Engagement Minutes (3 mo.)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__EngagementMinutesLast7Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Engagement minutes in the last 7 days</description>
+        <externalId>false</externalId>
+        <label>Engagement Minutes (7 days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__FirstEngagementDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First engagement date</description>
+        <externalId>false</externalId>
+        <label>First Engagement Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>engagio__Role__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Role</description>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>iSell__Avention_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique contact identifier (not currently implemented).</description>
+        <externalId>false</externalId>
+        <label>D&amp;B Contact ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>int_advancements_in_test_automation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Advancements in Test Automation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_advancements_in_test_automation_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Advancements in Test Automation_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>int_bi_data_warehouse__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>BI/Data Warehouse Testing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_bi_data_warehouse_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>BI/Data Warehouse Testing_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>int_cont_testing_for_agiledevops_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Continuous Testing for Agile/DevOps_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>int_continuous_testing_for_agiledevops__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Continuous Testing for Agile/DevOps</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_exploratory_testing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Exploratory Testing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_exploratory_testing_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Exploratory Testing_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>int_load_performance_testing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Load/Performance Testing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_load_performance_testing_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Load/Performance Testing_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>int_sap_packaged_apps__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>SAP/Packaged Apps</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>int_sap_packaged_apps_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>SAP/Packaged Apps_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>iseeit__Champion__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Champion</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Coach</fullName>
+                    <default>false</default>
+                    <label>Coach</label>
+                </value>
+                <value>
+                    <fullName>Enemy</fullName>
+                    <default>false</default>
+                    <label>Enemy</label>
+                </value>
+                <value>
+                    <fullName>Champion</fullName>
+                    <default>false</default>
+                    <label>Champion</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>iseeit__DecisionMaker__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DecisionMaker</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Business User</fullName>
+                    <default>false</default>
+                    <label>Business User</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Economic Buyer</fullName>
+                    <default>false</default>
+                    <label>Economic Buyer</label>
+                </value>
+                <value>
+                    <fullName>Economic Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Economic Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Evaluator</fullName>
+                    <default>false</default>
+                    <label>Evaluator</label>
+                </value>
+                <value>
+                    <fullName>Executive Sponsor</fullName>
+                    <default>false</default>
+                    <label>Executive Sponsor</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Technical Buyer</fullName>
+                    <default>false</default>
+                    <label>Technical Buyer</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>job_role__c</fullName>
+        <description>For lead capture forms</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A picklist of values for a general categorization of job roles. Used for targeted Marketing campaigns.</inlineHelpText>
+        <label>Job Role</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Architect</fullName>
+                    <default>false</default>
+                    <label>Architect</label>
+                </value>
+                <value>
+                    <fullName>QA Staff</fullName>
+                    <default>false</default>
+                    <label>QA Staff</label>
+                </value>
+                <value>
+                    <fullName>QA Manager / Team Lead</fullName>
+                    <default>false</default>
+                    <label>QA Manager / Team Lead</label>
+                </value>
+                <value>
+                    <fullName>QA Director</fullName>
+                    <default>false</default>
+                    <label>QA Director</label>
+                </value>
+                <value>
+                    <fullName>QA VP</fullName>
+                    <default>false</default>
+                    <label>QA VP</label>
+                </value>
+                <value>
+                    <fullName>Developer</fullName>
+                    <default>false</default>
+                    <label>Developer</label>
+                </value>
+                <value>
+                    <fullName>Developer Manager / Team Lead</fullName>
+                    <default>false</default>
+                    <label>Developer Manager / Team Lead</label>
+                </value>
+                <value>
+                    <fullName>Development Director</fullName>
+                    <default>false</default>
+                    <label>Development Director</label>
+                </value>
+                <value>
+                    <fullName>Development VP</fullName>
+                    <default>false</default>
+                    <label>Development VP</label>
+                </value>
+                <value>
+                    <fullName>IT / System Administrator</fullName>
+                    <default>false</default>
+                    <label>IT / System Administrator</label>
+                </value>
+                <value>
+                    <fullName>Project Manager</fullName>
+                    <default>false</default>
+                    <label>Project Manager</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>mkto2__Acquisition_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acquisition Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>mkto2__Acquisition_Program_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acquisition Program Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Acquisition_Program__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Acquisition Program</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_City__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_Company__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred Company</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_Country__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_Metropolitan_Area__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred Metropolitan Area</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_Phone_Area_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred Phone Area Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_Postal_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Inferred_State_Region__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Inferred State Region</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Lead_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Original_Referrer__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Referrer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Original_Search_Engine__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Search Engine</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Original_Search_Phrase__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Search Phrase</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto2__Original_Source_Info__c</fullName>
+        <defaultValue>&quot;Contact&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Source Info</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>mkto2__Original_Source_Type__c</fullName>
+        <defaultValue>&quot;salesforce.com&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Original Source Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__HideDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Hide Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Last_Interesting_Moment_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Interesting Moment Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Last_Interesting_Moment_Desc__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Interesting Moment Desc</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Last_Interesting_Moment_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Interesting Moment Source</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Last_Interesting_Moment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Interesting Moment Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Last_Interesting_Moment__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(!ISNULL(mkto_si__Last_Interesting_Moment_Date__c), 
+HYPERLINK(&quot;/apex/mkto_si__Contact_Full_List?view=IM&amp;id=&quot; &amp; Id, mkto_si__Last_Interesting_Moment_Type__c &amp; &quot; -- &quot; &amp; mkto_si__Last_Interesting_Moment_Desc__c ), &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Interesting Moment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Relative_Score_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Relative Score Value</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Relative_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASE( MIN(MAX(mkto_si__Relative_Score_Value__c, 0), 3),
+    0, IMAGE(&quot;https://app.marketo.com/images/icons/star0.png&quot;,&quot;0&quot;),
+    1, IMAGE(&quot;https://app.marketo.com/images/icons/star1.png&quot;,&quot;1&quot;),
+    2, IMAGE(&quot;https://app.marketo.com/images/icons/star2.png&quot;,&quot;2&quot;),
+    3, IMAGE(&quot;https://app.marketo.com/images/icons/star3.png&quot;,&quot;3&quot;),
+    &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Relative Score</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Sales_Insight__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK (&quot;/apex/Contact_Full_List?id=&quot; &amp; Id, IMAGE(&quot;https://www.marketo.com/salesforce/images/applicationLink.png&quot;,&quot;Sales Insight&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Insight</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Urgency_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Urgency Value</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__Urgency__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASE( MIN(MAX(mkto_si__Urgency_Value__c, 0),3),
+    0, IMAGE(&quot;https://app.marketo.com/images/icons/fire0.png&quot;,&quot;0&quot;),
+    1, IMAGE(&quot;https://app.marketo.com/images/icons/fire1.png&quot;,&quot;1&quot;),
+    2, IMAGE(&quot;https://app.marketo.com/images/icons/fire2.png&quot;,&quot;2&quot;),
+    3, IMAGE(&quot;https://app.marketo.com/images/icons/fire3.png&quot;,&quot;3&quot;),
+    &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Urgency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_si__View_in_Marketo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK (&quot;/apex/mkto_si__Marketo_Lead_Detail?objType=Contact&amp;objId=&quot; &amp; Id, IMAGE(&quot;https://app.marketo.com/images/icons16/marketo16.png&quot;,&quot;View in Marketo&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>View in Marketo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>person_demographic_score__c</fullName>
+        <description>For Lead Scoring</description>
+        <externalId>false</externalId>
+        <label>Person Demographic Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Allow_Marekting_Material__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>New registrant has to actively check this field for consent - will get Email Opt-In that way</description>
+        <externalId>false</externalId>
+        <label>Allow Marekting Material</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_Privacy_Policy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>New registrant has to actively check this field for consent</description>
+        <externalId>false</externalId>
+        <label>Privacy Policy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_blog__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Blog</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_blog_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Blog_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_events__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Events</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_events_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Events_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_new_research_webinars__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>New Research &amp; Webinars</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_new_research_webinars_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>New Research &amp; Webinars_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_special_announcements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Special Announcements</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_special_announcements_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Special Announcements_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_support_updates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Support updates</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_support_updates_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Support updates_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_technical_product_updates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Technical product updates</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_technical_product_updates_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Technical product updates_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_training_updates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Training updates</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_training_updates_date__c</fullName>
+        <description>Fields for the Subscription center</description>
+        <externalId>false</externalId>
+        <label>Training updates_date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>support_user__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Marks the contact as a contact from our support system. These contacts use Tosca actively and this field will be used for send outs targeted for our installed base.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Marks the contact as a contact from our support system. These contacts use Tosca actively and this field will be used for send outs targeted for our installed base.</inlineHelpText>
+        <label>Support User</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>total_demographic_score__c</fullName>
+        <description>For Lead Scoring</description>
+        <externalId>false</externalId>
+        <label>Total Demographic Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>total_score__c</fullName>
+        <description>For Lead Scoring</description>
+        <externalId>false</externalId>
+        <label>Total Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllContacts</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Contacts</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Contact_View_EMEA</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>Geo__c</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Contact View EMEA</label>
+        <sharedTo>
+            <roleAndSubordinates>DSR_EMEA_Head</roleAndSubordinates>
+            <roleAndSubordinates>DSR_EMEA_Team</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Contacts_to_follow_up</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>contact_status__c</columns>
+        <columns>dr_follow_up_date__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open,Initiated,Contacted,Not Now</value>
+        </filters>
+        <label>My Contacts to follow up</label>
+        <sharedTo>
+            <role>CSO</role>
+            <role>DSR_AMS_Head</role>
+            <role>DSR_AMS_Team</role>
+            <role>DSR_APAC_Head</role>
+            <role>DSR_APAC_Team</role>
+            <role>DSR_EMEA_Head</role>
+            <role>DSR_EMEA_Team</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1a_Open_ReOpen</fullName>
+        <columns>dr_last_campaign_tracking__c</columns>
+        <columns>dr_last_campaign_date__c</columns>
+        <columns>contact_status__c</columns>
+        <columns>dr_mql__c</columns>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.ADDRESS2_COUNTRY</columns>
+        <columns>dr_mtl__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </filters>
+        <label>1a. Open &amp; ReOpen</label>
+    </listViews>
+    <listViews>
+        <fullName>X6_My_Qualified_SQL_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>equals</operation>
+            <value>Qualified - (SQL)</value>
+        </filters>
+        <label>6. My &quot;Qualified -SQL&quot; Contacts</label>
+    </listViews>
+    <listViews>
+        <fullName>dr_demo_request</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>dr_demo_request__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Not Now,Disqualified</value>
+        </filters>
+        <label>4. Demo Request</label>
+    </listViews>
+    <listViews>
+        <fullName>dr_mql</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>contact_status__c</columns>
+        <columns>CONTACT.TITLE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </filters>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected/Disqualified</value>
+        </filters>
+        <label>My MQL (Contacts)</label>
+    </listViews>
+    <listViews>
+        <fullName>dr_mtl</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MTL</value>
+        </filters>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Not Now,Disqualified</value>
+        </filters>
+        <label>2. MTL</label>
+    </listViews>
+    <listViews>
+        <fullName>dr_not_now</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>equals</operation>
+            <value>Not Now</value>
+        </filters>
+        <label>5. Not Now</label>
+    </listViews>
+    <listViews>
+        <fullName>dr_talk_to_sales</fullName>
+        <columns>contact_status__c</columns>
+        <columns>dr_funnel__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>behavior_score__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>dr_talk_to_sales_now__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>contact_status__c</field>
+            <operation>notEqual</operation>
+            <value>Rejected,Not Now,Disqualified</value>
+        </filters>
+        <label>3. Talks to Sales</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Tosca</fullName>
+        <active>true</active>
+        <label>Tosca</label>
+        <picklistValues>
+            <picklist>Advisor__c</picklist>
+            <values>
+                <fullName>GAB member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ignite contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DSCORGPKG__DeletedFromDiscoverOrg__c</picklist>
+            <values>
+                <fullName>false</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>true</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Geo__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Atlassian Marketplace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blog Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Edition Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Syndication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contributed Article</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Website Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E4U</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Tradeshow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Tricentis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>G2Crowd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Newsletter Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Referral Non Paid%2FOrganic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organic Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales %28lead hunting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SalesFuel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Sharing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tasktop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party Promo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website RTP Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iTrinegy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>List_source__c</picklist>
+            <values>
+                <fullName>Apache JMeter - Brigade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atlassian</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discover%2Eorg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DiscoverOrg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E4U</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InsideView</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JMeter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netprospex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RainKing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD Times</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Rolodex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Techwell</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Research</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wipro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZoomInfo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketing_Stage__c</picklist>
+            <values>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MQL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Name</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>contact_status__c</picklist>
+            <values>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified - %28SQL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Re-open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%2FDisqualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solar flare</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>dr_disqualified_reason__c</picklist>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Junk - No email or name or company name or spam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-target %E2%80%93 Geo Vertical%2C or job-level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not a Sales Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>dr_funnel__c</picklist>
+            <values>
+                <fullName>MQL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MRL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MTL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MVL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>dr_not_now_reasons__c</picklist>
+            <values>
+                <fullName>Budget not available now - Will follow up later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tried to Contact - Not following up%2C needs nurture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tried to Contact - Will follow up later</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>job_role__c</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Developer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Developer Manager %2F Team Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development VP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT %2F System Administrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Director</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Manager %2F Team Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA VP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.SITE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Mailing_Address_Required_Rule</fullName>
+        <active>true</active>
+        <description>This validation rule is required to make the mailing address a required field. For now, it just requires country to be the mandatory field. we can expand it for the full mailing address as well if necessary.</description>
+        <errorConditionFormula>AND(
+MailingCountry = NULL,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Tricentis Sales Operations&quot;)</errorConditionFormula>
+        <errorDisplayField>MailingCountry</errorDisplayField>
+        <errorMessage>Billing Country is required. If available, please enter the complete billing address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RejectedDisqualified_and_Notnow_Reasons</fullName>
+        <active>true</active>
+        <description>Reason for Rejected/Disqualified and Not now status is mandatory</description>
+        <errorConditionFormula>AND(
+ $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt;  $User.Id,
+OR(
+	AND (
+   ISPICKVAL (	contact_status__c,&quot;Rejected/Disqualified&quot;), 
+   ISBLANK( TEXT(dr_disqualified_reason__c))
+		),
+		AND (
+   ISPICKVAL (	contact_status__c,&quot;Not Now&quot;), 
+   ISBLANK( TEXT(dr_not_now_reasons__c))
+		)
+	)
+)</errorConditionFormula>
+        <errorMessage>Reason for Rejected/Disqualified and Not now status is mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>follow_up_date_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+ISBLANK(dr_follow_up_date__c), 
+OR( 
+ISPICKVAL(dr_not_now_reasons__c, &quot;Tried to Contact - Will follow up later&quot;), 
+ISPICKVAL(dr_not_now_reasons__c, &quot;Budget not available now - Will follow up later&quot;)))</errorConditionFormula>
+        <errorDisplayField>dr_follow_up_date__c</errorDisplayField>
+        <errorMessage>Follow Up Date is required</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>DSCORGPKG__ReportWrongInfotoDiscoverOrg</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Report Wrong Info to DiscoverOrg</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/DSCORGPKG__ReportWrongInfo?id={!Contact.Id}&amp;name={!Contact.Name}&amp;discoverorgid={!Contact.DSCORGPKG__DiscoverOrg_ID__c}&amp;companyname={!Account.Name}&amp;title={!Contact.Title}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Contact_MailingStreet}+{!Contact_MailingCity}+{!Contact_MailingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Contact_FirstName} {!Contact_LastName}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>mkto_si__Add_to_Marketo_Campaign</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to Marketo Campaign</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/apex.js&quot;)} 
+
+var idArr = {!GETRECORDIDS($ObjectType.Contact)};
+if (idArr[0] == null){
+  alert(&apos;Please select at least one row&apos;);
+} else {
+  var value = new Array();
+  value[0] = new String(idArr);
+  var name = new Array();
+  name[0] = &quot;contactIds&quot;;  //This is the default for all id arrays in controller, though confusing
+  var key = sforce.apex.execute(&quot;mkto_si.LongGetMethodArguHandler&quot;, &quot;putArgus&quot;, { name:name, value:value, contactType:&quot;Contact&quot; }); 
+  window.top.location = &quot;/apex/mkto_si__Add_to_Marketo_Campaign?contactType=Contact&amp;key=&quot; + key +&quot;&amp;retUrl=&quot; + encodeURIComponent(document.location.href);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>mkto_si__Add_to_Watch_List</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to Watch List</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/apex.js&quot;)} 
+
+var idArr = {!GETRECORDIDS($ObjectType.Contact)};
+if (idArr[0] == null){
+  alert(&apos;Please select at least one row&apos;);
+} else {
+  var value = new Array();
+  value[0] = new String(idArr);
+  var name = new Array();
+  name[0] = &quot;contactIds&quot;;  //This is the default for all id arrays in controller, though confusing
+  var key = sforce.apex.execute(&quot;mkto_si.LongGetMethodArguHandler&quot;, &quot;putArgus&quot;, { name:name, value:value, contactType:&quot;Contact&quot; }); 
+  window.top.location = &quot;/apex/mkto_si__Add_to_Watch_List?contactType=Contact&amp;key=&quot; + key +&quot;&amp;retUrl=&quot; + encodeURIComponent(document.location.href);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>mkto_si__Send_Marketo_Email</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Marketo Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/apex.js&quot;)} 
+
+var idArr = {!GETRECORDIDS($ObjectType.Contact)};
+if (idArr[0] == null){
+  alert(&apos;Please select at least one row&apos;);
+} else {
+  var value = new Array();
+  value[0] = new String(idArr);
+  var name = new Array();
+  name[0] = &quot;contactIds&quot;;  //This is the default for all id arrays in controller, though confusing
+  var key = sforce.apex.execute(&quot;mkto_si.LongGetMethodArguHandler&quot;, &quot;putArgus&quot;, { name:name, value:value, contactType:&quot;Contact&quot; }); 
+  window.top.location = &quot;/apex/mkto_si__Send_Marketo_Email?contactType=Contact&amp;key=&quot; + key +&quot;&amp;retUrl=&quot; + encodeURIComponent(document.location.href);
+}</url>
+    </webLinks>
+</CustomObject>

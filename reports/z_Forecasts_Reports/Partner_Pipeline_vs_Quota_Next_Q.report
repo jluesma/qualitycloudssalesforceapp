@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps$Name</field>
+    </columns>
+    <columns>
+        <field>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps.Partners$Name</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps$StageName</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 Closed/Won,6 Closed/Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps*Opportunity$Revenue_Type__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>ARR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps.Partners$IsPrimary</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Partner - Pipeline vs Quota - Next Q</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Forecast_with_Opportunities_with_Partners__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>ForecastingQuota.ForecastingQuotaItems.ForecastingFactOpps$CloseDate</dateColumn>
+        <interval>INTERVAL_NEXT1</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Innovate Through Extreme Automation - 12.4.2013.Email - Miss You - all</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our webinar, Innovate Through Extreme Automation with voke, inc.</subject>
+    <textOnly>&lt;http://www.tricentis.com/resources/webcasts&gt;
+
+
+ &lt;http://www.tricentis.com/resources/webcasts&gt;
+
+
+Analyst Webinar: Innovate Through Extreme Automation
+
+
+
+
+
+
+
+Hi {{lead.First Name}},
+
+We’re sorry we missed you at our webinar, “Innovate through Extreme Automation.” Theresa Lanowitz, Founder, voke, inc. discussed extreme automation as a solution to the problems confronting Global 2000 companies. Wolfgang Platz, Founder and CPO, Tricentis, was also on hand to show how businesses accelerated innovation via extreme automation with Tricentis Tosca Testsuite. Questions from our audience provided further insight and made for a very interesting hour.
+
+Want to see what you missed? Check out a recording of this and other webinars at www.tricentis.com/resources/webcasts. &lt;http://www.tricentis.com/resources/webcasts&gt;
+Best wishes,
+
+
+The Tricentis Team
+
+
+ &lt;http://www.tricentis.com/resources/webcasts&gt;
+Theresa Lanowitz
+
+Founder, voke, inc.
+ &lt;http://www.tricentis.com/resources/webcasts&gt;
+
+Wolfgang Platz
+
+Founder &amp; Chief Product Officer, Tricentis
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

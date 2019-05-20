@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Confirmation - no Salutation - Muni</name>
+    <style>none</style>
+    <subject>Anmeldebestätigung: Tosca Update Special 2015</subject>
+    <textOnly>Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+Wir freuen uns sehr, dass Sie sich für das Tosca Update Special 2015 angemeldet haben. Nachfolgend finden Sie nochmals die Agenda und den von Ihnen gewählten Termin und Veranstaltungsort.
+
+Klicken Sie {{my.ical-munich}} um den Termin in Ihren Outlook Kalender einzutragen.
+
+Agenda:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+Veranstaltungsort:
+Update Special – München
+7. Juli 2015, 13:00 - 17:00 Uhr
+Mercure Hotel Orbis München Süd
+Karl-Marx-Ring 87
+81735 München
+
+Wir freuen uns auf Ihr Kommen und einen interessanten Nachmittag mit Ihnen.
+
+Mit besten Grüßen
+ Ihr Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span style="color: rgb(0, 0, 0); font-family: arial; font-size: medium;">Hi&nbsp;</span><font face="arial">{!Contact.OwnerFirstName},</font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<div>FYI:&nbsp;<font face="arial" style="font-size: 12pt;">a new person </font><font face="arial" style="font-size: 12pt; background-color: rgb(255, 255, 255);"><span style="font-size: 12pt;">(</span></font><span style="font-size: medium; background-color: rgb(255, 255, 255);">{!Lead.Name}) &nbsp;from an existing customer&nbsp;</span><font face="arial" style="font-size: 12pt;">is identified for {!Account.Name}, which has an open Opportunity. The Lead is already qualified and converted, so there is no action needed from your side.&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">You can access the Lead directly via the link: {!Lead.Link}</font></div><div><font face="arial"><br></font></div><div><font face="arial"><br></font></div><div><font face="arial">Regards,</font></div><div><font face="arial">SFDC Admin Team</font></div>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[<br>]]></td>
+</tr>
+</table>

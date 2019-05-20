@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Customer - Legal Name Change.Email - Customer - Legal Name Change</name>
+    <style>none</style>
+    <subject>Change of Company Name from TRICENTIS Technology &amp; Consulting GmbH to Tricentis GmbH</subject>
+    <textOnly>Änderung des Firmennamens von TRICENTIS Technology &amp; Consulting GmbH zu Tricentis GmbH
+
+Sehr geehrte Damen und Herren,
+
+Seit dem 17. Jänner 2014 firmieren wir als Tricentis GmbH. Der Sitz der Gesellschaft bleibt unverändert in Wien: Saturn-Tower, Leonard-Bernstein-Straße 10, 1220 Wien, Österreich.
+
+Da es sich um eine reine Namensänderung handelt, bleiben Standorte, Ansprechpartner, Telefonnummern, Steuernummern etc. unverändert bestehen. Ebenso gelten unter dem bisherigen Namen geschlossene Verträge unverändert weiter.
+
+Wir freuen uns auf eine weiterhin angenehme und für beide Seiten erfolgreiche Zusammenarbeit.
+
+Tricentis GmbH
+
+
+
+
+Change of Company Name from TRICENTIS Technology &amp; Consulting GmbH to Tricentis GmbH
+
+Dear Sir or Madam,
+
+Since 17 January 2014 we operate as Tricentis GmbH. Our place of business in Vienna remains unchanged: Saturn-Tower, Leonard-Bernstein-Straße 10, 1220 Vienna, Austria.
+
+We changed only the company name. All other details such as locations, contact persons, telephone numbers, tax numbers, etc. stay the same. Furthermore, all existing contracts remain in effect unchanged.
+
+We look forward to a continued pleasant and successful collaboration.
+
+Tricentis GmbH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

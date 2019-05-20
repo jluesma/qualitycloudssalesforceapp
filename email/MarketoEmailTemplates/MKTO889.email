@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/Marketo-Email-Banner_Business-Banner.png" alt="Tricentis Business Breakfast" width="600" height="190" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">2. Juni 2015 - Testen in der Cloud</td>
+</tr>
+<tr>
+<td width="600">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},</p>
+<p>n&uuml;tzen Sie die Chance und sichern Sie sich jetzt einen der letzten noch freien Pl&auml;tze bei unserem <strong>2. Tricentis Business Breakfast</strong>, am Dienstag, den 2. Juni 2015, zum Thema <strong>&bdquo;Testen in der Cloud&ldquo;</strong> in Kooperation mit unserem Partner Microsoft.</p>
+<p><strong>Agenda:</strong><br /> 09:00 &ndash; 09:30&nbsp; Registrierung &amp; Begr&uuml;&szlig;ungskaffee<br /> 09:30 &ndash; 10:15&nbsp; &bdquo;So sicher ist die Cloud&ldquo; &ndash; Harald Leitenm&uuml;ller &ndash; CTO bei Microsoft<br /> 10:15 &ndash; 10:30&nbsp;&nbsp; Pause<br /> 10:30 &ndash; 11:15&nbsp; &bdquo;Test Automation aus der Cloud&ldquo; &ndash; Michael Niessl &ndash; TaaS Product Owner bei Tricentis<br /> 11:15 &ndash; 12:00&nbsp; F&uuml;hrung durch das Microsoft B&uuml;ro<br /> anschlie&szlig;end: Fingerfood und Zeit f&uuml;r Networking &amp; Erfahrungsaustausch</p>
+<p><strong>Veranstaltungsort:</strong><br /> Microsoft &Ouml;sterreich GmbH<br /> Am Europaplatz 3<br /> 1120 Wien</p>
+<p>Wir freuen uns sehr darauf, Sie bei unserem 2. Business Breakfast in den R&auml;umlichkeiten der Firma Microsoft begr&uuml;&szlig;en zu d&uuml;rfen. Die Teilnahme ist f&uuml;r Sie kostenfrei.</p>
+<p>Mit besten Gr&uuml;&szlig;en<br /> Ihr Tricentis Events Team</p>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: center;"><a href="http://www.tricentis.com/events-webinars/tricentis-business-breakfast-2015-06-02?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now-german.jpg" alt="Jetzt anmelden" width="150" /></a></p>
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/Harald-Leitenmueller-150px.jpg" alt="Harald Leitenm&uuml;ller" width="100" height="100" /></p>
+<!--150-->
+<p style="text-align: center;"><strong>Harald Leitenm&uuml;ller</strong><br />CTO<br />Microsoft</p>
+<p style="text-align: center;"><img src="http://innovate.tricentis.com/rs/tricentis/images/Michael_Niessl150x150.jpg" alt="Michael Niessl" width="100" height="100" /></p>
+<!--150-->
+<p style="text-align: center;"><strong>Michael Niessl</strong><br />TaaS Product Owner<br /> Tricentis</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

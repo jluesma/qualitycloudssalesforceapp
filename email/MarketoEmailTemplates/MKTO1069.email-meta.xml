@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Enterprise Case Study - Swiss Re - 2015.03.25.Email - 2nd Follow up fo</name>
+    <style>none</style>
+    <subject>A gift for you: free Swiss Re enterprise case study</subject>
+    <textOnly>Swiss Re’s Path to Quality Assurance
+
+
+
+
+
+
+
+
+Hi {{lead.First Name}},
+
+Thank you for registering for our webinar, “Swiss Re’s Path to Quality Assurance with Tosca Testsuite” this past March. In the webinar, Ismail Celik, Head of Test Automation, discussed how Swiss Re transformed their ServiceNOW testing and increased their quality assurance, cut costs, and reduced testing time.
+
+Due to your interest in the topic, we wanted to personally follow up with the opportunity to download our newly published Swiss Re enterprise case study &lt;http://www.tricentis.com/resource-assets/swissre-reduces-time-to-release-and-increases-efficiency-with-tosca-testsuite?utm_medium=email&amp;utm_source=db&gt;.
+
+Should you want to learn more about Tricentis’ answer to ServiceNOW testing, please visit our solutions page here &lt;http://www.tricentis.com/enterprise-solutions/servicenow/&gt;.
+
+If you would like to stay up to date, please follow us on Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;. For any additional questions, please feel free to follow and tweet our Support Team @TricentisSpprt &lt;https://twitter.com/TricentisSpprt&gt;.
+Best regards,
+ The Tricentis Webinar Team
+ 
+
+
+ &lt;http://www.tricentis.com/resource-assets/swissre-reduces-time-to-release-and-increases-efficiency-with-tosca-testsuite?utm_medium=email&amp;utm_source=db&gt;
+
+
+Ismail Celik
+Head of Test Automation
+ Swiss Re
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

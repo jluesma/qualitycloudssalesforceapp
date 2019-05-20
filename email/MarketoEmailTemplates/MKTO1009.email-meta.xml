@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 2 plus call for papers - German - with sa</name>
+    <style>none</style>
+    <subject>Jetzt Anmelden! Tricentis Accelerate - 22. October 2015 - Wien</subject>
+    <textOnly>&lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Accelerate – 22. Oktober 2015
+Novomatic Forum, Wien
+9:00 - 17:00 Uhr
+anschl.: Buffet und Networking
+
+Die Anmeldung ist für Sie kostenlos!
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+ab sofort können Sie sich für die Teilnahme an der Tricentis Accelerate 2015 &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt; anmelden. Genießen Sie gemeinsam mit uns einen Tag voller interessanter Vorträge, Workshops und Gespräche in Wien.
+
+Die diesjährige Konferenz behandelt folgende Themen:
+
+- Testautomatisierung
+ - Service Virtualisierung
+ - Mobiles Testen
+ - Agile &amp; DevOps
+
+Haben Sie Erfahrung mit diesen Themen und würden gerne auf der Accelerate sprechen? Dann nutzen Sie die Chance und senden Sie das ausgefüllte Call for Paper Formular &lt;http://innovate.tricentis.com/rs/tricentis/images/C4P_Accelerate.pdf&gt; mit Ihrem Präsentationsvorschlag an: accelerate@tricentis.com &lt;mailto:accelerate@tricentis.com&gt;.
+
+Wir haben unseren Call for Papers bis 10. Juli 2015 für Sie verlängert!
+
+Wir freuen uns schon sehr auf Ihre Ideen und hoffen Sie bald in Wien begrüßen zu dürfen.
+
+Mit besten Grüßen
+
+Ihr Tricentis Accelerate Team
+
+Platinum Sponsor:
+
+Gold Sponsor:
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

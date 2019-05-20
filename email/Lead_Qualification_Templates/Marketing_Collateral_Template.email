@@ -1,0 +1,33 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><font face="Arial, sans-serif">Dear {!NullValue(Contact.FirstName, "Sir or Madam")},</font></p><p class="MsoNormal"><font face="Arial, sans-serif"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif">I hope this email finds you well!</font></p><p class="MsoNormal"><font face="Arial, sans-serif">My name is Martin Karolyi; a Technical Advisor at Tricentis. I am reaching out because I noticed you were interested in the <span style="background-color: rgb(255, 255, 153);">[COLLATERAL NAME: Factsheet/Casestudy/Whitepaper/Webinar]</span> and thought you may also be interested in our <span style="background-color: rgb(255, 255, 153);">[COLLATERAL NAME: Factsheet/Casestudy/Whitepaper/Webinar] </span>on the same/a related topic.</font></p><p class="MsoNormal"><font face="Arial, sans-serif">Please let me know if you have any questions regarding Tricentis or would like to discuss the details of our testing solution, Tosca Testsuite.</font></p><p class="MsoNormal"><font face="Arial, sans-serif">I am happy to be your point of contact and make sure all of your questions are answered. Is there a phone number or alternative email address that is best to reach you?</font></p><p class="MsoNormal"><font face="Arial, sans-serif">Thanks {!Contact.FirstName}, and I look forward to chatting with you!</font></p><p class="MsoNormal"><font face="Arial, sans-serif">&nbsp;</font></p><p class="MsoNormal"><font face="Arial, sans-serif">Best Regards,</font></p><p class="MsoNormal"><font face="Arial, sans-serif">{!User.Name}</font></p><p class="MsoNormal"><font face="Arial, sans-serif">{!User.Title}</font></p><p class="MsoNormal"><font face="Arial, sans-serif"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif">Tricentis</font></p><p class="MsoNormal"><font face="Arial, sans-serif">o - {!User.Phone}, m - {!User.MobilePhone}</font></p><p class="MsoNormal"><font face="Arial, sans-serif">e – {!User.Email}</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><img src="https://c.na15.content.force.com/servlet/servlet.ImageServer?id=015i000000B2iCF&amp;oid=00Di0000000eCqx" border="0" align="left" alt=""><font face="Arial, sans-serif"><br></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">&nbsp;</span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes">Tricentis GmbH <br>
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna<br>
+FN 213896d Handelsgericht Wien</span><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif"><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes">&nbsp;</span><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size: 8pt; color: rgb(191, 191, 191);"><font face="Arial, sans-serif">Tricentis US Headquarters, 5150 El Camino Real, Suite D14,
+Los Altos, CA 94022</font></span><span lang="EN-US" style="font-family: arial; font-size: 8pt;"><o:p></o:p></span></p>]]></td>
+</tr>
+</table>

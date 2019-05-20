@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Whats New - 8.4.1 - 2015.08.04.Email - Whats New Newsletter - 8.4.1</name>
+    <style>none</style>
+    <subject>What&apos;s New in Tosca Testsuite 8.4.1</subject>
+    <textOnly>4.8.2015
+What’s New in Tosca Testsuite
+The Tricentis team is excited to present our new 8.4 Release. The Tricentis team is launching our new Tosca Testsuite 8.4 Service Pack 1! For this release, we’ve enhanced many of the new features from Tosca Testsuite 8.4, but have also included some additional features that make the test automation process more streamlined and intuitive for all users. For more information, check out the ‘What’s New’ &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/?utm_medium=newsletter&amp;utm_source=newsletter841&gt; section on our website.
+8.4 SP1 Release launch
+
+3 AUG 2015
+
+
+
+
+
+
+
+
+Highlighted features
+
+X-Browser: Re-scan for UI Tests
+Application development for agile teams often moves at a rapid pace, meaning a lot of time and effort is spent re-working and re-creating test cases when only small changes have been made. Our new re-scan for UI tests makes maintaining and updating your test cases incredibly easy.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#rescan?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Mobile+: New Scan
+For those who have been using Tosca Testsuite for the past year, you are most likely well acquainted with our easy-to-use X-Scan. The X-Scan helps users to scan applications effortlessly and quickly. For Service Pack 1, we’ve enabled the scanning of Mobile applications, making it easier to detect and build up test cases. Users will be amazed by how simple it is to create test cases from your mobile app.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#newscan?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+OSV Recorder
+Developing applications can be tedious, especially when it connects to various third party APIs that require lots of time and effort to test. Our Orchestrated Service Virtualization product is able to simulate these APIs and avoid costly test labs. Our new OSV recorder function locates the APIs and records their interactions, creating new scenarios for End-to-end testing. The best part of OSV is that you don’t have to be finished with your application in order to test, making it ideal for agile teams to shift testing left on the product cycle.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#osvrecorder?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Migration: Classic HTML to TBox
+With TBox, it is very easy to automate all types of applications effortlessly. We encourage our customers to migrate over from the old Classic HTML engine to our new TBox, in order to ensure that you have the fastest test automation out on the market. 
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#htmltbox?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Mobile+: Responsive Design
+Mobile apps are dominating the market and we know it’s not easy to keep up with the newest trends and adapt to the latest OS’s. The important factor is how customers are using your app, be it tablet or a mobile phone. Responsive design means guaranteeing that your customers get the best out of your application. Our new Responsive Design feature for Tosca Mobile+ ensures just that.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#respdesigntests?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Tosca NeoLoad Integration
+Performance Testing isn’t something that testers do on their lunch break – although, we’re sure they’ve tried. Tricentis, in collaboration with Neotys, has created a tool that integrates Neoload into Tosca Testsuite. Using Neoload to increase the amount of users consecutively, while Tosca automates each Test case, enables Testers to identify the breaking point for their application and to determine what needs to be tweaked in order to increase the application performance.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#neoloadintegration?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+New Enhancements
+
+Context Sensitive Mini Toolbar
+With the release of Tosca 8.4 Service Pack 1, Tricentis has worked hard to make Tosca Testsuite more intuitive and easy to use for all current and future customers. The Context Sensitive Mini Toolbar allows easy access and control to all of your frequently used functions based on the current view. 
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#minitoolbar?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+API Engine: IBM Websphere MQ
+Effortlessly send and receive messages from enterprise service bus. Tosca 8.4 SP1 now easily updates your project to the most current version.
+ More info &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#apiengine?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Index-based Control Identification
+When creating test cases, testers often struggle with identifying which specific controls require testing. The new X-Scan Index-based Control Identification helps testers to identify their control using a unique ID, making it easier to find unique controls for easier test case creation.
+ More info &lt; http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#idcontrol?utm_medium=newsletter&amp;utm_source=newsletter841&gt;
+
+Operators on TBox
+Continuing with the theme of usability and user experience, our engineering team has added the support of operators that enhance the use of properties when creating test cases.
+ More info &lt; http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-1/#operatorstbox?utm_medium=newsletter&amp;utm_source=newsletter84&gt;
+Upcoming What’s New Webinars
+
+13. August, 2015
+4:00 - 5:00 pm CEST (US, EMEA)
+What’s New in 8.4 SP1 (EN)
+Register &lt;http://www.tricentis.com/resource-assets/what-is-new-8-4-1-20150813-webinar?utm_medium=email&amp;utm_source=news_w&gt;
+
+20. August, 2015
+3:00 - 4:00 pm AEST (APAC)
+What’s New in 8.4 SP1 (EN)
+Register &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-20150820-webinar?utm_medium=email&amp;utm_source=news_w&gt;
+
+18. August, 2015
+1:00 - 2:00 pm CEST (EMEA)
+What’s New in 8.4 SP1 (DE)
+ Register &lt;http://www.tricentis.com/resource-assets/whats-new-in-tosca-testsuite-8-4-1-german-webinar?utm_medium=email&amp;utm_source=news_w&gt;
+
+17. SEPTEMBER, 2015
+10:00 - 11:00 am CEST (EMEA)
+Testen auf mobilen Geräten mit Tosca Mobile + (DE)
+ Register &lt;http://www.tricentis.com/resource-assets/testen-auf-mobilen-geraeten-mit-tosca-mobile-plus-webinar?utm_medium=email&amp;utm_source=news_w&gt;
+Please add Tricentis to your address book: info@tricentis.com
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+ © 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

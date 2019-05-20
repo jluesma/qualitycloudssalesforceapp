@@ -1,0 +1,3606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EnableCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountId18digit__c</fullName>
+        <description>This is an admin field used for implementations and can be used for reports as well</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is an admin field used for implementations and can be used for reports as well</inlineHelpText>
+        <label>AccountId18digit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <inlineHelpText>The annual revenue the account makes.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Business_Value_Assessment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used for tagging accounts, where a customer success engagement shall be happening but no dedicated person for follow up has been identified.
+Request vipra 13.11.2017</description>
+        <externalId>false</externalId>
+        <label>Business Value Assessment</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CSM_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Contact person from Tricentis, who is responsible for this particular account.
+Request vipra 13.11.2017</description>
+        <externalId>false</externalId>
+        <label>CSM Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CSOwner</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Customer_Since__c</fullName>
+        <description>Displays the first closed won date of an opportunity.</description>
+        <externalId>false</externalId>
+        <formula>First_Won_Opportunity__r.Closed_Won_Date__c</formula>
+        <label>Customer Since</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Conflict__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Conflict</label>
+        <referenceTo>DSCORGPKG__Conflict__c</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DO_3yr_Employees_Growth__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>3yr Employees Growth %</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DO_3yr_Sales_Growth__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>3yr Sales Growth %</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DeletedFromDiscoverOrg__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DeletedFromDiscoverOrg</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>false</fullName>
+                    <default>true</default>
+                    <label>false</label>
+                </value>
+                <value>
+                    <fullName>true</fullName>
+                    <default>false</default>
+                    <label>true</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_Created_On__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created by DiscoverOrg</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_First_Update__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg First Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_FullCountryName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Country Full Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DiscoverOrg DB object ID</description>
+        <externalId>false</externalId>
+        <label>DiscoverOrg ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_LastUpdate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Last Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_State_Full_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg State Full Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__DiscoverOrg_Technologies__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DiscoverOrg Technologies</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Exclude_Update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>User can use this checkbox to exclude record from getting updated from DiscoverOrg.</description>
+        <externalId>false</externalId>
+        <label>Exclude from DiscoverOrg Auto-Updates</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__External_DiscoverOrg_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>DiscoverOrg Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Fiscal_Year_End__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Fiscal Year End</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Fortune_Rank__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Fortune Rank</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__ITOrgChart__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(DSCORGPKG__DiscoverOrg_ID__c) = false,  
+     HYPERLINK(
+           &apos;/apex/DSCORGPKG__itorgchart?co_id=&apos;  +  DSCORGPKG__DiscoverOrg_ID__c ,
+            &apos;View&apos;,
+            &apos;_new&apos;) , 
+    &apos;N/A&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IT Org Chart</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__IT_Budget__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>IT Budget (USD)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__IT_Employees__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>IT Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Lead_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Lead Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>true</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>DiscoverOrg</fullName>
+                    <default>false</default>
+                    <label>DiscoverOrg</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Locked_By_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locked By User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__NAICS_Codes__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary NAICS Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Ownership__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ownership</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__SIC_Codes__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Primary SIC Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <description>Management wants to review data quality</description>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Account Details Captured&quot;, &quot;Missing: &quot;&amp;IF( ISPICKVAL( Industry,&quot;&quot;),&quot;Industry, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL(Rating,&quot;&quot;), &quot;Rating, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(BillingCity) = 0, &quot;Complete Address, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(Phone) = 0, &quot;Phone, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL(Type,&quot;&quot;), &quot;Type&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <description>Management wants to review data quality</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(Industry,&quot;&quot;), 0,20) + IF( ISPICKVAL(Rating,&quot;&quot;), 0,20) + IF( LEN(BillingCity) = 0, 0,20) + IF(LEN(Phone) = 0, 0,20) + IF( ISPICKVAL(Type,&quot;&quot;), 0,20)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <inlineHelpText>General notes on the account.</inlineHelpText>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <description>For data management - is being used for lead-account matching</description>
+        <externalId>false</externalId>
+        <label>Email Domain</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Engagio_tracked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field shall be used to track if this particular account is included in the Engagio pilot for APAC</description>
+        <externalId>false</externalId>
+        <label>Engagio_tracked</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>First_Won_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Displays the first closed won opportunity</description>
+        <externalId>false</externalId>
+        <label>First Won Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Accounts (First Won Opportunity)</relationshipLabel>
+        <relationshipName>Accounts1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Fortune_Ranking__c</fullName>
+        <description>Seller shall know what ranking the account has in Fortune1000</description>
+        <externalId>false</externalId>
+        <label>Fortune 1000 Ranking</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <inlineHelpText>Defines the industry the account is working in. Used for targeted Marketing campaigns.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Internal_group_name__c</fullName>
+        <description>Finance naming for parent accounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maintained by Finance</inlineHelpText>
+        <label>Internal group name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Logo_Digital__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Should be used to define if a customers logo (digital) is allowed to be used by Tricentis.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be used to define if a customers logo (digital) is allowed to be used by Tricentis.</inlineHelpText>
+        <label>Logo Digital</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Logo_Print__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Should be used to define if a customers logo (print) is allowed to be used by Tricentis.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be used to define if a customers logo (print) is allowed to be used by Tricentis.</inlineHelpText>
+        <label>Logo Print</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name_Digital__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Should be used to define if a customers name (digital) is allowed to be used by Tricentis.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be used to define if a customers name (digital) is allowed to be used by Tricentis.</inlineHelpText>
+        <label>Name Digital</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name_Print__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Should be used to define if a customers name (print) is allowed to be used by Tricentis.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be used to define if a customers name (print) is allowed to be used by Tricentis.</inlineHelpText>
+        <label>Name Print</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <inlineHelpText>The number of employees of the account.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Number_of_Opportunity__c</fullName>
+        <description>Is needed for the dashboards built by DR
+Request DemanrdRamp: 30.11.2017
+
+Power of one - counts opportunity number</description>
+        <externalId>false</externalId>
+        <label>Number of Opportunity</label>
+        <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ownership</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <inlineHelpText>Is used for defining the parent account (e.g.: holding etc.).</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Account__c</fullName>
+        <description>Checkbox shall identify if account is parent account or not.</description>
+        <externalId>false</externalId>
+        <formula>IF
+(
+ ParentId = &apos;&apos;, TRUE, FALSE
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Parent Account</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GSI Services Partner</fullName>
+                    <default>false</default>
+                    <label>GSI Services Partner</label>
+                </value>
+                <value>
+                    <fullName>ISV Partner</fullName>
+                    <default>false</default>
+                    <label>ISV Partner</label>
+                </value>
+                <value>
+                    <fullName>Regional Services Partner</fullName>
+                    <default>false</default>
+                    <label>Regional Services Partner</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <valueName>GSI Services Partner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <valueName>ISV Partner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <valueName>Regional Services Partner</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <inlineHelpText>Please use the following format: e.g: +1 664 12 121 122</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PowerOfOne__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>always 1, used for reporting</description>
+        <externalId>false</externalId>
+        <inlineHelpText>always 1, used for reporting</inlineHelpText>
+        <label>PowerOfOne</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SAP_Debitor_ID__c</fullName>
+        <description>This shall be used to capture the debitor number from the SAP system.
+Request: bazwe 26.01.2018 - to be used for the SAP integration</description>
+        <externalId>false</externalId>
+        <label>SAP Debitor ID</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__AssetQuantitiesCombined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</inlineHelpText>
+        <label>Combine Asset Quantities</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CoTermedContractsCombined__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Flag that controls whether assets and subscriptions from multiple co-teremed contracts are rolled up together. By default, each co-termed contract generates a separate group on renewal quote.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable to combine assets and subscriptions from multiple co-termed contracts. By default, each co-termed contract generates a separate group on renewal quote.</inlineHelpText>
+        <label>Combine Co-Termed Contracts</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CoTerminationEvent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines when contracts are co-terminated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines when contracts are co-terminated.</inlineHelpText>
+        <label>Co-Termination Event</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SBQQ__ContractCoTermination__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Add-on</fullName>
+                    <default>false</default>
+                    <label>Add-on</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Always</controllingFieldValue>
+                <controllingFieldValue>Prompt</controllingFieldValue>
+                <valueName>Add-on</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Always</controllingFieldValue>
+                <valueName>Renewal</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ContractCoTermination__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines how service and subscription contracts for this customer are co-terminated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Determines how service and subscription contracts for this customer are co-terminated.</inlineHelpText>
+        <label>Contract Co-Termination</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Never</fullName>
+                    <default>true</default>
+                    <label>Never</label>
+                </value>
+                <value>
+                    <fullName>Always</fullName>
+                    <default>false</default>
+                    <label>Always</label>
+                </value>
+                <value>
+                    <fullName>Prompt</fullName>
+                    <default>false</default>
+                    <label>Prompt</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DefaultOpportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes.</inlineHelpText>
+        <label>Default Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>WebAccounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__IgnoreParentContractedPrices__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select if contracted prices should not be inherited from the parent account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if contracted prices should not be inherited from the parent account.</inlineHelpText>
+        <label>Ignore Parent Contracted Prices</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PreserveBundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Select to maintain bundle hierarchy on renewal quotes and amendments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select checkbox to maintain bundle hierarchy on renewal quotes and amendments.</inlineHelpText>
+        <label>Preserve Bundle Structure</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PriceHoldEnd__c</fullName>
+        <deprecated>false</deprecated>
+        <description>End date for any price hold that may be in effect.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter date until which the prices must be held.</inlineHelpText>
+        <label>Price Hold End</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__RenewalModel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The option to distinguish between Subscription or Asset based renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose Asset Based to make renewals based off of an account&apos;s Assets or choose Subscription based to makes renewals based off of subscriptions created from a quote.</inlineHelpText>
+        <label>Renewal Model</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Asset Based</fullName>
+                    <default>false</default>
+                    <label>Asset Based</label>
+                </value>
+                <value>
+                    <fullName>Contract Based</fullName>
+                    <default>false</default>
+                    <label>Contract Based</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__RenewalPricingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Method for pricing products on renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use &quot;Same&quot; to keep the same price paid last time. Use &quot;List&quot; to use current list price. Use &quot;Uplift&quot; to use the price paid last time plus some uplift.</inlineHelpText>
+        <label>Renewal Pricing Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Same</fullName>
+                    <default>true</default>
+                    <label>Same</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Uplift</fullName>
+                    <default>false</default>
+                    <label>Uplift</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service_Now_Company_ID__c</fullName>
+        <description>Captures the ID of the Service Now Company object</description>
+        <externalId>false</externalId>
+        <label>Service Now Company ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Special_remarks__c</fullName>
+        <description>Should be used to capture special remarks for a customers if their name or logo are allowed to be used by Tricentis.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be used to capture special remarks for a customers if their name or logo are allowed to be used by Tricentis.</inlineHelpText>
+        <label>Special remarks</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>For data management - Defines status of account (e.g.: Existing customer etc.).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines status of account (e.g.: Existing customer etc.).</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Existing-Active</fullName>
+                    <default>false</default>
+                    <label>Existing-Active</label>
+                </value>
+                <value>
+                    <fullName>Prospect</fullName>
+                    <default>true</default>
+                    <label>Prospect</label>
+                </value>
+                <value>
+                    <fullName>Existing-Inactive</fullName>
+                    <default>false</default>
+                    <label>Existing-Inactive</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <controllingFieldValue>Customer</controllingFieldValue>
+                <valueName>Existing-Active</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <controllingFieldValue>Customer</controllingFieldValue>
+                <valueName>Prospect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Partner</controllingFieldValue>
+                <controllingFieldValue>Customer</controllingFieldValue>
+                <valueName>Existing-Inactive</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Targeted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For data management; only editable by Sales Leaders</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defines if an Account is on the List for Insight (Emmet) to provide Contacts from their rolodex</inlineHelpText>
+        <label>Ignite</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Tier__c</fullName>
+        <externalId>false</externalId>
+        <label>Tier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tier 1</fullName>
+                    <default>false</default>
+                    <label>Tier 1</label>
+                </value>
+                <value>
+                    <fullName>Tier 2</fullName>
+                    <default>false</default>
+                    <label>Tier 2</label>
+                </value>
+                <value>
+                    <fullName>Tier 3</fullName>
+                    <default>true</default>
+                    <label>Tier 3</label>
+                </value>
+                <value>
+                    <fullName>Tier 4</fullName>
+                    <default>false</default>
+                    <label>Tier 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tricentis_Services_Partner_Engaged__c</fullName>
+        <description>List of Tricentis&apos; Services partners engaged on this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>List of Tricentis&apos; Services partners engaged on this account.</inlineHelpText>
+        <label>Tricentis Services Partner Engaged</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+                <value>
+                    <fullName>Atos Origin</fullName>
+                    <default>false</default>
+                    <label>Atos Origin</label>
+                </value>
+                <value>
+                    <fullName>BearingPoint</fullName>
+                    <default>false</default>
+                    <label>BearingPoint</label>
+                </value>
+                <value>
+                    <fullName>Capgemini</fullName>
+                    <default>false</default>
+                    <label>Capgemini</label>
+                </value>
+                <value>
+                    <fullName>Cognizant</fullName>
+                    <default>false</default>
+                    <label>Cognizant</label>
+                </value>
+                <value>
+                    <fullName>CSC</fullName>
+                    <default>false</default>
+                    <label>CSC</label>
+                </value>
+                <value>
+                    <fullName>Deloitte</fullName>
+                    <default>false</default>
+                    <label>Deloitte</label>
+                </value>
+                <value>
+                    <fullName>EDS</fullName>
+                    <default>false</default>
+                    <label>EDS</label>
+                </value>
+                <value>
+                    <fullName>Fujitsu</fullName>
+                    <default>false</default>
+                    <label>Fujitsu</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM Global Services</fullName>
+                    <default>false</default>
+                    <label>IBM Global Services</label>
+                </value>
+                <value>
+                    <fullName>Infosys</fullName>
+                    <default>false</default>
+                    <label>Infosys</label>
+                </value>
+                <value>
+                    <fullName>Lockheed Martin</fullName>
+                    <default>false</default>
+                    <label>Lockheed Martin</label>
+                </value>
+                <value>
+                    <fullName>LogicaCMG</fullName>
+                    <default>false</default>
+                    <label>LogicaCMG</label>
+                </value>
+                <value>
+                    <fullName>Microsoft</fullName>
+                    <default>false</default>
+                    <label>Microsoft</label>
+                </value>
+                <value>
+                    <fullName>Northrop Grumman</fullName>
+                    <default>false</default>
+                    <label>Northrop Grumman</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>SAIC</fullName>
+                    <default>false</default>
+                    <label>SAIC</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+                <value>
+                    <fullName>Siemens Business Services</fullName>
+                    <default>false</default>
+                    <label>Siemens Business Services</label>
+                </value>
+                <value>
+                    <fullName>Tata Consultancy Services</fullName>
+                    <default>false</default>
+                    <label>Tata Consultancy Services</label>
+                </value>
+                <value>
+                    <fullName>Unisys</fullName>
+                    <default>false</default>
+                    <label>Unisys</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+                <value>
+                    <fullName>HCL</fullName>
+                    <default>false</default>
+                    <label>HCL</label>
+                </value>
+                <value>
+                    <fullName>Tech Mahindra</fullName>
+                    <default>false</default>
+                    <label>Tech Mahindra</label>
+                </value>
+                <value>
+                    <fullName>Mindtree</fullName>
+                    <default>false</default>
+                    <label>Mindtree</label>
+                </value>
+                <value>
+                    <fullName>L&amp;T</fullName>
+                    <default>false</default>
+                    <label>L&amp;T</label>
+                </value>
+                <value>
+                    <fullName>Neotys</fullName>
+                    <default>false</default>
+                    <label>Neotys</label>
+                </value>
+                <value>
+                    <fullName>Agosense</fullName>
+                    <default>false</default>
+                    <label>Agosense</label>
+                </value>
+                <value>
+                    <fullName>Tasktop</fullName>
+                    <default>false</default>
+                    <label>Tasktop</label>
+                </value>
+                <value>
+                    <fullName>Johannes Spiessberger</fullName>
+                    <default>false</default>
+                    <label>Johannes Spiessberger</label>
+                </value>
+                <value>
+                    <fullName>Jenkins</fullName>
+                    <default>false</default>
+                    <label>Jenkins</label>
+                </value>
+                <value>
+                    <fullName>Jira</fullName>
+                    <default>false</default>
+                    <label>Jira</label>
+                </value>
+                <value>
+                    <fullName>Polarion</fullName>
+                    <default>false</default>
+                    <label>Polarion</label>
+                </value>
+                <value>
+                    <fullName>Infometis</fullName>
+                    <default>false</default>
+                    <label>Infometis</label>
+                </value>
+                <value>
+                    <fullName>GorrillaLogic</fullName>
+                    <default>false</default>
+                    <label>GorrillaLogic</label>
+                </value>
+                <value>
+                    <fullName>MobileLabs</fullName>
+                    <default>false</default>
+                    <label>MobileLabs</label>
+                </value>
+                <value>
+                    <fullName>SAP ISV</fullName>
+                    <default>false</default>
+                    <label>SAP ISV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <inlineHelpText>Defines the type of account (e.g.: customer etc.).</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <inlineHelpText>Please enter the main website of the account.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>bz_partner_account_type_1__c</fullName>
+        <description>BZ: Defines the importance of the account for our partner (how valuable this account is for our partner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the importance of this particular account defined by our partner.</inlineHelpText>
+        <label>Partner Account Type_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>existing major</fullName>
+                    <default>false</default>
+                    <label>existing major</label>
+                </value>
+                <value>
+                    <fullName>existing minor</fullName>
+                    <default>false</default>
+                    <label>existing minor</label>
+                </value>
+                <value>
+                    <fullName>targeted must have</fullName>
+                    <default>false</default>
+                    <label>targeted must have</label>
+                </value>
+                <value>
+                    <fullName>targeted</fullName>
+                    <default>false</default>
+                    <label>targeted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bz_partner_account_type_2__c</fullName>
+        <description>BZ: Defines the importance of the account for our partner (how valuable this account is for our partner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the importance of this particular account defined by our partner.</inlineHelpText>
+        <label>Partner Account Type_2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>existing major</fullName>
+                    <default>false</default>
+                    <label>existing major</label>
+                </value>
+                <value>
+                    <fullName>existing minor</fullName>
+                    <default>false</default>
+                    <label>existing minor</label>
+                </value>
+                <value>
+                    <fullName>targeted</fullName>
+                    <default>false</default>
+                    <label>targeted</label>
+                </value>
+                <value>
+                    <fullName>targeted must have</fullName>
+                    <default>false</default>
+                    <label>targeted must have</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bz_partner_account_type_3__c</fullName>
+        <description>BZ: Defines the importance of the account for our partner (how valuable this account is for our partner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the importance of this particular account defined by our partner.</inlineHelpText>
+        <label>Partner Account Type_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>existing major</fullName>
+                    <default>false</default>
+                    <label>existing major</label>
+                </value>
+                <value>
+                    <fullName>existing minor</fullName>
+                    <default>false</default>
+                    <label>existing minor</label>
+                </value>
+                <value>
+                    <fullName>targeted must have</fullName>
+                    <default>false</default>
+                    <label>targeted must have</label>
+                </value>
+                <value>
+                    <fullName>targeted</fullName>
+                    <default>false</default>
+                    <label>targeted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bz_partner_comments_1__c</fullName>
+        <description>BZ: Used for comments in partner section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert comments for/about partner.</inlineHelpText>
+        <label>Partner Comments_1</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>bz_partner_comments_2__c</fullName>
+        <description>BZ: Used for comments in partner section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert comments for/about partner.</inlineHelpText>
+        <label>Partner Comments_2</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>bz_partner_comments_3__c</fullName>
+        <description>BZ: Used for comments in partner section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert comments for/about partner.</inlineHelpText>
+        <label>Partner Comments_3</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_Person_name_2__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: Firstname Lastname (e.g.: John Smith).</inlineHelpText>
+        <label>Partner Contact Person Name_2</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_cellphone_1__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: e.g.: +43 664 111 222 33</inlineHelpText>
+        <label>Partner Contact Person Cellphone_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_cellphone_2__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: e.g.: +43 664 111 222 33</inlineHelpText>
+        <label>Partner Contact Person Cellphone_2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_cellphone_3__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: e.g.: +43 664 111 222 33</inlineHelpText>
+        <label>Partner Contact Person Cellphone_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_email_1__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <label>Partner Contact Person E-Mail_1</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_email_2__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <label>Partner Contact Person E-Mail_2</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_email_3__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <label>Partner Contact Person E-Mail_3</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_name_1__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: Firstname Lastname (e.g.: John Smith).</inlineHelpText>
+        <label>Partner Contact Person Name_1</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_contact_person_name_3__c</fullName>
+        <description>BZ: Contact person details the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please use the following nomenclature: Firstname Lastname (e.g.: John Smith).</inlineHelpText>
+        <label>Partner Contact Person Name_3</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_geo_1__c</fullName>
+        <description>BZ: Geo the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the geo the partner specified for this account.</inlineHelpText>
+        <label>Partner Geo_1</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_geo_2__c</fullName>
+        <description>BZ: Geo the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the geo the partner specified for this account.</inlineHelpText>
+        <label>Partner Geo_2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_geo_3__c</fullName>
+        <description>BZ: Geo the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the geo the partner specified for this account.</inlineHelpText>
+        <label>Partner Geo_3</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_industry_1__c</fullName>
+        <description>BZ: Industry the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the industry the partner specified for this account.</inlineHelpText>
+        <label>Partner Industry_1</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_industry_2__c</fullName>
+        <description>BZ: Indutsry the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the industry the partner specified for this account.</inlineHelpText>
+        <label>Partner Industry_2</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_partner_industry_3__c</fullName>
+        <description>BZ: Industry the partner uses for this account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Insert the industry the partner specified for this account.</inlineHelpText>
+        <label>Partner Industry_3</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>bz_services_partner_1__c</fullName>
+        <description>BZ:The partner which is engaged with this account should be chosen here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The partner which is engaged with this account should be chosen here.</inlineHelpText>
+        <label>Services Partner_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+                <value>
+                    <fullName>Atos Origin</fullName>
+                    <default>false</default>
+                    <label>Atos Origin</label>
+                </value>
+                <value>
+                    <fullName>BearingPoint</fullName>
+                    <default>false</default>
+                    <label>BearingPoint</label>
+                </value>
+                <value>
+                    <fullName>Capgemini</fullName>
+                    <default>false</default>
+                    <label>Capgemini</label>
+                </value>
+                <value>
+                    <fullName>Cognizant</fullName>
+                    <default>false</default>
+                    <label>Cognizant</label>
+                </value>
+                <value>
+                    <fullName>CSC</fullName>
+                    <default>false</default>
+                    <label>CSC</label>
+                </value>
+                <value>
+                    <fullName>Deloitte</fullName>
+                    <default>false</default>
+                    <label>Deloitte</label>
+                </value>
+                <value>
+                    <fullName>EDS</fullName>
+                    <default>false</default>
+                    <label>EDS</label>
+                </value>
+                <value>
+                    <fullName>Fujitsu</fullName>
+                    <default>false</default>
+                    <label>Fujitsu</label>
+                </value>
+                <value>
+                    <fullName>HCL</fullName>
+                    <default>false</default>
+                    <label>HCL</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM Global Services</fullName>
+                    <default>false</default>
+                    <label>IBM Global Services</label>
+                </value>
+                <value>
+                    <fullName>Infosys</fullName>
+                    <default>false</default>
+                    <label>Infosys</label>
+                </value>
+                <value>
+                    <fullName>L&amp;T</fullName>
+                    <default>false</default>
+                    <label>L&amp;T</label>
+                </value>
+                <value>
+                    <fullName>Lockheed Martin</fullName>
+                    <default>false</default>
+                    <label>Lockheed Martin</label>
+                </value>
+                <value>
+                    <fullName>LogicaCMG</fullName>
+                    <default>false</default>
+                    <label>LogicaCMG</label>
+                </value>
+                <value>
+                    <fullName>Microsoft</fullName>
+                    <default>false</default>
+                    <label>Microsoft</label>
+                </value>
+                <value>
+                    <fullName>Mindtree</fullName>
+                    <default>false</default>
+                    <label>Mindtree</label>
+                </value>
+                <value>
+                    <fullName>Northrop Grumman</fullName>
+                    <default>false</default>
+                    <label>Northrop Grumman</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>SAIC</fullName>
+                    <default>false</default>
+                    <label>SAIC</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+                <value>
+                    <fullName>Siemens Business Services</fullName>
+                    <default>false</default>
+                    <label>Siemens Business Services</label>
+                </value>
+                <value>
+                    <fullName>Tata Consultancy Services</fullName>
+                    <default>false</default>
+                    <label>Tata Consultancy Services</label>
+                </value>
+                <value>
+                    <fullName>Tech Mahindra</fullName>
+                    <default>false</default>
+                    <label>Tech Mahindra</label>
+                </value>
+                <value>
+                    <fullName>Unisys</fullName>
+                    <default>false</default>
+                    <label>Unisys</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bz_services_partner_2__c</fullName>
+        <description>BZ: Another partner engaged with this account should be chosen here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Another partner engaged with this account should be chosen here.</inlineHelpText>
+        <label>Services Partner_2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+                <value>
+                    <fullName>Atos Origin</fullName>
+                    <default>false</default>
+                    <label>Atos Origin</label>
+                </value>
+                <value>
+                    <fullName>BearingPoint</fullName>
+                    <default>false</default>
+                    <label>BearingPoint</label>
+                </value>
+                <value>
+                    <fullName>Capgemini</fullName>
+                    <default>false</default>
+                    <label>Capgemini</label>
+                </value>
+                <value>
+                    <fullName>Cognizant</fullName>
+                    <default>false</default>
+                    <label>Cognizant</label>
+                </value>
+                <value>
+                    <fullName>CSC</fullName>
+                    <default>false</default>
+                    <label>CSC</label>
+                </value>
+                <value>
+                    <fullName>Deloitte</fullName>
+                    <default>false</default>
+                    <label>Deloitte</label>
+                </value>
+                <value>
+                    <fullName>EDS</fullName>
+                    <default>false</default>
+                    <label>EDS</label>
+                </value>
+                <value>
+                    <fullName>Fujitsu</fullName>
+                    <default>false</default>
+                    <label>Fujitsu</label>
+                </value>
+                <value>
+                    <fullName>HCL</fullName>
+                    <default>false</default>
+                    <label>HCL</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM Global Services</fullName>
+                    <default>false</default>
+                    <label>IBM Global Services</label>
+                </value>
+                <value>
+                    <fullName>Infosys</fullName>
+                    <default>false</default>
+                    <label>Infosys</label>
+                </value>
+                <value>
+                    <fullName>L&amp;T</fullName>
+                    <default>false</default>
+                    <label>L&amp;T</label>
+                </value>
+                <value>
+                    <fullName>Lockheed Martin</fullName>
+                    <default>false</default>
+                    <label>Lockheed Martin</label>
+                </value>
+                <value>
+                    <fullName>LogicaCMG</fullName>
+                    <default>false</default>
+                    <label>LogicaCMG</label>
+                </value>
+                <value>
+                    <fullName>Microsoft</fullName>
+                    <default>false</default>
+                    <label>Microsoft</label>
+                </value>
+                <value>
+                    <fullName>Mindtree</fullName>
+                    <default>false</default>
+                    <label>Mindtree</label>
+                </value>
+                <value>
+                    <fullName>Northrop Grumman</fullName>
+                    <default>false</default>
+                    <label>Northrop Grumman</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>SAIC</fullName>
+                    <default>false</default>
+                    <label>SAIC</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+                <value>
+                    <fullName>Siemens Business Services</fullName>
+                    <default>false</default>
+                    <label>Siemens Business Services</label>
+                </value>
+                <value>
+                    <fullName>Tata Consultancy Services</fullName>
+                    <default>false</default>
+                    <label>Tata Consultancy Services</label>
+                </value>
+                <value>
+                    <fullName>Tech Mahindra</fullName>
+                    <default>false</default>
+                    <label>Tech Mahindra</label>
+                </value>
+                <value>
+                    <fullName>Unisys</fullName>
+                    <default>false</default>
+                    <label>Unisys</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>bz_services_partner_3__c</fullName>
+        <description>BZ: Another partner which is engaged with this account should be chosen here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Another partner which is engaged with this account should be chosen here.</inlineHelpText>
+        <label>Services Partner_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accenture</fullName>
+                    <default>false</default>
+                    <label>Accenture</label>
+                </value>
+                <value>
+                    <fullName>Atos Origin</fullName>
+                    <default>false</default>
+                    <label>Atos Origin</label>
+                </value>
+                <value>
+                    <fullName>BearingPoint</fullName>
+                    <default>false</default>
+                    <label>BearingPoint</label>
+                </value>
+                <value>
+                    <fullName>Capgemini</fullName>
+                    <default>false</default>
+                    <label>Capgemini</label>
+                </value>
+                <value>
+                    <fullName>Cognizant</fullName>
+                    <default>false</default>
+                    <label>Cognizant</label>
+                </value>
+                <value>
+                    <fullName>CSC</fullName>
+                    <default>false</default>
+                    <label>CSC</label>
+                </value>
+                <value>
+                    <fullName>Deloitte</fullName>
+                    <default>false</default>
+                    <label>Deloitte</label>
+                </value>
+                <value>
+                    <fullName>EDS</fullName>
+                    <default>false</default>
+                    <label>EDS</label>
+                </value>
+                <value>
+                    <fullName>Fujitsu</fullName>
+                    <default>false</default>
+                    <label>Fujitsu</label>
+                </value>
+                <value>
+                    <fullName>HCL</fullName>
+                    <default>false</default>
+                    <label>HCL</label>
+                </value>
+                <value>
+                    <fullName>Hitachi</fullName>
+                    <default>false</default>
+                    <label>Hitachi</label>
+                </value>
+                <value>
+                    <fullName>HP</fullName>
+                    <default>false</default>
+                    <label>HP</label>
+                </value>
+                <value>
+                    <fullName>IBM Global Services</fullName>
+                    <default>false</default>
+                    <label>IBM Global Services</label>
+                </value>
+                <value>
+                    <fullName>Infosys</fullName>
+                    <default>false</default>
+                    <label>Infosys</label>
+                </value>
+                <value>
+                    <fullName>L&amp;T</fullName>
+                    <default>false</default>
+                    <label>L&amp;T</label>
+                </value>
+                <value>
+                    <fullName>Lockheed Martin</fullName>
+                    <default>false</default>
+                    <label>Lockheed Martin</label>
+                </value>
+                <value>
+                    <fullName>LogicaCMG</fullName>
+                    <default>false</default>
+                    <label>LogicaCMG</label>
+                </value>
+                <value>
+                    <fullName>Microsoft</fullName>
+                    <default>false</default>
+                    <label>Microsoft</label>
+                </value>
+                <value>
+                    <fullName>Mindtree</fullName>
+                    <default>false</default>
+                    <label>Mindtree</label>
+                </value>
+                <value>
+                    <fullName>Northrop Grumman</fullName>
+                    <default>false</default>
+                    <label>Northrop Grumman</label>
+                </value>
+                <value>
+                    <fullName>Oracle</fullName>
+                    <default>false</default>
+                    <label>Oracle</label>
+                </value>
+                <value>
+                    <fullName>SAIC</fullName>
+                    <default>false</default>
+                    <label>SAIC</label>
+                </value>
+                <value>
+                    <fullName>SAP</fullName>
+                    <default>false</default>
+                    <label>SAP</label>
+                </value>
+                <value>
+                    <fullName>Siemens Business Services</fullName>
+                    <default>false</default>
+                    <label>Siemens Business Services</label>
+                </value>
+                <value>
+                    <fullName>Tata Consultancy Services</fullName>
+                    <default>false</default>
+                    <label>Tata Consultancy Services</label>
+                </value>
+                <value>
+                    <fullName>Tech Mahindra</fullName>
+                    <default>false</default>
+                    <label>Tech Mahindra</label>
+                </value>
+                <value>
+                    <fullName>Unisys</fullName>
+                    <default>false</default>
+                    <label>Unisys</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_duns__c</fullName>
+        <description>For data management - Identify Account in DnB database</description>
+        <externalId>false</externalId>
+        <label>DUNS</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_it_budget__c</fullName>
+        <description>For data management - users shall know how much IT budget the account has</description>
+        <externalId>false</externalId>
+        <label>IT Budget</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_it_employees__c</fullName>
+        <description>For data management - users shall know how many employees the account has</description>
+        <externalId>false</externalId>
+        <label>IT Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_it_managers__c</fullName>
+        <description>For data management</description>
+        <externalId>false</externalId>
+        <label>IT Managers</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_rainking_uniqueid__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Displays the RainKing ID of the object.</inlineHelpText>
+        <label>RainKing UniqueID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_website_domain__c</fullName>
+        <description>For data management - the Website domain (e.g.: tricentis.com). Is used for determining targeted accounts.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter the Website domain (e.g.: tricentis.com). Is used for determining targeted accounts.</inlineHelpText>
+        <label>Website Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__EngagedPeople__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Number of engaged people</description>
+        <externalId>false</externalId>
+        <label>Engaged People</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__EngagementMinutesLast3Months__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Engagement minutes in the last 3 months</description>
+        <externalId>false</externalId>
+        <label>Engagement Minutes (3 mo.)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__EngagementMinutesLast7Days__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Engagement minutes in the last 7 days</description>
+        <externalId>false</externalId>
+        <label>Engagement Minutes (7 days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__FirstEngagementDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First engagement date</description>
+        <externalId>false</externalId>
+        <label>First Engagement Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>engagio__MQADate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>MQA date</description>
+        <externalId>false</externalId>
+        <label>MQA Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>engagio__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Status</description>
+        <externalId>false</externalId>
+        <label>Engagio Status</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>engagio__WebVisitsLast3Months__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Web visits in the last 3 months</description>
+        <externalId>false</externalId>
+        <label>Web Traffic (3 mo.)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>geo__c</fullName>
+        <description>For reporting on location</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for grouping in reports. 3 Geos available: EMEA, US, APAC</inlineHelpText>
+        <label>Geo</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EMEA</fullName>
+                    <color>#E27001</color>
+                    <default>false</default>
+                    <label>EMEA</label>
+                </value>
+                <value>
+                    <fullName>APAC</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                    <label>APAC</label>
+                </value>
+                <value>
+                    <fullName>AMS</fullName>
+                    <color>#3366FF</color>
+                    <default>false</default>
+                    <label>AMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>iSell__OSKeyID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique company identifier. It is a required field and, in Salesforce Professional Edition, must be visible and available on page layouts for all users.</description>
+        <externalId>true</externalId>
+        <label>D&amp;B ID</label>
+        <length>16</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All_Accounts_with_CSM</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+        <columns>CSM_Owner__c</columns>
+        <columns>Tier__c</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <columns>PARENT_NAME</columns>
+        <columns>Status__c</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>Targeted__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CSM_Owner__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>All Accounts with a CSM</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>geo__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Tier_1_2_3_Accounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Tier__c</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+        <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>Targeted__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 1,Tier 2,Tier 3</value>
+        </filters>
+        <label>My Tier 1,2 &amp; 3 Accounts</label>
+        <sharedTo>
+            <roleAndSubordinates>DSR_AMS_Head</roleAndSubordinates>
+            <roleAndSubordinates>DSR_APAC_Head</roleAndSubordinates>
+            <roleAndSubordinates>DSR_EMEA_Head</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACCOUNT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>New This Week -Tricentis</label>
+    </listViews>
+    <listViews>
+        <fullName>X1_NA_Accounts</fullName>
+        <columns>geo__c</columns>
+        <columns>ACCOUNT.CREATED_DATE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.ADDRESS2_STREET</columns>
+        <columns>ACCOUNT.ADDRESS2_CITY</columns>
+        <columns>ACCOUNT.ADDRESS2_STATE</columns>
+        <columns>ACCOUNT.ADDRESS2_ZIP</columns>
+        <columns>ACCOUNT.OWNERSHIP</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>1. NA Accounts</label>
+        <sharedTo>
+            <roleAndSubordinates>DSR_AMS_Head</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Tosca</fullName>
+        <active>true</active>
+        <label>Tosca</label>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Atlassian Marketplace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blog</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blog Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Edition Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content Syndication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contributed Article</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Direct Website Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Display</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E4U</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Tradeshow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event - Tricentis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>G2Crowd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Newsletter Sponsorship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Referral Non Paid%2FOrganic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organic Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales %28lead hunting%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Now</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Sharing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tasktop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party Promo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website RTP Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iTrinegy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DSCORGPKG__DeletedFromDiscoverOrg__c</picklist>
+            <values>
+                <fullName>false</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>true</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DSCORGPKG__Lead_Source__c</picklist>
+            <values>
+                <fullName>DiscoverOrg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Aerospace %26 Defense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agriculture %26 Crops Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business %26 Professional Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charities%2C Foundations %26 Non-Profits</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Hardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Computer Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction %26 Building Materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy%2C Utilities %26 Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitals %26 Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hotels%2C Leisure%2C Sports %26 Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Industrial Manufacturing %26 Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outsourcers %28SIs%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pharmaceuticals %26 Biotech</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail %26 Online Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schools %26 Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>GSI Services Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ISV Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional Services Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Existing-Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing-Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier__c</picklist>
+            <values>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tier 3</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Tier 4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tricentis_Services_Partner_Engaged__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Agosense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atos Origin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BearingPoint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CSC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capgemini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognizant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GorrillaLogic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HCL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM Global Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infometis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jenkins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Johannes Spiessberger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>L%26T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lockheed Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogicaCMG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mindtree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MobileLabs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neotys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northrop Grumman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polarion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP ISV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens Business Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tasktop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Consultancy Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Mahindra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wipro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Analyst</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Investor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vendor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_partner_account_type_1__c</picklist>
+            <values>
+                <fullName>existing major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>existing minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted must have</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_partner_account_type_2__c</picklist>
+            <values>
+                <fullName>existing major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>existing minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted must have</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_partner_account_type_3__c</picklist>
+            <values>
+                <fullName>existing major</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>existing minor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>targeted must have</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_services_partner_1__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atos Origin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BearingPoint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CSC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capgemini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognizant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HCL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM Global Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>L%26T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lockheed Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogicaCMG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mindtree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northrop Grumman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens Business Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Consultancy Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Mahindra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wipro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_services_partner_2__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atos Origin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BearingPoint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CSC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capgemini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognizant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HCL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM Global Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>L%26T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lockheed Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogicaCMG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mindtree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northrop Grumman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens Business Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Consultancy Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Mahindra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wipro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>bz_services_partner_3__c</picklist>
+            <values>
+                <fullName>Accenture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atos Origin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BearingPoint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CSC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Capgemini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cognizant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HCL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hitachi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IBM Global Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infosys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>L%26T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lockheed Martin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogicaCMG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mindtree</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northrop Grumman</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens Business Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Consultancy Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tech Mahindra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisys</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wipro</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>geo__c</picklist>
+            <values>
+                <fullName>AMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY_CODE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.SITE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY_CODE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SAP_Debitor_ID__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY_CODE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>bz_partner_contact_person_cellphone_1__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>bz_partner_contact_person_cellphone_2__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>bz_partner_contact_person_cellphone_3__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_COUNTRY_CODE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Targeted__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Billing_Address_Required_Rule</fullName>
+        <active>true</active>
+        <description>This validation rule is required to make the billing address a required field. For now, it just requires country to be the mandatory field. we can expand it for the full billing address as well if necessary.</description>
+        <errorConditionFormula>AND(
+BillingCountry = NULL,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;, $Profile.Name &lt;&gt; &quot;Tricentis Sales Operations&quot;)</errorConditionFormula>
+        <errorDisplayField>BillingCountry</errorDisplayField>
+        <errorMessage>Billing Country is required. If available, please enter the complete billing address.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Disable_Change_Owner_for_Sales_profile</fullName>
+        <active>true</active>
+        <description>Disabling Change Owner functionality for &quot;Tricentis Sales Profile&quot;.</description>
+        <errorConditionFormula>AND(ISCHANGED( OwnerId ),  $Profile.Name =&quot;Tricentis Sales Profile&quot;)</errorConditionFormula>
+        <errorMessage>If you feel that this account is wrongly assigned to you - please contact salesops@tricentis.com</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_and_Partner_Type_Validation</fullName>
+        <active>true</active>
+        <description>Choose a Partner Type when the Type is Partner</description>
+        <errorConditionFormula>AND ( 
+ISPICKVAL (Type ,&quot;Partner&quot;), 
+ISBLANK( TEXT( Partner_Type__c )) 
+)</errorConditionFormula>
+        <errorDisplayField>Partner_Type__c</errorDisplayField>
+        <errorMessage>Please select a Partner Type</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>DSCORGPKG__ReportWrongInfotoDiscoverOrg</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Report Wrong Info to DiscoverOrg</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/DSCORGPKG__ReportWrongInfo?id={!Account.Id}&amp;companyname={!Account.Name}&amp;discoverorgid={!Account.DSCORGPKG__DiscoverOrg_ID__c}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Amend_Assets</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Amend Assets</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__AssetSelectorAmend</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Renew_Assets</fullName>
+        <availability>online</availability>
+        <description>It is used to renew assets from an account when Global Settings - Renewal Model is set to Asset Based.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Renew Assets</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__AssetSelector</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>mkto_si__Add_to_Watch_List</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to Watch List</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/14.0/apex.js&quot;)} 
+
+var idArr = {!GETRECORDIDS($ObjectType.Account)};
+if (idArr[0] == null){
+  alert(&apos;Please select at least one row&apos;);
+} else {
+  var value = new Array();
+  value[0] = new String(idArr);
+  var name = new Array();
+  name[0] = &quot;contactIds&quot;;  //This is the default for all id arrays in controller, though confusing
+  var key = sforce.apex.execute(&quot;mkto_si.LongGetMethodArguHandler&quot;, &quot;putArgus&quot;, { name:name, value:value, contactType:&quot;Account&quot; }); 
+  window.top.location = &quot;/apex/mkto_si__Add_to_Watch_List?contactType=Account&amp;key=&quot; + key +&quot;&amp;retUrl=&quot; + encodeURIComponent(document.location.href);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>mkto_si__Add_to_Watch_List_Detail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to Watch List</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.top.location = &quot;/apex/mkto_si__Add_to_Watch_List?contactType=Account&amp;contactIds={!Account.Id}&amp;retUrl=&quot; + encodeURIComponent(document.location.href);</url>
+    </webLinks>
+</CustomObject>

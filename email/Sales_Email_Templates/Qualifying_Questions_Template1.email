@@ -1,0 +1,11 @@
+Hello {!Lead.FirstName},
+
+Thank you for showing interest in Tricentis Tosca. I am reaching out to get a few questions answered that will better help me understand {!Lead.Company}'s environment and see what our next steps should be.
+
+How is testing currently being done? 
+Is there any automation currently?
+Specific test coverage interest? (Regression, UI, API, End2End, etc.)
+Sort of development being utilized? (Agile, Waterfall, Scrum, etc)
+Number of testers on the team?
+
+Looking forward to your response back, {!Lead.FirstName}.

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>3. Introducing Campaign Testing C.1: Invite Acquisition</name>
+    <style>none</style>
+    <subject>Tricentis- Next Gen Test Automation Solution.</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Tricentis (http://www.tricentis.com) provides the leading enterprise software testing solution for Global 2000 companies to help them accelerate business innovation. Tricentis Tosca Testsuite brings a unique approach to software testing that enables enterprises to achieve unprecedented automation rates while minimizing business-related risks. With a customer renewal rate of more than 98%, the company’s more than 400 customers include global brands such as BMW, HBO, Siemens, Southwest and UBS. Gartner recognizes Tricentis as a Visionary in the recent 2013 Magic Quadrant for Integrated Software Quality Suites. A fast growing, privately held company, Tricentis has offices in the United States and around the world.
+
+
+Tricentis benefits
+- Accelerating Business Innovation:  This is our rallying cry and our core philosophy. Rising development costs, growing customer expectations, the unrelenting need to be “always on, always available, always easy” – Tricentis understands the challenges facing Global 2000 companies and helps you innovate faster while decreasing costs and meeting your high standards of quality.   
+Learn more: http://www.tricentis.com/why-tricentis/tricentis-uniquely-delivers
+
+ - Model-Based Test Automation: Frequent and shorter test cycles combined with the high expectations of customers mean that enterprises can’t afford not to automate. Tosca Testsuite meets this challenge with a new approach to testing, Model-Based Test Automation. Tricentis customers regularly achieve automation rates of 90% or more of all test cases, results we call Extreme Automation.
+Learn more: http://www.tricentis.com/products/tricentis-tosca-testsuite/model-based-test-automation
+
+- Minimize Risk: Sometimes teams don’t know what to test and respond by simply multiplying the number of test cases. Unfortunately, this slows down the testing process without actually increasing test coverage. Tosca Testsuite comes with the Risk Management Engine, enabling you to measure, manage and control risk coverage by prioritizing and executing tests based on business value. Never be in the dark about risk coverage again.  Tricentis clients achieve 95% or even higher risk coverage.
+Learn more: http://www.tricentis.com/products/tricentis-tosca-testsuite/risk-management-engine
+
+- Manage Your Tests in Plain English: Central to Tricentis Tosca Testsuite is our Test Management Platform, a comprehensive, object-oriented repository. Non-technical staff are empowered to write manual and automated test cases in plain English so that you can distribute testing tasks across wider teams and allocate staffing according to your business strategy.
+Learn more: http://www.tricentis.com/products/tricentis-tosca-testsuite/test-management
+
+- Gartner calls us a &quot;Cool Vendor&quot; and &quot;Visionary&quot;.
+Learn why: http://www.tricentis.com/about/what-others-are-saying/gartner
+
+
+Check out our Point of View Papers: http://www.tricentis.com/resources/point-of-view-papers
+
+Watch a webinar about Tricentis and the power of Extreme Automation: http://www.tricentis.com/resources/webcasts#extreme-automation
+
+
+Press: http://www.tricentis.com/about/news
+ Imprint: http://www.tricentis.com/imprint
+ Terms &amp; Conditions: http://www.tricentis.com/terms-and-conditions
+
+Copyright 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_76279206</developerName>
+        <masterLabel>Topic</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CAMPAIGN_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Whitepaper - Conquer SAP Testing - Content Syndication - Emedia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper - Conquer SAP Testing - Content Syndication - Madison Logic</sourceValue>
+            </sourceValues>
+            <value>SAP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Whitepaper - End-to-End Testing - Content Syndication - Emedia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper - End-to-End Testing - Content Syndication - Madison Logic</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper - End-to-End Testing - Content Syndication - Objektspektrum</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper - End-to-End Testing - Content Syndication - SQE</sourceValue>
+            </sourceValues>
+            <value>E2E</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Whitepaper -Test Data Management - Content Syndication - Emedia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper -Test Data Management - Content Syndication - Madison Logic</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Whitepaper -Test Data Management - Content Syndication - SQE</sourceValue>
+            </sourceValues>
+            <value>TDM</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Research - IT Central Station (on functional testing tools)</sourceValue>
+            </sourceValues>
+            <value>IT Central Research</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStacked</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>BucketField_76279206</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <secondaryGroupingColumn>Campaign.dr_traffic_source__c</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CAMPAIGN_PARENT_NAME</field>
+    </columns>
+    <columns>
+        <field>MEMBER_TYPE</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>LC_OWNER</field>
+    </columns>
+    <columns>
+        <field>CITY</field>
+    </columns>
+    <columns>
+        <field>COUNTRY</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Content Syndication</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Research - IT Central Station (on functional testing tools)</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_76279206</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Campaign.dr_traffic_source__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Content Syndication - Members per asset</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignWithCampaignMembers</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

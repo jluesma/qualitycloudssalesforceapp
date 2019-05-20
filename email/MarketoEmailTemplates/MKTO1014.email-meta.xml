@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Last Call Invite - Munich - with sa</name>
+    <style>none</style>
+    <subject>ERINNERUNG: Tricentis Update Special 2015 – München - 7. Juli 2015</subject>
+    <textOnly>Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+ich hoffe, Sie haben die Einladung zum Tricentis Update Special 2015 in München erhalten.
+
+Gerne möchte ich Sie auch nochmals persönlich zu dieser, speziell für unsere Kunden gestalteten, Veranstaltung einladen. Hierbei wollen wir Sie nicht nur über neue Produktfunktionalitäten in Tosca, wie zum Beispiel: Image-based Test Automation, Test Case Design: Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, usw. informieren und Ihnen diese auch live zeigen, sondern auch gezielt auf Ihre Fragen eingehen!
+
+Achtung: Die Teilnehmerzahl ist limitiert – nutzen Sie die Chance und sichern Sie sich hier &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt; einen der noch freien Plätze!
+
+Nachfolgend finden Sie auch nochmals die geplante Agenda und den Veranstaltungsort.
+
+Agenda - Update Special 2015:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+
+ Update Special – München
+7. Juli 2015, 13:00 -17:00 Uhr
+Mercure Hotel Orbis München Süd
+Karl-Marx-Ring 87
+81735 München
+
+Ich freue mich auf einen interessanten Nachmittag mit Ihnen.
+
+ Mit besten Grüßen
+
+Reinhard Mantei
+Regional Sales Manager
+
+Tricentis &lt;http://www.tricentis.com/&gt;
+ o - +49 89 726 390 85
+ e - r.mantei@tricentis.com &lt;mailto:r.mantei@tricentis.com&gt;
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=footer&gt;
+
+Tricentis GmbH
+eingetragener Firmensitz: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Wien
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,8 @@
+A closed deal was re-opened!
+
+Details:
+Opportunity: {!Opportunity.Id} {!Opportunity.Name}
+New stage: {!Opportunity.StageName}
+Link to Salesforce: {!Opportunity.Link}
+
+Please verify!

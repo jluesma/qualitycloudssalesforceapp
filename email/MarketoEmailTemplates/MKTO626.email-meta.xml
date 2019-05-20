@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Partner - Feb 2015.Email - Responsive Newsletter - Feb 2015 - Draft</name>
+    <style>none</style>
+    <subject>Newsletter</subject>
+    <textOnly>03.02.2015
+Welcome to the Tricentis Partner Newsletter!
+We had an incredibly busy and exciting 2014 as we have continued to grow our business and partner network. We are pleased to share with you our recent news and look forward to continuing to drive increased business with you, our partners. If you want to learn more about what we have been up to, or have ideas about how to better partner with Tricentis, feel free to contact us at info@tricentis.com &lt;mailto:info@tricentis.com&gt;.
+Upcoming Conferences
+
+
+
+
+18. Mar., 2015
+Swiss Testing Day
+ Zurich, Switzerland
+ Register Here &lt;http://swisstestingday.ch&gt;
+Promo Code for 15% off: Promo_Tricentis
+
+
+
+
+
+
+
+
+18-30. Apr., 2015
+Iqnite Europe
+Dusseldorf, Germany
+ Register Here &lt;http://www.iqnite-conferences.com/de/index.aspx&gt;
+We are happy to announce the launch of our newest Tosca Testsuite update, the 8.3 Service Pack 1 Release. The release of this newest update introduces exciting features such as our new X-Scan, Image Based Test Automation, support for Siebel Open UI, Tosca as a Service (TaaS) with Web Automation, and much more.
+
+
+
+
+
+
+
+
+Join our What’s New in
+ Tosca Testsuite Webinar!
+ Tuesday, Feb. 17, 2015, 4:00-5:00 PM CET  Register Here &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-emea.html?utm_medium=email&amp;utm_source=db&gt;.
+Thursday Feb. 19, 2015, 1:00-2:00 PM AEDT  Register Here &lt;http://innovate.tricentis.com/webinar-whats-new-in-8-3-service-pack-1-apac.html?utm_medium=email&amp;utm_source=db&gt;.
+
+
+
+
+
+
+17.02.2015
+
+19.02.2015
+
+
+
+
+
+
+
+
+Accelerate Conference 2015
+Thank you to everyone who contributed to making Accelerate 2014 such an inspiring and memorable experience! Now we are looking ahead to Accelerate 2015, with a Partner Day planned for October 21st. We look forward to seeing you there! Seminars and highlights from Accelerate 2014 are available here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/&gt;.
+
+
+
+
+
+
+
+
+
+Gartner Newsletter
+Tricentis has recently published a newsletter in conjunction with Gartner on the topic of Software as a Service (SaaS). The newsletter covers how Test Automation is the key to improving Quality Assurance when using SaaS, and how to leverage Tosca-as-a-Service (TaaS) when testing complex SaaS solutions. Read more here &lt;http://www.tricentis.com/blog/news-posts/gartner-recognizes-tricentis-as-visionary/&gt;!
+Have you checked out our Blog lately? &lt; http://www.tricentis.com/blog/&gt;
+Webinars
+In an effort to continually be offering new and helpful resources, we have lined up an exciting series of webinars for this year. Make sure to check out our Events Page &lt;http://www.tricentis.com/events-webinars/&gt; to stay up to date on our webinars! Coming up in February we are offering a webinar on Business Assurance for SAP in conjunction with Wipro.
+
+
+
+
+11. FEB., 2015
+Business Assurance for SAP
+ 5:00-6:00 PM CET
+ Register Here &lt;http://innovate.tricentis.com/webinar-business-assurance-for-sap-emea.html?utm_medium=email&amp;utm_source=db&gt;
+
+
+
+
+
+
+
+
+12. FEB., 2015
+Business Assurance for SAP
+1:00-2:00 PM AEDT
+ Register Here &lt;http://innovate.tricentis.com/webinar-business-assurance-for-sap-apac.html?utm_medium=email&amp;utm_source=db&gt;
+Please add Tricentis to your address book: info@tricentis.com
+If you no longer wish to receive quarterly newsletters, please unsubscribe here &lt;http://innovate.tricentis.com/UnsubscribePage.html?mkt_unsubscribe=1&amp;mkt_tok=##MKT_TOK##&gt;.
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+ © 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

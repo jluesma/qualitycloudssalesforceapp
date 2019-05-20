@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Business Breakfast - Austria.Email - Invite 1 - without salutation - Mar</name>
+    <style>none</style>
+    <subject>Einladung: Tricentis Business Breakfast - Freitag 20. März 2015</subject>
+    <textOnly>Tricentis Business Breakfast
+
+Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+Am Freitag, den 20. März 2015 findet unser 1. Tricentis Business Breakfast zum Thema Orchestrated Service Virtualization im Tech Gate Vienna (Donau-City-Straße 1, 1220 Wien) statt, zu dem wir Sie ganz herzlich einladen möchten.
+
+Wir starten um 9:00 Uhr mit der Registrierung und einem Frühstück.
+
+Danach wird Herr Roman Zednik, Head of Global Presales bei Tricentis, unsere Lösung für den Bereich Orchestrated Service Virtualization vorstellen.
+
+Im Anschluss wird Herr Alexander Mohr, Projektmanager Service Virtualisierung bei einem österreichischen Mobilfunkprovider, von seinen Erfahrung bei der Implementierung von Tosca Virtualize, der Virtualisierungslösung von Tricentis, in einer sehr komplexen Systemlandschaft berichten.
+
+Abschließend wird es ausreichend Zeit für einen interessanten Erfahrungsaustausch bei einem kleinen Imbiss geben.
+
+Achtung: Die Teilnehmeranzahl ist begrenzt.
+
+Anmeldung: per Email an: p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+Wir freuen uns auf Ihr Kommen
+
+Peter Szedlacek &amp; Roman Zednik
+
+Alexander Mohr
+Projektmanager Service Virtualisierung
+
+Roman Zednik 
+Director Presales Worldwide
+ Tricentis
+
+Peter Szedlacek
+Sales Manager
+ AT/CZ/H/HR/SK/SLO
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

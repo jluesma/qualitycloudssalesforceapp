@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Tosca Technical Workshop - Infosys - 2015.08.24.Email - Invite 2 - Infos</name>
+    <style>none</style>
+    <subject>Don’t forget to join us for Tosca Testing Insights!</subject>
+    <textOnly>Aug 24, 2015 - Infosys, Hyderabad
+
+
+Dear {{lead.First Name}},
+
+Testers are constantly being asked to deliver comprehensive test results in ever-decreasing and continuous cycle times, not to mention the added struggles of tight budget, time, and resource constraints.
+
+Join Vaibhav Patil (GSI Enablement) and Ingo Philipp (Product Manager) to learn how to take these pain points and turn them into gains. You will learn how to achieve high sustainable automation rates without programming skills, and how to realize the highest business risk coverage with the smallest number of powerful test cases.
+
+Register now and join us &lt;mailto:gsi.partner@tricentis.com?subject=Please%20Register%20me%20for%20Tosca%20Testing%20Insights%20-%20Infosys&gt; for an interactive workshop on how to enable continuous delivery through continuous testing with Tricentis Tosca Testsuite.
+
+To register please send us an email &lt;mailto: gsi.partner@tricentis.com?subject=Please%20Register%20me%20for%20Tosca%20Testing%20Insights%20-%20Infosys&gt; along with your name, job title, email address and phone number.
+
+We look forward to seeing you there!
+Best regards,
+Vaibhav Patil &amp; Ingo Philipp
+ 
+ &lt;mailto:gsi.partner@tricentis.com?subject=Please%20Register%20me%20for%20Tosca%20Testing%20Insights%20-%20Infosys&gt;
+
+ &lt;mailto:gsi.partner@tricentis.com?subject=Please%20Register%20me%20for%20Tosca%20Testing%20Insights%20-%20Infosys&gt;
+Mon, Aug 24, 2015
+
+ 1st session from:
+ 10 am to 11:30 am
+
+2nd session from:
+ 1 pm to 4 pm
+
+Infosys, Hyderabad
+
+Ingo Philipp
+Product Manager
+ Tricentis
+
+Vaibhav Patil 
+GSI Enablement
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

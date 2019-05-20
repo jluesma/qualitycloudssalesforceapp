@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo.png" alt="Tricentis - Accelerate. Innovate. Automate." width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/header_email_tricentis.png" alt="Tricentis" width="600" height="140" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Tricentis is a Visionary in Gartner Magic Quadrant</td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Hi {{lead.First Name}},</p>
+<p>In today&rsquo;s fast-paced economy, companies are adopting agile development and continuous delivery to meet their time-to-market needs. Continuous testing is the critical process within the software development lifecycle to deliver software applications to market. Tricentis&rsquo; Tosca Testsuite is the most effective suite for continuous automated testing for software applications that span mobile, web and cloud platforms. To date, more than 400 enterprise customers have chosen Tricentis for their testing needs.</p>
+<p>We strive to be the most innovative testing solution to address enterprises&rsquo; testing needs. We are proud to be recognized by Gartner as a Visionary in their report, &lsquo;Magic Quadrant for Integrated Software Quality Suites 2014&rsquo;. Access the full report below:</p>
+<p><a href="http://innovate.tricentis.com/newsletter-gartner-q3-2014.html?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/email-btn-download-now.gif" alt="Download Now" width="149" height="36" /></a></p>
+<p>Learn more about Tricentis by checking out our <a href="http://www.tricentis.com">website</a>.</p>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: center;"><a href="http://innovate.tricentis.com/newsletter-gartner-q3-2014.html?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/Newsletter_Gartner2014Q3.JPG" alt="Newsletter Featuring Gartner" width="200" height="248" /></a></p>
+&nbsp;<br /> &nbsp;<br /></td>
+</tr>
+<tr>
+<td style="padding: 00px 20px 10px 20px;" colspan="2">
+<p>Best regards,</p>
+<p><strong>Sandeep Johri</strong><br />CEO, Tricentis</p>
+<div><em><span style="font-size: 8.5pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;; color: black;" lang="EN-GB">Gartner  does not endorse any vendor, product or service depicted in its  research publications, and does not advise technology users to select  only those vendors with  the highest ratings or other designation. Gartner research publications  consist of the opinions of Gartner's research organization and should  not be construed as statements of fact. Gartner disclaims all  warranties, expressed or implied, with respect to this  research, including any warranties of merchantability or fitness for a  particular purpose</span></em><span style="font-size: 8.5pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;; color: black;" lang="EN-GB">.</span></div>
+<p style="margin: 0px;">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please <a href="mailto:support@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

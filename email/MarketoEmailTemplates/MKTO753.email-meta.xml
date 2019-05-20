@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Drip - Series 1 - Feb 2015.Email 5 - Hook-Mobile</name>
+    <style>none</style>
+    <subject>Staying Ahead in the Mobile Apps Race</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+The Mobile app market is breaking records on a daily basis, but all the speed in the world means nothing if you trip over your own testing during the race.
+
+Tricentis’ Tosca Testsuite does more than make sure your testing shoelaces are tightly tied, however. Learn how to optimize your risk coverage, manage your test data, and automate your testing efforts with Tosca Testsuite to stay ahead of the curve.
+
+Take a look at our webinar &lt;http://innovate.tricentis.com/webinar-od-mobile-labs-the-big-4-of-mobile-testing-emea.html?utm_medium=email&amp;utm_source=drp&gt;, The Big 4 of Mobile Testing.
+
+Best regards,
+
+Vincent
+
+Vincent Ruth
+Western Region Territory Director
+ Tricentis
+
+m - +1.408.568.9698
+ e - v.ruth@tricentis.com &lt;mailto:v.ruth@tricentis.com&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis
+ 400 S. El Camino Real
+ Suite 1050
+ San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

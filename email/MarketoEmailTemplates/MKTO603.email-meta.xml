@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Web Services - DACH - 2015.02.26.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: Webservices Test Automatisierung für Anfänger</subject>
+    <textOnly>Webservices Test Automatisierung für Anfänger
+
+Sehr geehrte/r {{lead.Salutation:default=edit me}} {{lead.Last Name:default=edit me}},
+
+Service Orientierte Architektur Konzepte bestimmen moderne Softwaresysteme. Schlanke Benutzeroberflächen übernehmen dabei lediglich die Darstellung, während die eigentliche Geschäftslogik in Webservices abgebildet wird.
+
+Diese strikte Trennung zwischen Anzeige und Funktionalität ermöglicht eine neue Herangehensweise im Test. Anstatt eines traditionell spät im Projektzyklus stattfindenden Oberflächentests, kann mit den ersten Tests der Webservice-Schnittstelle schon sehr früh begonnen werden. So werden auch agile Testansätze optimal unterstützt.
+
+In diesem Webinar hören Sie:
+
+ - Wie einfach es ist Webservice-Tests mit Tosca zu erstellen.
+ - SWie es auch nicht technischen Testern gelingt Webservices zu automatisieren.
+ - Wie man eine optimale Risikoabdeckung auch mit Webservices erreichen kann.
+ - Wie man komplette End 2 End Szenarien testet.
+
+Wir freuen uns darauf, Sie bei unserem Webinar begrüßen zu drüfen.
+Mit freundlichen Grüßen,
+Ihr Tricentis Webinar Team
+ 
+ &lt;http://innovate.tricentis.com/webinar-web-services-test-automation-dach.html?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://innovate.tricentis.com/webinar-web-services-test-automation-dach.html?utm_medium=email&amp;utm_source=db&gt;
+Thu, Feb 26, 2015
+ 10:00 a.m. – 11:00 a.m. CET
+
+Georg Thurner
+Product Manager
+ Tricentis
+
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

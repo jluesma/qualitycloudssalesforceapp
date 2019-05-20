@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Logo_Ltr</letterhead>
+    <name>Notification for sales to convert a lead</name>
+    <style>formalLetter</style>
+    <subject>New Lead {!Lead.Name} from existing customer got qualified and is ready to be converted</subject>
+    <textOnly>Hi Team Sales,
+The following lead can be converted.
+{!Lead.Name}
+
+You can access the Lead directly via the link: {!Lead.Link}.
+
+
+Regards,
+Tricentis</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

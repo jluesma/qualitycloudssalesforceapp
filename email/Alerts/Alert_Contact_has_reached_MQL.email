@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+<table align="center" cellpadding="0"  width="600px" border="1"><tr><td>
+<p align="center" style="margin:10px 0"><img src="http://www.tricentis.com/sites/all/themes/tricentis_bootstrap_theme/logo.png"/></p></td></tr>
+
+<tr><td style="color:#868A8F;background-color:#868A8F">
+<p style="margin-bottom:0;color: #FFFFFF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px"><em><strong>Contact:</strong></em></p></td></tr>
+
+<tr><td>
+
+<p style="margin:10px 0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>Name:</strong> {!Contact.FirstName} {!Contact.LastName} <br/>
+<strong>Company:</strong> {!Account.Name}<br/>
+<strong>Title:</strong> {!Contact.Title}<br/>
+<strong>Country:</strong>{!Contact.MailingCountry}<br/>
+<strong>Phone:</strong> {!Contact.Phone}<br/>
+<strong>Email:</strong> {!Contact.Email}<br/>
+<strong>Last Campaign:</strong> {!Contact.dr_last_campaign_tracking__c}<br/>
+<strong>Talk to us Comments:</strong> {!Contact.dr_talk_to_us_comments__c} </p>
+</td></tr>
+
+<tr><td style="background-color:#868A8F">
+<p style="margin-bottom:0;color: #FFFFFF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px"><em><strong>System Information:</strong></em></p></td></tr>
+
+<tr><td>
+<p style="margin:10px 0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;">
+  <strong>Contact Status:</strong> {!Contact.contact_status__c}<br/>
+<strong>Funnel:</strong> {!Contact.dr_funnel__c}<br/>
+<strong>Created Date:</strong> {!Contact.CreatedDate}<br/>
+<strong>Created by:</strong>  {!Contact.CreatedBy}
+  </p>
+<p style="margin-bottom:0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>View the record in <a href="{!Contact.Link}" style="text-decoration:none;color:#333333">Salesforce</a></strong><br/>
+</p>
+</td></tr></table>
+</body>
+</html>

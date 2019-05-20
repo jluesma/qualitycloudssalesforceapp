@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Business Assurance for SAP with Wipro and Tricentis - US/EMEA - 2015.0</name>
+    <style>none</style>
+    <subject>Webinar Rescheduled: Business Assurance for SAP with Wipro and Tricentis</subject>
+    <textOnly>Webinar: Business Assurance for SAP with Wipro and Tricentis
+
+Hello {{lead.First Name}},
+
+Thank you for registering for our upcoming webinar, Business Assurance for SAP with Wipro and Tricentis! We wanted to let you know that the webinar has been rescheduled from its original date and time to Thursday, March 12th, 2015 at 8:00-9:00 PM CET (2:00-3:00 PM EST, 11:00-12:00 PM PST).
+
+Please block the new date and time on your calendars, and keep an eye out for the new confirmation email with the updated information from GoToWebinar.
+
+Thank you for your time, we look forward to seeing you at our webinar on March 12th!
+Best regards,
+ The Tricentis Webinar Team
+ 
+Michael Eckhoff
+ Senior VP of Worldwide Sales
+ Tricentis
+
+Aparna Sharma
+Testing Practice Head, Americas
+Wipro
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

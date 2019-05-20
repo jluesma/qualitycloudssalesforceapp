@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Support - March 2015.Email - Support Newsletter - Draft B</name>
+    <style>none</style>
+    <subject>Helping you Succeed with Platinum Support</subject>
+    <textOnly>&lt;http://www.tricentis.com&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tricentis Support 
+is Raising the Bar
+Platinum Support
+
+
+
+
+
+
+
+
+
+
+
+Hello *,
+
+We know how important your software testing is. We understand the countless hours of planning, training, and maintenance that have gone into building your test environment. It is our goal to help you succeed.
+
+We are proud to offer our best tool for your success: Tricentis Platinum Support, and ensure that your employees are provided with the best possible support from Tricentis.
+Platinum Support Benefits
+With Platinum Support, you will receive the following benefits:
+
+
+
+
+
+
+
+
+Get in Touch &lt;http://innovate.tricentis.com/talk-with-sales.html?utm_medium=email&amp;utm_source=newsletter_supportq1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Participation in the Tricentis Tosca Testsuite beta program.
+You will get a first look at new developments, and the chance to provide feedback and influence implementation before it even hits the market.
+
+
+
+
+
+
+
+
+
+Dedicated support contact.
+You will receive a dedicated support expert who is familiar with you, your goals, and your test environment. These experts are your personal lifelines; proactive in supporting the requirements and questions your team faces.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customized notifications.
+No need to be bombarded with notifications – unless you want to be. You decide how to configure your notifications to best suit your needs. You can define the frequency, nature, and distribution of our support bulletins.
+
+
+
+
+
+
+
+
+
+Customized reporting.
+Tricentis Platinum Support will keep you up to date with customized reports tailored to your test environment. You decide what your reports should include, who should receive it, and the frequency of the report.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Immediate emergency support.
+Immediate emergency support. In case of an urgent problem, our Platinum Support team is available for emergency remote sessions. These sessions allow a support expert to connect to your test environment, come alongside your team, and assist in analyzing the problem with you.
+
+
+
+
+
+
+
+
+
+Fast response times.
+As if our Gold support response rate wasn’t fast enough, now our Platinum Support customers will receive response times twice as quickly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get in Touch &lt;http://innovate.tricentis.com/talk-with-sales.html?utm_medium=email&amp;utm_source=newsletter_supportq1&gt;
+
+
+
+
+
+
+
+
+
+
+Start 2015 with the security of knowing that Tricentis Platinum Support is there to make you and your team to success.
+
+Oliver Allabauer
+Global Director Support Services
+o.allabauer@tricentis.com &lt;mailto:o.allabauer@tricentis.com&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Attend our Webinars
+
+
+
+
+12 Mar 2015
+Business Assurance for SAP with Wipro and Tricentis
+Businesses rely on third party Enterprise Resource Planning software, such as SAP, to fulfill their critical business functions. The challenges of introducing this new software into a complex IT landscape, on top of any unforeseen complications, blind spots, and learning curves, can make accurate and efficient testing a huge obstacle. 
+Register &lt;http://innovate.tricentis.com/webinar-business-assurance-for-sap-emea.html?utm_medium=email&amp;utm_source=newsletter_supportq1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tricentis Blog
+
+
+
+
+
+Lessons Learned from Agile Testing
+Within the past ten years agile testing methodology has come of age. With the advent of mobile and cloud computing, where every consumer has a powerful computer in their back pocket, the demand for new software, updates, and innovations has increased considerably. 
+Continue reading &lt;http://www.tricentis.com/blog/2015/01/lessons-learned-from-agile-testing/&gt;
+
+
+
+
+
+
+
+
+
+Software Failures of 2014: Services Edition
+It is no surprise that the world once feared the sudden global breakdown of computers at the advent of the millennium; the infamous Y2K. Without those computers society would suddenly be thrust into mass chaos akin to a zombie movie – just without the zombies. 
+
+Continue reading &lt;http://www.tricentis.com/blog/2015/01/software-failures-of-2014-services-edition/&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet Tricentis
+
+
+
+
+March 18 2015
+Swiss Testing Day
+More info &lt;http://www.tricentis.com/events-webinars/&gt;
+
+
+
+
+
+
+
+
+March 23 2015
+The Great SAP Experience
+More info &lt;http://www.tricentis.com/events-webinars/&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ &lt;https://plus.google.com/108151335013813449490/posts&gt; &lt;!--      --&gt;  &lt;!--      --&gt;  &lt;https://twitter.com/Tricentis&quot; target=&quot;_blank&quot;&gt;&lt;img src=&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+ © 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

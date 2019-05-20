@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta charset="UTF-8">
+<title>Solutions Day 2013 is now Tricentis Accelerate</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="10"><img src="http://innovate.tricentis.com/rs/tricentis/images/head_redone.jpg" alt="Tricentis - Acclerate. Innovate. Automate." width="600" height="73" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="100"><img src="http://innovate.tricentis.com/rs/tricentis/images/survey_header.jpg" alt="Tricentis Accelerate - November 7, 2013 - Vienna, Austria" width="600" height="141" /></td>
+</tr>
+<tr>
+<td style="padding: 16px 32px; font-size: 14px;">
+<p style="margin: 0px;">Dear&nbsp;{{lead.Full Name:default=Sir or Madam}}</p>
+<p>You are one of a small, selected group of customers that we have invited to provide us feedback. We would appreciate it very much if you would take your few minutes to fill out our survey about the test automation with Tosca. Please <a style="color: #1d63af;" href="http://www.surveygizmo.com/s3/1356563/c0d81bebb5b7">take the Survey.</a></p>
+<p>Best Regards,</p>
+<p>Georg Thurner <br />Tricentis Product Marketing</p>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom: 5px; padding-left: 32px; padding-right: 32px; font-size: 11px; padding-top: 5px;">
+<p>&copy; 2013 TRICENTIS Technology &amp; Consulting, All rights reserved. Tricentis | Leonard Bernstein Stra&szlig;e 10 | A-1220 Vienna | <a style="color: #1d63af;" href="http://www.tricentis.com/en/imprint">Imprint</a></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

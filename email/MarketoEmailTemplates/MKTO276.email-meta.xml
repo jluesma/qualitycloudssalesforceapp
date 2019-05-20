@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>10. voke Recognition campaign Testing H.voke send email with download link</name>
+    <style>none</style>
+    <subject>Download on Free voke Software Testing Analyst Report on Tricentis</subject>
+    <textOnly>Thank you very much for your interest in our FREE! voke software testing Analyst Report on Tricentis. 
+
+Please click the link below to download the report.
+
+http://www.tricentis.com/sites/default/files/pdf/analysts/voke_array_testing_2012_tricentis_excerpt.pdf
+
+ 
+
+Need Additional information:
+
+ &lt;http://innovate.tricentis.com/talk-with-sales.html&gt;           &lt;http://innovate.tricentis.com/demo-request.html&gt;
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

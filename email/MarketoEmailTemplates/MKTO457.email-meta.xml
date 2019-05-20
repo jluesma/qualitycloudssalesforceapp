@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Avaloq - 2014.11.12.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Webinar: Successful Test Automation using Tosca for Avaloq</subject>
+    <textOnly>Webinar: Successful Test Automation for Avaloq at LGT
+
+Hi {{lead.First Name}},
+
+Avaloq is a core banking system which plays a central role for any customer’s IT environment. Testing must provide a clear and comprehensive picture regarding the associated risk of any system prior to going live.
+
+In this Webinar hear how LGT Group, one of the largest private banking and asset management groups in Europe, leveraged Tricentis Tosca Testsuite for their Avaloq testing to optimize risk coverage and time to market.
+
+Together with Martin Lanzersdorfer from LGT Group we will show you how to address the key challenges in Avaloq testing.
+
+Specifically, we will discuss how you can:
+
+ - Identify and manage risks in testing your individual Avaloq system
+ - Manage test data
+ - Achieve highest test automation rates
+
+We look forward to seeing you at our webinar!
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;http://innovate.tricentis.com/webinar-successful-test-automation-for-avaloq-LGT-2014.11.12.html?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://innovate.tricentis.com/webinar-successful-test-automation-for-avaloq-LGT-2014.11.12.html?utm_medium=email&amp;utm_source=db&gt;
+Wed Nov 12, 2014
+ 3:00 p.m. – 4:00 p.m. CET
+9:00 a.m. – 10:00 a.m. EST
+
+Martin Lanzerstorfer
+IT Business Professional
+LGT Financial Services AG
+
+Helmut Stueber
+Managing Consultant
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:office@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

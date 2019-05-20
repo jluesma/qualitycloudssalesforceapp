@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Reminder to Registrants - Wien - no</name>
+    <style>none</style>
+    <subject>Wir freuen uns auf Ihr Kommen: Tosca Update Special 2015 – Dienstag 23.6.2015</subject>
+    <textOnly>WIEN - 23. Juni 2015
+
+Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+Sie haben sich zu unserem Tosca Update Special in Wien am Dienstag, den 23. Juni 2015 angemeldet. Wir freuen uns schon sehr auf einen interessanten Nachmittag mit Ihnen.
+
+Nachfolgend finden Sie nochmals die Agenda und die Details zum Veranstaltungsort, sowie Informationen zu Parkmöglichkeiten und Erreichbarkeit mit der U-Bahn.
+
+Agenda:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+
+Veranstaltungsort:
+ Tech Gate Vienna – Ring Stage
+ Donau-City-Straße 1
+ 1220 Wien
+
+Parkmöglichkeit: Parkhaus Tech Gate – EUR 2,50/Stunde
+
+U-Bahn: Das Tech Gate Vienna liegt direkt an der U1 Station Kaisermühlen – Vienna International Center (Ausgang Schuttaustraße) und ist über den Gehweg in knapp 2 Minuten zu erreichen.
+
+Wir freuen uns auf Ihr Kommen!
+
+Mit besten Grüßen
+ Ihr Tricentis Events Team
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

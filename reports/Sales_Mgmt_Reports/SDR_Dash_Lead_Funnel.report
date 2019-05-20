@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_67830881</developerName>
+        <masterLabel>Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STATUS</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <value>0 open/re-open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Initiated</sourceValue>
+            </sourceValues>
+            <value>1 initiated</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Contacted</sourceValue>
+            </sourceValues>
+            <value>2 contacted</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Qualified - (SQL)</sourceValue>
+            </sourceValues>
+            <value>3 qualified (not converted yet)</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>RATING</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Lead.dr_first_campaign_tracking__c</field>
+    </columns>
+    <columns>
+        <field>Lead.dr_last_campaign_tracking__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>shows all Leads in Lead Qualification Process assigned to Aaron</description>
+    <filter>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Aaron Komisarek</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Open,Re-open,Initiated,Contacted,Qualified - (SQL)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.dr_funnel__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CONVERTED</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_67830881</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SDR_Dash_Lead_Funnel</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

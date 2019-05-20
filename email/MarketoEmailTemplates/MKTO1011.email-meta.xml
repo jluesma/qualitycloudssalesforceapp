@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Last Call Invite - Munich - no Salu</name>
+    <style>none</style>
+    <subject>ERINNERUNG: Tricentis Update Special 2015 – München - 7. Juli 2015</subject>
+    <textOnly>München – 7. Juli 2015
+
+Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+ich hoffe, Sie haben die Einladung zum Tricentis Update Special 2015 in München erhalten.
+
+Gerne möchte ich Sie auch nochmals persönlich zu dieser, speziell für unsere Kunden gestalteten, Veranstaltung einladen. Hierbei wollen wir Sie nicht nur über neue Produktfunktionalitäten in Tosca, wie zum Beispiel: Image-based Test Automation, Test Case Design: Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, usw. informieren und Ihnen diese auch live zeigen, sondern auch gezielt auf Ihre Fragen eingehen!
+
+Achtung: Die Teilnehmerzahl ist limitiert – nutzen Sie die Chance und sichern Sie sich hier &lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt; einen der noch freien Plätze!
+
+Nachfolgend finden Sie auch nochmals die geplante Agenda und den Veranstaltungsort.
+
+Agenda - Update Special 2015:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+
+ &lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt;
+
+Update Special – München
+7. Juli 2015, 13:00 - 17:00 Uhr
+Mercure Hotel Orbis München Süd
+Karl-Marx-Ring 87
+81735 München
+
+Ich freue mich auf einen interessanten Nachmittag mit Ihnen.
+ &lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt;
+
+Mit besten Grüßen
+Reinhard Mantei
+Regional Sales Manager
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

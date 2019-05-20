@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Email - Final Confirmation to Registrants - Partner Day</name>
+    <style>none</style>
+    <subject>Registration Confirmation: Partner Day 2015</subject>
+    <textOnly>Hello {{lead.First Name:default=edit me}},
+
+Thank you for registering for Partner Day 2015. We are looking forward to seeing you in Vienna on October 21st!
+
+Please note that we have updated our Partner Day agenda:
+
+1:30 – 2:00 pm
+Registration &amp; Welcome Coffee
+
+2:00 – 2:10 pm    
+Welcome
+Franz Fuchsberger, Co-Founder &amp; CSO
+
+2:10 – 2:50 pm
+The Future of Testing
+Franz Fuchsberger, Co-Founder &amp; CSO
+
+2:50 – 3:20 pm
+Partner Program Update
+Alan Ota, Strategic Alliances
+
+3:20 – 3:35 pm
+Tricentis Obstacle Course
+Michael Niessl, Engineering
+
+3:35 – 4:00 pm
+Coffee Break
+
+4:00 – 4:45 pm
+Tosca 9.0 Preview &amp; Demo
+Gerd Weishaar, VP Product Mgmt  
+Roman Zednik, Director Presales
+
+4:45 – 5:30 pm
+Product Roadmap 2016
+Gerd Weishaar, VP Product Mgmt
+
+5:30 – 5:45 pm
+Wrap Up &amp; Closing
+Franz Fuchsberger, Co-Founder &amp; CSO
+
+Location:
+Novomatic Forum &lt;http://www.novomaticforum.com&gt;
+Friedrichstraße 7
+ 1010 Wien, Austria
+
+After the Partner Day you will have the opportunity to set up your booth for Accelerate the next day. We hope you will join us at our Partner and Speaker Dinner, starting at 6:30 pm. 
+
+See you soon in Vienna!
+
+Best Regards, 
+
+Your Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

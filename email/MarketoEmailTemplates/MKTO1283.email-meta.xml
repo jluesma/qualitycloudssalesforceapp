@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 3 - from Sales - DE (webinar format) - Al</name>
+    <style>none</style>
+    <subject>Persönliche EINLADUNG: Accelerate – 22. Oktober 2015 – Wien</subject>
+    <textOnly>Accelerate – 22. Oktober 2015
+Novomatic Forum, Wien
+9:00 - 17:00 Uhr
+anschl.: Buffet und Networking
+
+
+Guten Tag {{lead.First Name}} {{lead.Last Name}},
+
+Ich möchte Sie gerne persönlich zu unserer diesjährigen Tricentis Accelerate 2015 &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; einladen und mich auf diesem Weg als Ihren neuen Ansprechpartner in der Schweiz vorstellen.
+
+Genießen Sie gemeinsam mit uns einen Tag voller interessanter Vorträge, Workshops und Gespräche in Wien. Das Thema unserer diesjährigen Konferenz lautet: “Testing in the Digital Enterprise Age“.
+
+Das Programm &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate&gt; ist bereits online. Nutzen Sie die Chance und sichern Sie sich hier &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/?utm_medium=email&amp;utm_source=sales&gt; Ihr gratis Ticket.
+
+Ich freue mich schon sehr darauf, Sie bald in Wien begrüßen zu dürfen.
+
+Mit besten Grüßen
+Alexander Laubert
+Regional Sales Manager Schweiz
+
+Tricentis
+m - +41 79 909 8607
+e - a.laubert@tricentis.com &lt;mailto:a.laubert@tricentis.com&gt;
+
+PS: Die Highlights der Accelerate 2014 finden Sie hier &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/accelerate-2014/&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

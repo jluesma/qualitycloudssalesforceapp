@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Tosca Technical Workshop - Infosys - Aug 2015.Email - Confirmation - Inf</name>
+    <style>none</style>
+    <subject>Registration Confirmation for Tosca Testing Insights!</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+We are delighted that you have signed up for Tosca Testing Insights in Hyderabad on August 24th, 2015.
+
+Please {{my.ical-infosys}} for the event.
+
+In the event you will learn:
+
+ - How to achieve high sustainable automation rates without programming skills.
+ - How to realize the highest business risk coverage with the smallest number of powerful test cases.
+ - How to enable continuous delivery through continuous testing with Tricentis Tosca Testsuite.
+
+After the presentations there will be time to discuss and network.
+Location:
+
+Infosys, Hyderabad
+August 24th, 2015, 9:00 – 12:00 p.m (IST)
+50000X Hyderabad
+
+We look forward to seeing you there!
+
+Best Regards,
+Vaibhav Patil &amp; Ingo Philipp</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

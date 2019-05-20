@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+<table align="center" cellpadding="0"  width="600px" border="1"><tr><td>
+<p align="center" style="margin:10px 0"><img src="http://www.tricentis.com/sites/all/themes/tricentis_bootstrap_theme/logo.png"/></p></td></tr>
+
+<tr><td style="color:#868A8F;background-color:#868A8F">
+<p style="margin-bottom:0;color: #FFFFFF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px; margin:2px"><em><strong>Opportunity:</strong></em></p></td></tr>
+
+<tr><td>
+
+<p style="margin:10px 0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>Name:</strong> {!Opportunity.Name} <br/>
+<strong>Company:</strong> {!Account.Name}<br/>
+<strong>Close Date: </strong>{!Opportunity.CloseDate}<br/>
+ </p>
+<p style="margin-bottom:0;color: #1D63AF;text-shadow: none;font-weight: normal;font-family: open_sanssemibold, Arial, Helvetica, sans-serif;font-size: 15px;"><strong>View the record in <a href="{!Contact.Link}" style="text-decoration:none;color:#333333">Salesforce</a></strong><br/>
+</p>
+</td></tr></table>
+
+</body>
+</html>

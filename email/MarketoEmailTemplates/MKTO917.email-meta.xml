@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Confirmation 2</name>
+    <style>none</style>
+    <subject>Confirmation of registration: Tricentis Accelerate 2015</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+ 
+Thank you for registering for Accelerate 2015!
+
+ Accelerate 2015
+October 22, 2015
+9:00 a.m. – 10:00 p.m.
+
+Novomatic Forum
+Friedrichstraße 7 (vis à vis Secession)
+A 1010 Vienna
+www.novomaticforum.com
+
+{{my.ical}}
+
+Refer to the Accelerate page &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/&gt; on our website for more details.
+
+For any questions, please contact Nicole Neumayer at n.neumayer@tricentis.com &lt;mailto:n.neumayer@tricentis.com&gt;.
+
+Best regards,
+ 
+The Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

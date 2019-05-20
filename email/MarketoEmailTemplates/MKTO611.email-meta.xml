@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Third Party - Test Expo 2014.Event - Test Expo UK 2014 - Follow Up Email</name>
+    <style>none</style>
+    <subject>Thank you for attending my presentation at the TestExpo UK Conference</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for attending my presentation on Model-Based Test Automation at the TestExpo U.K. conference last October!
+
+The presentation covered Tricentis Tosca Testsuite’s use of Model-Based Test Automation as a robust, cost-effective, and scalable solution for the inefficiencies of software testing.
+
+I wanted to personally follow up and offer you one my limited slots for a live demo of Tosca Testsuite. If you are interested in learning more, please feel free to reply to this email to set up an appointment to discuss Tricentis and our testing solutions further.
+
+Thanks for your time! I look forward to speaking with you soon.
+
+With kind regards,
+Hans Planken
+www.tricentis.com &lt;http://www.tricentis.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

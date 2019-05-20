@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Legt die Abrechnungshäufigkeit fest.</help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob für den Auftrag ein Vertrag erstellt wurde.</help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Die Zahlungsbedingungen für diesen Auftrag.</help>
+        <label><!-- Payment Term --></label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- The price calculation status message --></help>
+        <label><!-- Price Calculation Status Message --></label>
+        <name>SBQQ__PriceCalcStatusMessage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the order price calculation job status.  It is set by the system. --></help>
+        <label><!-- Price Calculation Status --></label>
+        <name>SBQQ__PriceCalcStatus__c</name>
+    </fields>
+    <fields>
+        <help>Das Angebot, anhand dessen der Auftrag erstellt wird.</help>
+        <label><!-- Quote --></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The tax amount --></help>
+        <label><!-- Tax --></label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total order amount with tax included --></help>
+        <label><!-- Total Amount (With Tax) --></label>
+        <name>SBQQ__TotalAmount__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- EditOrderProducts --></label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks>
+</CustomObjectTranslation>

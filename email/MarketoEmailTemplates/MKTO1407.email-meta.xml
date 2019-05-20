@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Invite 2</name>
+    <style>none</style>
+    <subject>Join Us &amp; Meet the Tricentis VP of Product Management</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+
+Are you constantly asked to deliver increasingly more comprehensive test results in ever-decreasing and continuous cycle times? Do you agree that your testing relentlessly faces tight budget, time and resource constraints at the same time? Do you agree that all this just causes frustration for almost everyone involved? If yes, we should talk.
+
+Join Dr. Gerd Weishaar, VP of Product Management at Tricentis, for visionary talk on DevOps.
+
+Learn how to:
+
+
+
+ - take these pain points and turn them into gains
+ - achieve maximum risk coverage with a minimal number of powerful test cases
+ - achieve high sustainable automation rates without any programming skills
+
+
+Register now for one of our interactive workshops:
+
+
+
+
+
+Auckland
+28th October, 2015 
+
+9 am - 12 pm 
+
+
+Wellington
+29th October, 2015
+9 am - 12 pm
+
+
+Sydney
+30th October, 2015
+9 am - 12 pm
+
+
+Melbourne
+2nd November, 2015
+9 am - 12 pm
+
+
+Perth
+4th November, 2015
+9 am - 12 pm
+
+
+Singapore
+5th November, 2015
+6 pm - 9 pm
+
+
+
+*all workshops incl. a 30 min. break
+
+Join us and learn how to enable continuous delivery through continuous testing with Tricentis Tosca Testsuite to make your daily testing businesses just easier and more productive at the speed of DevOps.
+
+Best regards,
+
+Thomas Hardorn &amp; Dominik Weissboeck
+Managing Directors Asia-Pacific
+
+ 
+ &lt;http://www.tricentis.com/events-webinars/meet-the-tricentis-vp-of-product-management-gerd-weishaar-2015?utm_medium=email&amp;utm_source=db&gt;
+
+
+ 
+
+ &lt;http://www.tricentis.com/events-webinars/meet-the-tricentis-vp-of-product-management-gerd-weishaar-2015?utm_medium=email&amp;utm_source=db&gt;
+
+
+
+
+
+Gerd Weishaar
+VP Product Management
+ Tricentis</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

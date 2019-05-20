@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize Agile Testing - April 30 - APAC.Email - Miss You - APAC</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our webinar, Optimize Agile Testing with Tricentis</subject>
+    <textOnly>Webinar: Optimize Agile Testing with Tricentis
+
+Dear {{lead.First Name}},
+
+We’re sorry we missed you at our webinar, “Optimize Agile Testing with Tricentis.” We enjoyed talking about test automation for agile projects, risk reduction, and the Tricentis approach to agile testing. Lively questions and dialogue from our audience only improved the experience.
+
+Want to see what you missed? Check out a recording of this and other webinars at www.tricentis.com/resources/webcasts &lt;http://www.tricentis.com/resources/webcasts&gt;.
+
+Best Wishes,
+ 
+The Tricentis Team
+
+Michael Niessl
+Sales Support at Tricentis
+
+Brent Dixon
+Professional Services Manager for Asia-Pacific at Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

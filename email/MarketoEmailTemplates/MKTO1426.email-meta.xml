@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Email - 1 Day Reminder - Partner Day</name>
+    <style>none</style>
+    <subject>Partner Day 2015: 1 Day To Go!</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Don’t forget, Partner Day starts tomorrow at 1:30 PM! We are looking forward to welcoming you to an inspiring day discussing the future of Tricentis and software testing, followed by dinner, drinks, and networking.
+
+
+
+
+
+Location:
+Novomatic Forum &lt;http://www.novomaticforum.com&gt;
+Friedrichstraße 7
+
+1010 Wien
+
+
+
+
+
+ &lt;https://www.google.com/maps/place/Novomatic+Forum/@48.2008655,16.3684699,17z/data=!4m2!3m1!1s0x0:0xd6b5de954061f676&quot; target=&quot;_blank&quot;&gt;&lt;img src=&gt;
+
+
+
+
+
+
+
+How to get there:
+The Novomatic Forum is easily accessible by public transportation. Simply take the U1 (Red), U2 (Purple) or U4 (Green) subway line to Karlsplatz, and exit towards &quot;Secession&quot;. It is about a 3 minute walk to the Novomatic Forum.
+
+Parking Information:
+For those arriving by car, there is a public garage a short walk from the Novomatic Forum. A one day parking voucher costs €37, to be paid to the garage.
+
+Parking:                               
+
+WIPARK Garage &lt;http://www.wipark.at/eportal/ep/channelView.do/pageTypeId/24578/channelId/-43373&gt;
+Operngasse 
+13
+1040 Wien
+
+See you soon in Vienna!
+
+
+
+Best Regards, 
+
+Your Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

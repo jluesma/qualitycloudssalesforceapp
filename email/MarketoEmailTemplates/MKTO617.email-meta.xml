@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Mobile Labs - The Big 4 of Mobile Testing #2 - 2015.02.05.Email - Foll</name>
+    <style>none</style>
+    <subject>Hope you didn’t miss the ‘Managing the Big 4 of Mobile Testing’ Webinar!</subject>
+    <textOnly>Webinar: Managing the Big 4 of Mobile Testing
+
+Hi {{lead.First Name}},
+
+We hope you didn’t miss the collaborative webinar between Tricentis and MobileLabs! Theresa Lanowitz, founder and analyst of voke, Michael Eckhoff, VP of Worldwide Sales of Tricentis and Dan McFall, VP of Mobility Solutions of MobileLabs, talked about managing the Big 4 of Mobile Testing: devices, apps, security and automation.
+
+If you want to know more about Mobile Testing, you can find the whitepaper here. &lt;http://innovate.tricentis.com/rs/tricentis/images/20140925_Jump_Start_a_Mobile_Testing_Lab_Final.pdf&gt; You can also re-live the experience by accessing the recorded webinar here &lt;http://innovate.tricentis.com/webinar-od-mobile-labs-the-big-4-of-mobile-testing-emea-watch.html&gt;.
+
+If you would like to stay up to date about all of our webinars, please click here &lt;http://www.tricentis.com/events-webinars/&gt;.
+Best regards,
+
+The Tricentis Webinar Team
+www.tricentis.com &lt;http://www.tricentis.com&gt;
+
+Theresa Lanowitz
+Founder and Analyst
+ voke
+
+Michael Eckhoff
+Senior VP of 
+Worldwide Sales
+Tricentis
+
+Dan McFall
+VP, Mobility Solutions
+Mobile Labs
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

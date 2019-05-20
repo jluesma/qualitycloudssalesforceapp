@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Accelerator Blast Nov 7th, 2013.inviteblast</name>
+    <style>none</style>
+    <subject>Solutions Day is now…Tricentis Accelerate 2013 – DRIVING BUSINESS INNOVATION</subject>
+    <textOnly>DearTricentis Clients and Partners,
+
+With over 200 attendees, Accelerator 2013 is one of the largest functional testing events in Europe and features keynotes and session tracks from experts across all regions and industries . Choose your own schedule from more than 20 presentations covering topics such as Mobile, Agile, Test management, Next Gen test Automation and Risk Based Testing. 
+
+A full reception will follow the day&apos;s proceedings - networking at its best.
+
+To view the full agenda and learn more about the event, visit: accelerate.tricentis.com &lt;http://www.tricentis.com/en/solutions-day?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;
+
+I hope you are as excited about this event as I am and I look forward to meeting in person. If you have not registered, please register here &lt;http://www.tricentis.com/en/events/solutions-day/registration?utm_source=Event&amp;utm_medium=E-Mail&amp;utm_campaign=Accelerate_2013&gt;.
+
+Best Regards,
+
+
+Ajay Murthy
+ Chief Marketing Officer
+ Tricentis
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

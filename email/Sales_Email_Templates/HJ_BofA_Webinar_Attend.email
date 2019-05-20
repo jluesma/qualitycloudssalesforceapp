@@ -1,0 +1,11 @@
+{!Contact.FirstName}, 
+
+Thanks for attending our recent webinar on Continuous LoadTesting.  I hope the session was informative and helpful.  
+
+My name is Henry Joyce and I work with {!Account.Name}.   
+
+Let me know if you would like to take a deeper look at the technology behind the highly scalable approach that helps propel loadtesting to meet the demands of today’s lean, fast paced delivery pipelines.  
+
+You can also get additional information at our resources page at https://www.tricentis.com/resources/
+
+Sincerely,

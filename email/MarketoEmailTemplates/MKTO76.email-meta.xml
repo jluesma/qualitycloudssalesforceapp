@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2013.Email Post Event - 2nd Email to Attendees</name>
+    <style>none</style>
+    <subject>Watch Keynotes Tricentis Accelerate 2013</subject>
+    <textOnly>&lt;http://www.tricentis.com/&gt;
+
+&lt;!--
+
+
+--&gt;
+
+ &lt;http://www.tricentis.com/about/events/tricentis-accelerate/&gt;
+
+
+
+Dear {{Lead.First Name}},
+ 
+
+
+
+
+Tricentis Accelerate 2013. Accelerate. Innovate. Automate.
+Thanks again for making Tricentis Accelerate such a success this year. Now’s your chance to continue the conversation.
+
+Visit accelerate.tricentis.com &lt;http://www.tricentis.com/about/events/tricentis-accelerate/&gt; to watch conference highlights and download the recorded sessions. We’ll also have videos and presentation decks from the conference.
+ &lt;http://www.tricentis.com/about/events/tricentis-accelerate/presentations-preview/&gt;
+Tweet about your conference experiences at #TricentisAccelerate and follow us on Twitter at @Tricentis. You can also follow us on LinkedIn and Facebook.
+
+Please do not forget to fill out our survey &lt;http://www.surveygizmo.com/s3/1442788/Tricentis-Accelerate-2013&gt;, if you have not done so far.
+
+Thank you for giving us the chance to help you accelerate innovation at your business. We wish you all the best and look forward to seeing you again.
+
+Best Regards,
+
+
+Wolfgang Platz
+
+Founder &amp; Chief Product Officer, Tricentis
+
+If you have any questions or problems watching the videos, please contact us at events@tricentis.com &lt;mailto:events@tricentis.com&gt;
+
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

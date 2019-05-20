@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email -  Update for all Registrants - DE</name>
+    <style>none</style>
+    <subject>Tricentis Accelerate 2015 - Programm Online!</subject>
+    <textOnly>Accelerate – 22. Oktober 2015
+Novomatic Forum, Wien
+9:00 - 17:00 Uhr
+anschl.: Buffet und Networking
+
+
+
+Guten Tag {{lead.First Name}} {{lead.Last Name}},
+Bald findet unsere diesjährige Tricentis Accelerate &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt; statt und die Vorbereitungen sind bereits in vollem Gange.
+
+Das Thema unserer Konferenz lautet: “Testing in the Digital Enterprise Age“. Wir freuen uns auf einen Tag voller interessanter Vorträge, Workshops und Gespräche. Das Programm &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/#program&gt; ist online.
+
+Die Registrierung für unsere Workshops startet in Kürze.
+
+Um Ihren Aufenthalt in Wien so angenehm wie möglich zu gestalten, haben wir für Sie in den folgenden Hotels Zimmerkontingnente reserviert. Buchen Sie jetzt Ihr Zimmer!
+
+Motel One Wien-Staatsoper
+Elisabethstraße 5
+1010 Wien
+www.motel-one.com &lt;http://www.motel-one.com&gt;
+
+Hotel Beethoven 
+Papagenogasse 6
+1060 Wien
+www.hotel-beethoven.at &lt;http://hotel-beethoven.at&gt;
+
+Hotel Mercure Secession
+Getreidemarkt 5
+1060 Wien
+www.accorhotels.com &lt;http://www.accorhotels.com/gb/hotel-3532-hotel-mercure-secession-wien/index.shtml&gt;
+
+
+Wir freuen uns schon sehr darauf, Sie bald in Wien begrüßen zu dürfen.
+
+Mit besten Grüßen
+
+Ihr Tricentis Accelerate Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

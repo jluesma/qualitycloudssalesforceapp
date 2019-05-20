@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,helvetica,sans-serif;">Dear {{lead.First Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">Thank you for attending my presentation on Model-Based Test Automation at the TestExpo U.K. conference last October!</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">The presentation covered Tricentis Tosca Testsuite&rsquo;s use of Model-Based Test Automation as a robust, cost-effective, and scalable solution for the inefficiencies of software testing.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">I wanted to personally follow up and offer you one my limited slots for a live demo of Tosca Testsuite. If you are interested in learning more, please feel free to reply to this email to set up an appointment to discuss Tricentis and our testing solutions further.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">Thanks for your time! I look forward to speaking with you soon.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">With kind regards,</span></p>
+<div><span style="font-family: arial,helvetica,sans-serif;">Hans Planken</span></div>
+<div><span style="font-family: arial,helvetica,sans-serif;"><a href="http://www.tricentis.com">www.tricentis.com</a><br /></span></div></div>
+</div>
+</body>
+</html>

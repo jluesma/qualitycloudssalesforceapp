@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Confirmation Auckland</name>
+    <style>none</style>
+    <subject>Confirmation of registration &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Thank you for registering for our event &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;!
+
+{{my.Apac roadshow Auckland}}
+
+
+Auckland
+October 28, 2015
+ 9:00 a.m. – 12:00 p.m.
+
+Hotel Pullman
+Corner Princes Street and Waterloo Quadrant
+Auckland 1010
+New Zealand
+
+
+
+Best Regards,
+
+The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

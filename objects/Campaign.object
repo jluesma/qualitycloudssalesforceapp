@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>ActualCost</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>AmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>BudgetedCost</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CampaignMemberRecordTypeId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>DSCORGPKG__Suppress_from_DiscoverOrg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to hide this Campaign from DiscoverOrg&apos;s Add/Update feature.</inlineHelpText>
+        <label>Suppress from DiscoverOrg</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Campaign Details Captured&quot;, &quot;Missing: &quot;&amp;IF( LEN( Name)&lt;5,&quot;Meaningful Campaign Name, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(ISPICKVAL( Type ,&quot;&quot;), &quot;Type, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( ISPICKVAL( Status ,&quot;&quot;), &quot;Status, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(TEXT(MONTH( StartDate )))=0, &quot;Start Date, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(TEXT(MONTH( EndDate )))=0, &quot;End Date, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF(NumberOfContacts  +  NumberOfLeads = 0, &quot;No Associated Members, &quot;,&quot;&quot;)&amp;&quot;&quot;&amp;IF( LEN(TEXT( ExpectedRevenue ))=0, &quot;Expected Revenue&quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LEN(  Name  ) &lt; 5, 0,20) + IF(ISPICKVAL(  Type ,&quot;&quot; ), 0,20) + IF(ISPICKVAL( Status ,&quot;&quot; ), 0,20) + IF(LEN( TEXT(MONTH( StartDate )))= 0, 0,10) + IF( LEN(TEXT(MONTH( EndDate ))) = 0, 0,10) + IF(  NumberOfContacts  +  NumberOfLeads = 0, 0,10)  + IF( LEN( TEXT( ExpectedRevenue ) ) = 0, 0,10)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EventbriteSync__EventbriteId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Eventbrite Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExpectedResponse</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Geo__c</fullName>
+        <description>select the Geo where the event takes place</description>
+        <externalId>false</externalId>
+        <inlineHelpText>select the Geo where the event takes place</inlineHelpText>
+        <label>Geo</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AMS</fullName>
+                    <color>#FFCC33</color>
+                    <default>false</default>
+                    <label>AMS</label>
+                </value>
+                <value>
+                    <fullName>APAC</fullName>
+                    <color>#78C953</color>
+                    <default>false</default>
+                    <label>APAC</label>
+                </value>
+                <value>
+                    <fullName>EMEA</fullName>
+                    <color>#3366FF</color>
+                    <default>false</default>
+                    <label>EMEA</label>
+                </value>
+                <value>
+                    <fullName>INDIA</fullName>
+                    <color>#FF99FF</color>
+                    <default>false</default>
+                    <label>INDIA</label>
+                </value>
+                <value>
+                    <fullName>Global</fullName>
+                    <default>false</default>
+                    <label>Global</label>
+                </value>
+                <value>
+                    <fullName>DACH</fullName>
+                    <default>false</default>
+                    <label>DACH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HierarchyActualCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyBudgetedCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyExpectedRevenue</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberSent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberSent</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ON24EventID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>true</externalId>
+        <label>ON24EventID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>dr_buying_stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Buying Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Stage 1</fullName>
+                    <default>false</default>
+                    <label>Stage 1</label>
+                </value>
+                <value>
+                    <fullName>Stage 2</fullName>
+                    <default>false</default>
+                    <label>Stage 2</label>
+                </value>
+                <value>
+                    <fullName>Stage 3</fullName>
+                    <default>false</default>
+                    <label>Stage 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_content__c</fullName>
+        <description>Changing field label from &quot;Content&quot; to &quot;Content Name&quot; - left the API name intact for reporting.
+Original requester Wayne - Update bazwe: 02102017</description>
+        <externalId>false</externalId>
+        <label>Content Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_content_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Analyst Report</fullName>
+                    <default>false</default>
+                    <label>Analyst Report</label>
+                </value>
+                <value>
+                    <fullName>Calculators</fullName>
+                    <default>false</default>
+                    <label>Calculators</label>
+                </value>
+                <value>
+                    <fullName>Case Study</fullName>
+                    <default>false</default>
+                    <label>Case Study</label>
+                </value>
+                <value>
+                    <fullName>Community Edition</fullName>
+                    <default>false</default>
+                    <label>Community Edition</label>
+                </value>
+                <value>
+                    <fullName>Conference - 3rd Party</fullName>
+                    <default>false</default>
+                    <label>Conference - 3rd Party</label>
+                </value>
+                <value>
+                    <fullName>Conference - Customer</fullName>
+                    <default>false</default>
+                    <label>Conference - Customer</label>
+                </value>
+                <value>
+                    <fullName>Conference - GSI</fullName>
+                    <default>false</default>
+                    <label>Conference - GSI</label>
+                </value>
+                <value>
+                    <fullName>Conference - ISV</fullName>
+                    <default>false</default>
+                    <label>Conference - ISV</label>
+                </value>
+                <value>
+                    <fullName>Content Collection</fullName>
+                    <default>false</default>
+                    <label>Content Collection</label>
+                </value>
+                <value>
+                    <fullName>Demo On Demand</fullName>
+                    <default>false</default>
+                    <label>Demo On Demand</label>
+                </value>
+                <value>
+                    <fullName>Demo Request</fullName>
+                    <default>false</default>
+                    <label>Demo Request</label>
+                </value>
+                <value>
+                    <fullName>Event - Accelerate</fullName>
+                    <default>false</default>
+                    <label>Event - Accelerate</label>
+                </value>
+                <value>
+                    <fullName>Event - GSI</fullName>
+                    <default>false</default>
+                    <label>Event - GSI</label>
+                </value>
+                <value>
+                    <fullName>Event - ISV</fullName>
+                    <default>false</default>
+                    <label>Event - ISV</label>
+                </value>
+                <value>
+                    <fullName>Event - Other</fullName>
+                    <default>false</default>
+                    <label>Event - Other</label>
+                </value>
+                <value>
+                    <fullName>Event - Roadshow</fullName>
+                    <default>false</default>
+                    <label>Event - Roadshow</label>
+                </value>
+                <value>
+                    <fullName>Event - Update Special</fullName>
+                    <default>false</default>
+                    <label>Event - Update Special</label>
+                </value>
+                <value>
+                    <fullName>Event - Workshop</fullName>
+                    <default>false</default>
+                    <label>Event - Workshop</label>
+                </value>
+                <value>
+                    <fullName>Fact Sheet</fullName>
+                    <default>false</default>
+                    <label>Fact Sheet</label>
+                </value>
+                <value>
+                    <fullName>Free Trial</fullName>
+                    <default>false</default>
+                    <label>Free Trial</label>
+                </value>
+                <value>
+                    <fullName>Newsletter</fullName>
+                    <default>false</default>
+                    <label>Newsletter</label>
+                </value>
+                <value>
+                    <fullName>Peer Review</fullName>
+                    <default>false</default>
+                    <label>Peer Review</label>
+                </value>
+                <value>
+                    <fullName>Presentation</fullName>
+                    <default>false</default>
+                    <label>Presentation</label>
+                </value>
+                <value>
+                    <fullName>Report</fullName>
+                    <default>false</default>
+                    <label>Report</label>
+                </value>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>Talk to Sales</fullName>
+                    <default>false</default>
+                    <label>Talk to Sales</label>
+                </value>
+                <value>
+                    <fullName>Template</fullName>
+                    <default>false</default>
+                    <label>Template</label>
+                </value>
+                <value>
+                    <fullName>Thought Leadership</fullName>
+                    <default>false</default>
+                    <label>Thought Leadership</label>
+                </value>
+                <value>
+                    <fullName>Training - MOOC</fullName>
+                    <default>false</default>
+                    <label>Training - MOOC</label>
+                </value>
+                <value>
+                    <fullName>Training - Other</fullName>
+                    <default>false</default>
+                    <label>Training - Other</label>
+                </value>
+                <value>
+                    <fullName>Video</fullName>
+                    <default>false</default>
+                    <label>Video</label>
+                </value>
+                <value>
+                    <fullName>Webinar - External</fullName>
+                    <default>false</default>
+                    <label>Webinar - External</label>
+                </value>
+                <value>
+                    <fullName>Webinar - Internal</fullName>
+                    <default>false</default>
+                    <label>Webinar - Internal</label>
+                </value>
+                <value>
+                    <fullName>Whitepaper</fullName>
+                    <default>false</default>
+                    <label>Whitepaper</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_content_type_category__c</fullName>
+        <description>Changing field label from &quot;Content Type Category&quot; to &quot;Tactic&quot; - left the API name intact for reporting.
+Original requester Wayne - Update bazwe: 02102017</description>
+        <externalId>false</externalId>
+        <label>Tactic</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Atlassian Marketplace</fullName>
+                    <default>false</default>
+                    <label>Atlassian Marketplace</label>
+                </value>
+                <value>
+                    <fullName>Banner</fullName>
+                    <default>false</default>
+                    <label>Banner</label>
+                </value>
+                <value>
+                    <fullName>Blog</fullName>
+                    <default>false</default>
+                    <label>Blog</label>
+                </value>
+                <value>
+                    <fullName>Conference</fullName>
+                    <default>false</default>
+                    <label>Conference</label>
+                </value>
+                <value>
+                    <fullName>Display Ad</fullName>
+                    <default>false</default>
+                    <label>Display Ad</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Email - Nurture</fullName>
+                    <default>false</default>
+                    <label>Email - Nurture</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>Flood IO</fullName>
+                    <default>false</default>
+                    <label>Flood IO</label>
+                </value>
+                <value>
+                    <fullName>Marketplace</fullName>
+                    <default>false</default>
+                    <label>Marketplace</label>
+                </value>
+                <value>
+                    <fullName>Organic - Direct</fullName>
+                    <default>false</default>
+                    <label>Organic - Direct</label>
+                </value>
+                <value>
+                    <fullName>Placement</fullName>
+                    <default>false</default>
+                    <label>Placement</label>
+                </value>
+                <value>
+                    <fullName>PPC</fullName>
+                    <default>false</default>
+                    <label>PPC</label>
+                </value>
+                <value>
+                    <fullName>Press Release</fullName>
+                    <default>false</default>
+                    <label>Press Release</label>
+                </value>
+                <value>
+                    <fullName>Talk to Sales</fullName>
+                    <default>false</default>
+                    <label>Talk to Sales</label>
+                </value>
+                <value>
+                    <fullName>Talk to Sales (Chat)</fullName>
+                    <default>false</default>
+                    <label>Talk to Sales (Chat)</label>
+                </value>
+                <value>
+                    <fullName>Template</fullName>
+                    <default>false</default>
+                    <label>Template</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_exclude_from_dashboard__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exclude From Dashboard</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_funnel_reporting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Funnel Reporting</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_important_action__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Important Action</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_important_action_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Important Action Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Branded Search Term</fullName>
+                    <default>false</default>
+                    <label>Branded Search Term</label>
+                </value>
+                <value>
+                    <fullName>Clicked Drip Email</fullName>
+                    <default>false</default>
+                    <label>Clicked Drip Email</label>
+                </value>
+                <value>
+                    <fullName>Clicked Nurture Email</fullName>
+                    <default>false</default>
+                    <label>Clicked Nurture Email</label>
+                </value>
+                <value>
+                    <fullName>Clicks Any Email</fullName>
+                    <default>false</default>
+                    <label>Clicks Any Email</label>
+                </value>
+                <value>
+                    <fullName>Clicks Important Email</fullName>
+                    <default>false</default>
+                    <label>Clicks Important Email</label>
+                </value>
+                <value>
+                    <fullName>Clicks Important Webpage</fullName>
+                    <default>false</default>
+                    <label>Clicks Important Webpage</label>
+                </value>
+                <value>
+                    <fullName>Clicks Social</fullName>
+                    <default>false</default>
+                    <label>Clicks Social</label>
+                </value>
+                <value>
+                    <fullName>In App</fullName>
+                    <default>false</default>
+                    <label>In App</label>
+                </value>
+                <value>
+                    <fullName>Non-Branded Search Term</fullName>
+                    <default>false</default>
+                    <label>Non-Branded Search Term</label>
+                </value>
+                <value>
+                    <fullName>Opened Any Email</fullName>
+                    <default>false</default>
+                    <label>Opened Any Email</label>
+                </value>
+                <value>
+                    <fullName>Opened Drip Email</fullName>
+                    <default>false</default>
+                    <label>Opened Drip Email</label>
+                </value>
+                <value>
+                    <fullName>Opened Important Email</fullName>
+                    <default>false</default>
+                    <label>Opened Important Email</label>
+                </value>
+                <value>
+                    <fullName>Opened Nurture Email</fullName>
+                    <default>false</default>
+                    <label>Opened Nurture Email</label>
+                </value>
+                <value>
+                    <fullName>Views Multimedia</fullName>
+                    <default>false</default>
+                    <label>Views Multimedia</label>
+                </value>
+                <value>
+                    <fullName>Visits Any Webpage</fullName>
+                    <default>false</default>
+                    <label>Visits Any Webpage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_list_only__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>List Only</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_nurture_campaign__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Nurture Campaign</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_nurture_campaign_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Nurture Campaign Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_parent_campaign__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Parent Campaign</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_substantial_engagement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Substantial Engagement</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dr_traffic_medium__c</fullName>
+        <externalId>false</externalId>
+        <label>Traffic Medium</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Banner</fullName>
+                    <default>false</default>
+                    <label>Banner</label>
+                </value>
+                <value>
+                    <fullName>Blog Post</fullName>
+                    <default>false</default>
+                    <label>Blog Post</label>
+                </value>
+                <value>
+                    <fullName>Content Syndication</fullName>
+                    <default>false</default>
+                    <label>Content Syndication</label>
+                </value>
+                <value>
+                    <fullName>Contributed Article</fullName>
+                    <default>false</default>
+                    <label>Contributed Article</label>
+                </value>
+                <value>
+                    <fullName>CPC</fullName>
+                    <default>false</default>
+                    <label>CPC</label>
+                </value>
+                <value>
+                    <fullName>Direct Website Visit</fullName>
+                    <default>false</default>
+                    <label>Direct Website Visit</label>
+                </value>
+                <value>
+                    <fullName>Display - Contextual</fullName>
+                    <default>false</default>
+                    <label>Display - Contextual</label>
+                </value>
+                <value>
+                    <fullName>Display - Retargeting</fullName>
+                    <default>false</default>
+                    <label>Display - Retargeting</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>NA - Parent Campaign</fullName>
+                    <default>false</default>
+                    <label>NA - Parent Campaign</label>
+                </value>
+                <value>
+                    <fullName>Newsletter Sponsorship</fullName>
+                    <default>false</default>
+                    <label>Newsletter Sponsorship</label>
+                </value>
+                <value>
+                    <fullName>Online Referral Non Paid/Organic</fullName>
+                    <default>false</default>
+                    <label>Online Referral Non Paid/Organic</label>
+                </value>
+                <value>
+                    <fullName>Organic Search</fullName>
+                    <default>false</default>
+                    <label>Organic Search</label>
+                </value>
+                <value>
+                    <fullName>Paid Email</fullName>
+                    <default>false</default>
+                    <label>Paid Email</label>
+                </value>
+                <value>
+                    <fullName>Paid Social Media</fullName>
+                    <default>false</default>
+                    <label>Paid Social Media</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>Partner</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>Social Media</fullName>
+                    <default>false</default>
+                    <label>Social Media</label>
+                </value>
+                <value>
+                    <fullName>Social Sharing</fullName>
+                    <default>false</default>
+                    <label>Social Sharing</label>
+                </value>
+                <value>
+                    <fullName>Speaker</fullName>
+                    <default>false</default>
+                    <label>Speaker</label>
+                </value>
+                <value>
+                    <fullName>Third Party Promo</fullName>
+                    <default>false</default>
+                    <label>Third Party Promo</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Organic</fullName>
+                    <default>false</default>
+                    <label>Organic</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_traffic_medium_category__c</fullName>
+        <externalId>false</externalId>
+        <label>Traffic Medium Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Blog</fullName>
+                    <default>false</default>
+                    <label>Blog</label>
+                </value>
+                <value>
+                    <fullName>Content Syndication</fullName>
+                    <default>false</default>
+                    <label>Content Syndication</label>
+                </value>
+                <value>
+                    <fullName>Database</fullName>
+                    <default>false</default>
+                    <label>Database</label>
+                </value>
+                <value>
+                    <fullName>Direct Website Visit</fullName>
+                    <default>false</default>
+                    <label>Direct Website Visit</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>NA - Parent Campaign</fullName>
+                    <default>false</default>
+                    <label>NA - Parent Campaign</label>
+                </value>
+                <value>
+                    <fullName>Online Referral Non Paid/Organic</fullName>
+                    <default>false</default>
+                    <label>Online Referral Non Paid/Organic</label>
+                </value>
+                <value>
+                    <fullName>Organic Search</fullName>
+                    <default>false</default>
+                    <label>Organic Search</label>
+                </value>
+                <value>
+                    <fullName>Paid</fullName>
+                    <default>false</default>
+                    <label>Paid</label>
+                </value>
+                <value>
+                    <fullName>Partner</fullName>
+                    <default>false</default>
+                    <label>Partner</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>Social Media</fullName>
+                    <default>false</default>
+                    <label>Social Media</label>
+                </value>
+                <value>
+                    <fullName>Speaker</fullName>
+                    <default>false</default>
+                    <label>Speaker</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Website</fullName>
+                    <default>false</default>
+                    <label>Website</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>dr_traffic_source__c</fullName>
+        <externalId>false</externalId>
+        <label>Traffic Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adroll</fullName>
+                    <default>false</default>
+                    <label>Adroll</label>
+                </value>
+                <value>
+                    <fullName>Bing</fullName>
+                    <default>false</default>
+                    <label>Bing</label>
+                </value>
+                <value>
+                    <fullName>Company</fullName>
+                    <default>false</default>
+                    <label>Company</label>
+                </value>
+                <value>
+                    <fullName>DB</fullName>
+                    <default>false</default>
+                    <label>DB</label>
+                </value>
+                <value>
+                    <fullName>DB - Drip</fullName>
+                    <default>false</default>
+                    <label>DB - Drip</label>
+                </value>
+                <value>
+                    <fullName>DB - Footer</fullName>
+                    <default>false</default>
+                    <label>DB - Footer</label>
+                </value>
+                <value>
+                    <fullName>DB - Newsletter</fullName>
+                    <default>false</default>
+                    <label>DB - Newsletter</label>
+                </value>
+                <value>
+                    <fullName>DB - Nurture</fullName>
+                    <default>false</default>
+                    <label>DB - Nurture</label>
+                </value>
+                <value>
+                    <fullName>Emedia</fullName>
+                    <default>false</default>
+                    <label>Emedia</label>
+                </value>
+                <value>
+                    <fullName>Event</fullName>
+                    <default>false</default>
+                    <label>Event</label>
+                </value>
+                <value>
+                    <fullName>Facebook</fullName>
+                    <default>false</default>
+                    <label>Facebook</label>
+                </value>
+                <value>
+                    <fullName>General</fullName>
+                    <default>false</default>
+                    <label>General</label>
+                </value>
+                <value>
+                    <fullName>Google</fullName>
+                    <default>false</default>
+                    <label>Google</label>
+                </value>
+                <value>
+                    <fullName>Google Plus</fullName>
+                    <default>false</default>
+                    <label>Google Plus</label>
+                </value>
+                <value>
+                    <fullName>GoToWebinar</fullName>
+                    <default>false</default>
+                    <label>GoToWebinar</label>
+                </value>
+                <value>
+                    <fullName>Guru99</fullName>
+                    <default>false</default>
+                    <label>Guru99</label>
+                </value>
+                <value>
+                    <fullName>IDG</fullName>
+                    <default>false</default>
+                    <label>IDG</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>IT Central Station</fullName>
+                    <default>false</default>
+                    <label>IT Central Station</label>
+                </value>
+                <value>
+                    <fullName>Linkedin</fullName>
+                    <default>false</default>
+                    <label>Linkedin</label>
+                </value>
+                <value>
+                    <fullName>Madison Logic</fullName>
+                    <default>false</default>
+                    <label>Madison Logic</label>
+                </value>
+                <value>
+                    <fullName>Microsoft</fullName>
+                    <default>false</default>
+                    <label>Microsoft</label>
+                </value>
+                <value>
+                    <fullName>Milind</fullName>
+                    <default>false</default>
+                    <label>Milind</label>
+                </value>
+                <value>
+                    <fullName>Mobile Labs</fullName>
+                    <default>false</default>
+                    <label>Mobile Labs</label>
+                </value>
+                <value>
+                    <fullName>NA - Parent Campaign</fullName>
+                    <default>false</default>
+                    <label>NA - Parent Campaign</label>
+                </value>
+                <value>
+                    <fullName>Newsletter</fullName>
+                    <default>false</default>
+                    <label>Newsletter</label>
+                </value>
+                <value>
+                    <fullName>Newsletter - Gartner 2014 Q4</fullName>
+                    <default>false</default>
+                    <label>Newsletter - Gartner 2014 Q4</label>
+                </value>
+                <value>
+                    <fullName>Newsletter - Partner - Feb 2015</fullName>
+                    <default>false</default>
+                    <label>Newsletter - Partner - Feb 2015</label>
+                </value>
+                <value>
+                    <fullName>Newsletter - Support 2015</fullName>
+                    <default>false</default>
+                    <label>Newsletter - Support 2015</label>
+                </value>
+                <value>
+                    <fullName>Newsletter - Whats New 2015</fullName>
+                    <default>false</default>
+                    <label>Newsletter - Whats New 2015</label>
+                </value>
+                <value>
+                    <fullName>Objektsprektrum</fullName>
+                    <default>false</default>
+                    <label>Objektsprektrum</label>
+                </value>
+                <value>
+                    <fullName>Passalong</fullName>
+                    <default>false</default>
+                    <label>Passalong</label>
+                </value>
+                <value>
+                    <fullName>Press Release</fullName>
+                    <default>false</default>
+                    <label>Press Release</label>
+                </value>
+                <value>
+                    <fullName>Retargeter</fullName>
+                    <default>false</default>
+                    <label>Retargeter</label>
+                </value>
+                <value>
+                    <fullName>Sales Team</fullName>
+                    <default>false</default>
+                    <label>Sales Team</label>
+                </value>
+                <value>
+                    <fullName>SD Times</fullName>
+                    <default>false</default>
+                    <label>SD Times</label>
+                </value>
+                <value>
+                    <fullName>SQE</fullName>
+                    <default>false</default>
+                    <label>SQE</label>
+                </value>
+                <value>
+                    <fullName>Theresa Lanowitz</fullName>
+                    <default>false</default>
+                    <label>Theresa Lanowitz</label>
+                </value>
+                <value>
+                    <fullName>Third Party</fullName>
+                    <default>false</default>
+                    <label>Third Party</label>
+                </value>
+                <value>
+                    <fullName>TRAX</fullName>
+                    <default>false</default>
+                    <label>TRAX</label>
+                </value>
+                <value>
+                    <fullName>Tricentis</fullName>
+                    <default>false</default>
+                    <label>Tricentis</label>
+                </value>
+                <value>
+                    <fullName>Twitter</fullName>
+                    <default>false</default>
+                    <label>Twitter</label>
+                </value>
+                <value>
+                    <fullName>Twitter Followers</fullName>
+                    <default>false</default>
+                    <label>Twitter Followers</label>
+                </value>
+                <value>
+                    <fullName>Twitter Like Followers</fullName>
+                    <default>false</default>
+                    <label>Twitter Like Followers</label>
+                </value>
+                <value>
+                    <fullName>Udemy</fullName>
+                    <default>false</default>
+                    <label>Udemy</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>voke</fullName>
+                    <default>false</default>
+                    <label>voke</label>
+                </value>
+                <value>
+                    <fullName>Web</fullName>
+                    <default>false</default>
+                    <label>Web</label>
+                </value>
+                <value>
+                    <fullName>WebEx</fullName>
+                    <default>false</default>
+                    <label>WebEx</label>
+                </value>
+                <value>
+                    <fullName>Wipro</fullName>
+                    <default>false</default>
+                    <label>Wipro</label>
+                </value>
+                <value>
+                    <fullName>XING</fullName>
+                    <default>false</default>
+                    <label>XING</label>
+                </value>
+                <value>
+                    <fullName>Yahoo</fullName>
+                    <default>false</default>
+                    <label>Yahoo</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>AllActiveCampaigns</fullName>
+        <columns>CAMPAIGN.ACTIVE</columns>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>ON24EventID__c</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <columns>dr_content_type__c</columns>
+        <columns>dr_content__c</columns>
+        <columns>dr_traffic_medium__c</columns>
+        <columns>dr_traffic_source__c</columns>
+        <columns>dr_important_action__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Active Campaigns</label>
+    </listViews>
+    <listViews>
+        <fullName>EventbriteSync__ebCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>EventbriteSync__EventbriteId__c</columns>
+        <columns>CAMPAIGN.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>EventbriteSync__EventbriteId__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Eventbrite Campaigns</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MyActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Active Campaigns</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NUM_RESPONSES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <webLinks>
+        <fullName>EventbriteSync__EventbriteSync</fullName>
+        <availability>online</availability>
+        <description>Sync the current Eventbrite event.</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Eventbrite Sync</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>//  Get record&apos;s Eventbrite Id Value
+var eventbriteId = &apos;{!Campaign.EventbriteSync__EventbriteId__c}&apos;;
+
+//  If not populated, alert the user
+if (eventbriteId == &apos;&apos;)
+    alert(&apos;This record must have an Eventbrite Id.  Populate the Eventbrite Id field with the value from the Eventbrite Event URL.&apos;);
+
+//  If there is an Id, forward the user to the standard import page
+else
+    window.location.href=&quot;/apex/EventbriteSync__EventbriteImport?eventbriteId=&quot; + eventbriteId;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?scope=1&amp;rt=5&amp;scopeid={!Campaign.Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign_Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+</CustomObject>

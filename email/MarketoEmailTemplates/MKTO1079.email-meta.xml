@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Test Automation for Beginners - German - 2015.07.28.Event - Follow Up</name>
+    <style>none</style>
+    <subject>Wir haben Sie bei unserem Webinar: Das 1 x 1 der Testautomatisierung vermisst</subject>
+    <textOnly>Das 1 x 1 der Testautomatisierung
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Am Dienstag, den 28. Juli 2015, fand unser Webinar: Das 1 x 1 der Testautomatisierung statt.
+
+Da Sie leider nicht teilnehmen konnten, möchten wir Sie darauf aufmerksam machen, dass wir das Recording &lt;http://www.tricentis.com/thank-you-page-1x1-der-testautomatisierung-webinar-20150728-ondemand&gt; auf unserer Webseite für Sie bereitgestellt haben.
+
+Wir freuen uns darauf, Sie bei einem unserer nächsten Webinare begrüßen zu dürfen.
+
+Mit freundlichen Grüßen
+Ihr Tricentis Webinar Team
+ 
+Roman Zednik 
+Pre-Sales Consultant
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

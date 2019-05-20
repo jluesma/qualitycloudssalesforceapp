@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 3 - from Sales - EN - (webinar format) -</name>
+    <style>none</style>
+    <subject>Register Now for Tricentis Accelerate 2015</subject>
+    <textOnly>Accelerate - October 22nd, 2015
+ Novomatic Forum, Vienna
+ 9:00 a.m. – 5:00 p.m.
+Followed by buffet &amp; reception
+
+Hi {{lead.First Name}},
+
+I would like to personally invite you to Tricentis Accelerate 2015 and introduce myself as your new contact at Tricentis.
+
+Join us for an inspiring day full of seminars, workshops, and networking. Register now &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=sales&gt; to secure your free ticket! The topic of this year&apos;s conference is &quot;Testing in the digital enterprise age&quot;.
+
+We hope you will enjoy chatting with our test automation experts about test automation, DevOps, continuous testing, and all of the challenges and opportunities the industry landscape provides.
+
+You can also now find the event program &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate&gt; online. We look forward to meeting you in Vienna!
+
+Best regards,
+
+Alexander Laubert
+ Regional Sales Manager Schweiz
+ Tricentis
+ o - +41 79 909 8607 
+e - a.laubert@tricentis.com
+
+PS: Highlights from Accelerate 2014 can be found here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/accelerate-2014/&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

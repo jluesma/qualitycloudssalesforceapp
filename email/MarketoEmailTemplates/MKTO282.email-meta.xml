@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Optimize and Automate your  SAP Testing - EMEA minus DACH - July 2014.</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our webinar, Optimize and Automate Your SAP Testing</subject>
+    <textOnly>Webinar: Optimize and Automate Your SAP Testing
+
+Hi {{lead.First Name}},
+
+We’re sorry we missed you at our webinar, “Optimize and Automate Your SAP Testing.” We enjoyed talking about time and budget constraint management in SAP implementations, risk identification and management associated with change, and the management of SAP’s dynamic test data environment. Lively questions and dialogue from our audience only improved the experience.
+
+Want to see what you missed? Check out a recording of this and other webinars at www.tricentis.com/resources/webcasts &lt;http://www.tricentis.com/resources/webcasts&gt;.
+
+Best wishes,
+The Tricentis Webinar Team
+
+Michael Wagner
+ Head of Professional Services
+ Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

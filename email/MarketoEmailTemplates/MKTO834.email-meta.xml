@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Electric Cloud - From DevOps to Dev-Test-Ops - EMEA - 2015.05.28.Email</name>
+    <style>none</style>
+    <subject>Webinar: From DevOps to Dev-Test-Ops - Automate Your End-To-End Software Pipeline</subject>
+    <textOnly>From DevOps to Dev-Test-Ops - 
+Automate Your End-To-End Software Pipeline
+
+Hi {{lead.First Name}},
+
+We are excited to invite you to our new webinar, “From DevOps to Dev-Test-Ops - Automate Your End-To-End Software Pipeline”! Join Electric Cloud and Tricentis as we demonstrate proven techniques to ensure your software quality by automating more of your end-to-end software development lifecycle, including testing. In the webinar you will learn:
+
+- How DevOps practices help your Dev, QA and Ops Teams work more efficiently
+ - How test automation eliminates manual handoffs and increases coverage
+ - How detecting errors quickly can help developers optimize quality
+
+Our “From DevOps to Dev-Test-Ops - Automate Your End-To-End Software Pipeline” webinar will take place on May 28th, 2015, starting at 1:00 p.m. CET.
+
+We look forward to seeing you at our webinar!
+
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;https://attendee.gotowebinar.com/register/7850805857647497730&gt;
+
+ &lt;https://attendee.gotowebinar.com/register/7850805857647497730&gt;
+Thu, May 28, 2015
+ 1:00 p.m. – 2:00 p.m. CET
+7:00 a.m. – 8:00 a.m. EST
+
+Anand Ahire
+Director, Product Management
+Electric Cloud
+
+Gerd Weishaar
+VP Product Management
+ Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="color: #000080;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 18px;">Customer Alert - Training Request<br /></span></strong></span></p>
+<hr />
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 16px;">{{lead.Full Name:default=edit me}}, {{lead.Job Title:default=edit me}} with {{company.Company Name:default=edit me}} filled out a training request form.<br /></span></p>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 16px;"><span style="color: #000080;"><strong><span style="font-family: arial,helvetica,sans-serif;">Lead Details:</span></strong></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #000080;"><strong><span style="font-family: arial,helvetica,sans-serif;"><br /></span></strong></span></span></div>
+<div style="font-weight: normal;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Full Name:&nbsp;</strong></span>{{lead.Full Name}}</span></div>
+<div style="font-weight: normal;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Company Name:&nbsp;</strong></span>{{company.Company Name}}</span></div>
+<div style="font-weight: normal;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Job Title:&nbsp;</strong></span>{{lead.Job Title}}</span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Email Address:&nbsp;</strong></span>{{lead.Email Address}}</span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Phone:&nbsp;</strong></span>{{lead.Phone Number:default=edit me}}</span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Country:&nbsp;</strong></span>{{lead.Country:default=edit me}}</span></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Comments:&nbsp;</strong></span>{{lead.Talk to Us Comments:default=edit me}}</span></span></span></span></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Track Requested:&nbsp;</strong>{{lead.Training Track:default=edit me}}</span> <br /></span></span></span></span></span></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #333333;"><strong>Link to the Record:</strong></span>&nbsp;https://na15.salesforce.com/{{lead.SFDC Id}}</span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><br /></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;"><span style="color: #000080;"><strong><span style="font-family: arial,helvetica,sans-serif;">Action Needed:</span></strong></span></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 14px;"><span style="color: #000080;"><strong><span style="font-family: arial,helvetica,sans-serif;"><br /></span></strong></span></span></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 16px; color: #000000;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-family: arial,helvetica,sans-serif;"><span style="font-family: arial,helvetica,sans-serif;">Contact this lead about training.</span></span></span></span></div>
+<div><strong><br /></strong></div></div>
+</div>
+</body>
+</html>

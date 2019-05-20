@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - 1 Day Reminder - Accelerate</name>
+    <style>none</style>
+    <subject>Accelerate 2015: 1 Day To Go!</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Accelerate 2015 starts tomorrow at 8:30 AM! We are looking forward to welcoming you to an inspiring day discussing the future of software testing with industry experts from around the world, followed by dinner, drinks, and networking.
+
+Don’t forget to tweet during Accelerate using the hashtag #TriAcc for a chance to win a pair of Marshall Headphones at the end of the day!
+
+Location:
+Novomatic Forum &lt;http://www.novomaticforum.com&gt;
+Friedrichstraße 7
+1010 Wien, Austria
+
+ &lt;https://www.google.at/maps/dir/48.2013086,16.3688942/Novomatic+Forum,+Friedrichstra%C3%9Fe,+Wien/@48.2003768,16.36739,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x476d0784a766a0f3:0xd6b5de954061f676!2m2!1d16.36641!2d48.200036!3e2&gt;
+
+How to get there:
+
+The Novomatic Forum is easily accessible by public transportation. Simply take the U1 (Red), U2 (Purple) or U4 (Green) subway line to Karlsplatz, and exit towards &quot;Oper&quot;. It is about a 3 minute walk to the Novomatic Forum.
+
+Parking Information:
+
+For those arriving by car, there is a public parking garage a short walk from the Novomatic Forum. A one day parking voucher costs €37, to be paid to the garage.
+
+See you soon!
+
+Best Regards, 
+
+Your Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

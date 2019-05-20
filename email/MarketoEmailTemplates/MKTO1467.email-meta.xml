@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Confirmation Perth</name>
+    <style>none</style>
+    <subject>Confirmation of registration &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Thank you for registering for our Workshop &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;!
+
+{{my.APAC Roadshow Perth:default=edit me}}
+
+
+Perth
+November 4, 2015
+ 9:00 a.m. – 12:00 p.m.
+
+Location:
+Four Points by Sheraton – room Freemkantle 1
+707 Wellington Street
+Perth Western 6000
+Australia
+
+
+
+Best Regards,
+
+The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

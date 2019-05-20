@@ -1,0 +1,32 @@
+<div style="font-family: Calibri, Verdana, Arial; font-size: 11pt;">
+
+	<p>Dear {!NullValue(Contact.FirstName, "Sir or Madam")},</p>
+	<p>
+		<p>Thank you for your interest in Tricentis Tosca.</p>
+		I received notification that you recently registered for one of our webinars. 
+		Can I answer any questions for you about Tricentis or Tosca By way of introduction, my name is Rajendra Mehrotra and I am the Business Development Manager, exclusively supporting Global Service Integrators. 
+		In my role, I work with key stakeholders to develop an effective GSI strategy that’s mutually beneficial to both organizations.
+	<p>
+		Also, here are a few links for more information about Tosca:
+	</p>
+	<ol>
+		<li>Download fact sheets, case studies and whitepapers from our webpage at http://www.tricentis.com/resources/</li>
+		<li>Take our free online training at https://www.udemy.com/get-in-touch-with-tricentis-tosca-testsuite/</li>
+		<li>Submit for and download our trial license at http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/</li>	
+	</ol>
+	<p>Best regards,<br>{!User.Name}<br>{!User.Title}</p>
+	
+	<p>
+		<a href="http://www.tricentis.com/" style="font-size: 12pt;">Tricentis</a><br>
+		<span style="color: rgb(79, 129, 189);"><b>m</b></span> - <span style="font-color:black;">{!User.MobilePhone}</span><br>
+		<span style="color: rgb(79, 129, 189);"><b>e</b></span> - <span style="font-color:black;">{!User.Email}</span>
+	</p>
+	<a href="https://www.tricentis.com/resource-assets/tricentis-a-leader-in-gartner-magic-quadrant-2016/">
+	<img src="https://tricentis--c.na15.content.force.com/servlet/servlet.ImageServer?id=015i0000008kGId&oid=00Di0000000eCqx&lastMod=1473941125000" width="529" height="65"></a>
+
+	<div style="color: rgb(190, 190, 190); font-size: 7pt;">
+		<p>
+			<p>Tricentis GmbH<br>Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna<br>FN 213896d Handelsgericht Wien</p>
+			<p>Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</p>
+		</p>
+</div>

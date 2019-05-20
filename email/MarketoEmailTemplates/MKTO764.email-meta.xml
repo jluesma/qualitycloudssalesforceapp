@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Register Now for Tricentis Accelerate 2015</subject>
+    <textOnly>&lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Accelerate 2015
+October 22nd, 2015
+9:00 - 22:00 CET
+Vienna, Austria
+Register now, free of charge!
+
+ &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt;
+
+Hi {{lead.First Name:default=edit me}},
+
+Registration for Tricentis Accelerate 2015 &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=db&gt; is now open! Join us for an inspiring day full of seminars, workshops and networking.
+
+This year you will hear from experts on test automation, service virtualization, mobile testing as well as Tricentis’ own experts on agile and devops testing.
+
+We look forward to meeting you in Vienna.
+
+Best Regards,
+
+The Tricentis Events Team
+
+PS: Highlights from Accelerate 2014 can be found here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/accelerate-2014/&gt;.
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

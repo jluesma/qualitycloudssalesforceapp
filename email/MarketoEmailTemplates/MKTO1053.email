@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" >
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;">Dear {{lead.First Name:default=Sir/Madam}},<br /><br />Thank you for taking time from your busy schedule to read this email.
+ My name is Martin&nbsp;and I work with the Marketing Consulting team at Tricentis (www.tricentis.com), a leading Test Automation provider with operations globally.<br /><br />Regarding the Avaloq Banking System that Canaccord Genuity Limited implemented in early 2015, we wanted to touch-base and 
+provide a walk-through of our product, Tosca Testsuite (http://www.tricentis.com/tricentis-tosca-testsuite/).
+ We have specifically designed an Avaloq extension to address the biggest challenges of testing your Avaloq system: Test Data management, Risk coverage, and Test automation.
+ <br /><br />Tosca Testsuite complements your Avaloq migration cycle, ensuring that the end-user testing challenges during extraction, mapping, transformation and data cleansing using Pl/SQL packages and SQL scripts are better managed.
+ It also seamlessly links into Avaloq Scripting and Avaloq Report Writing, so that your overall time to manage this process is further reduced.<br /><br />I would be happy to connect with you at a time and day of your choosing to explain more.
+ We also can schedule a demo of our product&rsquo;s features and functionalities in context of the Avaloq system which you folks are currently using.
+ Please do let me know.
+ <br /><br />Have a great day and look forward to hearing from you.
+ <br /><br />Regards,<br />Martin Karolyi<br />Technical Advisor<br /><br /></span></p>
+</div>
+</div>
+</body>
+</html>

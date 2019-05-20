@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Business Breakfast - Austria.Email - Invite 2 - Blank format - with Salu</name>
+    <style>none</style>
+    <subject>Erinnerung: Tricentis Business Breakfast - Freitag 20. März 2015</subject>
+    <textOnly>Sehr geehrter Herr {{lead.Last Name:default=edit me}}, 
+
+ich möchte Sie heute gerne auf unser 1. Tricentis Business Breakfast zum Thema Orchestrated Service Virtualization im Tech Gate Vienna (Donau-City-Straße 1, 1220 Wien) aufmerksam machen, zu dem ich Sie persönlich nochmals ganz herzlich einladen möchten.
+
+Wir starten um 9:00 Uhr mit der Registrierung und einem Frühstück.
+
+Danach wird Herr Roman Zednik, Head of Global Presales bei Tricentis unsere Lösung für den Bereich Orchestrated Service Virtualization vorstellen. Im Anschluss wird Herr Alexander Mohr, Projektmanager Service Virtualisierung bei einem österreichischen Mobilfunkprovider, von seinen Erfahrungen bei der Implementierung von Tosca Virtualize, der Virtualisierungslösung von Tricentis, in einer sehr komplexen Systemlandschaft eines österreichischen Mobilfunkproviders berichten.
+
+Anschließend wird es ausreichend Zeit für einen interessanten Erfahrungsaustausch bei einem kleinen Imbiss geben.
+
+Achtung: es sind noch 15 Plätze frei
+
+Anmeldung: per Email an: p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+Ich freue mich auf Ihr Kommen.
+
+Mit freundlichen Grüßen
+
+Peter Szedlacek
+ Sales Manager AT/CZ/H/HR/SK/SLO
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+o - +43 1 263 24 09 - 1411, m - +43 664 88636292
+ e - p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

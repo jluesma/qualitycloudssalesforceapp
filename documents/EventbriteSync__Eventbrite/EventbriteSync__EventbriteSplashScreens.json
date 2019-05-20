@@ -1,0 +1,53 @@
+{  
+   "SplashScreens":[  
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":1,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Overview",
+         "Text":"<p>Thanks for installing the latest version of EventbriteSync for Salesforce.</p><p>Whether you\u0027re a new EventbriteSync user or a customer upgrading to v2.0, we\u0027d like to take a few moments to tell you about what\u0027s new. </p><p>Click on the \"Next\" button to continue on. If you\u0027d like to navigate back to the previous screen, click on the \"Previous\" button.</p>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":2,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Strong Record Relationships",
+         "Text":"<ul><li>The new lookup fields are used to preserve the relationships within your Eventbrite data. For example, you can easily see or report on all of an Event\u0027s Orders and Attendees, an Order\u0027s Buyers, or Orders with Promotional Codes and much more.</li><li>The new \"Order Line Item\" Custom Object stores information about all of the relationships. Previously, it was difficult to accurately report on things like attendee counts within an event due to a limitation with the Campaign Members Object.</li></ul>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":3,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"More Data",
+         "Text":"<p>Now, all fields from the Eventbrite API are available to EventbriteSync.</p>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":4,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Simplified Import",
+         "Text":"<ul><li>The EventbriteSync Import now works right out of the box. You can run your first import within a few minutes of installation and authentication.</li><li><b>Simple Importing:</b> Your Eventbrite Events, Attendees and Orders can be imported into Salesforce without any configuration using the \"Import Only\" setting. EventbriteSync imports your Eventbrite data into custom Salesforce Objects. These Eventbrite objects are pre-configured to match the data structure of Eventbrite and preserve the relationships between your Eventbrite Data.</li><li>(optional) <b>Mapping Process</b> for Advanced Users: Once your data is imported into the Eventbrite Objects, you can configure the Mapping Process to move your records from the Eventbrite Objects into any of the Standard or Custom Objects that you already use, like Campaigns, Opportunities, and Contacts. This advanced feature empowers you to fully integrate Eventbrite into your existing business logic and processes.<ul><li>(optional) <b>Person Account Compatible</b> - Eventbrite Attendees can be mapped to Person Accounts if enabled within your Org.</li><li><b>Cross Object Person Type Matching</b> - The Mapping Process can now be configured to match Eventbrite Attendees and Buyers to records on person type objects according to a priority that you specify with customizable mappings for each object in the priority list. Note that a match is an exact match on First Name, Last Name, and Email Address.<ol><li><b>Lead Record</b> - If match found update Lead, if no match check:</li><li><b>Contact Record</b> - If match found update Contact, if no match check:</li><li><b>Person Account</b> - If match found update Account, if no match,</li><li>Create a new <b>Lead Record</b></li></ol></li></ul></li></ul>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":5,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Question and Answers Object",
+         "Text":"<p>Eventbrite Custom Questions and their Attendee Answers are now on one object related to the Order Line Item. This allows a full related list of questions and attendee answers and greatly simplifies reporting on custom questions.</p>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":6,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Delta Sync",
+         "Text":"<p>Delta Sync allows you to limit the requests sent to the Eventbrite API to new or updated data since your last sync. This greatly reduces the amount of your resources used each sync.</p>"
+      },
+      {  
+         "SplashSet":"Install/Upgrade Demo",
+         "SequenceNumber":7,
+         "BlockTitle":"What\u0027s New in 2.0",
+         "SectionTitle":"Next Steps",
+         "Text":"<p>After clicking \"Finish\", you will need to authenticate with your Eventbrite.com account.  Once this has been performed, click on the \"Eventbrite\" Tab to review the default import options, including what Eventbrite data to import (IE:  Events, Orders, etc.  Default is all) and begin importing your data.</p>"
+      }
+   ]
+}

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_89623136</developerName>
+        <masterLabel>Demo</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Lead.dr_first_campaign_tracking__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Demo Request - Website - General</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Demo Request - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <value>Demo Request</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_60280659</developerName>
+        <masterLabel>First Campaign Category</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Lead.dr_first_campaign_tracking__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Demo Request - Website - General</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Demo Request - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <value>Demo Request</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Event - Third Party - ASQF Quality Day - Berlin - 2014.12.09</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Event - Third Party - Eurostar 2014 - 2014.11.27</sourceValue>
+            </sourceValues>
+            <value>Events</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Newsletter - Featuring Gartner Research - Q3 2014 - Web - Various</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Newsletter - How to Plan Your DevOps Journey - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Newsletter - How to Plan Your DevOps Journey - Social Media - LinkedIn</sourceValue>
+            </sourceValues>
+            <value>Newsletter</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 1 - EMEA - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 2 - EMEA - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 2 - EMEA - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - TaaS - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - TaaS - Event Partner - GoToWebinar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Web Services Test Automation 101 - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Web Services Test Automation 101 - Web - Various</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Web Services Test Automation 101 - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 3 - EMEA - Email - DB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 3 - EMEA - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Agile Series 3 - US - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Webinar - Successful Test Automation for Avaloq - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <value>Webinars</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Trial Request - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Trial Request - Website - Udemy</sourceValue>
+            </sourceValues>
+            <value>Trial Requests</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Talk to Sales - Website - General</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Talk to Sales - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <value>Talk to Sales</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Fact Sheet - Tosca API - Web - Various</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Point of View - Operational Efficiency - Website - General</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Point of View - Risk Management - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Fact Sheet - Tosca Orchestrate - Website - Tricentis</sourceValue>
+            </sourceValues>
+            <value>Assets from Website</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarGrouped</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Lead.dr_first_campaign_tracking__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>Lead.dr_funnel__c</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Small</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>Leads generated last 120 days</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>RATING</field>
+    </columns>
+    <columns>
+        <field>STREET</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Lead.dr_funnel__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>MVL,MTL,MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Might Be Junk or Spam Queue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>COMPANY</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>DemandRamp</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.dr_first_campaign_tracking__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_N_MONTHS:6</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead.dr_first_campaign_tracking__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead.dr_funnel__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Leads generated last 120 days worldwide</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

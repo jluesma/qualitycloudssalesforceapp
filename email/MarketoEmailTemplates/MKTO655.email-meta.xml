@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fact Sheet - Training.Email Receipt</name>
+    <style>none</style>
+    <subject>Here&apos;s your copy of Fact Sheet - Training</subject>
+    <textOnly>&lt;http://www.tricentis.com&gt;
+
+Here’s your copy of
+Fact Sheet: Training
+
+ &lt;http://innovate.tricentis.com/rs/tricentis/images/20150119 TCP_Training_Factsheet_A4 PRINT.pdf&gt;
+Start the download by clicking the download button. &lt;http://innovate.tricentis.com/rs/tricentis/images/20150119 TCP_Training_Factsheet_A4 PRINT.pdf&gt;
+
+ &lt;http://innovate.tricentis.com/rs/tricentis/images/20150119 TCP_Training_Factsheet_A4 PRINT.pdf&gt;
+
+You may be interested in these as well.
+
+ &lt;http://innovate.tricentis.com/point-of-view-regulatory-compliance-leadership.html&gt;
+ &lt;http://innovate.tricentis.com/point-of-view-risk-management-strategies.html&gt;
+ &lt;http://innovate.tricentis.com/demo-request.html&gt;
+
+Regulatory Compliance 
+Leadership
+ Point of View Paper
+
+Risk Management
+ Strategies
+ Point of View Paper
+
+Schedule a Live
+ Demonstration of
+ Tricentis Tosca Testsuite
+
+© 2015 Tricentis.  All Rights Reserved.  Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

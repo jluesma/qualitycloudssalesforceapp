@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This is an admin field used for implementations and can be used for reports as well --></help>
+        <label><!-- AccountId18digit --></label>
+        <name>AccountId18digit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Value Assessment --></label>
+        <name>Business_Value_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSM Owner --></label>
+        <name>CSM_Owner__c</name>
+        <relationshipLabel><!-- Accounts (CSM Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Since --></label>
+        <name>Customer_Since__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conflict --></label>
+        <name>DSCORGPKG__Conflict__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 3yr Employees Growth % --></label>
+        <name>DSCORGPKG__DO_3yr_Employees_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3yr Sales Growth % --></label>
+        <name>DSCORGPKG__DO_3yr_Sales_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- DeletedFromDiscoverOrg --></label>
+        <name>DSCORGPKG__DeletedFromDiscoverOrg__c</name>
+        <picklistValues>
+            <masterLabel>false</masterLabel>
+            <translation><!-- false --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>true</masterLabel>
+            <translation><!-- true --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created by DiscoverOrg --></label>
+        <name>DSCORGPKG__DiscoverOrg_Created_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg First Update --></label>
+        <name>DSCORGPKG__DiscoverOrg_First_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Country Full Name --></label>
+        <name>DSCORGPKG__DiscoverOrg_FullCountryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg ID --></label>
+        <name>DSCORGPKG__DiscoverOrg_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Last Update --></label>
+        <name>DSCORGPKG__DiscoverOrg_LastUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg State Full Name --></label>
+        <name>DSCORGPKG__DiscoverOrg_State_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Technologies --></label>
+        <name>DSCORGPKG__DiscoverOrg_Technologies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude from DiscoverOrg Auto-Updates --></label>
+        <name>DSCORGPKG__Exclude_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- DiscoverOrg Id --></label>
+        <name>DSCORGPKG__External_DiscoverOrg_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Year End --></label>
+        <name>DSCORGPKG__Fiscal_Year_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fortune Rank --></label>
+        <name>DSCORGPKG__Fortune_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Org Chart --></label>
+        <name>DSCORGPKG__ITOrgChart__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Budget (USD) --></label>
+        <name>DSCORGPKG__IT_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Employees --></label>
+        <name>DSCORGPKG__IT_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Source --></label>
+        <name>DSCORGPKG__Lead_Source__c</name>
+        <picklistValues>
+            <masterLabel>DiscoverOrg</masterLabel>
+            <translation><!-- DiscoverOrg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Locked By User --></label>
+        <name>DSCORGPKG__Locked_By_User__c</name>
+        <relationshipLabel><!-- Accounts (Locked By User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary NAICS Code --></label>
+        <name>DSCORGPKG__NAICS_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership --></label>
+        <name>DSCORGPKG__Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary SIC Code --></label>
+        <name>DSCORGPKG__SIC_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Domain --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagio_tracked --></label>
+        <name>Engagio_tracked__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Won Opportunity --></label>
+        <name>First_Won_Opportunity__c</name>
+        <relationshipLabel><!-- Accounts (First Won Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fortune 1000 Ranking --></label>
+        <name>Fortune_Ranking__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maintained by Finance --></help>
+        <label><!-- Internal group name --></label>
+        <name>Internal_group_name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Should be used to define if a customers logo (digital) is allowed to be used by Tricentis. --></help>
+        <label><!-- Logo Digital --></label>
+        <name>Logo_Digital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Should be used to define if a customers logo (print) is allowed to be used by Tricentis. --></help>
+        <label><!-- Logo Print --></label>
+        <name>Logo_Print__c</name>
+    </fields>
+    <fields>
+        <help><!-- Should be used to define if a customers name (digital) is allowed to be used by Tricentis. --></help>
+        <label><!-- Name Digital --></label>
+        <name>Name_Digital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Should be used to define if a customers name (print) is allowed to be used by Tricentis. --></help>
+        <label><!-- Name Print --></label>
+        <name>Name_Print__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Opportunity --></label>
+        <name>Number_of_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account --></label>
+        <name>Parent_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Type --></label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>GSI Services Partner</masterLabel>
+            <translation><!-- GSI Services Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISV Partner</masterLabel>
+            <translation><!-- ISV Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Services Partner</masterLabel>
+            <translation><!-- Regional Services Partner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- always 1, used for reporting --></help>
+        <label><!-- PowerOfOne --></label>
+        <name>PowerOfOne__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAP Debitor ID --></label>
+        <name>SAP_Debitor_ID__c</name>
+    </fields>
+    <fields>
+        <help>更新見積の生成時、同じ商品の複数の納入商品の数量を 1 つの品目に統合するオプション。</help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields>
+    <fields>
+        <help>複数の期間調整される契約から納入商品とサブスクリプションを統合できるようにします。デフォルトでは、期間調整される契約ごとに更新見積に別個のグループが生成されます。</help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields>
+    <fields>
+        <help>契約がいつ期間調整されるかを決定します。</help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation>アドオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>更新</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この顧客のサービスおよびサブスクリプション契約の期間調整方法を決定します。</help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>常に</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation>ユーザが選択</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>顧客の価格表を取得し、「ショッピングカート」見積に関連付けるために E コマースモジュールで使用されるこの取引先のデフォルトの商談。</help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>契約価格を親取引先から継承しない場合に選択します。</help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>更新見積と修正のバンドル階層を保持するにはチェックボックスをオンにします。</help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields>
+    <fields>
+        <help>価格を維持する期限の日付を入力します。</help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields>
+    <fields>
+        <help>取引先の納入商品に基づいて更新を行うには [納入商品ベース] を選択し、見積から作成されたサブスクリプションに基づいて更新を行うには [サブスクリプションベース] を選択します。</help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation>納入商品ベース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation>契約ベース</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>前回の支払価格と同じ価格を維持するには [同じ] を使用します。現在のリスト価格を使用するには [リスト] を使用します。前回の支払価格より引き上げた価格を使用するには [上昇] を使用します。</help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation>同じ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation>上昇</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Now Company ID --></label>
+        <name>Service_Now_Company_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Should be used to capture special remarks for a customers if their name or logo are allowed to be used by Tricentis. --></help>
+        <label><!-- Special remarks --></label>
+        <name>Special_remarks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines status of account (e.g.: Existing customer etc.). --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Existing-Active</masterLabel>
+            <translation><!-- Existing-Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing-Inactive</masterLabel>
+            <translation><!-- Existing-Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Defines if an Account is on the List for Insight (Emmet) to provide Contacts from their rolodex --></help>
+        <label><!-- Ignite --></label>
+        <name>Targeted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation><!-- Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2</masterLabel>
+            <translation><!-- Tier 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 3</masterLabel>
+            <translation><!-- Tier 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 4</masterLabel>
+            <translation><!-- Tier 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- List of Tricentis&apos; Services partners engaged on this account. --></help>
+        <label><!-- Tricentis Services Partner Engaged --></label>
+        <name>Tricentis_Services_Partner_Engaged__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agosense</masterLabel>
+            <translation><!-- Agosense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GorrillaLogic</masterLabel>
+            <translation><!-- GorrillaLogic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infometis</masterLabel>
+            <translation><!-- Infometis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenkins</masterLabel>
+            <translation><!-- Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jira</masterLabel>
+            <translation><!-- Jira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johannes Spiessberger</masterLabel>
+            <translation><!-- Johannes Spiessberger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L&amp;T</masterLabel>
+            <translation><!-- L&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindtree</masterLabel>
+            <translation><!-- Mindtree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MobileLabs</masterLabel>
+            <translation><!-- MobileLabs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neotys</masterLabel>
+            <translation><!-- Neotys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polarion</masterLabel>
+            <translation><!-- Polarion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP ISV</masterLabel>
+            <translation><!-- SAP ISV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasktop</masterLabel>
+            <translation><!-- Tasktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose the importance of this particular account defined by our partner. --></help>
+        <label><!-- Partner Account Type_1 --></label>
+        <name>bz_partner_account_type_1__c</name>
+        <picklistValues>
+            <masterLabel>existing major</masterLabel>
+            <translation><!-- existing major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>existing minor</masterLabel>
+            <translation><!-- existing minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted</masterLabel>
+            <translation><!-- targeted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted must have</masterLabel>
+            <translation><!-- targeted must have --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose the importance of this particular account defined by our partner. --></help>
+        <label><!-- Partner Account Type_2 --></label>
+        <name>bz_partner_account_type_2__c</name>
+        <picklistValues>
+            <masterLabel>existing major</masterLabel>
+            <translation><!-- existing major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>existing minor</masterLabel>
+            <translation><!-- existing minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted</masterLabel>
+            <translation><!-- targeted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted must have</masterLabel>
+            <translation><!-- targeted must have --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose the importance of this particular account defined by our partner. --></help>
+        <label><!-- Partner Account Type_3 --></label>
+        <name>bz_partner_account_type_3__c</name>
+        <picklistValues>
+            <masterLabel>existing major</masterLabel>
+            <translation><!-- existing major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>existing minor</masterLabel>
+            <translation><!-- existing minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted</masterLabel>
+            <translation><!-- targeted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>targeted must have</masterLabel>
+            <translation><!-- targeted must have --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Insert comments for/about partner. --></help>
+        <label><!-- Partner Comments_1 --></label>
+        <name>bz_partner_comments_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert comments for/about partner. --></help>
+        <label><!-- Partner Comments_2 --></label>
+        <name>bz_partner_comments_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert comments for/about partner. --></help>
+        <label><!-- Partner Comments_3 --></label>
+        <name>bz_partner_comments_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: Firstname Lastname (e.g.: John Smith). --></help>
+        <label><!-- Partner Contact Person Name_2 --></label>
+        <name>bz_partner_contact_Person_name_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: e.g.: +43 664 111 222 33 --></help>
+        <label><!-- Partner Contact Person Cellphone_1 --></label>
+        <name>bz_partner_contact_person_cellphone_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: e.g.: +43 664 111 222 33 --></help>
+        <label><!-- Partner Contact Person Cellphone_2 --></label>
+        <name>bz_partner_contact_person_cellphone_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: e.g.: +43 664 111 222 33 --></help>
+        <label><!-- Partner Contact Person Cellphone_3 --></label>
+        <name>bz_partner_contact_person_cellphone_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contact Person E-Mail_1 --></label>
+        <name>bz_partner_contact_person_email_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contact Person E-Mail_2 --></label>
+        <name>bz_partner_contact_person_email_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Contact Person E-Mail_3 --></label>
+        <name>bz_partner_contact_person_email_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: Firstname Lastname (e.g.: John Smith). --></help>
+        <label><!-- Partner Contact Person Name_1 --></label>
+        <name>bz_partner_contact_person_name_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use the following nomenclature: Firstname Lastname (e.g.: John Smith). --></help>
+        <label><!-- Partner Contact Person Name_3 --></label>
+        <name>bz_partner_contact_person_name_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the geo the partner specified for this account. --></help>
+        <label><!-- Partner Geo_1 --></label>
+        <name>bz_partner_geo_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the geo the partner specified for this account. --></help>
+        <label><!-- Partner Geo_2 --></label>
+        <name>bz_partner_geo_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the geo the partner specified for this account. --></help>
+        <label><!-- Partner Geo_3 --></label>
+        <name>bz_partner_geo_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the industry the partner specified for this account. --></help>
+        <label><!-- Partner Industry_1 --></label>
+        <name>bz_partner_industry_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the industry the partner specified for this account. --></help>
+        <label><!-- Partner Industry_2 --></label>
+        <name>bz_partner_industry_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Insert the industry the partner specified for this account. --></help>
+        <label><!-- Partner Industry_3 --></label>
+        <name>bz_partner_industry_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- The partner which is engaged with this account should be chosen here. --></help>
+        <label><!-- Services Partner_1 --></label>
+        <name>bz_services_partner_1__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L&amp;T</masterLabel>
+            <translation><!-- L&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindtree</masterLabel>
+            <translation><!-- Mindtree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Another partner engaged with this account should be chosen here. --></help>
+        <label><!-- Services Partner_2 --></label>
+        <name>bz_services_partner_2__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L&amp;T</masterLabel>
+            <translation><!-- L&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindtree</masterLabel>
+            <translation><!-- Mindtree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Another partner which is engaged with this account should be chosen here. --></help>
+        <label><!-- Services Partner_3 --></label>
+        <name>bz_services_partner_3__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L&amp;T</masterLabel>
+            <translation><!-- L&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mindtree</masterLabel>
+            <translation><!-- Mindtree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DUNS --></label>
+        <name>dr_duns__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Budget --></label>
+        <name>dr_it_budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Employees --></label>
+        <name>dr_it_employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Managers --></label>
+        <name>dr_it_managers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the RainKing ID of the object. --></help>
+        <label><!-- RainKing UniqueID --></label>
+        <name>dr_rainking_uniqueid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the Website domain (e.g.: tricentis.com). Is used for determining targeted accounts. --></help>
+        <label><!-- Website Domain --></label>
+        <name>dr_website_domain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engaged People --></label>
+        <name>engagio__EngagedPeople__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Minutes (3 mo.) --></label>
+        <name>engagio__EngagementMinutesLast3Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Minutes (7 days) --></label>
+        <name>engagio__EngagementMinutesLast7Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Date --></label>
+        <name>engagio__FirstEngagementDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- MQA Date --></label>
+        <name>engagio__MQADate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagio Status --></label>
+        <name>engagio__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Traffic (3 mo.) --></label>
+        <name>engagio__WebVisitsLast3Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for grouping in reports. 3 Geos available: EMEA, US, APAC --></help>
+        <label><!-- Geo --></label>
+        <name>geo__c</name>
+        <picklistValues>
+            <masterLabel>AMS</masterLabel>
+            <translation><!-- AMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B ID --></label>
+        <name>iSell__OSKeyID__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account Product Information (Future) --></label>
+            <section>Account Product Information (Future)</section>
+        </sections>
+        <sections>
+            <label><!-- Avention --></label>
+            <section>Avention</section>
+        </sections>
+        <sections>
+            <label><!-- DiscoverOrg --></label>
+            <section>DiscoverOrg</section>
+        </sections>
+        <sections>
+            <label><!-- Engagio --></label>
+            <section>Engagio</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Information --></label>
+            <section>Reference Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Tosca --></label>
+        <name>Tosca</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Billing Country is required. If available, please enter the complete billing address. --></errorMessage>
+        <name>Billing_Address_Required_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you feel that this account is wrongly assigned to you - please contact salesops@tricentis.com --></errorMessage>
+        <name>Disable_Change_Owner_for_Sales_profile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Partner Type --></errorMessage>
+        <name>Type_and_Partner_Type_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReportWrongInfotoDiscoverOrg --></label>
+        <name>DSCORGPKG__ReportWrongInfotoDiscoverOrg</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List --></label>
+        <name>mkto_si__Add_to_Watch_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Watch_List_Detail --></label>
+        <name>mkto_si__Add_to_Watch_List_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

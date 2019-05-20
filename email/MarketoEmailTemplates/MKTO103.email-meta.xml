@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Q1 Promote Accelerate USA.01-Invite</name>
+    <style>none</style>
+    <subject>Listen to what our Keynote speakers have to say  in the Tricentis Accelerate 2013 Conference- we have downloaded video for you and conference highlights.</subject>
+    <textOnly>&lt;!-- 
+
+
+--&gt; 
+
+
+
+
+
+Dear {{Lead.First Name}}
+ 
+
+
+
+
+Tricentis Accelerate 2013. Accelerate. Innovate. Automate.
+What a conference! We had a fantastic day, great speakers, and excellent interaction from all participants. We’re sorry we missed you.
+
+But not to worry – you can visit accelerate.tricentis.com &lt;http://www.tricentis.com/about/events/tricentis-accelerate/&gt; to watch conference highlights and download the recorded sessions. We will also have videos and presentation decks from the conference.
+ &lt;http://www.tricentis.com/about/events/tricentis-accelerate/&gt;
+
+Best Regards,
+
+
+Wolfgang Platz
+ Founder &amp; Chief Product Officer, Tricentis
+
+If you have any questions or problems watching the videos, please contact us at events@tricentis.com &lt;mailto:events@tricentis.com&gt;
+
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

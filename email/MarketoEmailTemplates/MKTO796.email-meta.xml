@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Email - Call for Papers</name>
+    <style>none</style>
+    <subject>Call for Papers – Tricentis Accelerate 2015</subject>
+    <textOnly>Hi {{lead.First Name:default=edit me}},
+
+We would like to invite you to submit a presentation proposal for Tricentis Accelerate 2015, this year’s must-attend conference specializing in Enterprise Software Test Automation. The Tricentis Accelerate conference provides a great opportunity to network and exchange ideas with hundreds of attendees from across Europe and around the world.
+
+Speaker slots are 15 minutes long in total. To submit your proposal, please fill out the Call for Papers form here &lt;http://innovate.tricentis.com/rs/tricentis/images/C4P_Accelerate.pdf&gt;, and send it back to us at accelerate@tricentis.com &lt;mailto:accelerate@tricentis.com&gt; by June 30th, 2015.
+
+Thank you for your time, and we look forward to hearing your ideas. We hope you will join us in the beautiful city of Vienna, Austria for Accelerate 2015!
+
+Best Regards,
+
+The Tricentis Events Team
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis GmbH | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

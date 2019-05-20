@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Agile Series #3 - US - 2014.09.09.Email - Miss You - US</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our webinar: “Accelerate and Optimize Agile Software Development with Tosca Testsuite”</subject>
+    <textOnly>Agile Webinar Series: Accelerate and Optimize Agile Software Development with Tosca Testsuite
+
+Hi {{lead.First Name}},
+
+We’re sorry we missed you at our webinar, “Accelerate and Optimize Agile Software Development with Tosca Testsuite.” Roman Zednik, Worldwide Director for Pre-sales Consulting, of Tricentis discussed how Tosca Testsuite helps to optimize risk coverage through sprint outputs and short run-times. Questions from the audience provided further insight and made for a very interesting hour.
+
+Want to see what you missed? Watch the recording here &lt;http://www.tricentis.com/resources/webcasts&gt;.
+Thanks,
+
+ The Tricentis Webinar Team
+ 
+Roman Zednik
+ Worldwide Director for Pre-sales Consulting
+ Tricentis
+
+Michael Eckhoff
+Senior VP of
+ Worldwide Sales
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - TOR End-of-Life - 2015.04.14.Email - Follow up - No Show</name>
+    <style>none</style>
+    <subject>Sorry we missed you at our TOR End-of-Life Webinar</subject>
+    <textOnly>Webinar: TOR End-of-Life
+
+Hi {{lead.First Name}},
+
+Sorry we missed you at our recent webinar, TOR End-of-Life Webinar! In the webinar, Tricentis Product Manager, Gernot Brandl, shares new and workaround solutions and Tosca Test Data Management (TDM) functionality. Questions from the audience helped keep the webinar lively and informative.
+
+If you would like to see what you missed, a recording of our webinar is available here.
+
+If you would like to stay up to date, please follow us on Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;. For any additional questions, please feel free to follow and tweet our Support Team @TricentisSpprt &lt;https://twitter.com/TricentisSpprt&gt;.
+
+Best regards,
+ The Tricentis Webinar Team
+
+ Gernot Brandl
+Product Manager
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

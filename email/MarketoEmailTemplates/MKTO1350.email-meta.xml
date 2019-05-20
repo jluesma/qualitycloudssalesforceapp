@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Confirmation Sydney</name>
+    <style>none</style>
+    <subject>Confirmation of registration &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Thank you for registering for our events &quot;Join Us &amp; Meet the Tricentis VP of Product Management&quot;!
+
+{{my.APAC Roadshow Sydney:default=edit me}}
+
+
+Sydney
+October 30, 2015
+ 9:00 a.m. – 12:00 p.m.
+
+Aerial UTS Function Centre
+235 Jones Street
+Level 7, Building 10
+Ultimo NSW 2007
+Australia
+
+
+
+Best Regards,
+
+The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

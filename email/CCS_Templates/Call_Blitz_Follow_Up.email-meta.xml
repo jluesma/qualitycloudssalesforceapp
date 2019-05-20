@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mike&apos;s template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Tricentis_Logo_Ltr</letterhead>
+    <name>Call Blitz Follow Up</name>
+    <style>formalLetter</style>
+    <subject>Following up on my call</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+This is a follow up email to my prior message. Tricentis has helped hundreds of companies optomize their testing by significantly reducing the number of test cases while providing greater coverage, and then automating up to 90% of the test cases.  This provides a 10X increase in time to market and often a 50% reduction in the cost to maintain test automation.
+
+
+
+If you, or someone on your team is interested in getting rid of scripts and moving to the next generation of functional testing, please give me a call.
+
+
+
+Best Regards,
+
+
+
+Michael Eckhoff
+
+Senior Vice President
+
+Tricentis
+
+o: 407.566.8531
+
+m: 407.973.7270
+
+m.eckhoff@tricentis.com
+
+
+
+www.tricentis.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

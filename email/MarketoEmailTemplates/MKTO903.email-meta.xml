@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Update Special Invite - Netherlands.Email - Confirmation - Netherlands</name>
+    <style>none</style>
+    <subject>Confirmation of registration: Tosca Update Special 2015 – Utrecht, Netherlands</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+We are delighted that you have signed up for the Tosca Update Special 2015 in Utrecht on June 25th, 2015. Below you will find again the agenda and location.
+
+Agenda:
+ 13:00 – 13:30 Registration &amp; Welcome
+ 13:30 – 15:00 New Features &amp; Demo – Part 1
+ 15:00 – 15:30 Coffee Break
+ 15:30 – 16:45 New Features &amp; Demo – Part 2
+ 16:45 – 17:00 Summary and Q&amp;A
+ After: Join us after the presentations for a time to discuss and network!
+
+Location:
+Update Special – Utrecht
+ June 25th, 2015, 1:00 – 5:00 p.m.
+ Jaarbeurs Supernova – Room Expedition
+ Jaarbeursplein
+ 3521 AL Utrecht
+
+We look forward to seeing you there!
+
+Best Regards,
+ The Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

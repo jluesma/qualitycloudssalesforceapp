@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>webinar-risk-management-engine-2014-02-19 EMEA.Invite.Prospects (do Not Use!)</name>
+    <style>none</style>
+    <subject>Tricentis Tosca Testsuite Webinar and Demo: Risk Management Engine</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+As consumer expectations for your software increase, so does the business risk inherent in your software processes.
+
+Shorter development cycles are becoming the norm for companies racing to get products and services to market, and testing teams need a better way to minimize business-related risk.
+
+In this 1-hour webinar, see a demo of Tricentis Tosca Testsuite and learn more about :
+
+
+ - The Tricentis approach to minimizing risk while delivering high quality on time and on budget
+
+ - How to leverage the knowledge of business testers to weight test cases according to business risk
+
+ - How to analyze results in real time to make sure that you’re testing what needs to be tested 
+
+
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-risk-management-engine-2014-02-19.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

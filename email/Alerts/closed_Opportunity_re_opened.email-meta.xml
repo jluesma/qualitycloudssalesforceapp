@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>sends out an alert to Jasmin whenever a closed deal is re-opened</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>closed Opportunity re-opened</name>
+    <style>none</style>
+    <subject>closed deal re-opened</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

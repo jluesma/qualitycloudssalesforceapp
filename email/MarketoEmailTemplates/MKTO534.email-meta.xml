@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Customer - Australia - Discounts for Training Courses.Email - Customer -</name>
+    <style>none</style>
+    <subject>Tricentis Tosca Training Course Sale</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Congratulations on coming to the end of a very busy 2014! This past year we have partnered with you on a number of projects that have produced excellent results.
+
+Whether you were introduced to Tosca using the online Udemy training course, the Tosca Certified User Foundation Level training, or are an experienced Tosca user, here is your chance to develop your Tosca knowledge to the next level in preparation for 2015.
+
+In celebration of the New Year, we are offering our Tricentis standard training courses at a 40% discount if booked before December 31st, 2014.
+
+We are offering courses that will suit your needs, no matter whether you are a Tester, Test Automation Specialist, Test Designer, Analyst or a Test Administrator.
+
+
+
+For more information, or to book your course at the “Early Bird” discounted price, please contact me before December 31st. Cheers to starting 2015 with extreme automation!
+
+Kind Regards,
+
+Brent Dixon
+Services Manager (Asia-Pacific)
+b.dixon@tricentis.com &lt;mailto:b.dixon@tricentis.com&gt;
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

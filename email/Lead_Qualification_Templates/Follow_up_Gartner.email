@@ -1,0 +1,29 @@
+<div style="font-family: Calibri, Verdana, Arial; font-size: 11pt;">
+
+	<p>Hi {!NullValue(Contact.FirstName, "Sir or Madam")},</p>
+	<p>
+		Thanks for taking the time to read trough the newsletter we put together with Gartner!<br>
+        If you have any question or want to learn more about Tricentis Tosca, I would be happy to schedule a call. We could also talk about your challenges and determine whether or not I might be able to offer some help.
+    </p>
+        Are you available this week for a call?
+    </p>
+	<p>Thanks and I look forward to hearing from you!</p>
+	<p>Best regards,<br>{!User.Name}<br>{!User.Title}</p>
+	
+	<p>
+		<a href="http://www.tricentis.com/" style="font-size: 12pt;">Tricentis</a><br>
+		<span style="color: rgb(79, 129, 189);"><b>o</b></span> - <span style="font-color:black;">{!User.Phone}, </span><span style="color: rgb(79, 129, 189);"><b>m</b></span> - <span style="font-color:black;">{!User.MobilePhone}</span><br>
+		<span style="color: rgb(79, 129, 189);"><b>e</b></span> - <span style="font-color:black;">{!User.Email}</span>
+	</p>
+	
+
+	<a href="https://www.tricentis.com/resource-assets/tricentis-a-leader-in-gartner-magic-quadrant-2016/">
+	<img src="https://tricentis--c.na15.content.force.com/servlet/servlet.ImageServer?id=015i0000008kGId&oid=00Di0000000eCqx&lastMod=1473941125000" width="529" height="65"></a>
+
+	<div style="color: rgb(190, 190, 190); font-size: 7pt;">
+		<p>
+			<p>Tricentis GmbH<br>Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna<br>FN 213896d Handelsgericht Wien</p>
+			<p>Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</p>
+		</p>
+	</div>
+</div>

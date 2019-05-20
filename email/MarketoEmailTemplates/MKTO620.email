@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" width="600" height="50"><img src="http://innovate.tricentis.com/rs/tricentis/images/tricentis-logo-newtag.png" alt="Tricentis - Optimize.      Manage.      Automate." width="600" height="50" /></td>
+</tr>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/tricentis/images/Trial-header.png" alt="" width="600" height="140" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Manual Testing with Tosca</td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Dear {{lead.First Name}},</p>
+<p style="text-align: justify;">Are Manual Test Cases important to your test projects? If so, check out how Tosca allows you to manage manual test cases individually as well as in combination with your automated test portfolio.</p>
+<p>Learn more about Manual Testing with Tosca here:</p>
+<ul>
+<li>How to Execute Manual Tests <a href="http://go.tricentis.com/jtNC012LX005T0NXL3Y0t00">Video</a></li>
+<li>Working with Manual Test Cases <a href="https://support.tricentis.com/community/manuals_detail.do?sysparm_document_key=u_webhelp,d85cb74b6f213500e2d616ff8d3ee4aa&amp;uri=u_webhelp.do">Guide</a></li>
+</ul>
+<p style="margin: 0px;">Best wishes,<br /><br /> The Tricentis Team<br /><a href="mailto:trial@tricentis.com">trial@tricentis.com</a></p>
+<p style="margin: 0px;">&nbsp;</p>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: left;"><span style="font-size: 12px;"><strong>Product and Licensing</strong></span><br /><span style="font-size: 12px;">For further questions regarding product or licensing, please contact our Tricentis sales team:</span><br /><span style="font-size: 12px;"><a href="http://innovate.tricentis.com/talk-with-sales.html">Website</a> | <a href="mailto:sales@tricentis.com">e-mail</a><br /></span></p>
+<p style="text-align: left;"><span style="font-size: 12px;"><strong>Events &amp; Webinars</strong></span><br /><span style="font-size: 12px;">Stay informed with our regular events and webinars which you can find <a href="http://www.tricentis.com/about/events">here</a>!</span></p>
+<p style="text-align: justify;"><span style="font-size: 12px;"><strong>Support</strong></span><br /><span style="font-size: 12px;">Technical support is available to provide help during the trial period.        Please contact the Tricentis support team here:</span><br /><span style="font-size: 12px;"><a href="https://support.tricentis.com/community/">Website</a> | <a href="mailto:support@tricentis.com">e-mail</a><br /></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis.               All Rights Reserved.               Tricentis is a registered trademark of Tricentis GmbH.               Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

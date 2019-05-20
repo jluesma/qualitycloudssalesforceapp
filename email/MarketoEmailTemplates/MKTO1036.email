@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Analyst Webinar: Innovate Through Extreme Automation</title>
+
+<style type="text/css">
+body { font-family:Arial, Helvetica, sans-serif;  }
+table { border-collapse:collapse; }
+p, li { font-size:14px; line-height:20px; color:#2222222; }
+h5 { font-weight:normal; font-size:11px; line-height:14px; color:#2222222; }
+a img { border:none; }
+</style>
+</head>
+<body style="background-color:#EEEEEE; " ><div ><div class="mktEditable" ><table style="margin: 10px auto; background-color: white;" cellspacing="0" cellpadding="0" width="600" align="center">
+<tbody>
+<tr>
+<td style="margin: 0px; display: block;" height="140"><img src="http://innovate.tricentis.com/rs/491-XCL-893/images/Marketo-Email-Banner_Executive-Testing-Leadership-Roadshow.png" alt="Executive Testing Leadership Roadshow" width="600" height="190" /></td>
+</tr>
+<tr>
+<td style="color: #ffffff; font-size: 18px; padding: 10px 10px 10px 10px;" align="center" bgcolor="#2264AE">Thursday, Sept. 24th 2015 &ndash; Eden au Lac, Zurich<br /></td>
+</tr>
+<tr>
+<td width="600">
+<table width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 20px 10px 20px;" width="60%" valign="top">
+<p>Hi {{lead.First Name}},</p>
+<p>We would like to invite you to an exclusive <strong>Cognizant and Tricentis Event</strong>. Join us on Thursday, Sept. 24th 2015 for the <strong>Executive Testing Leadership Roadshow</strong> in Zurich.</p>
+<p>Adept experts from Cognizant, UBS, Swiss Re and Tricentis will share their insights, best practices, experience and plans for the future on Test Automation.</p>
+<p><strong>Agenda:</strong></p>
+<ul>
+<li><strong>Selecting the right tool(s) for test automation</strong> (Robert Bonomo, Swiss Country Head of Quality Engineering &amp; Assurance Practice, Cognizant)</li>
+<li><strong>Selenium for Webapp testing</strong> (Philipp Scherer, AVP, Senior Test Lead, Swiss Re)</li>
+<li><strong>Effective Vendor and Customer Collaboration contributing to Testing Initiatives Success</strong> (Anna-Maria Blengino, Director, UBS and Chris Cooper, Senior Manager, Cognizant)</li>
+<li><strong>How do you achieve the highest sustainable rates of test automation?</strong> (Franz Fuchsberger, Founder and CSO, Tricentis)</li>
+<li><strong>Conclusion and Business Lunch</strong></li>
+</ul>
+<p><strong>Location:</strong></p>
+<p>Hotel Eden au Lac<br /> Utoquai 45<br /> www.edenaulac.ch</p>
+<p>The Executive Testing Leadership Roadshow is an exclusive Cognizant and Tricentis event for executives and senior professionals only. Registration is upon invitation and capacity is limited.</p>
+<p>We are looking forward to seeing you soon!</p>
+<p style="margin: 0px;">Best regards,<br />Your Tricentis Team</p>
+<br />
+<p style="margin: 0px;"><a href="http://www.tricentis.com/events-webinars/executive-testing-leadership-roadshow-2015-09-24?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a><br /><br /></p>
+</td>
+<td style="padding: 20px 20px 10px 20px;" width="30%" valign="top">
+<p style="text-align: center;">Thu, Sept. 24th 2015<br /> <span style="font-size: 10px;">09:30 a.m. &ndash; 15:15 p.m. CEST</span></p>
+<p style="text-align: center;"><a href="http://www.tricentis.com/events-webinars/executive-testing-leadership-roadshow-2015-09-24?utm_medium=email&amp;utm_source=db"><img src="http://innovate.tricentis.com/rs/tricentis/images/btn-register-now.jpg" alt="Register Now" width="149" height="36" /></a></p>
+<p style="text-align: center;"><strong>&nbsp;</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px 20px 10px 20px;" valign="top" bgcolor="#868A8F">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/about/news"><strong><span style="font-size: 12px; color: #dfe0de;">Press</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/legal-information"><strong><span style="font-size: 12px; color: #dfe0de;">Legal Information</span></strong></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a style="text-decoration: none;" href="http://www.tricentis.com/terms-and-conditions"><strong><span style="font-size: 12px; color: #dfe0de;">Terms &amp; Conditions</span></strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table border="0" cellspacing="0" cellpadding="3" align="right">
+<tbody>
+<tr>
+<td><a href="http://twitter.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/twitter.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.facebook.com/Tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/facebook.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://plus.google.com/108151335013813449490/"><img src="http://innovate.tricentis.com/rs/tricentis/images/gplus.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh"><img src="http://innovate.tricentis.com/rs/tricentis/images/linkedin.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.slideshare.net/tricentis"><img src="http://innovate.tricentis.com/rs/tricentis/images/slideshare-Off.png" alt="" width="32" height="32" /></a></td>
+<td><a href="http://www.youtube.com/user/TRICENTIS"><img src="http://innovate.tricentis.com/rs/tricentis/images/youtube.png" alt="" width="32" height="32" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom"><span style="font-size: 11px; color: #dfe0de;">&copy; 2015 Tricentis.      All Rights Reserved.      Tricentis is a registered trademark of Tricentis GmbH.      Please <a href="mailto:info@tricentis.com">contact us</a> with any questions or concerns.</span></td>
+<td height="43" align="right" valign="bottom"><span><img style="margin-top: 30px;" src="http://innovate.tricentis.com/rs/tricentis/images/logofooter.png" alt="" width="95" height="13" /></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>

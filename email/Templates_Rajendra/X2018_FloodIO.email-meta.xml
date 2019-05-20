@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018_FloodIO</name>
+    <style>none</style>
+    <subject>Enquiry for Flood IO</subject>
+    <textOnly>Hello {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+
+Thank you for your interest in Tricentis Tosca.
+
+I received notification that you recently registered for Tricentis Tosca Load Testing webinar. As you may be aware that Tricentis has acquired Flood IO, industry&apos;s most flexible and scalable on-demand load testing solution. Flood IO helps teams &quot;shift left&quot; performance testing, enabling them to test how their applications scale with massive load generated from around the world.
+
+As you probably know, Tricentis focuses on transforming traditional testing to meet the needs of Agile and DevOps processes. This acquisition broadens that mission to embrace load and performance testing. &quot;Continuous Load Testing&quot; exposes performance-related risks within the delivery pipeline - ensuring that rapid software releases don&apos;t compromise the end user experience.
+
+Lastly, here are a couple links to more information about Flood IO -
+
+Start a Flood free trial now (JMeter, Gatling, Selenium &amp; HTTP endpoints)
+Schedule a load testing discussion
+Read our blog about the acquisition
+
+For any further information that you require or for any queries you have in mind, please feel free to get in touch.
+
+Best regards,
+{!User.Name} {!User.Title}
+
+Tricentis
+m - +91-7387579240
+e - r.mehrotra@tricentis.com
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

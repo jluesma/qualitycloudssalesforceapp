@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <internalUseOnly>false</internalUseOnly>
+    <name>Opportunity:{Id=006i000000fQsqlAAC, Name=UNIQA Österreich Versicherungen AG (AT) - N - LS, StageName=3 Evaluation, iseeit__Score__c=0.00, iseeit__Default_Forecast_Image_Url__c=/servlet/servlet.FileDownload?file=015i000000BvSBWAA3}_forecast</name>
+    <public>true</public>
+</Document>

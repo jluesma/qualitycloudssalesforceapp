@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>notification to Sales Leader</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert: Contact 5 days open status - escalation</name>
+    <style>none</style>
+    <subject>Escalation: Lead still in open status (5 days)</subject>
+    <textOnly>Contact Information:
+
+Name: {!Contact.FirstName} {!Contact.LastName}
+Company: {!Contact.Company}
+Title: {!Contact.Title}
+Phone: {!Contact.Phone}
+Email: {!Contact.Email}
+Last Campaign: {!Contact.dr_last_campaign_tracking__c}
+
+System Information:
+
+Lead Status:
+Open for: {!Contact.Open_Status_Duration_Hours__c} hours
+Created Date: {!Contact.CreatedDate}
+Created by  {!Contact.CreatedBy}:
+
+View the record in Salesforce: {!Contact.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

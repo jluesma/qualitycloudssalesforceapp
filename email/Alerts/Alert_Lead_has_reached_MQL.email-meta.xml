@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert: Lead has reached MQL</name>
+    <style>none</style>
+    <subject>Alert: Lead has reached MQL (Status {!Lead.Status})</subject>
+    <textOnly>Lead Information:
+
+Name: {!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Title: {!Lead.Title}
+Country:{!Lead.Country}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Last Campaign: {!Lead.dr_last_campaign_tracking__c}
+Talk to us comment: {!Lead.dr_talk_to_us_comments__c}
+
+System Information:
+
+Lead Status: {!Lead.Status}
+Funnel:  {!Lead.dr_funnel__c}
+Created Date: {!Lead.CreatedDate}
+Created by: {!Lead.CreatedBy}
+
+View the record in Salesforce: {!Lead.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

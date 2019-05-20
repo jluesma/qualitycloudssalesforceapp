@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Request a Trial.Marketo Follow-up - Email 3 (Tosca Testsuite Test Case Design)</name>
+    <style>none</style>
+    <subject>Tosca Testsuite Test Case Design</subject>
+    <textOnly>Tosca Testsuite Test Case Design
+
+Dear {{lead.First Name}},
+
+Tosca Testsuite offers various products to help streamline and ensure efficient testing. An added feature to Tosca Testsuite is the ability to design Test Cases. Not only does this help you to create the right Test Cases, but also the right amount - with minimal time and effort. Learn more about Test Case Design with these helpful links:
+
+ - Introduction &lt;https://documentation.tricentis.com/en/822/index.htm#testcase_design/introduction.htm%3FTocPath%3DTestCase-Design%2520section%2520%28red%29|_____0&gt; to Test Case Design
+
+ - Inner Values &lt;https://documentation.tricentis.com/en/822/content/testcase_design/videos/video_inner_value.htm&gt; to determine functional test coverage
+
+- Examples &lt;https://documentation.tricentis.com/en/822/index.htm?#testcase_design/example.htm%3FTocPath%3DTestCase-Design%2520section%2520(red)%7C_____10&gt; in Test Case Design
+
+Hope you’ve found this helpful! More useful tips are headed your way!
+
+Best wishes,
+
+ The Tricentis Team
+trial@tricentis.com &lt;mailto:trial@tricents.com&gt;
+
+Product and Licensing
+For further questions regarding product or licensing, please contact our Tricentis sales team:
+Website &lt;http://innovate.tricentis.com/talk-with-sales.html&gt;
+
+Events &amp; Webinars
+Stay informed with our regular events and webinars which you can find here &lt;http://www.tricentis.com/about/events&gt;!
+
+Support
+Technical support is available to provide help during the trial period. Please contact the Tricentis support team here:
+Website &lt;https://support.tricentis.com/community/&gt;
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

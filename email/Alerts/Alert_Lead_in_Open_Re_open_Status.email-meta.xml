@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert: Lead in Open/Re-open Status</name>
+    <style>none</style>
+    <subject>Alert: Lead still in {!Lead.Status} Status</subject>
+    <textOnly>Lead Information:
+
+Name: {!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Title: {!Lead.Title}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Last Campaign: {!Lead.dr_last_campaign_tracking__c}
+
+System Information:
+
+Lead Status:
+Open for: {!Lead.Open_Status_Duration_Hours__c} hours
+Created Date: {!Lead.CreatedDate}
+Created by  {!Lead.CreatedBy}:
+
+View the record in Salesforce: {!Lead.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

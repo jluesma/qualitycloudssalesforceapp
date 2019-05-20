@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Survey - SwissQ Survey.Email - SwissQ Survey</name>
+    <style>none</style>
+    <subject>Einladung - Umfrage Testing, Requirements und Agile Trends &amp; Benchmarks 2014</subject>
+    <textOnly>&lt;http://www.tricentis.com/&gt;
+
+
+
+
+
+Einladung: Umfrage Testing, Requirements und Agile Trends &amp; Benchmarks 2014
+
+
+
+
+
+
+
+Sehr geehrte Damen und Herren,
+
+SwissQ ermittelt zusammen mit dem Institut für Technologiemanagement der Universität St.Gallen den aktuellen Status der Schweizer IT-Szene und die Trends und Benchmarks in den Themenfeldern Agile, Requirements und Testing.
+
+Tricentis unterstützt diese Umfrage und es würde uns freuen, wenn Sie teilnehmen.
+
+https://de.surveymonkey.com/s/XJLV9MN &lt;https://de.surveymonkey.com/s/XJLV9MN&gt;. Die Beantwortung der thematischen Blöcke ist optional.
+
+Deadline für die Teilnahme ist der 19. Dezember 2013. Die Resultate der Vorjahre finden Sie unter http://www.swissq.it/ressourcen/ &lt;http://www.swissq.it/ressourcen/&gt;.
+
+Bei Fragen stehe ich Ihnen gerne zur Verfügung.
+
+Mit bestem Gruss,
+
+Christian Jud
+
+Business Development Manager
+
+Tricentis
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

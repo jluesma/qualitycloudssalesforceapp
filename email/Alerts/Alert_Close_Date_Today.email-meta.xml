@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification for Closedates &lt; today</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert: Close Date &lt; Today</name>
+    <style>none</style>
+    <subject>Please update Closedate</subject>
+    <textOnly>Opportunity
+
+Name: {!Opportunity.Name}
+Company: {!Opportunity.Account}
+Close Date: {!Opportunity.CloseDate}
+
+View the record in Salesforce</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

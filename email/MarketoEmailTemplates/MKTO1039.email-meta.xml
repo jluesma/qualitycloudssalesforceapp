@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Update Special Invite - Netherlands.Email - Follow Up - Attendees - Neth</name>
+    <style>none</style>
+    <subject>Thank you for your participation - Tosca Update Special 2015</subject>
+    <textOnly>Utrecht – June 25th, 2015
+
+Hello {{lead.First Name:default=edit me}},
+
+We would like to thank you for your participation in the Tosca Update Special in Utrecht and hope you enjoyed the presentations on the new Tosca Testsuite 8.4.
+
+ - Tricentis Update Special Presentation &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/Tricentis-Update-Special_NL.PDF&gt;
+ - Dutch TOSCA User Group Presentation &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/Tosca-aankondiging-gebruikersgroep.pdf&gt;
+ - Fact Sheet: Tosca Integrations &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150513-Tosca-Integrations-Factsheet-A4_PRINT.pdf&gt;
+ - Fact Sheet: Mobile + &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150427-Mobile-Plus Fact-Sheet_ A4-PRINT.pdf&gt;
+ - Fact Sheet: Orchestrated Service Virtualization &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150427-Orchestrated-Service-Virtualization-A4_PRINT.pdf&gt;
+ - Fact Sheet: Tosca Impact Analysis for SAP &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150304-Tosca-Impact-Analysis-for-SAP-Fact-Sheet-A4.pdf&gt;
+ - Fact Sheet: Tosca ECC Accelerator &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150421-Tosca-ECC-Accelerator-Factsheet-A4_PRINT.pdf&gt;
+ - Fact Sheet: Risk Coverage Optimization/Test Case Design &lt;http://innovate.tricentis.com/rs/491-XCL-893/images/20150421-Risk-Coverage-Optimization-Factsheet-A4_PRINT.pdf&gt;
+
+Please feel free to share the contents of the Update Special 2015 event with colleagues using the What´s New Videos &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0&gt; on our website.
+
+Thank you again for your positive feedback and lively participation. We look forward to seeing you again at future events!
+
+Best Regards,
+Ernst Jan Smit &amp; The Tricentis Team
+
+Ernst Jan Smit
+ Sales Manager Benelux
+
+ m - +31 611 533 103
+ e – e.smit@tricentis.com
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>20150930 marum</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Roadshow APAC, October 2015.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Join Us &amp; Meet the Tricentis VP of Product Management</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+It is a great pleasure to invite you to meet Dr. Gerd Weishaar, VP of Product Management at Tricentis, face-to-face for a visionary talk on DevOps.
+
+This seminar will present in-depth commentary on DevOps from a functional testing perspective. It examines methodologies, outcomes and outlooks as well as testing processes, tools and techniques. Join us in this seminar and learn how to continuously test at the speed of DevOps. 
+
+
+
+
+ - Latest computer-aided techniques in test optimization: Fewer Tests. Higher Coverage.
+ - Extreme-automation: Automation coverage &gt;70%
+ - Orchestrated service virtualization: Increase your testing window 
+
+
+
+We are inviting you to attend the seminar free of charge. Seats are limited so be sure to register today to secure your place. 
+
+
+
+
+
+
+
+Auckland
+Wednesday, 28th October, 2015 
+
+
+
+Wellington
+Thursday, 29th October, 2015
+
+
+Sydney
+Friday, 30th October, 2015
+
+
+Melbourne
+Monday, 2nd November, 2015
+
+
+Perth
+Wednesday, 4th November, 2015
+
+
+Singapore
+Thursday, 5th November, 2015
+
+
+
+
+Best regards,
+
+Thomas Hadorn &amp; Dominik Weissboeck
+Managing Directors Asia-Pacific</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Product - Model-based Test Automation for EMEA.Invite - 1 Week</name>
+    <style>none</style>
+    <subject>Tricentis Tosca Testsuite Webinar and Demo: Accelerate Business Innovation</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Though test automation technology has been around for 40 years, only 15% of regression tests are automated.
+
+For organizations under constant pressure to speed time to value and meet the growing expectations of customers and partners, this slow rate of automation is clearly not acceptable.
+
+In this short webinar, see a demo of Tosca Testsuite and learn more about these topics:
+
+
+	- Automated testing and how it can speed time to value for your company
+	- Leveraging the knowledge of business testers to automate test cases
+	- Model-based testing and the use of modules in Tosca Testsuite
+
+
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-model-based-test-automation-emea.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+
+
+ &lt;http://innovate.tricentis.com/webinar-model-based-test-automation-emea.html?utm_medium=email&amp;utm_source=internal&gt;
+Wed. November 6, 2013
+
+1:00pm – 2:00pm CET
+
+Michael Niessl
+
+Sales Support at Tricentis
+
+Joshua Davis
+
+Content Marketing Associate at Tricentis
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+© 2013 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

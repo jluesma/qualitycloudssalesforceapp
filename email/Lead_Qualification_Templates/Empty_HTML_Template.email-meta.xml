@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>plain HTML including Signature</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Empty_HTML_Template</name>
+    <style>none</style>
+    <subject>Place subject here</subject>
+    <textOnly>Dear {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+Place text here
+
+Thanks and I look forward to chatting with you!
+
+Best regards,
+{!User.Name}
+{!User.Title}
+
+Tricentis
+o - {!User.Phone}, m - {!User.MobilePhone}
+e - {!User.Email}
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

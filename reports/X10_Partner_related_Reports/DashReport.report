@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_78201992</developerName>
+        <masterLabel>Partner (grouped)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>ACCOUNT_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Wipro (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Technologies</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro UK (UK)</sourceValue>
+            </sourceValues>
+            <value>Wipro</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Infosys Corp (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>EdgeVerve Systems Limited (IN)</sourceValue>
+            </sourceValues>
+            <value>Infosys</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Accenture AG (Switzerland) (CH)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Germany (DE)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture Inc. (corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture UK (UK)</sourceValue>
+            </sourceValues>
+            <value>Accenture</value>
+        </values>
+        <values>
+            <value>TCS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Sogeti (Corp) (FR) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sogeti Deutschland GmbH (DE)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sogeti Groningen (NL)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sogeti Nederland B.V. (NL)</sourceValue>
+            </sourceValues>
+            <value>Sogeti</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Weightage__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT.CONVERT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <currency>EUR</currency>
+    <description>shows all Opps directly with Partner (Partner acts as customer)</description>
+    <filter>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>ISV Partner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 Closed/Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>AMOUNT</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>EUR 0</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Quarter</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_78201992</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DashReport - direct Partner business</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_PREVFY</interval>
+    </timeFrameFilter>
+</Report>

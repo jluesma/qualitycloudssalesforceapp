@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,sans-serif; font-size: 12px;">Dear {{lead.First Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">We are delighted that you have signed up for <strong>Tosca Testing Insights</strong> in Hyderabad on August 24th, 2015.</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Please {{my.ical-infosys}} for the event.</span></p>
+<p><strong><span style="font-family: arial,sans-serif; font-size: 12px;">In the event you will learn:</span></strong></p>
+<ul>
+<li><span style="font-family: arial,sans-serif; font-size: 12px;">How to achieve high sustainable automation rates without programming skills.</span></li>
+<li><span style="font-family: arial,sans-serif; font-size: 12px;">How to realize the highest business risk coverage with the smallest number of powerful test cases.</span></li>
+<li><span style="font-family: arial,sans-serif; font-size: 12px;">How to enable continuous delivery through continuous testing with Tricentis Tosca Testsuite.</span></li>
+</ul>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">After the presentations there will be time to discuss and network.</span></p>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong><span style="font-family: arial,helvetica,sans-serif;">Location:</span></strong></span></div>
+<div><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"><strong>Infosys, Hyderabad</strong><br />August 24th, 2015, 9:00 &ndash; 12:00 p.m (IST)<br /><span style="color: #ff0000;">50000X Hyderabad</span></span></div>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">We look forward to seeing you there!</span></p>
+<p><span style="font-family: arial,sans-serif; font-size: 12px;">Best Regards,<br />Vaibhav Patil &amp; Ingo Philipp</span></p></div>
+</div>
+</body>
+</html>

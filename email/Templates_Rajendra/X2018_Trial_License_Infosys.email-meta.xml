@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>2018_Trial_License_Infosys</name>
+    <style>none</style>
+    <subject>Tricentis Tosca Trial License</subject>
+    <textOnly>Hello {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+
+
+Thank you for your interest in Tricentis Tosca.
+
+I received notification that you recently requested a trial license. Can I answer any questions for you about Tricentis or Tosca? By way of introduction, my name is Rajendra Mehrotra and I am the Alliance Manager, exclusively supporting Global Service Integrators. In my role, I work with key stakeholders to develop an effective GSI strategy that&apos;s mutually beneficial to both organizations.
+
+As a note, Tricentis is a strategic Infosys partner with joint customers in all 3 regions with several new joint customers expected in the next 60 days. Infosys also has a Tosca COE at Pune and over 900 trained and certified Tosca Users. In order to help you in your Tosca journey, I&apos;ve added a few items &amp; links that will help you understand some of what we do as well as added a new document that discusses Tosca position within Gartner&apos;s Magic Quadrant.
+
+Download fact sheets, case studies and whitepapers from our webpage at http://www.tricentis.com/resources/
+Take our free online training at https://www.udemy.com/get-in-touch-with-tricentis-tosca-testsuite/
+Submit for and download our 14 day trial license at http://www.tricentis.com/tricentis-tosca-testsuite/tosca-testsuite-trial/
+Gartner&apos;s 2016 Magic Quadrant
+
+Best regards,
+{!User.Name} {!User.Title}
+
+Tricentis
+m - +91-7387579240
+e - r.mehrotra@tricentis.com
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

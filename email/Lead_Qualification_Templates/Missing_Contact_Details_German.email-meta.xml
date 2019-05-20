@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Deutsch Contacts</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Fehlende Kontaktdaten CONTACTS</name>
+    <style>none</style>
+    <subject>Kontaktaufnahme bezüglich der Tosca Testsuite</subject>
+    <textOnly>{!CASE(Contact.Salutation, &quot;Frau&quot;,&quot;Sehr geehrte Frau&quot; &amp; &quot; &quot; &amp; Contact.LastName &amp; &quot;,&quot;, &quot;Herr&quot;,&quot;Sehr geehrter Herr&quot; &amp; &quot; &quot; &amp; Contact.LastName &amp; &quot;,&quot;, &quot;Dr.&quot;,&quot;Hallo Doktor&quot; &amp; &quot; &quot; &amp; Contact.LastName &amp; &quot;,&quot;, &quot;Prof.&quot;, &quot;Hallo Professor&quot; &amp; &quot; &quot; &amp; Contact.LastName &amp; &quot;,&quot;, &quot;&quot;, &quot;Hallo&quot; &amp; &quot; &quot; &amp; Contact.Name &amp; &quot;,&quot;,&quot;Hallo!&quot;)}
+
+mein Name ist {!User.Name} und ich bin ihr verantwortlicher Ansprechpartner bei der Tricentis im Zusammenhang mit der Tosca Testsuite.
+Wie ich sehen konnte, haben Sie sich für das Thema der Software-Qualitätssicherung mit Tosca interessiert. Gerne möchte ich mich mit Ihnen diesbezüglich austauschen, konnte Sie jedoch leider telefonisch nicht erreichen, um über Ihre Anfrage zu sprechen.
+Vielleicht ist Ihnen es ja möglich, mir auf diesem Wege eine für Sie geeignete Zeit und ggf. eine Alternativtelefonnummer mitzuteilen. Ich könnte Sie dann direkt kontaktieren.
+
+Besten Dank und viele Grüße!
+
+
+{!User.Name}
+{!User.Title}
+
+Tricentis
+o – {!User.Phone}, m – {!User.MobilePhone}
+e – {!User.Email}
+
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 5150 El Camino Real, Suite D14, Los Altos, CA 94022</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

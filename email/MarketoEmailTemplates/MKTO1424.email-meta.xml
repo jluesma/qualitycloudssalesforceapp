@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Email - 1 Day Reminder - Partner Day</name>
+    <style>none</style>
+    <subject>Registration Confirmation: Partner Day 2015</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+Don’t forget, Partner Day starts tomorrow at 1:30 PM! We are looking forward to welcoming you to an inspiring day discussing the future of Tricentis and software testing, followed by dinner, drinks, and networking.
+
+Location:
+Novomatic Forum &lt;http://www.novomaticforum.com&gt;
+Friedrichstraße 7
+1010 Wien
+
+ &lt;https://www.google.at/maps/dir/48.2013086,16.3688942/Novomatic+Forum,+Friedrichstra%C3%9Fe,+Wien/@48.2003768,16.36739,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x476d0784a766a0f3:0xd6b5de954061f676!2m2!1d16.36641!2d48.200036!3e2&gt;
+
+How to get there:
+The Novomatic Forum is easily accessible by public transportation. Simply take the U1 (Red), U2 (Purple) or U4 (Green) subway line to Karlsplatz, Exit Oper and a 3 minutes walk.
+
+Parking Information:
+For those arriving by car, by the Novomatic Forum is parking lot. The next public parking is at Winpark Garage. 
+
+Parking:                               
+WIPARK Garage &lt;http://www.wipark.at&gt;
+Operngasse 13
+1040 Wien
+
+See you soon in Vienna!
+
+Best Regards, 
+
+Your Tricentis Events Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,91 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-US" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Dear&nbsp;</span><font face="arial">{!NullValue(Contact.FirstName, "Sir or Madam")}<span style="font-size: 12pt;">,</span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US">I wanted to
+follow up quickly on my last email and see if I could help answer any questions
+regarding Tricentis or our testing solution, Tosca Testsuite. <o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US">Please do
+let me know, I am happy to help! Is there a specific time that is most convenient
+to chat on the phone? <o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US"><font face="arial"><span style="font-size: 12pt;">Thanks&nbsp;</span>{!Contact.FirstName},<span style="font-size: 12pt;">&nbsp;I look forward to
+hearing from you!<o:p></o:p></span></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US">&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US">Best
+Regards,<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><a name="_MailAutoSig"><span lang="EN-US"><font color="#212121" face="arial">{!User.Name}</font><br><font color="#212121" face="arial">{!User.Title}<span style="font-size: 12pt;"><o:p></o:p></span></font></span></a></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes"><br>
+</span><a href="http://www.tricentis.com/"><span lang="EN-US" style="font-size:12.0pt;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#1D63AF;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes;text-decoration:
+none;text-underline:none">Tricentis</span></a><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><br>
+</span><b><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#1D63AF;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">o -</span></b><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#1D63AF;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"> </span><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes">{!User.Phone}, </span><b><span lang="EN-US" style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#1D63AF;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes">m -</span></b><span lang="EN-US" style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#1D63AF;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes"> </span><span lang="EN-US" style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#212121;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes">{!User.MobilePhone}<br>
+</span><b><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#1D63AF;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">e –</span></b><b><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#ED7D31;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"> </span></b><a href="mailto:m.karolyi@tricentis.com"><span lang="EN-US" style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#0563C1;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes">{!User.Email}</span></a><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">&nbsp;</span><span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><img src="https://c.na15.content.force.com/servlet/servlet.ImageServer?id=015i000000B2iCF&amp;oid=00Di0000000eCqx" border="0" align="left" alt=""><br></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:
+yes">&nbsp;</span><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;
+mso-fareast-language:DE;mso-no-proof:yes">&nbsp;</span><span lang="EN-US" style="mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;color:#212121;
+mso-ansi-language:EN-US;mso-fareast-language:DE;mso-no-proof:yes"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes">Tricentis GmbH <br>
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna<br>
+FN 213896d Handelsgericht Wien</span><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes">&nbsp;</span><span lang="EN-US" style="mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#212121;mso-ansi-language:EN-US;mso-fareast-language:DE;
+mso-no-proof:yes"><o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:
+minor-fareast;color:#BFBFBF;mso-ansi-language:EN-US;mso-fareast-language:DE-AT;
+mso-no-proof:yes">Tricentis US Headquarters, 5150 El Camino Real, Suite D14,
+Los Altos, CA 94022</span><span lang="EN-US" style="font-size:8.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-fareast-theme-font:minor-fareast;mso-ansi-language:EN-US;mso-fareast-language:
+DE;mso-no-proof:yes"><o:p></o:p></span></p>]]></td>
+</tr>
+</table>

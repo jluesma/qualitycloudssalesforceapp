@@ -1,0 +1,7 @@
+Hello {!Lead.FirstName},
+ 
+Thank you for your interest in Tricentis. I am contacting you because you recently signed up for a trial version of Tosca Testsuite. 
+
+I would like to set up a time for us to talk so we can understand {!Lead.Company}'s requirements, to be able support your efforts during the trial period. Do you have time next week to do a short introductory call? 
+
+Let me know the best time for you to talk.

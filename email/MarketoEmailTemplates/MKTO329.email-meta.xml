@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Agile Series #2 - US - 2014.08.26.Email - Invite 1 - US</name>
+    <style>none</style>
+    <subject>Agile Webinar Series: Moving from Chaos to Quality</subject>
+    <textOnly>Agile Webinar Series: Moving from Chaos to Quality
+
+Hi {{lead.First Name}},
+
+Megan Maloney, QA Manager, IT Solution Delivery at CFA Institute, discusses how her testing organization was able to move from chaos to quality in less than a year using Tricentis Tosca Testsuite. Hear how they were able to implement these quality improvements:
+
+ - Automate testing to achieve truly agile development
+ - Optimize risk coverage
+ - Speed time to market
+
+Mike Eckhoff, Senior VP of Worldwide Sales at Tricentis, will host the webinar.
+
+Please contact us &lt;mailto:webinar@tricentis.com&gt; with any questions or concerns.
+Best regards,
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-agile-series-2-us.html?utm_medium=email&amp;utm_source=internal&gt;
+
+Did you miss Webinar #1: Testing at the Speed of Agile, featuring Diego Lo Giudice from Forrester Research? 
+
+A recording will be available here &lt;http://www.tricentis.com/resources/webcasts&gt; shortly.
+ 
+ &lt;http://innovate.tricentis.com/webinar-agile-series-2-us.html?utm_medium=email&amp;utm_source=internal&gt;
+Tue Aug 26, 2014
+ 10:00 a.m. – 11:00 a.m. PDT
+ 1:00 p.m. – 2:00 p.m. EDT
+
+Megan Maloney
+QA Manager, 
+IT Solution Delivery
+CFA Institute
+ 
+Wolfgang Platz
+Senior VP of
+ Worldwide Sales
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

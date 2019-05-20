@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case.Study: ASB.Email Receipt</name>
+    <style>none</style>
+    <subject>Here&apos;s your copy of the Case Study: ASB accelerates time to value</subject>
+    <textOnly>Here’s your copy of the Case Study
+ASB accelerates time to value
+
+http://innovate.tricentis.com/rs/tricentis/images/Tricentis-Case-Study-ASB.pdf
+
+
+You may be interested in these Case Studies as well.
+
+BKR reduces risk, optimizes efficiency and accelerates time to value
+http://innovate.tricentis.com/case-study-BKR.html
+
+Deutsche Post Pension Service accelerates time to value, optimizes efficiency and reduces business risk
+http://innovate.tricentis.com/case-study-DeutschePost.html
+
+GBST accelerates time to value, reduces costs and optimizes operational efficiency
+http://innovate.tricentis.com/case-study-GBST.html
+
+
+Copyright 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - GSI - Mobile+ - 2015.10.29.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Partner Webinar - Tosca Mobile+</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+When breaking into the mobile market, testing complexity and costs can compound so quickly that a high degree of test automation is required for success.
+
+Join our exclusive partner webinar, in which Georg Thurner, Product Manager at Tricentis, will show how Tosca Mobile+ provides cutting edge end-to-end testing solutions for mobile apps, cross-OS and cross device by:
+
+
+ - Preparing your applications for testing
+ - Testing native mobile applications
+ - Testing mobile web applications, including responsive web pages
+
+
+
+We look forward to welcoming you at our webinar on October 29th, 2015 at 3:30 PM Indian Standard Time!
+
+Best regards,
+
+ The Tricentis Webinar Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

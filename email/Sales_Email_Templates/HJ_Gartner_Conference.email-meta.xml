@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Gartner Conference Follow up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>HJ Gartner Conference</name>
+    <style>none</style>
+    <subject>Gartner Conference Follow up</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

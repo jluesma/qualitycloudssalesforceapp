@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_Contact_reached_MQL</fullName>
+        <description>Alert Contact reached MQL</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Contact_reached_MQL_timer</fullName>
+        <description>Alert Contact reached MQL_timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact</fullName>
+        <description>Trigger Notification MQL LEadsAdmin Partner Queue</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>leadsadmin@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Open_Re_open_48_Hours</fullName>
+        <description>Contact Open/Re-open (48 Hours)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Open_Re_open_48_Hours_Timer</fullName>
+        <description>Contact Open/Re-open (48 Hours) Timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Open_Re_open_96_Hours</fullName>
+        <description>Contact Open/Re-open (96 Hours)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Contact_Open_Re_open_96_Hours_Timer</fullName>
+        <description>Contact Open/Re-open (96 Hours) Timer</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification</fullName>
+        <description>Trigger Notification MQL Contact EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL</fullName>
+        <description>Trigger Notification MQL Contact AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>Trigger_Notification_MQL_APAC_Contact</fullName>
+        <description>Trigger Notification MQL APAC Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_has_reached_MQL</template>
+    </alerts>
+    <alerts>
+        <fullName>X48hrs_Contact_open_status_AMS</fullName>
+        <description>48hrs Contact open status AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.komisarek@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X48hrs_Contact_open_status_APAC</fullName>
+        <description>48hrs Contact open status APAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.hulbert@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X48hrs_Contact_open_status_EMEA</fullName>
+        <description>48hrs Contact open status EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_Contact_open_status_AMS_escalation</fullName>
+        <description>5 days Contact open status AMS -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>s.weber@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_Contact_open_status_APAC_escalation</fullName>
+        <description>5 days Contact open status APAC -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>d.weissboeck@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>t.hadorn@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_Contact_open_status_EMEA_escalation</fullName>
+        <description>5 days Contact open status EMEA -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>m.schroeder@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X5_days_Contact_open_status_Leads_Admin_Partner_Queue_escalation</fullName>
+        <description>5 days Contact open status Leads Admin Partner Queue -&gt; escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_5_days_open_status_escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_Contact_status_open_AMS</fullName>
+        <description>96hrs Contact status open AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.komisarek@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_Contact_status_open_APAc</fullName>
+        <description>96hrs Contact status open APAC</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>a.hulbert@tricentis.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>X96hrs_Contact_status_open_EMEA</fullName>
+        <description>96hrs Contact status open EMEA</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Alerts/Alert_Contact_in_Open_Re_open_Status</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Check_Email_Opt_Out_for_contact</fullName>
+        <field>HasOptedOutOfEmail</field>
+        <literalValue>1</literalValue>
+        <name>Check Email Opt Out for contact</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contact_Status_Set_to_Qualified</fullName>
+        <description>Update contact status to &quot;Qualified&quot;</description>
+        <field>contact_status__c</field>
+        <literalValue>Qualified - (SQL)</literalValue>
+        <name>Contact Status Set to Qualified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contacted_Status_End</fullName>
+        <field>Contacted_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Contacted Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contacted_Status_Start</fullName>
+        <field>Contacted_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Contacted Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>First_Campaign_Date_Contact</fullName>
+        <field>dr_first_campaign_date__c</field>
+        <formula>TODAY()</formula>
+        <name>First Campaign Date (Contact)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initiated_Status_End</fullName>
+        <field>Initiated_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Initiated Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Initiated_Status_Start</fullName>
+        <field>Initiated_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Initiated Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Last_Campaign_Date_Contact</fullName>
+        <field>dr_last_campaign_date__c</field>
+        <formula>TODAY()</formula>
+        <name>Last Campaign Date (Contact)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Now_Status_End</fullName>
+        <field>Not_Now_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Not Now Status End</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Now_Status_Start</fullName>
+        <field>Not_Now_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Not Now Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_End_NULL</fullName>
+        <field>Open_Status_End__c</field>
+        <name>Open End = NULL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_Status_End</fullName>
+        <field>Open_Status_End__c</field>
+        <formula>NOW()</formula>
+        <name>Open Status End </name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Open_Status_Start</fullName>
+        <field>Open_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Open Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Qualified_Status_Start</fullName>
+        <field>Qualified_Status_Start__c</field>
+        <formula>NOW()</formula>
+        <name>Qualified Status Start</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Contact MQL</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contact.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open</fullName>
+        <actions>
+            <name>Alert_Contact_reached_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Contact_Open_Re_open_48_Hours</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Contact_Open_Re_open_96_Hours</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open Escalation AMS</fullName>
+        <actions>
+            <name>Trigger_Notification_MQL</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR( ISPICKVAL(contact_status__c, &apos;Open&apos;), ISPICKVAL(contact_status__c, &apos;Re-open&apos;) ), ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), ISPICKVAL(Geo__c, &apos;AMS&apos;), NOT ( OR( OwnerId = &apos;005i00000019qcYAAQ&apos;, OwnerId = &apos;00Gi0000003qWrMEAU&apos;, OwnerId = &apos;00Gi0000001WVjN&apos;, OwnerId = &apos;00Gi0000001WIIo&apos; ) ), $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48hrs_Contact_open_status_AMS</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_Contact_status_open_AMS</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_Contact_open_status_AMS_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open Escalation APAC</fullName>
+        <actions>
+            <name>Trigger_Notification_MQL_APAC_Contact</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR( ISPICKVAL(contact_status__c, &apos;Open&apos;), ISPICKVAL(contact_status__c, &apos;Re-open&apos;) ), ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), ISPICKVAL(Geo__c, &apos;APAC&apos;), NOT ( OR( OwnerId = &apos;005i00000019qcYAAQ&apos;, OwnerId = &apos;00Gi0000003qWrMEAU&apos;, OwnerId = &apos;00Gi0000001WVjN&apos;, OwnerId = &apos;00Gi0000001WIIo&apos; ) ), $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48hrs_Contact_open_status_APAC</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_Contact_status_open_APAc</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_Contact_open_status_APAC_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open Escalation EMEA</fullName>
+        <actions>
+            <name>Trigger_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( OR( ISPICKVAL(contact_status__c, &apos;Open&apos;), ISPICKVAL(contact_status__c, &apos;Re-open&apos;) ), ISPICKVAL(dr_funnel__c, &apos;MQL&apos;), ISPICKVAL(Geo__c, &apos;EMEA&apos;), NOT (  OR(  OwnerId = &apos;005i00000019qcYAAQ&apos;,  OwnerId = &apos;00Gi0000003qWrMEAU&apos;,  OwnerId = &apos;00Gi0000001WVjN&apos;,  OwnerId = &apos;00Gi0000001WIIo&apos;  ) ), $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X48hrs_Contact_open_status_EMEA</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>48</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X96hrs_Contact_status_open_EMEA</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>96</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_Contact_open_status_EMEA_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open Escalation Leads Admin Partner Queue</fullName>
+        <actions>
+            <name>Contact</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(  OR(   ISPICKVAL(contact_status__c, &apos;Open&apos;),   ISPICKVAL(contact_status__c, &apos;Re-open&apos;)  ),  ISPICKVAL(dr_funnel__c, &apos;MQL&apos;),  OR(   OwnerId = &apos;005i00000019qcYAAQ&apos;,   OwnerId = &apos;00Gi0000003qWrMEAU&apos;,   OwnerId = &apos;00Gi0000001WVjN&apos;,   OwnerId = &apos;00Gi0000001WIIo&apos;  ),   $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt;  $User.Id  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>X5_days_Contact_open_status_Leads_Admin_Partner_Queue_escalation</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contact Open%2FRe-open Timer</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.dr_funnel__c</field>
+            <operation>equals</operation>
+            <value>MQL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contacted Status End</fullName>
+        <actions>
+            <name>Contacted_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(contact_status__c), 
+ISBLANK(Contacted_Status_End__c), 
+ISPICKVAL(PRIORVALUE(contact_status__c), &quot;Contacted&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contacted Status Start</fullName>
+        <actions>
+            <name>Contacted_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Contacted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Contacted_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email Opt out set to true on Contact Creation</fullName>
+        <actions>
+            <name>Check_Email_Opt_Out_for_contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Contact.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>SFDC Admin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Service Now Integration</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Converted_from_Lead__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>&quot;Email Opt out&quot; is set to true whenever a contact is created by any user other than SFDC admin and Service Now Integration</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>First Campaign Date %28Contact%29</fullName>
+        <actions>
+            <name>First_Campaign_Date_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(dr_first_campaign_tracking__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Initiated Status End</fullName>
+        <actions>
+            <name>Initiated_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(contact_status__c), 
+ISBLANK(Initiated_Status_End__c), 
+ISPICKVAL(PRIORVALUE(contact_status__c), &quot;Initiated&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Initiated Status Start</fullName>
+        <actions>
+            <name>Initiated_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Initiated</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Initiated_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Last Campaign Date %28Contact%29</fullName>
+        <actions>
+            <name>Last_Campaign_Date_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(dr_last_campaign_tracking__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Not Now Status End</fullName>
+        <actions>
+            <name>Not_Now_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(contact_status__c), 
+ISBLANK(Not_Now_Status_End__c), 
+ISPICKVAL(PRIORVALUE(contact_status__c), &quot;Not Now&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Not Now Status Start</fullName>
+        <actions>
+            <name>Not_Now_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Not Now</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Not_Now_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open End %3D NULL</fullName>
+        <actions>
+            <name>Open_End_NULL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Open_Status_End__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open Status End%C2%A0</fullName>
+        <actions>
+            <name>Open_Status_End</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( 
+ISCHANGED(contact_status__c), 
+ISBLANK(Open_Status_End__c), 
+ISPICKVAL(PRIORVALUE(contact_status__c), &quot;Open&quot;) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Open Status Start</fullName>
+        <actions>
+            <name>Open_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Open,Re-open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Open_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Qualified Status Start</fullName>
+        <actions>
+            <name>Qualified_Status_Start</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.contact_status__c</field>
+            <operation>equals</operation>
+            <value>Qualified - (SQL)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Qualified_Status_Duration_Hours__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Contact status of Converted Leads</fullName>
+        <actions>
+            <name>Contact_Status_Set_to_Qualified</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Status of the converted contact should be &quot;Qualified&quot;</description>
+        <formula>AND(  Converted_from_Lead__c = true,  $Setup.SynchSettings__c.IntegrationUser__c &lt;&gt; $User.Id )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

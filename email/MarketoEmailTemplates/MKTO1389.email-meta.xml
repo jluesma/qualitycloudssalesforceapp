@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Partner Day 2015.Invite Partner and Speaker Dinner</name>
+    <style>none</style>
+    <subject>Join us for Tricentis Partner &amp; Speaker Dinner</subject>
+    <textOnly>Dear {{lead.First Name}},
+
+We would like to invite you to join us at our Partner &amp; Speaker Dinner on October 21st, 2015 at 6:30 pm in the bar of the Novomatic Forum.  
+
+Novomatic Forum - Bar (1st Floor)
+Friedrichstrasse 7
+1010 Vienna
+Austria
+
+We are planning for an enjoyable evening of great food, conversation, and networking.
+
+{{my.Partner &amp; Speaker Dinner:default=edit me}}, and we look 
+forward to your joining us in Vienna.
+
+Best regards,
+
+Your Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,2114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>LIC + FYM Amount</value>
+        </caseValues>
+        <name>amount_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Forecast Status</value>
+        </caseValues>
+        <name>forecast_category_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- ACV in Euro --></label>
+        <name>ACV_in_Euro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACV mgmt commit in Euro --></label>
+        <name>ACV_mgmt_commit_in_Euro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin comments --></label>
+        <name>Admin_comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- default values perp/1yr/2yrs/3yrs [kEUR]
+AMS: 75 / 100 / 75 / 50
+APAC: 80 / 80 / 40 / 30
+EMEA: 75 / 75 / 40 / 40 --></help>
+        <label><!-- Annual contract value --></label>
+        <name>Annual_contract_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applications --></label>
+        <name>Applications__c</name>
+        <picklistValues>
+            <masterLabel>Avaloq</masterLabel>
+            <translation><!-- Avaloq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finacle</masterLabel>
+            <translation><!-- Finacle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Dynamics</masterLabel>
+            <translation><!-- MS Dynamics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle E-Business Suite</masterLabel>
+            <translation><!-- Oracle E-Business Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle HRMS</masterLabel>
+            <translation><!-- Oracle HRMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Peoplesoft</masterLabel>
+            <translation><!-- Oracle Peoplesoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Siebel (Classic)</masterLabel>
+            <translation><!-- Oracle Siebel (Classic) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Siebel (Open UI)</masterLabel>
+            <translation><!-- Oracle Siebel (Open UI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outsystems</masterLabel>
+            <translation><!-- Outsystems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pega Systems</masterLabel>
+            <translation><!-- Pega Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP (Classic)</masterLabel>
+            <translation><!-- SAP (Classic) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Business Client</masterLabel>
+            <translation><!-- SAP Business Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Concur</masterLabel>
+            <translation><!-- SAP Concur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Fiori</masterLabel>
+            <translation><!-- SAP Fiori --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Netweaver</masterLabel>
+            <translation><!-- SAP Netweaver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP S/4 HANA</masterLabel>
+            <translation><!-- SAP S/4 HANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP SuccessFactor</masterLabel>
+            <translation><!-- SAP SuccessFactor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Now</masterLabel>
+            <translation><!-- Service Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCS BaNCS</masterLabel>
+            <translation><!-- TCS BaNCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAX</masterLabel>
+            <translation><!-- TRAX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>Billing_Account__c</name>
+        <relationshipLabel><!-- Bill To Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BypassValidationForProcessBuilder --></label>
+        <name>BypassValidationForProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Quarter - Year --></label>
+        <name>Close_Quarter_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Annual Contract Value --></label>
+        <name>Closed_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed PSO Amount --></label>
+        <name>Closed_PSO_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed/Won Date --></label>
+        <name>Closed_Won_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commit Amount --></label>
+        <name>Commit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commit PSO Amount --></label>
+        <name>Commit_PSO_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Commission % --></label>
+        <name>Custom_Commission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attributed to DiscoverOrg --></label>
+        <name>DSCORGPKG__Attributed_to_DiscoverOrg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Converted from Discoverorg Data --></label>
+        <name>DSCORGPKG__Converted_from_Discoverorg_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buyer --></label>
+        <name>EventbriteSync__Buyer__c</name>
+        <relationshipLabel><!-- Opportunities (Buyer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Eventbrite Id --></label>
+        <name>EventbriteSync__EventbriteId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Quarter --></label>
+        <name>Fiscal_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Week --></label>
+        <name>Fiscal_Week__c</name>
+    </fields>
+    <fields>
+        <label><!-- Free Services --></label>
+        <name>Free_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geo --></label>
+        <name>Geo__c</name>
+    </fields>
+    <fields>
+        <label><!-- new Geo --></label>
+        <name>Geoo__c</name>
+        <picklistValues>
+            <masterLabel>AMS</masterLabel>
+            <translation><!-- AMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLOBAL</masterLabel>
+            <translation><!-- GLOBAL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Integrator --></label>
+        <name>Has_Integrator__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISV Lead Source --></label>
+        <name>ISV_Lead_Source__c</name>
+        <picklistValues>
+            <masterLabel>Agosense</masterLabel>
+            <translation><!-- Agosense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CloudMonkey Mobile</masterLabel>
+            <translation><!-- CloudMonkey Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infometis</masterLabel>
+            <translation><!-- Infometis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenkins</masterLabel>
+            <translation><!-- Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jira</masterLabel>
+            <translation><!-- Jira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johannes Spiessberger</masterLabel>
+            <translation><!-- Johannes Spiessberger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Labs</masterLabel>
+            <translation><!-- Mobile Labs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neotys</masterLabel>
+            <translation><!-- Neotys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polarion</masterLabel>
+            <translation><!-- Polarion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAX</masterLabel>
+            <translation><!-- TRAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasktop</masterLabel>
+            <translation><!-- Tasktop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integrations --></label>
+        <name>Integrations__c</name>
+        <picklistValues>
+            <masterLabel>Atlassian Jira</masterLabel>
+            <translation><!-- Atlassian Jira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bamboo</masterLabel>
+            <translation><!-- Bamboo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA Agile Central (Rally)</masterLabel>
+            <translation><!-- CA Agile Central (Rally) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confluence</masterLabel>
+            <translation><!-- Confluence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP QC/ALM</masterLabel>
+            <translation><!-- HP QC/ALM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenkins</masterLabel>
+            <translation><!-- Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS TFS</masterLabel>
+            <translation><!-- MS TFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUnit</masterLabel>
+            <translation><!-- NUnit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polarion</masterLabel>
+            <translation><!-- Polarion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RevTrack</masterLabel>
+            <translation><!-- RevTrack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP Solution Manager</masterLabel>
+            <translation><!-- SAP Solution Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selenium</masterLabel>
+            <translation><!-- Selenium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceNow</masterLabel>
+            <translation><!-- ServiceNow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team City</masterLabel>
+            <translation><!-- Team City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tx3</masterLabel>
+            <translation><!-- Tx3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valgenesis</masterLabel>
+            <translation><!-- Valgenesis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Preferred Integrators --></label>
+        <name>Integrator_Names__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGI</masterLabel>
+            <translation><!-- CGI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigniti</masterLabel>
+            <translation><!-- Cigniti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computest</masterLabel>
+            <translation><!-- Computest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPAM</masterLabel>
+            <translation><!-- EPAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallop</masterLabel>
+            <translation><!-- Gallop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Praegus</masterLabel>
+            <translation><!-- Praegus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLK</masterLabel>
+            <translation><!-- SLK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SQS</masterLabel>
+            <translation><!-- SQS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stravis</masterLabel>
+            <translation><!-- Stravis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syntel</masterLabel>
+            <translation><!-- Syntel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tas Group</masterLabel>
+            <translation><!-- Tas Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tx3</masterLabel>
+            <translation><!-- Tx3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This information should be provided by PreSales and PoC team. It describes the different technologies the customer is interested in. --></help>
+        <label><!-- Interests --></label>
+        <name>Interests__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACV mgmt commit --></label>
+        <name>LIC_FYM_mgmt_commit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Stage before Closed Lost --></label>
+        <name>Last_Stage_before_Closed_Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Age (Hours) --></label>
+        <name>Lead_Age_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Created Date/Time --></label>
+        <name>Lead_Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the license type for the opportunity --></help>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>Perpetual</masterLabel>
+            <translation><!-- Perpetual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mgmt Expected NACV in Euro --></label>
+        <name>Mgmt_Expected_NACV_in_Euro__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Licenses --></label>
+        <name>No_of_Licenses__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalized Annual Contract  value Management Commit --></help>
+        <label><!-- NACV Mgmt Commit --></label>
+        <name>Normalized_ACVMgmtCommit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalized Annual contract value --></help>
+        <label><!-- NACV --></label>
+        <name>Normalized_ACV__c</name>
+    </fields>
+    <fields>
+        <label><!-- NACV in Euro --></label>
+        <name>Normalized_ACVinEuro__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Integrator Partner --></label>
+        <name>Now_Available__c</name>
+        <picklistValues>
+            <masterLabel>Accenture</masterLabel>
+            <translation><!-- Accenture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ameritas</masterLabel>
+            <translation><!-- Ameritas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos Origin</masterLabel>
+            <translation><!-- Atos Origin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BearingPoint</masterLabel>
+            <translation><!-- BearingPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bloomspire</masterLabel>
+            <translation><!-- Bloomspire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSC</masterLabel>
+            <translation><!-- CSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capgemini</masterLabel>
+            <translation><!-- Capgemini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigniti</masterLabel>
+            <translation><!-- Cigniti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DX Solutions</masterLabel>
+            <translation><!-- DX Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deloitte</masterLabel>
+            <translation><!-- Deloitte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDS</masterLabel>
+            <translation><!-- EDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fujitsu</masterLabel>
+            <translation><!-- Fujitsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallop</masterLabel>
+            <translation><!-- Gallop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCL</masterLabel>
+            <translation><!-- HCL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Global Services</masterLabel>
+            <translation><!-- IBM Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infosys</masterLabel>
+            <translation><!-- Infosys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K.J. Ross Associates</masterLabel>
+            <translation><!-- K.J. Ross Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L&amp;T Consulting</masterLabel>
+            <translation><!-- L&amp;T Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larsen &amp; Toubro Infotech</masterLabel>
+            <translation><!-- Larsen &amp; Toubro Infotech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lockheed Martin</masterLabel>
+            <translation><!-- Lockheed Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LogicaCMG</masterLabel>
+            <translation><!-- LogicaCMG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MindTree</masterLabel>
+            <translation><!-- MindTree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ness Consulting</masterLabel>
+            <translation><!-- Ness Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planit Software Testing</masterLabel>
+            <translation><!-- Planit Software Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAIC</masterLabel>
+            <translation><!-- SAIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP</masterLabel>
+            <translation><!-- SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLK</masterLabel>
+            <translation><!-- SLK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salves</masterLabel>
+            <translation><!-- Salves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens Business Services</masterLabel>
+            <translation><!-- Siemens Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sixsentix</masterLabel>
+            <translation><!-- Sixsentix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sogeti</masterLabel>
+            <translation><!-- Sogeti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Squerist</masterLabel>
+            <translation><!-- Squerist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stravis</masterLabel>
+            <translation><!-- Stravis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syntel</masterLabel>
+            <translation><!-- Syntel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tas Group</masterLabel>
+            <translation><!-- Tas Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata Consultancy Services</masterLabel>
+            <translation><!-- Tata Consultancy Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Mahindra</masterLabel>
+            <translation><!-- Tech Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Testing Consultancy</masterLabel>
+            <translation><!-- The Testing Consultancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tx3</masterLabel>
+            <translation><!-- Tx3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wipro</masterLabel>
+            <translation><!-- Wipro --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Shows the number of accepted quotes under this Opportunity --></help>
+        <label><!-- Number of accepted quotes --></label>
+        <name>Number_of_accepted_quotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- count of the approved quotes under this opportunity --></help>
+        <label><!-- Number of approved quotes --></label>
+        <name>Number_of_approved_quotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is an admin field used for implementations and can be used for reports as well --></help>
+        <label><!-- OpportunityId18digit --></label>
+        <name>OpportunityId18digit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Age (Days) --></label>
+        <name>Opportunity_Age_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Created Date/Time --></label>
+        <name>Opportunity_Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill out if Specialty Sales Resource is also working on this particular deal --></help>
+        <label><!-- Opportunity Driver --></label>
+        <name>Opportunity_Driver__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Source --></label>
+        <name>Opportunity_Source__c</name>
+        <picklistValues>
+            <masterLabel>Admin/Other</masterLabel>
+            <translation><!-- Admin/Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Sourced</masterLabel>
+            <translation><!-- Marketing Sourced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Sourced</masterLabel>
+            <translation><!-- Partner Sourced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Sourced</masterLabel>
+            <translation><!-- Sales Sourced --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please specify ‘Others – Applications’. Indicate the Application missing in the picklist --></help>
+        <label><!-- Others – Applications --></label>
+        <name>Others_Applications__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify ‘Others – Integrations’. Indicate the Integration missing in the picklist --></help>
+        <label><!-- Others – Integrations --></label>
+        <name>Others_Integrations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify ‘Others – Technologies’. Indicate the Technology missing in the picklist --></help>
+        <label><!-- Others – Technologies --></label>
+        <name>Others_Technologies__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please specify ‘Others_ToscaProducts’. Indicate the ToscaProduct missing in the picklist --></help>
+        <label><!-- Others – ToscaProducts --></label>
+        <name>Others_ToscaProducts__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the PSO amount if this opportunity includes a bundled PSO package.  For a custom PSO scope of work, create a separate opportunity for the PSO and do not enter a PSO amount for this opportunity. --></help>
+        <label><!-- PSO Amount --></label>
+        <name>PSO_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSO mgmt commit --></label>
+        <name>PSO_mgmt_commit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account__c</name>
+        <relationshipLabel><!-- Partner Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner Commission Type --></label>
+        <name>Partner_Commission_Type__c</name>
+        <picklistValues>
+            <masterLabel>MDF</masterLabel>
+            <translation><!-- MDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Fee</masterLabel>
+            <translation><!-- Referral Fee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partner Commission % --></label>
+        <name>Partner_Commission__c</name>
+        <picklistValues>
+            <masterLabel>12%</masterLabel>
+            <translation><!-- 12% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6%</masterLabel>
+            <translation><!-- 6% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9%</masterLabel>
+            <translation><!-- 9% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Payout</masterLabel>
+            <translation><!-- No Payout --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reseller Partner --></label>
+        <name>Partner__c</name>
+        <picklistValues>
+            <masterLabel>AiM Services</masterLabel>
+            <translation><!-- AiM Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Akros</masterLabel>
+            <translation><!-- Akros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anecon</masterLabel>
+            <translation><!-- Anecon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autom8</masterLabel>
+            <translation><!-- Autom8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1 Solutions</masterLabel>
+            <translation><!-- C1 Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant</masterLabel>
+            <translation><!-- Cognizant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comparex</masterLabel>
+            <translation><!-- Comparex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPAM</masterLabel>
+            <translation><!-- EPAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOSPA</masterLabel>
+            <translation><!-- GOSPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HBO</masterLabel>
+            <translation><!-- HBO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Solutions GmbH</masterLabel>
+            <translation><!-- HC Solutions GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infometis</masterLabel>
+            <translation><!-- Infometis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lion Bridge</masterLabel>
+            <translation><!-- Lion Bridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSG Systems</masterLabel>
+            <translation><!-- MSG Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mind Tree</masterLabel>
+            <translation><!-- Mind Tree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NTT Data</masterLabel>
+            <translation><!-- NTT Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordina</masterLabel>
+            <translation><!-- Ordina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polarion</masterLabel>
+            <translation><!-- Polarion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predicate Partners</masterLabel>
+            <translation><!-- Predicate Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QiQ Qcentris</masterLabel>
+            <translation><!-- QiQ Qcentris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quasus</masterLabel>
+            <translation><!-- Quasus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quence</masterLabel>
+            <translation><!-- Quence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saxonia Systems AG</masterLabel>
+            <translation><!-- Saxonia Systems AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tas Group</masterLabel>
+            <translation><!-- Tas Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Testing Consultancy (TTC)</masterLabel>
+            <translation><!-- The Testing Consultancy (TTC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valori</masterLabel>
+            <translation><!-- Valori --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venor Groep</masterLabel>
+            <translation><!-- Venor Groep --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked it indicates that the referring Opportunity has at least one Partner Role assigned. (Does not mean that referring Opportunity is Partner-sourced) --></help>
+        <label><!-- Partner registered Opp --></label>
+        <name>Partner_registered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Amount --></label>
+        <name>Pipeline_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pilot --></label>
+        <name>PoC__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Depricated Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe products in Tricentis proposal --></help>
+        <label><!-- Products Proposed --></label>
+        <name>Products_Proposed__c</name>
+    </fields>
+    <fields>
+        <label><!-- QTD Current and Previous FY --></label>
+        <name>QTD_Current_and_Previous_FY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target Global: ACV --></label>
+        <name>Quarter_Target_Global_LIC_FYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target Global: PSO --></label>
+        <name>Quarter_Target_Global_PSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target Global: LIC + FYM + PSO --></label>
+        <name>Quarter_Target_Global__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target: LIC + FYM + PSO --></label>
+        <name>Quarter_Target_LIC_FYM_PSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target: ACV --></label>
+        <name>Quarter_Target_LIC_FYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarter Target: PSO --></label>
+        <name>Quarter_Target_PSO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rating --></label>
+        <name>Rating__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Anton requested this field for reporting. We want to separate the ARR bookings from Renewals and only use it in the meantime until CPQ renewals are ready
+bazwe 29.09.2017 --></help>
+        <label><!-- Revenue Type --></label>
+        <name>Revenue_Type__c</name>
+        <picklistValues>
+            <masterLabel>ARR</masterLabel>
+            <translation><!-- ARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Year Business</masterLabel>
+            <translation><!-- First Year Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Lookup to your Amended Contract. --></help>
+        <label><!-- Amended Contract --></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel><!-- Amendment Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Salesforce CPQ uses this field to automatically convert assets and subscriptions. --></help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to create Contracted Prices without creating a Contract. --></help>
+        <label><!-- Create Contracted Prices --></label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to automatically create an order from the primary quote. --></help>
+        <label><!-- Ordered --></label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Salesforce CPQ uses this to point to the primary quote on this opportunity. --></help>
+        <label><!-- Primary Quote --></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Pricebook Id --></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates this opportunity is a renewal opportunity. --></help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract. --></help>
+        <label><!-- Renewed Contract --></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel><!-- Renewal Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Choose the subscription term for a subscription opportunity. If the opportunity is for perpetual licenses choose NA. --></help>
+        <label><!-- Subscription Term in years --></label>
+        <name>Subscription_Term__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- the total of net totals of all the perpetual products of primary quote under this opportunity --></help>
+        <label><!-- Sum value of perpetual products --></label>
+        <name>Sum_value_of_perpetual_products__c</name>
+    </fields>
+    <fields>
+        <help><!-- the total of net totals of all the subscription products of primary quote under this opportunity --></help>
+        <label><!-- Sum value of subscription products --></label>
+        <name>Sum_value_of_subscription_products__c</name>
+    </fields>
+    <fields>
+        <help><!-- the total of net totals of all the support products of primary quote under this opportunity --></help>
+        <label><!-- Sum value of support products --></label>
+        <name>Sum_value_of_support_products__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCV --></label>
+        <name>TCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technologies --></label>
+        <name>Technologies__c</name>
+        <picklistValues>
+            <masterLabel>.NET</masterLabel>
+            <translation><!-- .NET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adobe Flash</masterLabel>
+            <translation><!-- Adobe Flash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AngularJS</masterLabel>
+            <translation><!-- AngularJS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chrome</masterLabel>
+            <translation><!-- Chrome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edge</masterLabel>
+            <translation><!-- Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIXML</masterLabel>
+            <translation><!-- FIXML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireFox</masterLabel>
+            <translation><!-- FireFox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTML</masterLabel>
+            <translation><!-- HTML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM Websphere MQ</masterLabel>
+            <translation><!-- IBM Websphere MQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IE</masterLabel>
+            <translation><!-- IE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JMS</masterLabel>
+            <translation><!-- JMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JSON</masterLabel>
+            <translation><!-- JSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java</masterLabel>
+            <translation><!-- Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Silverlight</masterLabel>
+            <translation><!-- MS Silverlight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Frame</masterLabel>
+            <translation><!-- Main Frame --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PowerBuilder</masterLabel>
+            <translation><!-- PowerBuilder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAML</masterLabel>
+            <translation><!-- RAML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REST</masterLabel>
+            <translation><!-- REST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SWIFT</masterLabel>
+            <translation><!-- SWIFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UIA</masterLabel>
+            <translation><!-- UIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIN32</masterLabel>
+            <translation><!-- WIN32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WPF</masterLabel>
+            <translation><!-- WPF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSDL</masterLabel>
+            <translation><!-- WSDL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XML</masterLabel>
+            <translation><!-- XML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iOS</masterLabel>
+            <translation><!-- iOS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tosca Products --></label>
+        <name>Tosca_Products__c</name>
+        <picklistValues>
+            <masterLabel>Accelerator Package - SAP</masterLabel>
+            <translation><!-- Accelerator Package - SAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accelerator Package - SFDC</masterLabel>
+            <translation><!-- Accelerator Package - SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accelerator Package - Service Now</masterLabel>
+            <translation><!-- Accelerator Package - Service Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autonomous SAP Testing</masterLabel>
+            <translation><!-- Autonomous SAP Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI</masterLabel>
+            <translation><!-- BI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Dashboard</masterLabel>
+            <translation><!-- Enterprise Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exploratory Testing</masterLabel>
+            <translation><!-- Exploratory Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood</masterLabel>
+            <translation><!-- Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modern Apps Edition</masterLabel>
+            <translation><!-- Modern Apps Edition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSV</masterLabel>
+            <translation><!-- OSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Edition</masterLabel>
+            <translation><!-- Premium Edition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tosca Connect</masterLabel>
+            <translation><!-- Tosca Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tricentis Cloud</masterLabel>
+            <translation><!-- Tricentis Cloud --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Age (Hours) --></label>
+        <name>Total_Age_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Deal mgmt commit --></label>
+        <name>Total_Deal_mgmt_commit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pipeline NACV in Euro --></label>
+        <name>Total_Pipeline_NACV_in_Euro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total contract value CPQ --></label>
+        <name>Total_contract_value1__c</name>
+    </fields>
+    <fields>
+        <help><!-- ACV * subscription term --></help>
+        <label><!-- Total contract value --></label>
+        <name>Total_contract_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale</masterLabel>
+            <translation><!-- Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- List specific business goals identified for customer --></help>
+        <label><!-- Business Goals Identified --></label>
+        <name>Tri_Business_Goals_Identified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the current CCS Subtask in progress as part of the Customer-Centric Selling process --></help>
+        <label><!-- CCS Task --></label>
+        <name>Tri_CCS_Task__c</name>
+        <picklistValues>
+            <masterLabel>Assess Opportunity</masterLabel>
+            <translation><!-- Assess Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete Assessment Analysis</masterLabel>
+            <translation><!-- Complete Assessment Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conduct Appointment</masterLabel>
+            <translation><!-- Conduct Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Account</masterLabel>
+            <translation><!-- Contact Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Negotiation</masterLabel>
+            <translation><!-- Contract Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Contract</masterLabel>
+            <translation><!-- Create Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Follow-up Letter</masterLabel>
+            <translation><!-- Create Follow-up Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Proposal</masterLabel>
+            <translation><!-- Create Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Proposal Review</masterLabel>
+            <translation><!-- Customer Proposal Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meet with Pre-Sales</masterLabel>
+            <translation><!-- Meet with Pre-Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Assessment</masterLabel>
+            <translation><!-- Opportunity Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-deal Debrief</masterLabel>
+            <translation><!-- Post-deal Debrief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Present Proposal</masterLabel>
+            <translation><!-- Present Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal QA</masterLabel>
+            <translation><!-- Proposal QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect Confirmation</masterLabel>
+            <translation><!-- Prospect Confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Account</masterLabel>
+            <translation><!-- Research Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Assessment</masterLabel>
+            <translation><!-- Schedule Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Demonstration</masterLabel>
+            <translation><!-- Schedule Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate Opportunity</masterLabel>
+            <translation><!-- Validate Opportunity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the contact who was the primary Champion for this opportunity --></help>
+        <label><!-- Champion --></label>
+        <lookupFilter>
+            <errorMessage><!-- Contact must be associated with the Opportunity Account --></errorMessage>
+            <informationalMessage><!-- Contact must be associated with the Opportunity Account --></informationalMessage>
+        </lookupFilter>
+        <name>Tri_Champion__c</name>
+        <relationshipLabel><!-- Opportunities (Champion) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select one or more values that best describe the reason for closing. --></help>
+        <label><!-- Close Reason --></label>
+        <name>Tri_Close_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost - Company Budget Constraints</masterLabel>
+            <translation><!-- Lost - Company Budget Constraints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Duplicate</masterLabel>
+            <translation><!-- Lost - Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - No Decision</masterLabel>
+            <translation><!-- Lost - No Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - No Opportunity</masterLabel>
+            <translation><!-- Lost - No Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Open source</masterLabel>
+            <translation><!-- Lost - Open source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Other Reason</masterLabel>
+            <translation><!-- Lost - Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Product Features</masterLabel>
+            <translation><!-- Lost - Product Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Project Abandoned</masterLabel>
+            <translation><!-- Lost - Project Abandoned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost on Price</masterLabel>
+            <translation><!-- Lost on Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation><!-- Lost to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Other Reason</masterLabel>
+            <translation><!-- Won - Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Product Features</masterLabel>
+            <translation><!-- Won - Product Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won from Competitor</masterLabel>
+            <translation><!-- Won from Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won on Price</masterLabel>
+            <translation><!-- Won on Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe competitor&apos;s products --></help>
+        <label><!-- Competitive Products Proposed --></label>
+        <name>Tri_Competitive_Products_Proposed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the primary competitor(s) on this opportunity. --></help>
+        <label><!-- Competitor --></label>
+        <name>Tri_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Borland</masterLabel>
+            <translation><!-- Borland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA (iTKO)</masterLabel>
+            <translation><!-- CA (iTKO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP (Mercury QTP/UFT)</masterLabel>
+            <translation><!-- HP (Mercury QTP/UFT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM RQM</masterLabel>
+            <translation><!-- IBM RQM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft</masterLabel>
+            <translation><!-- Microsoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parasoft</masterLabel>
+            <translation><!-- Parasoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranorex</masterLabel>
+            <translation><!-- Ranorex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartBear</masterLabel>
+            <translation><!-- SmartBear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soasta</masterLabel>
+            <translation><!-- Soasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telerik</masterLabel>
+            <translation><!-- Telerik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TestPlant</masterLabel>
+            <translation><!-- TestPlant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worksoft</masterLabel>
+            <translation><!-- Worksoft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Additional information on reason won or lost, other important comments --></help>
+        <label><!-- Debrief Comments --></label>
+        <name>Tri_Debrief_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the contact who was the primary decision-maker for this deal. --></help>
+        <label><!-- Decision Maker --></label>
+        <lookupFilter>
+            <errorMessage><!-- Contact must be associated with the Opportunity Account --></errorMessage>
+        </lookupFilter>
+        <name>Tri_Decision_Maker__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Describe any involvement by executive management --></help>
+        <label><!-- [x]Exec Management Involvement --></label>
+        <name>Tri_Exec_Management_Involvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe any field marketing involvement --></help>
+        <label><!-- Field Marketing Involvement --></label>
+        <name>Tri_Field_Marketing_Involvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the appropriate category -  used for sales executive reporting. --></help>
+        <label><!-- Forecast --></label>
+        <name>Tri_Forecast__c</name>
+        <picklistValues>
+            <masterLabel>Commit</masterLabel>
+            <translation><!-- Commit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upside</masterLabel>
+            <translation><!-- Upside --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describe any involvement by professional services or training --></help>
+        <label><!-- Professional Svc Involvement --></label>
+        <name>Tri_Professional_Svc_Involvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe SE involvement in the deal, if any --></help>
+        <label><!-- SE Involvement --></label>
+        <name>Tri_SE_Involvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- List specific process elements, stages/tasks that contributed to success (e.g. client demonstration) --></help>
+        <label><!-- Successful Process Elements --></label>
+        <name>Tri_Successful_Process_Elements__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount + PSO Amount. --></help>
+        <label><!-- Total Deal Amount --></label>
+        <name>Tri_Total_Deal_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total amount from the final customer proposal --></help>
+        <label><!-- Total Proposal Amount --></label>
+        <name>Tri_Total_Proposal_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check box if a written cost/benefit analysis was given to customer as part of proposal.  If so, attach document to this Opportunity. --></help>
+        <label><!-- [x]ROI? --></label>
+        <name>Tri_Written_Cost_Benefit_Analysis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check box if a written Sequence of Events was created and attach to this opportunity. --></help>
+        <label><!-- [x]Written Sequence of Events? --></label>
+        <name>Tri_Written_Sequence_of_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upside Amount --></label>
+        <name>Upside_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upside PSO Amount --></label>
+        <name>Upside_PSO_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted LIC+FYM Amount --></label>
+        <name>Weightage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Weighted Normalized Annual contract value --></help>
+        <label><!-- WNACV --></label>
+        <name>Weighted_Normalized_ACV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Total Deal Amount --></label>
+        <name>Weighted_Total_Deal_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Annual contract value --></label>
+        <name>Weigthed_Annual_contract_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weigthed Pipeline NACV in Euro --></label>
+        <name>Weigthed_Pipeline_NACV_in_Euro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Why commit now --></label>
+        <name>Why_commit_now__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text field to describe the reason you think the customer will buy. Is needed for management commit. --></help>
+        <label><!-- [x]Why would they buy? --></label>
+        <name>Why_would_they_buy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text field to describe the reason you think the customer will buy at the specified close date. Is needed for management commit. --></help>
+        <label><!-- [x]Why would they buy at close date? --></label>
+        <name>Why_would_they_buy_at_close_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 0 Active (SQL) Stage Duration (Days) --></label>
+        <name>X0_Active_SQL_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 0 Active (SQL) Stage Start --></label>
+        <name>X0_Active_SQL_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 Prospecting Stage Duration (Days) --></label>
+        <name>X1_Prospecting_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1 Prospecting Stage Start --></label>
+        <name>X1_Prospecting_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 Qualification Stage Duration (Days) --></label>
+        <name>X2_Qualification_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2 Qualification Stage Start --></label>
+        <name>X2_Qualification_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 Evaluation Stage Duration (Days) --></label>
+        <name>X3_Evaluation_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3 Evaluation Stage Start --></label>
+        <name>X3_Evaluation_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4 Proposal Stage Duration(Days) --></label>
+        <name>X4_Proposal_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4 Proposal Stage Start --></label>
+        <name>X4_Proposal_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5 Negotiating Stage Duration (Days) --></label>
+        <name>X5_Negotiating_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5 Negotiating Stage Start --></label>
+        <name>X5_Negotiating_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- 6 ClosePending Stage Duration Days --></label>
+        <name>X6_ClosePending_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- 6 ClosePending Stage Start --></label>
+        <name>X6_ClosePending_Stage_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Current and Previous FY --></label>
+        <name>YTD_Current_and_Previous_FY__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Campaign Date --></label>
+        <name>dr_first_campaign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Campaign --></label>
+        <name>dr_first_campaign_tracking__c</name>
+        <relationshipLabel><!-- Opportunities (First Campaign) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Campaign Date --></label>
+        <name>dr_last_campaign_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Campaign --></label>
+        <name>dr_last_campaign_tracking__c</name>
+        <relationshipLabel><!-- Opportunities (Last Campaign) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isclosed --></label>
+        <name>isclosed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Name --></label>
+        <name>iseeit__Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>iseeit__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Stages --></label>
+        <name>iseeit__Current_Stages__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTimeField --></label>
+        <name>iseeit__DateTimeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Overview --></label>
+        <name>iseeit__Deal_Overview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Forecast Image Url --></label>
+        <name>iseeit__Default_Forecast_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>iseeit__DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MainQualifierLink --></label>
+        <name>iseeit__Forecast_Image_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Image Url --></label>
+        <name>iseeit__Forecast_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsUpdate --></label>
+        <name>iseeit__IsUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>iseeit__MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Qualifiers --></label>
+        <name>iseeit__Main_Qualifiers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Reason --></label>
+        <name>iseeit__Opportunity_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stalled</masterLabel>
+            <translation><!-- Stalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation><!-- Won --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>iseeit__OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>iseeit__Reason__c</name>
+        <picklistValues>
+            <masterLabel>Budget</masterLabel>
+            <translation><!-- Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change in Organization</masterLabel>
+            <translation><!-- Change in Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changed priorities</masterLabel>
+            <translation><!-- Changed priorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Development</masterLabel>
+            <translation><!-- Internal Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROI</masterLabel>
+            <translation><!-- ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relation</masterLabel>
+            <translation><!-- Relation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service offering</masterLabel>
+            <translation><!-- Service offering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical fit</masterLabel>
+            <translation><!-- Technical fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value proposition</masterLabel>
+            <translation><!-- Value proposition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>iseeit__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>iseeit__Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>iseeit__Status__c</name>
+        <picklistValues>
+            <masterLabel>Best case</masterLabel>
+            <translation><!-- Best case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit</masterLabel>
+            <translation><!-- Commit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>iseeit__TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- is update --></label>
+        <name>isenable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Opportunity Analysis --></label>
+        <name>mkto_si__MarketoAnalyzer__c</name>
+    </fields>
+    <fields>
+        <help><!-- ACV * subscription term --></help>
+        <label><!-- oldTotal contract value --></label>
+        <name>oldTotal_contract_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- with Consulting India --></label>
+        <name>with_Consulting_India__c</name>
+    </fields>
+    <layouts>
+        <layout>CCS Opportunity Layout</layout>
+        <sections>
+            <label><!-- Box Files --></label>
+            <section>Box Files</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Intelligence --></label>
+            <section>Campaign Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Debrief Information --></label>
+            <section>Debrief Information</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Forecast --></label>
+            <section>Opportunity Forecast</section>
+        </sections>
+        <sections>
+            <label><!-- Testing --></label>
+            <section>Testing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tricentis Opportunity Layout</layout>
+        <sections>
+            <label><!-- Applications and Technologies --></label>
+            <section>Applications and Technologies</section>
+        </sections>
+        <sections>
+            <label><!-- Debrief Information --></label>
+            <section>Debrief Information</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- ISeeIt --></label>
+            <section>ISeeIt</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Forecast --></label>
+            <section>Opportunity Forecast</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Tosca --></label>
+        <name>Tosca</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- ACV mgmt commit field cannot be updated if the ACV field is 0 or empty --></errorMessage>
+        <name>ACV_mgmt_cannot_be_changed_if_ACV_is_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close date can&apos;t be updated for the closed/pending opps. --></errorMessage>
+        <name>Close_date_validation_for_Pending_opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the Stage to &quot;Closed/Won&quot; .Please set the stage to &quot;Closed/Pending&quot; and reach out to your Admin. --></errorMessage>
+        <name>Closed_Won_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Opportunities cannot be edited. Please contact your Admin. --></errorMessage>
+        <name>Closed_opportunity_cannot_be_edited</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Reason required when opportunity is Closed --></errorMessage>
+        <name>Closed_reason_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Custom Commission % needs to be provided when &quot;Custom &quot; is selected on &quot;Partner Commission %&quot; --></errorMessage>
+        <name>Custom_Commission</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- new Geo field cannot be edited --></errorMessage>
+        <name>Enable_Geo_Access_to_Channel_Global_Role</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be changed anymore. --></errorMessage>
+        <name>Lock_Forcast</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field can not be updated if it already has a value. If you need this field be updated please contact your Administrator. --></errorMessage>
+        <name>Lock_field_after_first_entry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please put in ACV or PSO Amount. For early stage Opportunities with unknown size please use region based default values - see ACV field tooltip) --></errorMessage>
+        <name>Opp_needs_ACV_or_PSO_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide additional information in debrief comments. --></errorMessage>
+        <name>Opportunity_close_reason_other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a subscription term. --></errorMessage>
+        <name>Subscription_license_needs_term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- “Please specify ‘Others’. Indicate the App/Tech/Integration/Toscaproduct missing in the picklist” --></errorMessage>
+        <name>Validation_for_App_Int_Tech_Tosca</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter text in &quot;Why Commit Now&quot; field. --></errorMessage>
+        <name>Why_Commit_Now_for_managers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Opportunities cannot be re-opened. Ask your Administrator to re-open this Opportunity for you. --></errorMessage>
+        <name>lock_closed_Opps</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Amend_Contract --></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOrder --></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Include_Document --></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dr_new_opportunity --></label>
+        <name>dr_new_opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Overview --></label>
+        <name>iseeit__Overview</name>
+    </webLinks>
+</CustomObjectTranslation>

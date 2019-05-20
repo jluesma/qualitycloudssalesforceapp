@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Gartner - Q3 2015.Newsletter - Gartner - Q3 - 2015</name>
+    <style>none</style>
+    <subject>Shift Left: Adopting API Testing – Download your complimentary Gartner Research!</subject>
+    <textOnly>Market Guide for API Testing and Service Virtulization
+ Thomas E. Murphy | Maritess Sobejana | Joachim Herschmann | Laurie Wurster
+ 06 July 2015
+
+
+
+
+Hi {{lead.First Name}},
+
+In order to survive in today&apos;s market, companies need to stay competitive by developing applications at a rapid pace. This means that agile development teams must deal with faster product cycles and shorter time to market. As a result, companies are looking towards API testing and service virtualization to speed up processes and are shifting testing to the left of their product cycle. By doing so, enterprises are able to provide complex business functionality, delivered at a faster pace with a quality that ensures a positive customer experience.
+
+If you would like to read the full Gartner research note, please access it by downloading the Tricentis Newsletter.
+
+ &lt;http://www.tricentis.com/resource-assets/better-faster-stronger-adopting-api-testing-and-service-virtualization-from-the-start?utm_medium=email&amp;utm_source=db&gt;
+
+To learn more about Tricentis, visit our website &lt;http://www.tricentis.com&gt;. 
+
+Best regards,
+
+Georg Thurner
+ Product Manager, Tricentis</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

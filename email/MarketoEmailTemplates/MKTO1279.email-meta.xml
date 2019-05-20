@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Tasktop - EMEA / US - 2015.09.01.Email - Invite 1 - Tasktop EMEA</name>
+    <style>none</style>
+    <subject>Webinar: Leveraging the Power of Tosca Connect and Tasktop Sync</subject>
+    <textOnly>Leveraging the Power of Tosca Connect and Tasktop Sync
+
+
+
+
+
+
+
+
+Hi {{lead.First Name}},
+
+Combining the power of enterprise software testing with Software Lifecycle Integration enables enterprises to connect their automated testing with development processes to lower business risk and accelerate innovation.
+
+Join Jeff Downs of Tasktop and Gernot Brandl of Tricentis as they share how Tosca Connect, powered by Tasktop Sync:
+
+
+ - Removes the barriers to test automation and
+ - Enables Tosca Testsuite to be seamlessly integrated into your software development
+
+
+
+Register now &lt;#&gt; for the free webinar, Leveraging the Power of Tosca Connect and Tasktop Sync, on September 1st, 2015, at 4:00 PM CEST. See you there!
+Best regards,
+ The Tricentis Webinar Team
+ 
+ &lt;#&gt;
+
+
+ &lt;#&gt;
+Tue, Sep 1, 2015
+ 4:00 p.m. – 5:00 p.m. CEST
+10:00 a.m. – 11:00 a.m. EST
+
+
+Gernot Brandl
+Product Manager
+ Tricentis
+
+
+Jeff Downs
+Tasktop
+
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+
+
+
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

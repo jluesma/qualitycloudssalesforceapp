@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Newsletter - Partner Q2 2015.Email - Partner Newsletter - Q2 2015 - Final</name>
+    <style>none</style>
+    <subject>Our Tricentis Partner Newsletter Q2, 2015</subject>
+    <textOnly>Q2/2015
+Tricentis Partner Newsletter
+What a thrilling year 2015 has been already! We have participated in several exciting accomplishments, not the least being the official launch of Tosca Testsuite 8.4. We are pleased to share with you our recent news and look forward to continuing in successful partnership with you. If you want to learn more about what we have been up to, or have ideas about how to better partner with Tricentis, please feel free to contact us at info@tricentis.com &lt;mailto:info@tricentis.com&gt;.
+Join our upcoming webinars!
+
+Das 1x1 der Testautomatisierung (German)
+July 28, 2015
+ 10:00-11:00 AM CEST
+ Register Here &lt;http://www.tricentis.com/resource-assets/webinar-test-automatisierung-fur-anfanger-20150728?utm_medium=email&amp;utm_source=news_p&gt;
+
+Test Automation for Beginners
+July 28, 2015
+ 5:00-6:00 PM CEST
+ Register Here &lt;http://www.tricentis.com/resource-assets/webinar-test-automation-for-beginners-20150728?utm_medium=email&amp;utm_source=news_p&gt;
+The Tricentis team is excited to present our new Tosca Testsuite 8.4 Release. We’ve introduced many new features to enhance the overall Tosca Testsuite experience such as a new Tosca Commander UX with ribbon navigation, Test Case Design Relations, AJAX Synchronization, Tosca Continuous Integration, and many more. To read more about the new Tricentis Tosca Testsuite 8.4, click here &lt;http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/8-4-0/&gt;!
+
+Tosca Testsuite Service Pack 8.4.1
+
+We are already looking forward to our Tosca Testsuite Service Pack 8.4.1 release, where Tricentis will be bringing out even more features to make sure you’ll be able to spend less time testing and more time enjoying summer. Join us for Tricentis’ highly anticipated What’s New in Release 8.4.1 webinar this August to hear more about the new features available in this release.
+
+Register for our What’s New in Tosca Testsuite 8.4.1 webinars here &lt;http://www.tricentis.com/software-testing-webinars/&gt;!
+Partner Day 2015
+ October 21
+We are offering a Partner Day on October 21st in conjunction with Accelerate 2015. The event will feature a technical update on Tosca Testsuite, as well as an overview of the Partner Program for 2015/2016. You will be informed of any changes and new programs that are important to you, our partners, as well as an open platform for discussion about how Tricentis can best support you. Click here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/partner-day-reg?utm_medium=email&amp;utm_source=news_p&gt; to register for the Partner Day.
+
+Accelerate 2015
+ October 22
+Accelerate 2015 is drawing nearer and we are more excited than ever about everything we have to offer. Join us on October 22nd in Vienna, Austria for a day of networking, presentations, and discussions with influencers and test automation experts from around the world. We look forward to seeing you there! For more information and to register, click here &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate?utm_medium=email&amp;utm_source=news_p&gt;!
+Gartner Newsletter
+Tricentis has recently published a newsletter in conjunction with Gartner on the topic of mobile testing. The newsletter, “Testing the Future of Mobile Applications” discusses how Tricentis Tosca Testsuite provides end-to-end testing solutions in the midst of increasing demands on mobile developers, faster time-to-market, and testing complexity. The newsletter also includes a free Gartner research note, the “Market Guide for Mobile Application Testing”. Download the newsletter here &lt;http://www.tricentis.com/resource-assets/testing-the-future-of-mobile-applications?utm_medium=email&amp;utm_source=news_p&gt;!
+
+Webinars
+In an effort to continually offer new and helpful resources, we have lined up an exciting series of webinars featuring our own Tricentis experts and an array of impressive guest speakers. Make sure to check out our Events Page &lt;http://www.tricentis.com/software-testing-webinars/&gt; to stay up to date on our webinars!
+Upcoming Conferences
+
+German Testing Day
+July 15-17, 2015
+ Frankfurt, Germany
+ Register Here &lt;http://www.germantestingday.info?utm_medium=email&amp;utm_source=news_p&gt;
+
+Agile 2015
+August 3-7, 2015
+ Washington D.C., USA
+ Register Here &lt;http://agile2015.agilealliance.org/registration?utm_medium=email&amp;utm_source=news_p&gt;
+Please add Tricentis to your address book: info@tricentis.com &lt;mailto:info@tricentis.com&gt;
+ &lt;https://plus.google.com/108151335013813449490/posts&gt;       &lt;https://www.facebook.com/TRICENTIS&gt;       &lt;https://twitter.com/Tricentis&gt;    &lt;https://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+
+Tricentis GmbH . Saturn-Tower . Leonard-Bernstein-Straße 10 . 1220 Vienna . Austria
+
+© 2015 Tricentis GmbH. All rights reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

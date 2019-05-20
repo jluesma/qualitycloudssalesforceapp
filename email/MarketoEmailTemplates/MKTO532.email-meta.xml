@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - New Tricentis Professional Program - 2014.11.21.Email - Follow Up 2 -</name>
+    <style>none</style>
+    <subject>Attention! Announcement of new Tricentis Professional Training Program</subject>
+    <textOnly>Program Announcement
+
+Hi {{lead.First Name}},
+
+We are pleased to announce the launch of the new Tricentis Certified Professional training program, to be released in January 2015.
+
+The new training program consists of five separate training modules, which when fully completed, awards a certification as a Tricentis Certified Professional.
+
+The new program is designed to equip students with the theoretical and practical knowledge necessary to join a team and immediately begin contributing in test projects using Tosca Testsuite.
+
+As of January 2015, the Tricentis Certified Professional training modules will replace the Tosca Certified User Foundation Level (TCUFL), Tosca Certified Quality Designer (TCQD) and Tosca Certified Administrator (TCA) training courses.
+
+For a more detailed overview of the new program, please feel free to read the Tricentis Certified Professional training fact sheet &lt;http://innovate.tricentis.com/rs/tricentis/images/FactSheet_Trcientis_Certified_Professional_CFEDITS.pdf&gt;.
+
+What Can We Look Forward to?
+
+We’ve made some exciting changes to the new program:
+
+ - Tricentis Certified Professional is now the definitive initial training program for the Tosca Testsuite.
+ - The training program consists of five separate training modules that culminates in certification as a Tricentis Certified Professional.
+ - The training modules are offered as blended learning modules, involving a combination of classroom training (instructor-led), as well as online training (self-paced).
+ - A new sample web shop application provides the basis for all theoretical and practical training exercises.
+ - An online exam is administered at the end of each module to advance in the program.
+ - Successful completion of all the modules qualifies you as a Tricentis Certified Professional.
+ - All further training builds from the foundation of the Tricentis Certified Professional program, making it a necessary prerequisite for advancement.
+ 
+How This Affects You
+
+This change will have little impact on your already completed qualifications:
+
+ - Tosca knowledge gained in former trainings is still up-to-date.
+ - Existing Tricentis certificates will retain their validity.
+ - If desired, “Tosca Certified Quality Designer” certificates can be updated to “Tricentis Certified Professional&quot;, free of charge. 
+
+For existing Tricentis training partners/Tosca instructors:
+
+ - Authorized instructors must familiarize themselves with the new Tricentis Certified Professional program.
+ - Tricentis will provide you, free of charge, with the materials necessary to familiarize yourself with the new program (accessible online as self-paced learning materials).
+ - Tricentis will also be hosting regular knowledge-transfer web sessions, free of charge. The sessions will be held by Tricentis training experts and instructors to answer any questions that might come up during the self-paced learning.
+ 
+Want More Information?
+
+Thank you for your time and attention. We are excited about these new developments and everything that is to come! For further information, please feel free to contact us or check out the Tricentis Certified Professional training presentation here &lt;http://innovate.tricentis.com/rs/tricentis/images/20141117_TCP_Webinar.pdf&gt;.
+
+Best regards,
+Your Tricentis Training Team.
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

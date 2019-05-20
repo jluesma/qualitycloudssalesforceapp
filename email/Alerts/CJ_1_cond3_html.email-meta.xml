@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder Notification for Sales about stalled Opps</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Tricentis_Letterhead</letterhead>
+    <name>CJ-1_cond3_html</name>
+    <style>freeForm</style>
+    <subject>Cleanup needed on Opportunities with Close Dates in the Past</subject>
+    <textOnly>Dear Sales Rep,
+
+the following Open opportunities in your forecast have a Closed Date in the Past. Please update the information on the opportunity accordingly.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

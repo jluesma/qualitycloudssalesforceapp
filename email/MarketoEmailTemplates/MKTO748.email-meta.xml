@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Business Breakfast - Austria.Email - Invite 3 - Blank format - no Saluta</name>
+    <style>none</style>
+    <subject>Jetzt anmelden! - Tricentis Business Breakfast – Freitag 20. März 2015</subject>
+    <textOnly>Guten Tag {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+ nützen Sie die Chance und kommen Sie vorbei um mehr zu unserem Produkt Tosca Virtualize und zum Thema Orchestrated Service Virtualization zu erfahren.
+
+Wir haben noch einige wenige Plätze frei bei unserem 1. Tricentis Business Breakfast am Freitag, den 20. März 2015 von 9:00 -12:00 Uhr im Tech Gate Vienna, Donau-City-Straße 1, 1220 Wien.
+
+Schicken Sie mir einfach ein Email und ich reserviere Ihnen einen Platz.
+
+Ich freue mich auf Ihr Kommen.
+
+Mit freundlichen Grüßen
+
+Peter Szedlacek
+ Sales Manager AT/CZ/H/HR/SK/SLO
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+o - +43 1 263 24 09 - 1411, m - +43 664 88636292
+ e - p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

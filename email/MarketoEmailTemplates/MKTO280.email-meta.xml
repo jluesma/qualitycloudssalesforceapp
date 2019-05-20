@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email - Sales - T2S Simulator.Email - Sales - T2S Simulator</name>
+    <style>none</style>
+    <subject>T2S is scheduled to go live in 2015. Are you on track for this launch date?</subject>
+    <textOnly>Are you ready for T2S?
+
+Dear {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}},
+
+As you already know, Target 2 Securities (T2S) is one of the largest ongoing infrastructure projects in Europe’s financial industry. Developed and operated by the Eurosystem, it will bring substantial benefits to the European securities post-trading industry by providing a single pan-European platform for securities settlement.
+
+Tricentis developed the T2S Simulator in cooperation with the leading European suppliers of post-trading services. It can simulate the full business behavior and elementary business messaging functionality of the T2S platform based on user-predefined business scenarios.
+
+ - The T2S Simulator is a standalone application that simulates message-based interactions.
+ - Save time and speed time to market by testing internally before the ECB’s platform is available. Work independently from the Eurosystem.
+ - Use the T2S Simulator for regression testing not only during the T2S migration phase, but also for releases that come after the initial launch of T2S.
+ - Limit the manual workload for testers during the various test execution phases.
+ - Ensure adequate risk coverage and test efficiency, particularly during multiple repetitions of regression tests.
+
+To learn more about the Tricentis T2S Simulator, please download the T2S Simulator Info Sheet &lt;http://www.tricentis.com/sites/default/files/pdf/about/T2S_Simulator_Fact_Sheet.pdf?utm_medium=email&amp;utm_source=internal&gt;.
+
+I will be in Brussels from June 11-12 and would be happy to meet you in person to discuss the benefits of the Tricentis T2S Simulator in greater detail.
+ I will contact you shortly to set up an appointment.
+
+In the meantime, if you have any further questions, please do not hesitate to contact me at k.werner@tricentis.com &lt;mailto:k.werner@tricentis.com&gt;.
+
+Sincerely,
+
+Karl Werner
+ Vice President EMEA Sales, Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+&lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

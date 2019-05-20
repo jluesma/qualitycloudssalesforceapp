@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to booth visitors</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Agile 2014 Follow Up Hank</name>
+    <style>none</style>
+    <subject>Thank you for visiting Tricentis at Agile 2014</subject>
+    <textOnly>Thank you for visiting Tricentis at Agile 2014
+
+
+Hi {!Contact.FirstName},
+
+We hope you enjoyed your visit to sunny Orlando and the Agile 2014 conference.  Thank you for stopping by the Tricentis booth to learn more about our industry leading, script-less functional test automation solution, Tosca Testsuite. As a tool vendor, it is easy to miss the context of the first principle of the Agile Manifesto, &quot;Individuals and interactions over processes and tools.&quot;  Here at Tricentis though, we&apos;ve been building our tool using iterative design from day 1, way back in 2007.  We&apos;ve learned that a tool that helps team focus on delivering quality software, faster, with less rework and reduced maintenance fits right in with Agile practices.
+
+We have just announced an Agile Testing Webinar Series that kicks off on Thursday, August 14 at 12:30 ET with Diego Lo Giudice, Vice President and Principal Analyst from Forrester Research sharing his thoughts on Testing at the Speed of Agile. You can find more information and register here.
+
+In the interim, if there is anything we can do to help you break away from the trap of maintaining scripts, or help your teams realize the value of over 90% test automation, feel free to give me a call.
+
+Best Regards,
+
+
+Henry Joyce
+Regional Sales Director
+Tricentis
+office: 610.344.0799
+mobile: 610.331.9000
+h.joyce@tricentis.com
+
+Need Additional information:
+
+
+
+Press     Imprint     Terms &amp; Conditions
+
+© 2014 Tricentis. All Rights Reserved.
+Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

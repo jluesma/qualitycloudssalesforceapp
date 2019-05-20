@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Report - voke Solution Snapshot - Tosca.Email Offer - UK - with conference menti</name>
+    <style>none</style>
+    <subject>voke: Tricentis Tosca Testsuite Makes Test Automation Simple</subject>
+    <textOnly> 
+
+voke Analyst Report on Tricentis Tosca Testsuite
+
+ 
+
+
+
+   
+
+
+
+
+
+
+
+
+Hi {{lead.first name}},
+
+Software analyst firm voke has published a comprehensive study of Tricentis Tosca Testsuite as part of its prestigious Solution Snapshot™ series. According to the report, Tricentis has proven itself a “new breed of software vendor” that “understands the plight of the testing professional.”
+
+Voke reports that “Tricentis Tosca Testsuite is a solution uniquely designed to put testing teams on the path to Extreme Automation and eliminate time-consuming manual tasks frequently associated with functional and regression testing.” Other key findings:
+
+
+	- Tosca Testsuite is a robust solution for software test management and automation.
+	- Tosca Testsuite’s unparalleled ease of use puts test automation within reach of testers at all levels.
+
+
+
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+
+ 
+
+
+Visit Tricentis at NSTC 2014
+
+Tricentis is proud to be a Gold Sponsor &lt;http://www.softwaretestingconference.com/tricentis.html&gt; of NSTC 2014 in London. Stop by our booth or visit one of our sessions:
+
+Accelerate Mobile Testing with Tricentis &lt;http://www.softwaretestingconference.com/tricentis1.html&gt;
+
+(Session A: May 20, 14:50 – 16:15)
+
+Speakers: Nadeem Malik, Sales Director, UK and Ireland, and Georg Thurner, Product Marketing Manager
+
+Optimise Agile Testing with Tricentis &lt;http://www.softwaretestingconference.com/tricentis2.html&gt;
+
+(Session B: May 21, 10:55 – 12:20)
+
+Speakers: David Myers, Sales Director, UK, and Georg Thurner, Product Marketing Manager
+
+The Tricentis Team
+
+
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+voke Solution
+
+Snapshot™ report
+
+Tricentis Tosca Testsuite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+
+
+
+
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+
+
+
+
+
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

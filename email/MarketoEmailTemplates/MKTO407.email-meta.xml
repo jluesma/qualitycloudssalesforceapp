@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - EngineRE Migration - 2014.10.09.EOL Email and Webinar Invite 1</name>
+    <style>none</style>
+    <subject>‘End-of-Life’ (EOL) Notification</subject>
+    <textOnly>‘End-of-Life’ (EOL) Notification
+
+Hi {{lead.First Name}},
+
+We are continually working towards improving the Tricentis Tosca Testsuite by streamlining and optimizing our product line. Because of this, we ensure that outdated functions are either regularly updated or replaced by new and enhanced products. In this regard, the following products will be marked for ‘end-of-life’ EOL with the upcoming release of Version 8.3.0. (scheduled mid October 2014):
+
+- Web Service Engine 2.0 and XML Engine 2.0 (EngineRe)
+ - Web Service Engine 1.0 and XML Engine 1.0 (Classic)
+
+Both Web Service Engine 2.0 and 1.0 will be replaced by our new TBox technology, in order to enhance and increase functionality of Tosca Testsuite.
+
+In order to ensure a smooth migration process from EngineRe to our TBox technology, please be invited to a webinar, which will take place: Thursday, 9th October 2014, 10:00-11:00 am CET. During this webinar we will address the following topics:
+
+ - Short introduction to our new products
+ - Migration process to the new version
+ - Ongoing support during this process
+ - Q&amp;A
+
+We look forward to seeing you at our webinar.
+
+ &lt;http://innovate.tricentis.com/webinar-enginere-migration-2014-10-09.html?utm_medium=email&amp;utm_source=db&gt;
+
+Dates for additional webinars regarding web service and XML testing based on TBox will be announced soon.
+
+Support for the following products will end in April 2015.
+
+Georg Thurner
+Product Manager
+Tricentis
+ 
+Note: All successor products are covered by your existing license.
+
+If you have any further queries, please contact your local sales representative.
+
+Best regards,
+
+Georg Thurner
+Product Manager
+Tricentis
+o - +43 (0)1 263 24 09 – 1800
+m - +43 664 83 225 45
+e - g.thurner@tricentis.com &lt;mailto:g.thurner@tricentis.com&gt;
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:support@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

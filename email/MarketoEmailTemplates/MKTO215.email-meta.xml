@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Report - voke Solution Snapshot - Tosca.Email Offer</name>
+    <style>none</style>
+    <subject>Software Analyst voke: Tricentis Tosca Testsuite a Robust Solution for Test Automation</subject>
+    <textOnly>voke Analyst Report on Tricentis Tosca Testsuite
+
+Hi {{lead.first name}},
+
+Software analyst firm voke has published a comprehensive study of Tricentis Tosca Testsuite as part of its prestigious Solution Snapshot™ series. According to the report, Tricentis has proven itself a “new breed of software vendor” that “understands the plight of the testing professional.”
+
+Voke reports that “Tricentis Tosca Testsuite is a solution uniquely designed to put testing teams on the path to Extreme Automation and eliminate time-consuming manual tasks frequently associated with functional and regression testing.” Other key findings:
+
+ - Tricentis solves software quality problems through elegant technology and exceptional customer satisfaction.
+ - Tosca Testsuite is a robust solution for software test management and automation.
+ - Tosca Testsuite’s unparalleled ease of use puts test automation within reach of testers at all levels.
+
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+ &lt;http://innovate.tricentis.com/Report-voke-solution-snapshot-tosca.html?utm_medium=email&amp;utm_source=internal&gt;
+voke Solution
+ Snapshot™ report
+ Tricentis Tosca Testsuite
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

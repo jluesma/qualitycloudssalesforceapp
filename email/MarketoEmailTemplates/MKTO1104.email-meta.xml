@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Tosca Mobile+ (DE) - 2015.09.17.Email - Invite 1</name>
+    <style>none</style>
+    <subject>Testen auf mobilen Geräten mit Tosca Mobile+</subject>
+    <textOnly>Testen auf mobilen Geräten mit Tosca Mobile+
+
+Guten Tag {{lead.First Name}} {{lead.Last Name:default=edit me}} ,
+
+Mit dem Model-Based Test Automatisierungsansatz von Tricentis, gelingt es Testern von mobilen Apps einen Automatisierungsgrad, sowie ein Risikoabdeckung von mehr als 90% zu erzielen.
+
+Tosca Mobile+ ist eine Lösung, die Sie bei folgenden Punkten unterstützen kann:
+
+ - Vorbereiten Ihrer Anwendungen für das Testen
+ - Testen von nativen mobilen Apps
+ - Testen von mobilen Web-Anwendungen, einschließlich responsive Design
+
+Seinen Sie am 17. September 2015 um 10 Uhr dabei, wenn Georg Thurner, Produkt Manager bei Tricentis, die Plattform und Geräte übergreifende innovative End-to-End Testlösung von Tricentis für mobile Apps präsentiert.
+
+Wir freuen uns Sie beim Webinar: „Testen auf mobilen Geräten mit Tosca Mobile+“ begrüßen zu dürfen.
+Mit besten Grüßen,
+ Ihr Tricentis Webinar Team
+ 
+ &lt;http://www.tricentis.com/resource-assets/testen-auf-mobilen-geraeten-mit-tosca-mobile-plus-webinar?utm_medium=email&amp;utm_source=db&gt;
+
+ &lt;http://www.tricentis.com/resource-assets/testen-auf-mobilen-geraeten-mit-tosca-mobile-plus-webinar?utm_medium=email&amp;utm_source=db&gt;
+17.September 2015
+ 10:00 am - 11:00 am CEST
+
+Georg Thurner
+Produkt Manager
+ Tricentis
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

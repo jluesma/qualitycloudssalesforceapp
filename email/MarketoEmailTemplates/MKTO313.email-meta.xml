@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Agile Series #1 - US - 2014.08.14.Email - Invite 1 - US</name>
+    <style>none</style>
+    <subject>Agile Webinar Series: Testing at the Speed of Agile</subject>
+    <textOnly>Agile Webinar Series: Testing at the Speed of Agile
+
+Hi {{lead.First Name}},
+
+Hear Diego Lo Giudice, Vice President and Principal Analyst at Forrester Research, discuss how Agile testing practices are key to delivering applications fast and with high levels of quality.
+
+You’ll also learn how to:
+
+ - Integrate your testing into your development processes
+ - Make sure your Agile testing, like your Agile development, is incremental, iterative, and continuous
+ - Keep Agile testing efficient with test automation and service virtualization
+
+Wolfgang Platz, Founder and CPO of Tricentis, will host the webinar.
+
+Please contact us &lt;mailto:webinar@tricentis.com&gt; with any questions or concerns.
+
+Best regards,
+The Tricentis Webinar Team
+
+ &lt;http://innovate.tricentis.com/webinar-agile-series-1-us.html?utm_medium=email&amp;utm_source=internal&gt;
+ 
+&lt;http://innovate.tricentis.com/webinar-agile-series-1-us.html?utm_medium=email&amp;utm_source=internal&gt;
+Thurs. Aug 14, 2014
+ 9:30 a.m. – 10:30 a.m. PDT
+ 12:30 p.m. – 1:30 p.m. EDT
+
+Diego Lo Giudice
+Vice President and Principal Analyst
+Forrester Research
+ 
+Wolfgang Platz
+Founder &amp; Chief Product Officer
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+&lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2014 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:Tricentis%20Webinar%20%3cwebinar@tricentis.com%3e&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

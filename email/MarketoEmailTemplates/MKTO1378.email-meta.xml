@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Webinar - Migrating from Classic HTML to TBox - German - 2015.10.06.Follow up -</name>
+    <style>none</style>
+    <subject>Danke für Ihre Teilnahme an unserem Webinar &quot;Migrating: HTML to X-Browser!&quot; (German)</subject>
+    <textOnly>Webinar &quot;Migrating: HTML to X-Browser&quot; (German)
+
+Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+Wir möchten uns sehr für Ihre Teilnahme an unserem Webinar „Migrating: HTML to X-Browser“ bedanken und hoffen, dass Sie einige interessante Punkte mitnehmen konnten.
+
+Falls Sie dieses Webinar erneut ansehen möchten, oder ihren Kollegen weiterempfehlen wollen, dann klicken Sie hier &lt;http://www.tricentis.com/thank-you-page-webinar-let-it-go-migrating-from-html-to-x-browser-de/&gt;.
+
+Informationen über zukünftige Webinare finden Sie auf unserer Webseite &lt;http://www.tricentis.com/software-testing-webinars?utm_medium=email&amp;utm_source=db&gt; oder folgen Sie uns auf Twitter @Tricentis &lt;https://twitter.com/Tricentis&gt;. 
+
+Mit besten Grüßen
+Ihr Tricentis Webinar Team
+ 
+Mike Nemeth
+ Product Manager
+Tricentis
+ 
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

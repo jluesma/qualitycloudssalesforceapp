@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>http://sts.tricentis.com/adfs/services/trust</issuer>
+    <loginUrl>https://sts.tricentis.com/adfs/ls/</loginUrl>
+    <name>sts</name>
+    <oauthTokenEndpoint>https://tricentis--Steelbrick.cs96.my.salesforce.com/services/oauth2/token?so=00D1g000000CsGB</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P11Y00000001Dc</requestSigningCertId>
+    <salesforceLoginUrl>https://tricentis--Steelbrick.cs96.my.salesforce.com?so=00D1g000000CsGB</salesforceLoginUrl>
+    <samlEntityId>https://tricentis.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC3jCCAcagAwIBAgIQHsFvo7l5AoVA4DYLkiWbajANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDEyBBREZTIFNpZ25pbmcgLSBzdHMudHJpY2VudGlzLmNvbTAeFw0xNzA5MDYwNzQxNDVaFw0yNzA5MDQwNzQxNDVaMCsxKTAnBgNVBAMTIEFERlMgU2lnbmluZyAtIHN0cy50cmljZW50aXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsExXecJBYHPOLUE5o1J4B+h1uDQMucSVkCWhIsxJH0u34i+0hKXiBepvCytS5P2kgY79tnYdq5YPzrDtt2td7kA5y65cgedfFeRp89LkUXCRBCxxqSNWkkYLcbsSY+Qoq/XDLU7gR1d2tryvKizeGSJ+MfAxyLY38Ubynrxcj8J+rAvKYHAsJAzxERjNRH+1XWVTqVbY+GSdJswvOgixtGIQwdOwxt9vEhR4usLT/Ae5QbrYR4C3fG6On5/RdEa6rheoDTcPd4aDwKkx8/gV7qC6CpvoolFzWNnedQzo+QdT9v9GRrCpYL1T2H+m/DXyXkql8LSJhG6DE7Z/ybBCPQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCi0Oxd4DaY8RMCf+brti2p5pv9+M7HZKxjdIwdhg6hgGcst9WqGlPkLUdm/xlln5WwFwGtpTsMD9Wv99kzpfA0O/0lvdVUdD7BbKhiLS0/uqEyOQnzQ6R64l0p1rXezCAB1Zs12iOCLM+XvkzgC0+pdI0dZyB4K6s3c/tcNLNCqk5yfT0eZePunPdmnoZf8dfhP8jhyfCi/oxk9f5qzOqFOWmyDABr1BjaXQS1cBsCUkzR34owxAGH6ESAXLSPcUpNILYstSxw3qXFCrjd2RJ3QfIUELP4ElzSmCJ0ox1miwv+oQ0DvGS6+eKQ0fMkYduwYWXdyUOtKwtenoZ8aOdW</validationCert>
+</SamlSsoConfig>

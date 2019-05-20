@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>email Blast: Len Calandra&apos;s list.1: Invite Acquisition</name>
+    <style>none</style>
+    <subject>Tricentis - Innovative leader in testing</subject>
+    <textOnly>Hi {{lead.First Name}},
+
+Tricentis &lt;http://www.tricentis.com/&gt; provides the leading enterprise software testing solution for Global 2000 companies to help them accelerate business innovation. Tricentis Tosca Testsuite &lt;http://www.tricentis.com/products/tricentis-tosca-testsuite&gt; brings a unique approach to software testing that enables enterprises to achieve unprecedented automation rates while minimizing business-related risks. With a customer renewal rate of more than 98%, the company’s more than 400 customers include global brands such as BMW, HBO, Siemens, Southwest and UBS. Gartner recognizes Tricentis as a Visionary in the recent 2013 Magic Quadrant for Integrated Software Quality Suites. Tricentis is headquartered in Silicon Valley and Vienna with offices around the world.
+
+Tricentis benefits:
+
+
+ - Accelerating Business Innovation: This is our rallying cry and our core philosophy. Rising development costs, growing customer expectations, the unrelenting need to be “always on, always available, always easy” – Tricentis understands the challenges facing Global 2000 companies and helps you innovate at least 40% faster while decreasing costs by more than 50% and meeting your high standards of quality.
+Learn more &lt;http://www.tricentis.com/why-tricentis/tricentis-uniquely-delivers&gt;
+
+ - Model-Based Test Automation: Frequent and shorter test cycles combined with the high expectations of customers mean that enterprises can’t afford not to automate. Tosca Testsuite meets this challenge with a new approach to testing, Model-Based Test Automation. Tricentis customers regularly achieve automation rates of 90% or more of all test cases, results we call Extreme Automation.
+Learn more &lt;http://www.tricentis.com/products/tricentis-tosca-testsuite/model-based-test-automation&gt;
+
+ - Minimize Risk: Sometimes teams don’t know what to test and respond by simply multiplying the number of test cases. Unfortunately, this slows down the testing process without actually increasing test coverage. Tosca Testsuite comes with the Risk Management Engine, enabling you to measure, manage and control risk coverage by prioritizing and executing tests based on business value. Never be in the dark about risk coverage again. Tricentis clients achieve 95% or even higher risk coverage.
+Learn more &lt;http://www.tricentis.com/products/tricentis-tosca-testsuite/risk-management-engine&gt;
+
+ - Gartner calls us a “Cool Vendor” and “Visionary.”
+Learn why &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt;
+
+
+
+Additional Resources:
+
+
+ - Check out our Point of View Papers &lt;http://www.tricentis.com/resources/point-of-view-papers&gt;
+ - Our Customer Success &lt;http://www.tricentis.com/customers/case_studies&gt; stories
+ - Watch a webinar about Tricentis and the power of Extreme Automation &lt;http://www.tricentis.com/resources/webcasts#extreme-automation&gt;
+
+
+Need Additional information:
+
+ &lt;http://innovate.tricentis.com/talk-with-sales.html&gt;           &lt;http://innovate.tricentis.com/demo-request.html&gt;
+
+ &lt;http://innovate.tricentis.com/demo-request.html&gt;Best Regards,
+
+
+
+Ajay Murthy
+
+Chief Marketing Officer
+Tricentis
+
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+ 
+Imprint &lt;http://www.tricentis.com/imprint&gt;
+ 
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+ 
+© 2014 Tricentis. All Rights Reserved.
+Tricentis is a registered trademark of Tricentis.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

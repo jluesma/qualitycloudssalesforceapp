@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015 - Workshops.Email - Confirmation Workshop - Mastering Te</name>
+    <style>none</style>
+    <subject>Registration Confirmation: Workshop &quot;Mastering Test Design&quot;</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for registering for our Accelerate 2015 workshop!
+
+With this email we are confirming your seat in the Mastering Test Design workshop, taking place at 14:00 pm in the Salon Aichinger of the Novomatic Forum on October 22, 2015.
+
+Please pick up your entry pass to the workshop at the Accelerate 2015 registration table.
+
+We look forward to seeing you at Accelerate!
+
+Best Regards,
+
+Your Tricentis Events Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

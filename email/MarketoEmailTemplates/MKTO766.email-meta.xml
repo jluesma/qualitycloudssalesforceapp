@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Confirmation</name>
+    <style>none</style>
+    <subject>Your registration is confirmed for Accelerate 2015</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you for your registration. Here are your confirmation details:
+
+ Accelerate 2015
+October 22nd, 2015
+9 a.m. – 10 p.m.
+Vienna, Austria
+
+Novomatic Forum
+Friedrichstraße 7 (vis à vis Secession)
+A 1010 Vienna
+www.novomaticforum.com
+We are looking forward to see you there.
+
+{{my.ical}}
+
+ Best wishes,
+ 
+The Tricentis Events Team
+
+© 2015 Tricentis. All Rights Reserved.  Tricentis is a registered trademark of Tricentis GmbH.
+
+Tricentis | Leonard-Bernstein-Straße 10 | A-1220 Vienna | Legal Information &lt;http://www.tricentis.com/legal-information&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_73804357</developerName>
+        <masterLabel>Partner (grouped)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>PARTNER_NAME</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Wipro (Corp) (US) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro (India) (IN)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Wipro Limited (IN) - HQ</sourceValue>
+            </sourceValues>
+            <value>Wipro</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Infosys Corp (IN) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys (Australia) (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Infosys Limited (AE)</sourceValue>
+            </sourceValues>
+            <value>Infosys</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Accenture Australia (AU)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accenture (HQ)</sourceValue>
+            </sourceValues>
+            <value>Accenture</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (NZ) - HQ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>The Testing Consultancy (SG)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tata Consultancy Services (TCS) (IN) - HQ</sourceValue>
+            </sourceValues>
+            <value>TCS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Sogeti France (FR)</sourceValue>
+            </sourceValues>
+            <value>Sogeti</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Opportunity.oldTotal_contract_value__c</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CLOSE_DATE</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Tiny</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <colorRanges>
+        <aggregate>Sum</aggregate>
+        <columnName>Opportunity.Annual_contract_value__c</columnName>
+        <highBreakpoint>0.1</highBreakpoint>
+        <highColor>#54C254</highColor>
+        <lowColor>#FFFFFF</lowColor>
+        <midColor>#FFFFFF</midColor>
+    </colorRanges>
+    <colorRanges>
+        <aggregate>Sum</aggregate>
+        <columnName>Opportunity.oldTotal_contract_value__c</columnName>
+        <highBreakpoint>0.1</highBreakpoint>
+        <highColor>#54C254</highColor>
+        <lowColor>#C25454</lowColor>
+        <midColor>#C2C254</midColor>
+    </colorRanges>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.oldTotal_contract_value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Annual_contract_value__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.PSO_Amount__c</field>
+    </columns>
+    <columns>
+        <field>OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>PARTNER_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Partner__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Now_Available__c</field>
+    </columns>
+    <columns>
+        <field>PARTNER_NAME</field>
+    </columns>
+    <currency>EUR</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.geo__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EMEA</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Quarter</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PARTNER_TYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Dash  - Opps won YTD per FQ EMEA - TCV</name>
+    <params>
+        <name>include</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityPartner</reportType>
+    <scope>all</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

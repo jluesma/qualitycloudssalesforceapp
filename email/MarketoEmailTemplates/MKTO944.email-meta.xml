@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - German Update Special Invite.Email - Invite 2-from rep - Update Special</name>
+    <style>none</style>
+    <subject>ERINNERUNG: Tosca Update Special 2015 in Wien</subject>
+    <textOnly>Sehr geehrter Herr {{lead.Last Name:default=edit me}},
+
+ich hoffe Sie haben die Einladung zum Tosca Update Special 2015 erhalten.
+
+Gerne möchte ich Sie auch nochmals persönlich zu dieser, speziell für unsere Kunden gestalten Veranstaltung einladen, bei der wir Sie über neue Produktfunktionalitäten in Tosca wie zum Beispiel: Image-based Test Automation, Test Case Design: Relations, Tosca Control Flow, Loops &amp; Conditions, Orchestrated Service Virtualization, usw. informieren möchten und Ihnen diese auch live zeigen werden.
+
+Achtung: Die Teilnehmerzahl ist limitiert – nutzen Sie die Chance und sichern Sie sich hier &lt;http://www.tricentis.com/events-webinars/update-special-dach-june-2015?utm_medium=email&amp;utm_source=db&gt; einen der noch freien Plätze! 
+
+Nachfolgend finden Sie auch nochmals die geplante Agenda und den Termin für Wien.
+
+Agenda - Update Special 2015:
+ 13:00 – 13:30 Registrierung &amp; Begrüßungskaffee
+ 13:30 – 15:00 Neue Features &amp; Demo – Teil 1
+ 15:00 – 15:30 Kaffeepause
+ 15:30 – 16:45 Neue Features &amp; Demo – Teil 2
+ 16:45 – 17:00 Zusammenfassung und Q&amp;A
+ anschließend: Gemütliches Beisammensein, Networking und Zeit für Gespräche. Für das leibliche Wohl ist gesorgt.
+
+ Update Special – Wien
+ 23. Juni 2015, 13:00 -17:00 Uhr
+ Tech Gate Vienna – Ring Stage
+ Donau-City-Straße 1
+ 1220 Wien
+
+Ich freue mich auf einen interessanten Nachmittag mit Ihnen.
+
+Mit besten Grüßen
+
+Peter Szedlacek
+Sales Manager AT/CZ/H/HR/SK/SLO
+Tricentis &lt;http://www.tricentis.com/&gt;
+
+ Tricentis is recognized as the Visionary Leader in Gartner’s 2014 Magic Quadrant for Integrated Software Quality Suites.
+
+o - +43 1 263 24 09 - 1411, m - +43 664 88636292
+ e - p.szedlacek@tricentis.com &lt;mailto:p.szedlacek@tricentis.com&gt;
+
+ &lt;http://innovate.tricentis.com/trial-request.html&gt;
+
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;  &lt;http://twitter.com/tricentis&gt;  &lt;https://www.facebook.com/TRICENTIS&gt;  &lt;http://www.tricentis.com/en/news/rss&gt;
+
+Visit our Tricentis YouTube Channel &lt;https://www.youtube.com/TRICENTIS&gt; | Gartner Cool Vendor &lt;http://www.tricentis.com/about/what-others-are-saying/gartner&gt; | Tricentis Blog &lt;http://www.tricentis.com/about/blog&gt;
+
+Tricentis GmbH
+Company Headquarters: Saturn Tower, Leonard-Bernstein-Straße 10, 1220 Vienna
+FN 213896d Handelsgericht Wien
+
+Tricentis US Headquarters, 400 S. El Camino Real, Suite 1050, San Mateo, CA 94402</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

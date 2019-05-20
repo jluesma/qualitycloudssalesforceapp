@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial,helvetica,sans-serif;">Dear {{lead.First Name:default=edit me}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">Thank you for dropping by our Tricentis booth at the EuroSTAR Conference in Dublin this November. It was a pleasure to meet you!</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">I would be happy to personally offer my assistance if you would like to learn more about Tricentis and our testing solutions. If you are interested I am also available to further discuss Tosca Testsuite and give you a personalized demo of the product.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">Thanks for visiting our booth! I look forward to meeting you again soon.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">With kind regards,</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif;">{{lead.Lead Owner First Name:default=Leads}} {{lead.Lead Owner Last Name:default=Admin}}</span><br /><span style="font-family: arial,helvetica,sans-serif;">{{lead.Lead Owner Email Address:default=leadsadmin@tricentis.com}}</span></p></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Create_Opportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+    </fields>
+    <fields>
+        <fullName>Create_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+LEN(LeadId)&gt;0, 
+(Lead.CreatedDate ) , 
+IF( 
+LEN( ContactId)&gt;0, 
+(Contact.CreatedDate ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Create Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_Entered__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Entered</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_Left__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Left</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EventbriteSync__EventbriteId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Eventbrite Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Member_Full_Info__c</fullName>
+        <externalId>false</externalId>
+        <formula>FirstName &amp;&quot; &quot;&amp; LastName &amp;&quot; | &quot;&amp;  CompanyOrAccount  &amp;&quot; | &quot;&amp;  Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Member Full Info</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields>
+        <fullName>ON24AllPoll__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>tells if all answers have been answered in a poll</description>
+        <externalId>false</externalId>
+        <inlineHelpText>tells if all answers have been answered in a poll</inlineHelpText>
+        <label>ON24AllPoll</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24AllSurvey__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>tells if all survey questions have been answered</description>
+        <externalId>false</externalId>
+        <inlineHelpText>tells if all survey questions have been answered</inlineHelpText>
+        <label>ON24AllSurvey</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24AnyPoll__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>tells if any poll question has been answered</description>
+        <externalId>false</externalId>
+        <inlineHelpText>tells if any poll question has been answered</inlineHelpText>
+        <label>ON24AnyPoll</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24AnySurvey__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>tells if any survey question has been answered</description>
+        <externalId>false</externalId>
+        <inlineHelpText>tells if any survey question has been answered</inlineHelpText>
+        <label>ON24AnySurvey</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24ArchiveMinutes__c</fullName>
+        <description>tells the time spent watching the archived webinar</description>
+        <externalId>false</externalId>
+        <label>ON24ArchiveMinutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24AttendedArchive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ON24AttendedArchive</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24AttendedLive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ON24AttendedLive</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ON24AttendeeQuestions__c</fullName>
+        <description>questions the attendee asked during the webinar</description>
+        <externalId>false</externalId>
+        <inlineHelpText>questions the attendee asked during the webinar</inlineHelpText>
+        <label>ON24AttendeeQuestions</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24EMail__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24EMail</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24EngagementScore__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24EngagementScore</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24EventID__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24EventID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24EventTime__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24EventTime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ON24EventTitle__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24EventTitle</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24LiveMinutes__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24LiveMinutes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24Ressource1Viewed__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24Ressource1Viewed</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ON24UserID__c</fullName>
+        <externalId>false</externalId>
+        <label>ON24UserID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON24UserQuestionsandAnswers__c</fullName>
+        <description>This tag lists the questions asked by the user and answers from presenters</description>
+        <externalId>false</externalId>
+        <label>ON24UserQuestionsandAnswers</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll1answer__c</fullName>
+        <description>User-submitted answer to the poll.</description>
+        <externalId>false</externalId>
+        <label>ON24poll1answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll1question__c</fullName>
+        <description>poll question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24poll1question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll2answer__c</fullName>
+        <description>User-submitted answer to the poll.</description>
+        <externalId>false</externalId>
+        <label>ON24poll2answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll2question__c</fullName>
+        <description>poll question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24poll2question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll3answer__c</fullName>
+        <description>User-submitted answer to the poll.</description>
+        <externalId>false</externalId>
+        <label>ON24poll3answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll3question__c</fullName>
+        <description>poll question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24poll3question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll4answer__c</fullName>
+        <description>User-submitted answer to the poll.</description>
+        <externalId>false</externalId>
+        <label>ON24poll4answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll4question__c</fullName>
+        <description>poll question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24poll4question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll5answer__c</fullName>
+        <description>User-submitted answer to the poll.</description>
+        <externalId>false</externalId>
+        <label>ON24poll5answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24poll5question__c</fullName>
+        <description>poll question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24poll5question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey1answer__c</fullName>
+        <description>User-submitted answer to the survey question.</description>
+        <externalId>false</externalId>
+        <label>ON24survey1answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey1question__c</fullName>
+        <description>survey question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24survey1question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey2answer__c</fullName>
+        <description>User-submitted answer to the survey question.</description>
+        <externalId>false</externalId>
+        <label>ON24survey2answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey2question__c</fullName>
+        <description>survey question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24survey2question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey3answer__c</fullName>
+        <description>User-submitted answer to the survey question.</description>
+        <externalId>false</externalId>
+        <label>ON24survey3answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey3question__c</fullName>
+        <description>survey question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24survey3question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey4answer__c</fullName>
+        <description>User-submitted answer to the survey question.</description>
+        <externalId>false</externalId>
+        <label>ON24survey4answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey4question__c</fullName>
+        <description>survey question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24survey4question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24survey5question__c</fullName>
+        <description>survey question asked to the audience.</description>
+        <externalId>false</externalId>
+        <label>ON24survey5question</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ON24totalresourcesviewed__c</fullName>
+        <description>total number or resources viewed from the Resource Widget</description>
+        <externalId>false</externalId>
+        <label>ON24totalresourcesviewed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>On24survey5answer__c</fullName>
+        <description>User-submitted answer to the survey question.</description>
+        <externalId>false</externalId>
+        <label>On24survey5answer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+    </fields>
+    <fields>
+        <fullName>Tier__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( NOT ( ISBLANK (  Contact.Id  ) ), 
+Contact.Tier__c  , 
+Lead.Tier__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tier</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Time_in_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISNULL(Date_Left__c)), (Date_Left__c-Date_Entered__c)*24,
+IF(ISNULL(Date_Left__c), (NOW()-Date_Entered__c)*24, NULL))</formula>
+        <label>Time in (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <fields>
+        <fullName>dr_account_demographic_score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+Lead.account_demographic_score__c ,
+IF(
+LEN( ContactId)&gt;0,
+Contact.account_demographic_score__c,
+NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Demographic Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_behavior_score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+Lead.behavior_score__c ,
+IF(
+LEN( ContactId)&gt;0,
+Contact.behavior_score__c,
+NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Behavior Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_contact_status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Contact.contact_status__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Status</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_external_record_id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Contact.Id), /* Check if there is a Contact ID */ 
+Lead.dr_external_record_id__c , /* No Contact ID, it&apos;s a Lead */ 
+Contact.dr_external_record_id__c /* Contact ID, it&apos;s a Contact */ 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>External Record ID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_first_campaign_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+(Lead.dr_first_campaign_date__c ) ,
+IF(
+LEN( ContactId)&gt;0,
+(Contact.dr_first_campaign_date__c ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First Campaign Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>dr_funnel__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+LEN(LeadId)&gt;0, 
+TEXT(Lead.dr_funnel__c) , 
+IF( 
+LEN( ContactId)&gt;0, 
+TEXT(Contact.dr_funnel__c ), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Funnel</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_geo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+TEXT(Lead.Geo__c) ,
+IF(
+LEN( ContactId)&gt;0,
+TEXT(Contact.Geo__c ), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Geo</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_industry_lead__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Lead.Industry)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Industry (Lead)</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_last_engagement_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>/*IF( Contact.Id&lt;&gt;&quot;&quot;, Contact.dr_last_engagement_date__c, Lead.dr_last_engagement_date__c)*/
+
+IF(
+LEN(ContactId)&gt;0,
+Contact.dr_last_engagement_date__c,
+Lead.dr_last_engagement_date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Engagement Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_lead_source__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+LEN(LeadId)&gt;0, 
+TEXT(Lead.LeadSource), 
+IF( 
+LEN(ContactId)&gt;0, 
+TEXT(Contact.LeadSource), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Source</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_lead_status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Lead.Status )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Status</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_might_be_junk__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+LEN(ContactId)&gt;0,
+Contact.dr_might_be_junk__c ),&quot;TRUE&quot;,
+IF(
+Lead.dr_might_be_junk__c ,&quot;TRUE&quot;,
+&quot;FALSE&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Might Be Junk</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_might_be_spam__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+LEN(ContactId)&gt;0,
+Contact.dr_might_be_spam__c ),&quot;TRUE&quot;,
+IF(
+Lead.dr_might_be_spam__c ,&quot;TRUE&quot;,
+&quot;FALSE&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Might Be Spam</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_mql__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+(Lead.dr_mql__c ) ,
+IF(
+LEN( ContactId)&gt;0,
+(Contact.dr_mql__c ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MQL</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mrl__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+(Lead.dr_mrl__c ) ,
+IF(
+LEN( ContactId)&gt;0,
+(Contact.dr_mrl__c ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MRL</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mtl__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+(Lead.dr_mtl__c ) ,
+IF(
+LEN( ContactId)&gt;0,
+(Contact.dr_mtl__c ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MTL</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_mvl__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+(Lead.dr_mvl__c ) ,
+IF(
+LEN( ContactId)&gt;0,
+(Contact.dr_mvl__c ), NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MVL</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dr_owned_by_me__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR (Contact.OwnerId= $User.Id, Lead.OwnerId= $User.Id), &quot;TRUE&quot;,&quot;FALSE&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owned by Me</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_person_demographic_score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+Lead.person_demographic_score__c ,
+IF(
+LEN( ContactId)&gt;0,
+Contact.person_demographic_score__c,
+NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Person Demographic Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_sfdc_create_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>/*IF( Contact.Id&lt;&gt;&quot;&quot;, Contact.CreatedDate, Lead.CreatedDate)*/
+
+IF(
+LEN(ContactId)&gt;0,
+Contact.CreatedDate,
+Lead.CreatedDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFDC Create Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>dr_sfdc_created_by__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+LEN(LeadId)&gt;0, 
+(Lead.CreatedBy.FirstName&amp;&quot; &quot;&amp;Lead.CreatedBy.LastName), 
+IF( 
+LEN(ContactId)&gt;0, 
+(Contact.CreatedBy.FirstName&amp;&quot; &quot;&amp;Contact.CreatedBy.LastName), &quot;&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SFDC Created By</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_total_score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+LEN(LeadId)&gt;0,
+Lead.total_score__c ,
+IF(
+LEN( ContactId)&gt;0,
+Contact.total_score__c,
+NULL))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_campaign__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( NOT ( ISBLANK (  ContactId  ) ),
+ Contact.dr_tracking_utm_campaign__c  ,
+ Lead.dr_tracking_utm_campaign__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tracking - UTM Campaign</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_content__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( NOT ( ISBLANK ( ContactId ) ), 
+ Contact.dr_tracking_utm_content__c  , 
+ Lead.dr_tracking_utm_content__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tracking - UTM Content</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_medium__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( NOT ( ISBLANK ( ContactId ) ), 
+ Contact.dr_tracking_utm_medium__c  , 
+ Lead.dr_tracking_utm_medium__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tracking - UTM Medium</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dr_tracking_utm_source__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( NOT ( ISBLANK ( ContactId ) ), 
+ Contact.dr_tracking_utm_source__c  , 
+ Lead.dr_tracking_utm_source__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tracking - UTM Source</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>js_2016_monthly_Target_MQL__c</fullName>
+        <description>for reporting; to show cumulative target YTD for MQLs (see Marketing Essentials Dashboard)</description>
+        <externalId>false</externalId>
+        <formula>CASE(YEAR(DATEVALUE(dr_mql__c)),2016,700,2017,616, NULL)</formula>
+        <label>monthly Target MQL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>weekly_Target_MQL__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(YEAR(DATEVALUE(dr_mql__c)),2016,162,2017,187, NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>weekly Target MQL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+</CustomObject>

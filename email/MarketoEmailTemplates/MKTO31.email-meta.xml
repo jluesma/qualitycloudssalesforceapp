@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Model-based Test Automation for EMEA.Email Model Based Test Automation</name>
+    <style>none</style>
+    <subject>Brought to you by Tricentis, the Tosca Testsuite Webinar Series:  Model- Based Test Automation</subject>
+    <textOnly>The Webinar Series for Tosca TestSuite
+
+Accelerating Time to Value with Model-Based Test Automation
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+Wednesday, November 6, 2013
+1:00 - 2:00 p.m. CET
+
+ 
+
+Powerful Presenter
+Michael Niessl, Tricentis Pre-Sales Solutions
+
+ 
+
+REGISTER NOW! &lt;https://www1.gotomeeting.com/register/925649840&gt;
+
+
+
+
+Intended for IT Testers
+Business Analyst, Developers, Project Manager, IT Technical Managers, Directors of Technology, and other decision makers and their trusted advisers with testing responsibilities for Information Technology.
+
+ 
+
+Why You Should Attend
+In this short, 45-minute webinar, you will see a demo of Tosca Testsuite and learn more about these topics:
+
+
+
+
+
+ - 
+
+Automated testing and how it can speed time to value for your company;
+
+
+ - 
+
+Leveraging the knowledge of business testers to automate test cases;
+
+
+ - 
+
+Model-based testing and the use of modules in Tosca Testsuite.
+
+
+
+At the end of the webinar, you will have a chance to ask questions of the presenters.
+
+ 
+
+See what others are saying about the Webinar Series!
+
+ 
+
+REGISTER NOW! &lt;https://www1.gotomeeting.com/register/925649840&gt;
+
+ 
+
+The &quot;Webinar Series&quot; is produced World-Wide covering North America, EMEA and APAC regions. The purpose of the webinar is to provide education opportunities on the Tosca Testsuite and make it easy for your testing teams to create a model of your application&apos;s interface based on modules, the basic building blocks for testing
+
+ 
+
+To learn more, visit http://www.tricentis.com &lt;http://www.tricentis.com/&gt; or follow us on LinkedIn &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;, Twitter &lt;https://twitter.com/tricentis&gt; or Facebook &lt;https://www.facebook.com/TRICENTIS&gt;.
+© 2013 TRICENTIS Technology &amp; Consulting. All Rights Reserved.
+Tricentis | Leonard Bernstein, Straße 10 | A-1220 Vienna | Imprint &lt;http://www.tricentis.com/imprint/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

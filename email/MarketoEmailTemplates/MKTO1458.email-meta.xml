@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Event - Accelerate 2015.Email - Follow Up - Attended</name>
+    <style>none</style>
+    <subject>Thank you for joining us at Accelerate 2015</subject>
+    <textOnly>Dear {{lead.First Name:default=edit me}},
+
+Thank you so much for joining us at Accelerate 2015! We hope you had as much fun as we did attending presentations and workshops, exploring the exhibition, and taking pictures at the photo booth.
+
+All of the event photos, highlights, and videos from the day are now up on our website &lt;http://www.tricentis.com/events-webinars/tricentis-accelerate/&gt;.
+
+One of the most exciting parts of the day was the official release of Tosca Testsuite 9.0. If you want to learn more, you can find demos of all the new features on our What’s New page here &lt; http://www.tricentis.com/tricentis-tosca-testsuite/what-is-new/9-0/&gt;.
+
+Thanks once again for joining us in Vienna for Accelerate 2015. You truly helped make it a wonderful event!
+
+Best Regards,
+
+The Tricentis Accelerate Team
+
+Press &lt;http://www.tricentis.com/about/news&gt;
+   
+Legal Information &lt;http://www.tricentis.com/legal-information&gt;
+   
+Terms &amp; Conditions &lt;http://www.tricentis.com/terms-and-conditions&gt;
+
+ &lt;http://twitter.com/Tricentis&gt;
+ &lt;http://www.facebook.com/Tricentis&gt;
+ &lt;http://plus.google.com/108151335013813449490/&gt;
+ &lt;http://www.linkedin.com/company/tricentis-technology-&amp;-consulting-gmbh&gt;
+ &lt;http://www.slideshare.net/tricentis&gt;
+ &lt;http://www.youtube.com/user/TRICENTIS&gt;
+
+© 2015 Tricentis. All Rights Reserved. Tricentis is a registered trademark of Tricentis GmbH. Please contact us &lt;mailto:info@tricentis.com&gt; with any questions or concerns.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

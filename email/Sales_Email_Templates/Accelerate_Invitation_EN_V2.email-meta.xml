@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invitation to Accelerate 2015 English</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Accelerate Invitation (EN) V2</name>
+    <style>none</style>
+    <subject>Register Now! Tricentis Accelerate in Vienna - 22. October 2015</subject>
+    <textOnly>Accelerate 2015
+
+October 22nd, 2015
+
+9:00 - 22:00 CEST
+
+Vienna, Austria
+
+Register now, free of charge!
+
+
+Hello,
+
+Registration for Tricentis Accelerate 2015 is now open! Join us for an inspiring day full of seminars, workshops and networking in Vienna, Austria.
+
+This year, our conference will be highlighting the following topics:
+
+· Test Automation
+
+· Service Virtualization
+
+· Mobile Testing
+
+· Agile &amp; DevOps
+
+We look forward to meeting you in Vienna.
+
+Best Regards,
+
+The Tricentis Accelerate Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
