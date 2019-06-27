@@ -20,6 +20,7 @@ global class AutoLeadConversionBatch implements Database.batchable<sObject>
     global void execute(Database.BatchableContext BC, List<Lead> scope)
     {
         //Group grp = [SELECT Id, Name FROM Group where name='Sales Team'];
+	// Comment to test
         List<Id> UserIDlist = new List<Id>();
         List<Messaging.SingleEmailMessage> emailList = new List<Messaging.SingleEmailMessage>(); 
         /*List<String> SalesemailId = new List<String>();
