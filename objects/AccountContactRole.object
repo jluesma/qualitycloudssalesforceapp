@@ -5,5 +5,9 @@
         <fullName>Role</fullName>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>Role2__c</fullName>
+        <type>Picklist</type>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
