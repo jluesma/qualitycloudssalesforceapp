@@ -1,4 +1,4 @@
-public NewAccountController{
+public class NewAccountController{
 
     List<Account> accounts;
 
