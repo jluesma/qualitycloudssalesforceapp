@@ -53,7 +53,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>New_Field__c></fullName>
+        <fullName>New_Field__c</fullName>
         <label>New Field</label>
         <type>Number</type>
     </fields>
