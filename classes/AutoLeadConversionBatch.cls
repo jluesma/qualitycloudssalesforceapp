@@ -2,7 +2,7 @@
 Title           : AutoLeadConversionBatch
 Author          : Lister Technologies
 Description     : This is a batch class for auto conversion of lead.
-Test Class      : 
+Test Class      : No test class
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 global class AutoLeadConversionBatch implements Database.batchable<sObject>
 {
