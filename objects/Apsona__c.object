@@ -54,7 +54,8 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>New_Field__c></fullName>
-        <type>Picklist</type>
+        <label>New Field</label>
+        <type>Number</type>
     </fields>
     <label>Apsona</label>
     <listViews>
