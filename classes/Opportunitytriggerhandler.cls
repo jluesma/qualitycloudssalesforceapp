@@ -2,7 +2,7 @@
 Title           : Opportunitytriggerhandler
 Author          : Lister Technologies
 Description     : This is a handler class for opportunity trigger
-Test Class      : 
+Test Class      : Test class
 Trigger         : Trg_Opportunity
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 public with sharing class Opportunitytriggerhandler 
