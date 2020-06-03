@@ -52,11 +52,11 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <field>
+    <fields>
         <fullName>Gender__c</fullName>
         <label>Gender</label>
         <type>Number</type>
-    </field>
+    </fields>
     <label>Apsona</label>
     <listViews>
         <fullName>All</fullName>
