@@ -53,10 +53,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <field>
-        <fullName>New_Field__c</fullName>
-        <defaultValue>true</defaultValue>
-        <label>New Field</label>
-        <type>Picklist</type>
+        <fullName>Gender__c</fullName>
+        <label>Gender</label>
+        <type>Number</type>
     </field>
     <label>Apsona</label>
     <listViews>
