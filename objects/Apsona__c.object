@@ -52,6 +52,12 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <field>
+        <fullName>New_Field__c</fullName>
+        <defaultValue>true</defaultValue>
+        <label>New Field</label>
+        <type>Picklist</type>
+    </field>
     <label>Apsona</label>
     <listViews>
         <fullName>All</fullName>
