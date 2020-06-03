@@ -52,6 +52,11 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Gender__c</fullName>
+        <label>Gender</label>
+        <type>Picklist</type>
+    </fields>
     <label>Apsona</label>
     <listViews>
         <fullName>All</fullName>
