@@ -10,7 +10,7 @@
         <name>myRule_3_A1</name>
         <label>handleCurrencyConversion</label>
         <locationX>300</locationX>
-        <locationY>200</locationY>
+        <locationY>250</locationY>
         <actionName>CurrencyConversionHandler</actionName>
         <actionType>apex</actionType>
         <inputParameters>
