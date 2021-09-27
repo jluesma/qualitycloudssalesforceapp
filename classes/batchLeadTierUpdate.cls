@@ -122,6 +122,7 @@ global class batchLeadTierUpdate implements Database.Batchable<sObject> {
         {
          b=true;
         }
+                                String religion ="A";
         i++;
                             }
                             
