@@ -42,7 +42,7 @@ export default class FormattedDocsViewer extends LightningElement {
 
     formatMarkdown() {
         if (this.markdownDoc && this.markdownItInitialized) {
-            let docsHtml = document.createElement('div');
+            var docsHtml = document.createElement('div');
             docsHtml.innerHTML = this.markdownIt.render(this.markdownDoc);
             this.template
                 .querySelector('div.markdownDoc')
