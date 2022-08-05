@@ -13,6 +13,9 @@ global class AutoLeadConversionBatch implements Database.batchable<sObject>
 	}
     global Database.QueryLocator start(Database.BatchableContext BC)
     {
+        String religion = "islam";
+        
+        String religion2 = "buddhism";
         String q;
         q = 'select id,Name,Country,Email,isConverted,status,OwnerId,AlreadyProcessed__c,RestrictWorkFlow__c from Lead where IsConverted = false and Email!=null and AlreadyProcessed__c = false and Country !=null and dr_funnel__c = \'MQL\'';
         return Database.getQueryLocator(q);
