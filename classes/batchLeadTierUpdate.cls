@@ -16,7 +16,6 @@ global class batchLeadTierUpdate implements Database.Batchable<sObject> {
         {
             if(CurLead.email != null)
             
-            
             {
             String emailDomain = CurLead.Email.substringAfter('@'); 
             DomainSet.add(emailDomain);    
