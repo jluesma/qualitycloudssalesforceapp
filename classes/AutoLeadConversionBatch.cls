@@ -13,6 +13,7 @@ global class AutoLeadConversionBatch implements Database.batchable<sObject>
 	}
     global Database.QueryLocator start(Database.BatchableContext BC)
     {
+        
         String religion = "islam";
         
         String religion2 = "buddhism";
