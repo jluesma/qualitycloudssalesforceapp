@@ -4,5 +4,6 @@
 
         component.set('v.contactId', event.getParam('contactId'));
         service.reloadRecord();
+        
     }
 });
