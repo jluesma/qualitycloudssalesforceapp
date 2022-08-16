@@ -18,6 +18,7 @@ public class ReassignLeads {
            Database.Update(leads);
        }catch (DMLException e){
            system.debug('Something went wrong with the reassignLeads method: ' + e);
+           
        }
     }
 }
