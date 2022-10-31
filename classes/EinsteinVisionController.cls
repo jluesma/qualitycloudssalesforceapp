@@ -272,7 +272,6 @@ global with sharing class EinsteinVisionController {
                 }
             } catch(System.CalloutException e) {
                 // comment
-                boolean x = true;
                 System.debug('ERROR:' + e);
             }
         }
