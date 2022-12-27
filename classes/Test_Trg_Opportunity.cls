@@ -29,5 +29,7 @@ private class Test_Trg_Opportunity {
         opp.Tri_Close_Reason__c='Won on Price';
         update opp;
         
+        
+        
     }
 }
